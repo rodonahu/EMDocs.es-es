@@ -5,9 +5,9 @@
  -------- | ----- 
  Total Files | 378
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 244
+[ Handoff Success Files ](#handoff-success-list)| 230
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 0
+[ Archive Success Files ](#archive-success-list)| 14
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
@@ -18,13 +18,6 @@
 ## <a name='handoff-success-list'></a> Handoff Success File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [contributor-guide\article-metadata.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/article-metadata.md) | HandedOffSuccess | [Details](#b0dd2af4ed22c05279afeafea1c4e780d74a5e6f5)
- [contributor-guide\authoring-in-markdown.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/authoring-in-markdown.md) | HandedOffSuccess | [Details](#9262fb48cd07ecb0430327526ff08f9162d4c7676)
- [contributor-guide\content-channel-guidance.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/content-channel-guidance.md) | HandedOffSuccess | [Details](#2c1a7d32b942dac40fa0f4f5e042bdbf593c23e07)
- [contributor-guide\contributor-guide-index.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/contributor-guide-index.md) | HandedOffSuccess | [Details](#da1cee35a09823cf69521242a7004897517492b48)
- [contributor-guide\create-tables-markdown.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/create-tables-markdown.md) | HandedOffSuccess | [Details](#39cc82882215595514e978c62d87eb8e3337aed89)
- [contributor-guide\custom-markdown-extensions.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/custom-markdown-extensions.md) | HandedOffSuccess | [Details](#2a402428ce18d051fc0792b29028dd8d4e51be1e10)
- [contributor-guide\file-names-and-locations.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/file-names-and-locations.md) | HandedOffSuccess | [Details](#a2acee00c6aca19d00659702a5ef05485af4449b11)
  [contributor-guide\media\agent-700w.png](https://github.com/Microsoft/EMDocs-pr/blob/003afb23be694fbf48186b46f38c288f18a96265/contributor-guide/media/agent-700w.png) | HandedOffSuccess | [Details](#2d08efb791b678300b989ad425dd93e6e077d98212)
  [contributor-guide\media\checkmark-small.png](https://github.com/Microsoft/EMDocs-pr/blob/003afb23be694fbf48186b46f38c288f18a96265/contributor-guide/media/checkmark-small.png) | HandedOffSuccess | [Details](#3560ca3350c05a522e09bd1cca4acfc7f3433b1116)
  [contributor-guide\media\content-channels-small.png](https://github.com/Microsoft/EMDocs-pr/blob/003afb23be694fbf48186b46f38c288f18a96265/contributor-guide/media/content-channels-small.png) | HandedOffSuccess | [Details](#79dad577764e71dc6c35f19c50d667e287487e8f17)
@@ -43,16 +36,9 @@
  [contributor-guide\media\notes-warning.png](https://github.com/Microsoft/EMDocs-pr/blob/003afb23be694fbf48186b46f38c288f18a96265/contributor-guide/media/notes-warning.png) | HandedOffSuccess | [Details](#49ea1ff5469cc6d06b8a04d813d2af4238d66e8934)
  [contributor-guide\media\selector-list.png](https://github.com/Microsoft/EMDocs-pr/blob/003afb23be694fbf48186b46f38c288f18a96265/contributor-guide/media/selector-list.png) | HandedOffSuccess | [Details](#450c0f68e3f8473716099a76e2bea13452f5323f35)
  [contributor-guide\media\selectors.png](https://github.com/Microsoft/EMDocs-pr/blob/003afb23be694fbf48186b46f38c288f18a96265/contributor-guide/media/selectors.png) | HandedOffSuccess | [Details](#a19d1f0c651f1fd944af8c89b1bef5cdde57ba7936)
- [contributor-guide\rename-or-retire-an-article.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/rename-or-retire-an-article.md) | HandedOffSuccess | [Details](#c8e83fb351623e5efe4cc27e3319b6bb8084753641)
- [contributor-guide\style-and-voice.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/style-and-voice.md) | HandedOffSuccess | [Details](#887b1294b2e63998084a5598858aad0c4469cd6d42)
- [contributor-guide\tools-and-setup.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/tools-and-setup.md) | HandedOffSuccess | [Details](#24edd27bbe1280c3401eaa78e6ed88d1758d82f243)
- [contributor-guide\work-with-git.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/work-with-git.md) | HandedOffSuccess | [Details](#66931315b777c7f7659088ca00eea24db16b8e4f44)
  [EMDocs\Image\150x150.png](https://github.com/Microsoft/EMDocs-pr/blob/766fa20551c3056e558d7a1f8038e4a854b80c87/EMDocs/Image/150x150.png) | HandedOffSuccess | [Details](#84421bf7f4ba657e685239fb27f4798a46485f7146)
  [EMDocs\index - old.html](https://github.com/Microsoft/EMDocs-pr/blob/766fa20551c3056e558d7a1f8038e4a854b80c87/EMDocs/index - old.html) | HandedOffSuccess | [Details](#05027e092f650571473b69c882f1c472a4d7ab2f59)
  [EMDocs\index - old2.html](https://github.com/Microsoft/EMDocs-pr/blob/766fa20551c3056e558d7a1f8038e4a854b80c87/EMDocs/index - old2.html) | HandedOffSuccess | [Details](#91db52d7c715ca1f2b60593897ba7de47da4d4db60)
- [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/766fa20551c3056e558d7a1f8038e4a854b80c87/EMDocs/index.md) | HandedOffSuccess | [Details](#7e105533512082d0de48a15485d1286acc6ab5f461)
- [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/0a1a5067c4f903f9905cf565ba0b8f2fb21d741c/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md) | HandedOffSuccess | [Details](#b24fb6bcb4643ce1f14c1fa3e98989e0fada93f762)
- [EMDocs\Solutions\BGDCopy for Training.md](https://github.com/Microsoft/EMDocs-pr/blob/48b253f4457d8b4a1e8b0a8c05009dc7f19fe7b6/EMDocs/Solutions/BGDCopy for Training.md) | HandedOffSuccess | [Details](#60ac0c20d659ae8ef0b9b5f35e6c82b295894ea863)
  [EMDocs\Solutions\byod-app-considerations.md](https://github.com/Microsoft/EMDocs-pr/blob/48b253f4457d8b4a1e8b0a8c05009dc7f19fe7b6/EMDocs/Solutions/byod-app-considerations.md) | HandedOffSuccess | [Details](#8bbc91330f63b38b7f9b9c0578385701a4293edb64)
  [EMDocs\Solutions\byod-app-reqs.md](https://github.com/Microsoft/EMDocs-pr/blob/48b253f4457d8b4a1e8b0a8c05009dc7f19fe7b6/EMDocs/Solutions/byod-app-reqs.md) | HandedOffSuccess | [Details](#623699894a6e033a59dd989363a7b32b2068b86765)
  [EMDocs\Solutions\byod-data-access-and-protection-considerations.md](https://github.com/Microsoft/EMDocs-pr/blob/48b253f4457d8b4a1e8b0a8c05009dc7f19fe7b6/EMDocs/Solutions/byod-data-access-and-protection-considerations.md) | HandedOffSuccess | [Details](#71c61e0d66c99cdc3ee9e4455319acee5ea0ce9a66)
@@ -266,6 +252,22 @@
 ## <a name='archive-failed-list'></a> Archive Failed File List
 
 ## <a name='archive-success-list'></a> Archive Success File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [contributor-guide\article-metadata.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/article-metadata.md) | ArchivedSuccess | [Details](#b0dd2af4ed22c05279afeafea1c4e780d74a5e6f5)
+ [contributor-guide\authoring-in-markdown.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/authoring-in-markdown.md) | ArchivedSuccess | [Details](#9262fb48cd07ecb0430327526ff08f9162d4c7676)
+ [contributor-guide\content-channel-guidance.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/content-channel-guidance.md) | ArchivedSuccess | [Details](#2c1a7d32b942dac40fa0f4f5e042bdbf593c23e07)
+ [contributor-guide\contributor-guide-index.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/contributor-guide-index.md) | ArchivedSuccess | [Details](#da1cee35a09823cf69521242a7004897517492b48)
+ [contributor-guide\create-tables-markdown.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/create-tables-markdown.md) | ArchivedSuccess | [Details](#39cc82882215595514e978c62d87eb8e3337aed89)
+ [contributor-guide\custom-markdown-extensions.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/custom-markdown-extensions.md) | ArchivedSuccess | [Details](#2a402428ce18d051fc0792b29028dd8d4e51be1e10)
+ [contributor-guide\file-names-and-locations.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/file-names-and-locations.md) | ArchivedSuccess | [Details](#a2acee00c6aca19d00659702a5ef05485af4449b11)
+ [contributor-guide\rename-or-retire-an-article.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/rename-or-retire-an-article.md) | ArchivedSuccess | [Details](#c8e83fb351623e5efe4cc27e3319b6bb8084753641)
+ [contributor-guide\style-and-voice.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/style-and-voice.md) | ArchivedSuccess | [Details](#887b1294b2e63998084a5598858aad0c4469cd6d42)
+ [contributor-guide\tools-and-setup.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/tools-and-setup.md) | ArchivedSuccess | [Details](#24edd27bbe1280c3401eaa78e6ed88d1758d82f243)
+ [contributor-guide\work-with-git.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/work-with-git.md) | ArchivedSuccess | [Details](#66931315b777c7f7659088ca00eea24db16b8e4f44)
+ [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/766fa20551c3056e558d7a1f8038e4a854b80c87/EMDocs/index.md) | ArchivedSuccess | [Details](#7e105533512082d0de48a15485d1286acc6ab5f461)
+ [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/0a1a5067c4f903f9905cf565ba0b8f2fb21d741c/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md) | ArchivedSuccess | [Details](#b24fb6bcb4643ce1f14c1fa3e98989e0fada93f762)
+ [EMDocs\Solutions\BGDCopy for Training.md](https://github.com/Microsoft/EMDocs-pr/blob/48b253f4457d8b4a1e8b0a8c05009dc7f19fe7b6/EMDocs/Solutions/BGDCopy for Training.md) | ArchivedSuccess | [Details](#60ac0c20d659ae8ef0b9b5f35e6c82b295894ea863)
 
 ## <a name='handback-failed-list'></a> Handback Failed File List
 
@@ -473,85 +475,85 @@
 * [Back to Top](#report-top)
 
 ##### <a name='b0dd2af4ed22c05279afeafea1c4e780d74a5e6f5'></a> Source: [contributor-guide\article-metadata.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/article-metadata.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [article-metadata.708a438c5e5fe5b6d8d680c630fd3b79565e5873.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e998f25e9e7fdbdb8a558374402b7a48c1cbaddf/ol-handoff/Microsoft/EMDocs-pr.es-es/master/article-metadata.708a438c5e5fe5b6d8d680c630fd3b79565e5873.es-es.xlf)
 * Handoff Datetime: 2016-03-04 18:38:32
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [article-metadata.708a438c5e5fe5b6d8d680c630fd3b79565e5873.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/article-metadata.708a438c5e5fe5b6d8d680c630fd3b79565e5873.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
 ##### <a name='9262fb48cd07ecb0430327526ff08f9162d4c7676'></a> Source: [contributor-guide\authoring-in-markdown.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/authoring-in-markdown.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [authoring-in-markdown.ff3a97e3448b8314454f849c00217211749c9105.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e998f25e9e7fdbdb8a558374402b7a48c1cbaddf/ol-handoff/Microsoft/EMDocs-pr.es-es/master/authoring-in-markdown.ff3a97e3448b8314454f849c00217211749c9105.es-es.xlf)
 * Handoff Datetime: 2016-03-04 18:38:32
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [authoring-in-markdown.ff3a97e3448b8314454f849c00217211749c9105.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/authoring-in-markdown.ff3a97e3448b8314454f849c00217211749c9105.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
 ##### <a name='2c1a7d32b942dac40fa0f4f5e042bdbf593c23e07'></a> Source: [contributor-guide\content-channel-guidance.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/content-channel-guidance.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [content-channel-guidance.7b9f8eb8e2e16a26ba2714d0a2fd360824d485a6.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e998f25e9e7fdbdb8a558374402b7a48c1cbaddf/ol-handoff/Microsoft/EMDocs-pr.es-es/master/content-channel-guidance.7b9f8eb8e2e16a26ba2714d0a2fd360824d485a6.es-es.xlf)
 * Handoff Datetime: 2016-03-04 18:38:32
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [content-channel-guidance.7b9f8eb8e2e16a26ba2714d0a2fd360824d485a6.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/content-channel-guidance.7b9f8eb8e2e16a26ba2714d0a2fd360824d485a6.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
 ##### <a name='da1cee35a09823cf69521242a7004897517492b48'></a> Source: [contributor-guide\contributor-guide-index.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/contributor-guide-index.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [contributor-guide-index.ba4c3ee3980fbea3ee209047331545362b3c9fa6.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e998f25e9e7fdbdb8a558374402b7a48c1cbaddf/ol-handoff/Microsoft/EMDocs-pr.es-es/master/contributor-guide-index.ba4c3ee3980fbea3ee209047331545362b3c9fa6.es-es.xlf)
 * Handoff Datetime: 2016-03-04 18:38:32
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [contributor-guide-index.ba4c3ee3980fbea3ee209047331545362b3c9fa6.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/contributor-guide-index.ba4c3ee3980fbea3ee209047331545362b3c9fa6.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
 ##### <a name='39cc82882215595514e978c62d87eb8e3337aed89'></a> Source: [contributor-guide\create-tables-markdown.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/create-tables-markdown.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [create-tables-markdown.10e78f0477c258e5c1efceabba7ba8453fec588f.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e998f25e9e7fdbdb8a558374402b7a48c1cbaddf/ol-handoff/Microsoft/EMDocs-pr.es-es/master/create-tables-markdown.10e78f0477c258e5c1efceabba7ba8453fec588f.es-es.xlf)
 * Handoff Datetime: 2016-03-04 18:38:32
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [create-tables-markdown.10e78f0477c258e5c1efceabba7ba8453fec588f.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/create-tables-markdown.10e78f0477c258e5c1efceabba7ba8453fec588f.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
 ##### <a name='2a402428ce18d051fc0792b29028dd8d4e51be1e10'></a> Source: [contributor-guide\custom-markdown-extensions.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/custom-markdown-extensions.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e998f25e9e7fdbdb8a558374402b7a48c1cbaddf/ol-handoff/Microsoft/EMDocs-pr.es-es/master/custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.es-es.xlf)
 * Handoff Datetime: 2016-03-04 18:38:32
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
 ##### <a name='a2acee00c6aca19d00659702a5ef05485af4449b11'></a> Source: [contributor-guide\file-names-and-locations.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/file-names-and-locations.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [file-names-and-locations.15e0fb13dc003ea2db00d36e59b3bedf125fc1e5.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e998f25e9e7fdbdb8a558374402b7a48c1cbaddf/ol-handoff/Microsoft/EMDocs-pr.es-es/master/file-names-and-locations.15e0fb13dc003ea2db00d36e59b3bedf125fc1e5.es-es.xlf)
 * Handoff Datetime: 2016-03-04 18:38:32
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [file-names-and-locations.15e0fb13dc003ea2db00d36e59b3bedf125fc1e5.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/file-names-and-locations.15e0fb13dc003ea2db00d36e59b3bedf125fc1e5.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
@@ -923,49 +925,49 @@
 * [Back to Top](#report-top)
 
 ##### <a name='c8e83fb351623e5efe4cc27e3319b6bb8084753641'></a> Source: [contributor-guide\rename-or-retire-an-article.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/rename-or-retire-an-article.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [rename-or-retire-an-article.8ab882b43c964087f440cc5762f237afde9290f5.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e998f25e9e7fdbdb8a558374402b7a48c1cbaddf/ol-handoff/Microsoft/EMDocs-pr.es-es/master/rename-or-retire-an-article.8ab882b43c964087f440cc5762f237afde9290f5.es-es.xlf)
 * Handoff Datetime: 2016-03-04 18:38:32
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [rename-or-retire-an-article.8ab882b43c964087f440cc5762f237afde9290f5.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/rename-or-retire-an-article.8ab882b43c964087f440cc5762f237afde9290f5.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
 ##### <a name='887b1294b2e63998084a5598858aad0c4469cd6d42'></a> Source: [contributor-guide\style-and-voice.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/style-and-voice.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [style-and-voice.e6bad968630c564936e430b8974885a4fc02438a.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e998f25e9e7fdbdb8a558374402b7a48c1cbaddf/ol-handoff/Microsoft/EMDocs-pr.es-es/master/style-and-voice.e6bad968630c564936e430b8974885a4fc02438a.es-es.xlf)
 * Handoff Datetime: 2016-03-04 18:38:32
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [style-and-voice.e6bad968630c564936e430b8974885a4fc02438a.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/style-and-voice.e6bad968630c564936e430b8974885a4fc02438a.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
 ##### <a name='24edd27bbe1280c3401eaa78e6ed88d1758d82f243'></a> Source: [contributor-guide\tools-and-setup.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/tools-and-setup.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [tools-and-setup.95c5b917ee957eea9e503f22b82d5314576ee457.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e998f25e9e7fdbdb8a558374402b7a48c1cbaddf/ol-handoff/Microsoft/EMDocs-pr.es-es/master/tools-and-setup.95c5b917ee957eea9e503f22b82d5314576ee457.es-es.xlf)
 * Handoff Datetime: 2016-03-04 18:38:32
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [tools-and-setup.95c5b917ee957eea9e503f22b82d5314576ee457.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/tools-and-setup.95c5b917ee957eea9e503f22b82d5314576ee457.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
 ##### <a name='66931315b777c7f7659088ca00eea24db16b8e4f44'></a> Source: [contributor-guide\work-with-git.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/contributor-guide/work-with-git.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [work-with-git.a0bc3817f6c10f6e100f51384e9fc6539869d5b8.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e998f25e9e7fdbdb8a558374402b7a48c1cbaddf/ol-handoff/Microsoft/EMDocs-pr.es-es/master/work-with-git.a0bc3817f6c10f6e100f51384e9fc6539869d5b8.es-es.xlf)
 * Handoff Datetime: 2016-03-04 18:38:32
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [work-with-git.a0bc3817f6c10f6e100f51384e9fc6539869d5b8.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/work-with-git.a0bc3817f6c10f6e100f51384e9fc6539869d5b8.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
@@ -1164,37 +1166,37 @@
 * [Back to Top](#report-top)
 
 ##### <a name='7e105533512082d0de48a15485d1286acc6ab5f461'></a> Source: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/766fa20551c3056e558d7a1f8038e4a854b80c87/EMDocs/index.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/345e133f48e01382be4f1ada251f76e5ff8e1e64/ol-handoff/Microsoft/EMDocs-pr.es-es/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf)
 * Handoff Datetime: 2016-04-14 22:41:45
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
 ##### <a name='b24fb6bcb4643ce1f14c1fa3e98989e0fada93f762'></a> Source: [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/0a1a5067c4f903f9905cf565ba0b8f2fb21d741c/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/fa0016a08b655137365a75cd3bd539dfc97435a2/ol-handoff/Microsoft/EMDocs-pr.es-es/master/architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.es-es.xlf)
 * Handoff Datetime: 2016-04-14 19:11:40
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/architecture-guidance-for-protecting-company-email-and-documents.09e44388218df5328feae7349dae42bdf9317559.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
 ##### <a name='60ac0c20d659ae8ef0b9b5f35e6c82b295894ea863'></a> Source: [EMDocs\Solutions\BGDCopy for Training.md](https://github.com/Microsoft/EMDocs-pr/blob/48b253f4457d8b4a1e8b0a8c05009dc7f19fe7b6/EMDocs/Solutions/BGDCopy for Training.md)
-* Status: HandedOffSuccess
+* Status: ArchivedSuccess
 * Target File: 
 * Handoff File: [BGDCopy for Training.b4d0f6d2825154251faa647f62aa02611077ee81.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/4f8bcb03dcccb7c7328961b7f78d72dcb788883b/ol-handoff/Microsoft/EMDocs-pr.es-es/master/BGDCopy for Training.b4d0f6d2825154251faa647f62aa02611077ee81.es-es.xlf)
 * Handoff Datetime: 2016-04-13 23:39:31
 * Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
+* Archive File: [BGDCopy for Training.b4d0f6d2825154251faa647f62aa02611077ee81.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/c393382c6cfe056964f27c960e6c7b7551871139/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/BGDCopy for Training.b4d0f6d2825154251faa647f62aa02611077ee81.es-es.xlf)
+* Archive Datetime: 2016-04-15 08:17:41
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
