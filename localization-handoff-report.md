@@ -1,26 +1,11 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/e3686a25267eb05a6212378bbf70d8ca00e5aeb1/EMDocs/toc.yml) | HandedOffSuccess | [Details](#ab1775faeb4a4cbffca9480c0db12bf91c5e3247322)
 
 ## Item Details
-##### <a name='ab1775faeb4a4cbffca9480c0db12bf91c5e3247322'></a> Source: [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/e3686a25267eb05a6212378bbf70d8ca00e5aeb1/EMDocs/toc.yml)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [toc.a910960291aeeb7b80ff16cc12adc02a09c33921.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/424a9e41624f941baca79282d23555b6a59c0cb5/ol-handoff/Microsoft/EMDocs-pr.es-es/master/toc.a910960291aeeb7b80ff16cc12adc02a09c33921.es-es.xlf)
-* Handoff Datetime: 2016-04-25 23:47:55
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
