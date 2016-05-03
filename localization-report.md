@@ -5,11 +5,11 @@
  -------- | ----- 
  Total Files | 382
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 149
+[ Handoff Success Files ](#handoff-success-list)| 148
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 49
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 1
 [ In Sync Handback Files ](#insync-handback-success-list)| 49
 [ Ignored Files ](#ignored-list)| 135
 
@@ -20,7 +20,6 @@
  ----------- | ------ | ------- 
  [contributor-guide\article-metadata.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/article-metadata.md) | HandedOffSuccess | [Details](#bd870713d29cfef3d07c2650bd0ba668fe94a52e5)
  [contributor-guide\content-channel-guidance.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/content-channel-guidance.md) | HandedOffSuccess | [Details](#ba1e846d4ce3029f3315fbbc381bf45544e010607)
- [contributor-guide\custom-markdown-extensions.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/custom-markdown-extensions.md) | HandedOffSuccess | [Details](#c274ae4daf071245387599772945067b03dd9d8210)
  [contributor-guide\media\agent-700w.png](https://github.com/Microsoft/EMDocs-pr/blob/f05319371ed6309b02f54a6daca7042d6762515d/contributor-guide/media/agent-700w.png) | HandedOffSuccess | [Details](#2d08efb791b678300b989ad425dd93e6e077d98212)
  [contributor-guide\media\checkmark-small.png](https://github.com/Microsoft/EMDocs-pr/blob/93afa79b8a4e774e5760c6636a0464331a61ef4b/contributor-guide/media/checkmark-small.png) | HandedOffSuccess | [Details](#3560ca3350c05a522e09bd1cca4acfc7f3433b1116)
  [contributor-guide\media\content-channels-small.png](https://github.com/Microsoft/EMDocs-pr/blob/93afa79b8a4e774e5760c6636a0464331a61ef4b/contributor-guide/media/content-channels-small.png) | HandedOffSuccess | [Details](#79dad577764e71dc6c35f19c50d667e287487e8f17)
@@ -226,6 +225,9 @@
 ## <a name='handback-failed-list'></a> Handback Failed File List
 
 ## <a name='outofsync-handback-success-list'></a> Out Of Sync Handback Success File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [contributor-guide\custom-markdown-extensions.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/custom-markdown-extensions.md) | OutofSyncHandedBackSuccess | [Details](#c274ae4daf071245387599772945067b03dd9d8210)
 
 ## <a name='insync-handback-success-list'></a> In Sync Handback File Success List
  Source File | Status | Details 
@@ -541,7 +543,7 @@
 * [Back to Top](#report-top)
 
 ##### <a name='c274ae4daf071245387599772945067b03dd9d8210'></a> Source: [contributor-guide\custom-markdown-extensions.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/custom-markdown-extensions.md)
-* Status: HandedOffSuccess
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
 * Handoff File: [custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/dfdee01d6474e556ca0ba3e36cb9dee97eb7e895/ol-handoff/Microsoft/EMDocs-pr.es-es/master/custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.es-es.xlf)
 * Handoff Datetime: 2016-04-18 16:51:18
@@ -550,6 +552,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [contributor-guide\custom-markdown-extensions.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/c285e2a81c52e56a53252ccba64178dd808afbd0/contributor-guide/custom-markdown-extensions.md)
+* Current Handback File: [custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/7ae28ac398622e02b8b94404febe47d97f6cc646/ol-handback/Microsoft/EMDocs-pr.es-es/master/custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.es-es.xlf)
+* Current Handback Datetime: 2016-05-03 09:39:30
 * [Back to Top](#report-top)
 
 ##### <a name='a2acee00c6aca19d00659702a5ef05485af4449b11'></a> Source: [contributor-guide\file-names-and-locations.md](https://github.com/Microsoft/EMDocs-pr/blob/faf6d07bb4d61ce1dc28b1ca15aa7b298e74074b/contributor-guide/file-names-and-locations.md)

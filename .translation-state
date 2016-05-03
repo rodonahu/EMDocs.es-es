@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "a47d66a2c4ccc7fd3ad7ec6d573c48661acd36bf",
-  "LastTranslatedCommit": "74d5d4ef7fa4b1d79653a126859680f4d07d1d6f",
+  "LastTranslatedCommit": "c285e2a81c52e56a53252ccba64178dd808afbd0",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
       "FileHash": "da63fda594055f3647cc04e6954675a9558776db",
@@ -3679,14 +3679,14 @@
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
-      "TargetFileCommit": null,
-      "TargetFilePath": null,
-      "HandbackFilePath": null,
-      "HandbackFileCommit": null,
-      "HandbackDateTime": "0001-01-01T00:00:00",
+      "TargetFileCommit": "c285e2a81c52e56a53252ccba64178dd808afbd0",
+      "TargetFilePath": "contributor-guide\\custom-markdown-extensions.md",
+      "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.es-es\\master\\custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.es-es.xlf",
+      "HandbackFileCommit": "7ae28ac398622e02b8b94404febe47d97f6cc646",
+      "HandbackDateTime": "2016-05-03T09:39:30.6245868Z",
       "HandbackException": null,
       "HandbackFailureTimes": 0,
-      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "UpdatedDateTime": "2016-05-03T09:39:30.6245868Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.es-es\\master\\archive\\custom-markdown-extensions.83df9af46ee03549aa5cca18ea74fd80a7039eba.es-es.xlf",
       "ArchiveFileCommit": "c393382c6cfe056964f27c960e6c7b7551871139",
       "ArchiveFileDateTime": "2016-04-15T08:17:41.0004935Z",
