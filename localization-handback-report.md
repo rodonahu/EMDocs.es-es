@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [EMDocs\Solutions\implement-solution.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/implement-solution.md) | InSyncHandedBackSuccess | [Details](#eec74f54e6e6265d53f62fdccead61bff917450394)
 
 ## Item Details
+##### <a name='eec74f54e6e6265d53f62fdccead61bff917450394'></a> Source: [EMDocs\Solutions\implement-solution.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/implement-solution.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\implement-solution.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/1b53a7cd52da1d52bc7bd5e5acf2034c4c5b9250/EMDocs/Solutions/implement-solution.md)
+* Handoff File: [implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/b8524fbeb05cb78e6a4e893d9e45578a98a533d2/ol-handoff/Microsoft/EMDocs-pr.es-es/master/implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.es-es.xlf)
+* Handoff Datetime: 2016-04-25 22:23:33
+* Handoff Reason: Include
+* Archive File: [implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/0d12d5206fd074b8788a8d46043a1aeb4befdab7/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.es-es.xlf)
+* Archive Datetime: 2016-05-19 21:28:02
+* Handback File: [implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/43e3e4cb05b0555c6192063f5a0698e0de242115/ol-handback/Microsoft/EMDocs-pr.es-es/master/implement-solution.ccf953cb02b058e8986bce34bb5fe583afd16eb5.es-es.xlf)
+* Handback Datetime: 2016-05-20 09:10:27
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
