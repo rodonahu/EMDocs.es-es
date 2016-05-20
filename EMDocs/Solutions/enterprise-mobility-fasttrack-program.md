@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: 9c9dbc4e-0dcf-404c-964c-e68fb3ca5d5a
+ms.assetid: fd951f10-6404-43a3-8f2f-464f5b5003ac
 
 # optional metadata
 
@@ -36,6 +36,6 @@ El programa Beneficio de incorporación y migración a Microsoft FastTrack para 
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 
