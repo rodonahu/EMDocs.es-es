@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr/blob/31ba2bb9bf95d3b21ba08f7874f12cae790f9af0/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md) | InSyncHandedBackSuccess | [Details](#a32ec33be4ea8ea3ece93fe026480de43790af4e86)
 
 ## Item Details
+##### <a name='a32ec33be4ea8ea3ece93fe026480de43790af4e86'></a> Source: [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr/blob/31ba2bb9bf95d3b21ba08f7874f12cae790f9af0/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/01db203903d26b4c64888eba91a73fea5d4436d6/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md)
+* Handoff File: [enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/b8524fbeb05cb78e6a4e893d9e45578a98a533d2/ol-handoff/Microsoft/EMDocs-pr.es-es/master/enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.es-es.xlf)
+* Handoff Datetime: 2016-04-25 22:23:33
+* Handoff Reason: Include
+* Archive File: [enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/0d12d5206fd074b8788a8d46043a1aeb4befdab7/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.es-es.xlf)
+* Archive Datetime: 2016-05-19 21:28:02
+* Handback File: [enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/344121032598043f416ef112f5f486e6d2269751/ol-handback/Microsoft/EMDocs-pr.es-es/master/enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.es-es.xlf)
+* Handback Datetime: 2016-05-20 13:55:05
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
