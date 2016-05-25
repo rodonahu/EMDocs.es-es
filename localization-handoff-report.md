@@ -6,21 +6,21 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/1436fa1665f34fc8cb0d53d3c4ac52d52e1e5afb/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md) | OutofSyncHandedBackSuccess | [Details](#4e3f6c3bf9f75a3be46b64413db91ad5e398e01d131)
+ [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-phases.md](https://github.com/Microsoft/EMDocs-pr/blob/901c43b6d4a96e1403b5ebd7c53720f39c231dd5/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-phases.md) | OutofSyncHandedBackSuccess | [Details](#a85f0c8c0513c1cce7a4b817de0cdbbd9ff32cc191)
 
 ## Item Details
-##### <a name='4e3f6c3bf9f75a3be46b64413db91ad5e398e01d131'></a> Source: [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/1436fa1665f34fc8cb0d53d3c4ac52d52e1e5afb/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md)
+##### <a name='a85f0c8c0513c1cce7a4b817de0cdbbd9ff32cc191'></a> Source: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-phases.md](https://github.com/Microsoft/EMDocs-pr/blob/901c43b6d4a96e1403b5ebd7c53720f39c231dd5/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-phases.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/4dc7e45abe14e1d6b98f55b69a0309c9ed2d2b3b/ol-handoff/Microsoft/EMDocs-pr.es-es/master/mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.es-es.xlf)
-* Handoff Datetime: 2016-05-20 17:04:13
+* Handoff File: [fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/a1efd0aaa2e2a2090efc93e13a14198e7ec485c3/ol-handoff/Microsoft/EMDocs-pr.es-es/master/fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.es-es.xlf)
+* Handoff Datetime: 2016-05-25 15:53:40
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/e7225b363730ca851875b89f2c7c1a3aaff5f2e0/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md)
-* Current Handback File: [mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/0345723092acfc10a0ffbe5534b127d9c6f776e1/ol-handback/Microsoft/EMDocs-pr.es-es/master/mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.es-es.xlf)
+* Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-phases.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/e7225b363730ca851875b89f2c7c1a3aaff5f2e0/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-phases.md)
+* Current Handback File: [fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/0345723092acfc10a0ffbe5534b127d9c6f776e1/ol-handback/Microsoft/EMDocs-pr.es-es/master/fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.es-es.xlf)
 * Current Handback Datetime: 2016-05-03 10:14:29
 * [Back to Top](#report-top)
 
