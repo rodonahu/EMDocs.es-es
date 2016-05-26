@@ -29,7 +29,7 @@ ms.suite: ems
 
 Puede usar [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) con el fin de preparar Azure Active Directory Premium, Microsoft Intune o Azure Rights Management para su uso. Emplee la información de esta sección para ver una ilustración del proceso de incorporación a modo de introducción.
 
-Para obtener información sobre las otras partes del proceso de incorporación de FastTrack, consulte [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Para obtener información sobre las otras partes del proceso de incorporación de FastTrack, consulte [FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS) (Proceso del beneficio del centro de FastTrack para Enterprise Mobility Suite (EMS))](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
 
 
 La incorporación presenta dos componentes principales:
@@ -40,7 +40,7 @@ La incorporación presenta dos componentes principales:
 
 En el siguiente diagrama se describen las fases de incorporación general para usar el programa de beneficio de incorporación y migración a FastTrack.
 
-![](./media/1-rms-onboarding-process.png)
+![Fases de incorporación de alto nivel para usar el Beneficio del centro de FastTrack.](./media/ft-1-onboarding-process.png)
 
 El proceso básico es el siguiente:
 
@@ -54,19 +54,17 @@ Todo el soporte técnico de incorporación lo proporcionará de forma remota el 
 
 -   El soporte técnico de incorporación lo ofrece el Centro de FastTrack y está disponible durante el horario comercial de una región específica.
 
--   El soporte técnico de incorporación está disponible en chino tradicional, inglés, francés, alemán, italiano, japonés, portugués (Brasil) y español.
+-   El soporte técnico de incorporación está disponible en chino tradicional, chino simplificado, inglés, francés, alemán, italiano, japonés, coreano, portugués (Brasil), español, tailandés y vietnamita.
 
 -   El equipo de Microsoft puede trabajar directamente con usted o a través de su representante.
 
->[!div class="step-by-step"]
-[Introducción al proceso de FastTrack](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
-[Entorno de origen de FastTrack](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
+Lea sobre la siguiente parte del proceso de incorporación de FastTrack: [Expectativas para su entorno de origen](fasttrack-center-benefit-process-for-ems-environment-expectations.md).
 
 ### ¿Desea obtener más información?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)..
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO1-->
 
 

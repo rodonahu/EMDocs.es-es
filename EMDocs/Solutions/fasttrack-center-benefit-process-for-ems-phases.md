@@ -28,13 +28,13 @@ ms.suite: ems
 # Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (fases)
 Cuando se usa [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) con el fin de preparar Azure Active Directory Premium, Microsoft Intune o Azure Rights Management para su uso, el proceso constará de varias fases. En las secciones siguientes se describe cada fase del proceso de incorporación.
 
-Para obtener información sobre las otras partes del proceso de incorporación de FastTrack, consulte [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Para obtener información sobre las otras partes del proceso de incorporación de FastTrack, consulte [FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS) (Proceso del beneficio del centro de FastTrack para Enterprise Mobility Suite (EMS))](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
 
 
 La incorporación tiene cuatro fases principales, tal y como se muestra en la ilustración siguiente:
 
 
-![](./media/Intune-onboarding-phases-9-15-15.png)
+![Las cuatro fases del proceso de incorporación de FastTrack](./media/ft-2-onboarding-phases.png)
 
 
 ## Fase de inicio
@@ -43,7 +43,7 @@ Una vez haya adquirido el número adecuado de licencias, siga las instrucciones 
 
 Durante esta fase, explicaremos el proceso de incorporación, comprobaremos los datos y convocaremos una reunión de puesta en marcha.
 
-![](./media/Intune-initiate-phase-9-15-15-v2.png)
+![Fase de inicio de la incorporación](./media/ft-3-initiate-phase.png)
 
 ## Fase de evaluación
 
@@ -53,12 +53,12 @@ Microsoft también se pondrá en contacto con usted para ofrecerle instrucciones
 
 Según la configuración actual, le presentaremos un plan de corrección para que su entorno de origen reúna los requisitos mínimos para incorporar correctamente EMS o sus servicios en la nube individuales. También programaremos llamadas de control pertinentes durante la fase de corrección.
 
-![](./media/Intune-assess-phase-9-15-15.png)
+![Fase de evaluación de la incorporación](./media/ft-4-assess-phase.png)
 
 ## Fase de corrección
 Si es necesario, realizará las tareas del plan de corrección en su entorno de origen para cumplir los requisitos de incorporación y adopción de cada servicio.
 
-![](./media/Microsoft-Intune-onboarding-remediate-phase-1.png)
+![Fase de corrección de la incorporación](./media/ft-5-remediate-phase.png)
 
 Antes de comenzar la fase de habilitación, comprobaremos juntos los resultados de las actividades de corrección para asegurarnos de que está listo para continuar.
 
@@ -69,7 +69,7 @@ Cuando complete todas las actividades de corrección, el proyecto pasará a la c
 
 La incorporación principal implica el aprovisionamiento del servicio y la integración de inquilinos e identidades. También incluye los pasos para proporcionar una base con el objetivo de incorporar servicios en línea como Azure Active Directory Premium, Microsoft Intune y Azure Rights Management Premium.
 
-![](./media/Intune-enable-phase-core-9-15-15.png)
+![Fase de habilitación de la incorporación: capacidades principales](./media/ft-6-enable-phase-core.png)
 
 ###Fase de habilitación: Azure Active Directory Premium
 
@@ -83,13 +83,13 @@ El programa de instalación de Azure Active Directory Premium incluye las siguie
 
 -   Azure Multi-Factor Authentication (MFA).
 
--   Aplicación de software como servicio (SaaS): configurar una aplicación de SaaS desde [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+-   Aplicación de software como servicio (SaaS): configurar una aplicación de SaaS desde [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)..
 
 -   Administración de grupos de autoservicio (SSGM)
 
 -   Informes administrativos
 
-![](./media/Microsoft-Azure-AD-Premium-enable-phase-2.png)
+![Fase de habilitación de la incorporación: AADP](./media/ft-7-enable-phase-aadp.png)
 
 ###Fase de habilitación: Microsoft Intune
 
@@ -144,7 +144,7 @@ En el caso de Microsoft Intune, y según el dispositivo móvil y las necesidades
 
 Microsoft también se pondrá en contacto con usted para ofrecerle instrucciones sobre cómo impulsar la adopción correcta de los servicios aptos.
 
-![](./media/Enable-phase-Intune-11-20-15.png)
+![Fase de habilitación de la incorporación: Intune](./media/ft-8-enable-phase-intune.png)
 
 ###Fase de habilitación: Azure Rights Management Premium
 
@@ -162,18 +162,15 @@ El programa de instalación de Azure RMS incluye la habilitación de las siguien
 
 -   Aplicación de uso compartido de RMS para dispositivos Windows y dispositivos que no son Windows
 
-![](./media/Microsoft-Azure-AD-Premium-enable-phase-2.png)
+![Fase de habilitación de la incorporación: Azure RMS](./media/ft-7-enable-phase-aadp.png)
 
-
->[!div class="step-by-step"]
-[Entorno de origen de FastTrack](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
-[Responsabilidades del cliente en FastTrack](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
+Lea sobre la siguiente parte del proceso de incorporación de FastTrack: [Responsabilidades de Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md).
 
 ### ¿Desea obtener más información?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)..
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO5-->
 
 

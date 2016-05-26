@@ -53,7 +53,7 @@ Los productos, tecnologías y servicios de Microsoft relativos a una solución d
 - Servicio de administración de permisos de Microsoft
 - Administración de los derechos de Azure 
 - Cifrado SMB
-- Inicio de sesión único (SS)
+- Inicio de sesión único (SSO)
 - Carpetas de trabajo
 - Proxy de aplicación web (WAP)
 
@@ -87,6 +87,6 @@ El diseño de la infraestructura para admitir BYOD permite responder a las pregu
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

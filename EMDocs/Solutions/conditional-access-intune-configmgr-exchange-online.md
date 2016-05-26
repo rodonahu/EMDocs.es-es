@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Implementación de Exchange Online con Microsoft Intune y Configuration Manager
-Ahora que ha leído la [guía de arquitectura para proteger los documentos y correos electrónicos de la empresa](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md), ya puede continuar con la implementación de una solución.
+Ahora que ha leído la [Guía de arquitectura para proteger los documentos y correos electrónicos de la empresa](architecture-guidance-for-protecting-company-email-and-documents.md), ya puede continuar con la implementación de una solución.
 
 Si ya usa System Center Configuration Manager y Exchange Online, puede incorporar Intune para administrar el acceso al correo electrónico y proteger los datos de correo electrónico en dispositivos móviles. El proceso de alto nivel para implementar esta solución es la siguiente:
 
@@ -99,7 +99,7 @@ Si quiere tener la capacidad de quitar todos los mensajes de correo corporativo 
 
 ![Captura de pantalla que muestra la página "Reglas" del Asistente para crear directivas de cumplimiento, donde puede especificar que un perfil de correo electrónico debe administrarse mediante Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-Si se especifica esta directiva de cumplimiento, un usuario que ya haya configurado su cuenta de correo electrónico tendrá que eliminarla manualmente y, luego, Intune la agregará de nuevo en el proceso de registro descrito en [Experiencia de acceso condicional del usuario final](../Solutions/end-user-experience-conditional-access.md).
+Si se especifica esta directiva de cumplimiento, un usuario que ya haya configurado su cuenta de correo electrónico tendrá que eliminarla manualmente y, luego, Intune la agregará de nuevo en el proceso de registro descrito en [Experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md).
 
 Después de crear la directiva de cumplimiento, seleccione el nombre de dicha directiva en la lista y haga clic en **Implementar**.
 
@@ -153,9 +153,9 @@ A continuación, se muestra el estado de implementación de la directiva de conf
 A los dispositivos que usan la autenticación moderna se les aplica de inmediato el acceso condicional. Para dispositivos que se conectan a través del protocolo EAS, puede haber un intervalo de tiempo de seis horas antes de que se aplique el acceso condicional, según la configuración predeterminada. Durante ese tiempo, un dispositivo podría considerarse conforme.
 
 ## Próximos pasos
-Cuando haya implementado una solución para proteger el correo electrónico corporativo y los datos de correo electrónico de los dispositivos móviles, puede obtener más información sobre [la experiencia del usuario final de acceso condicional](../Solutions/end-user-experience-conditional-access.md). Esto le ayudará a prepararse para problemas que podrían surgir al inscribir sus dispositivos específicos.
+Cuando haya implementado una solución para proteger el correo electrónico corporativo y los datos de correo electrónico de los dispositivos móviles, puede obtener más información sobre la [experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md). Esto le ayudará a prepararse para problemas que podrían surgir al inscribir sus dispositivos específicos.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

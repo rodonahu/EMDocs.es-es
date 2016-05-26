@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: c576a1be-c706-4a12-a2e2-b3d85e632afa
+ms.assetid: bf0d4210-5edc-4ad7-bcb5-372099049630
 
 # optional metadata
 
@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Requisitos de administración
 
-La administración de dispositivos es una de las bases de toda estrategia que se centre en las personas y se debe evaluar comparándola con los requisitos de la compañía. Según el nivel de madurez de la compañía, es posible que ya se esté aplicando un sistema de administración y que sea necesario ampliarlo para abarcar los escenarios de BYOD que va a adoptar la compañía. La ilustración 4 muestra las interacciones de administración que se producen al administrar usuarios, dispositivos y datos. Se deben tener en cuenta determinados aspectos de cada componente del subdominio de administración.
+La administración de dispositivos es una de las bases de toda estrategia que se centre en las personas y se debe evaluar comparándola con los requisitos de la compañía. Según el nivel de madurez de la compañía, es posible que ya se esté aplicando un sistema de administración y que sea necesario ampliarlo para abarcar los escenarios de BYOD que va a adoptar la compañía. La figura siguiente muestra las interacciones de administración que se producen al administrar usuarios, dispositivos y datos. Se deben tener en cuenta determinados aspectos de cada componente del subdominio de administración.
 
 ![Requisitos de administración](./media/BYOD_Figure4.png)
 
@@ -105,6 +105,6 @@ Las preguntas sobre los requisitos de administración se clasifican en siete ár
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

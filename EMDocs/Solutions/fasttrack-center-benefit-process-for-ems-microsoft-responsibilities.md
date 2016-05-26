@@ -28,7 +28,7 @@ ms.suite: ems
 # Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (responsabilidades de Microsoft)
 En las siguientes secciones se describen lo que puede esperarse de Microsoft cuando se usa [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) con el fin de preparar Azure Active Directory Premium, Microsoft Intune o Azure Rights Management para su uso.
 
-Para obtener información sobre las otras partes del proceso de incorporación de FastTrack, consulte [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Para obtener información sobre las otras partes del proceso de incorporación de FastTrack, consulte [FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS) (Proceso del beneficio del centro de FastTrack para Enterprise Mobility Suite (EMS))](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
 
 
 ## General
@@ -142,7 +142,7 @@ Proporcionar instrucciones sobre la configuración:
 
 - Azure Multi-Factor Authentication (MFA).
 
-- Una sola aplicaciones integrada que puede incluir el inicio de sesión único para las aplicaciones de SaaS.
+- Una sola aplicación integrada que puede incluir el inicio de sesión único para las aplicaciones de SaaS.
 
 - Informes de uso y seguridad para administradores.
 
@@ -239,16 +239,13 @@ Proporcionar instrucciones sobre las acciones siguientes:
 
 -   La configuración de la aplicación de uso compartido de RMS para dispositivos Windows y dispositivos que no son Windows.
 
-
->[!div class="step-by-step"]
-[Fases de FastTrack](fasttrack-center-benefit-process-for-ems-phases.md)
-[Responsabilidades del cliente en FastTrack](fasttrack-center-benefit-process-for-ems-your-responsibilitiesmd)
+Lea sobre la siguiente parte del proceso de incorporación de FastTrack: [Responsabilidades del cliente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md).
 
 ### ¿Desea obtener más información?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)..
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

@@ -1,17 +1,32 @@
 ---
+# required metadata
+
 title: Protección de los datos adjuntos de correo electrónico de la empresa
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
+description:
+keywords:
 author: karthikaraman
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer:
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
 
 # Impedir el filtrado de datos de correo electrónico y datos adjuntos
-En [Protección de documentos y del correo electrónico corporativos](../Solutions/protect-corporate-email-documents.md), se describe cómo puede asegurarse de que solo los dispositivos admitidos puedan acceder al correo electrónico corporativo. Sin embargo, el contenido del correo electrónico y los datos adjuntos no está protegido al proteger el acceso. El contenido se puede copiar, mover, guardar en una ubicación diferente o compartir con otro usuario. EMS soluciona este problema mediante directivas de administración de aplicaciones móviles.
+En [Protección de documentos y del correo electrónico corporativos](protect-corporate-email-documents.md), se describe cómo puede asegurarse de que solo los dispositivos admitidos puedan acceder al correo electrónico corporativo. Sin embargo, el contenido del correo electrónico y los datos adjuntos no está protegido al proteger el acceso. El contenido se puede copiar, mover, guardar en una ubicación diferente o compartir con otro usuario. EMS soluciona este problema mediante directivas de administración de aplicaciones móviles.
 
 Las aplicaciones administradas son aplicaciones que implementa el Administrador de TI que cumplen los requisitos de seguridad de las empresas. Con estas aplicaciones, el departamento de TI tiene control directo sobre la implementación, la administración continua, como el inventario o las actualizaciones, y la eliminación selectiva de las aplicaciones y los datos asociados. Asimismo, a través de un conjunto de directivas de administración de aplicaciones móviles (MAM), Intune permite modificar la funcionalidad de las aplicaciones y restringir los datos que se comparten. Ofrece la posibilidad de realizar, por ejemplo, lo siguiente:
 
@@ -58,9 +73,9 @@ El Administrador de TI crea las directivas de administración de aplicaciones m�
 Los usuarios finales pueden instalar aplicaciones administradas y usarlas para hacer su trabajo. Sólo podrán mover o compartir datos entre aplicaciones administradas. Se bloqueará cualquier intento de mover datos fuera del ecosistema de aplicaciones administradas.
 
 ## Próximos pasos
-Ahora que sabe cómo [proteger documentos y el correo electrónico corporativos](../Solutions/protect-corporate-email-documents.md), así como datos adjuntos de correo, puede conocer cómo [implementar una solución para proteger el correo electrónico empresarial](../Solutions/implement-solution.md).
+Ahora que sabe cómo [proteger documentos y correo electrónico corporativos](protect-corporate-email-documents.md), así como datos adjuntos de correo, puede conocer cómo [implementar una solución para proteger el correo electrónico empresarial](implement-solution.md).
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

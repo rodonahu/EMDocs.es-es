@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Requisitos de las aplicaciones
 
-Cada organización utiliza diversas funcionalidades técnicas para permitir que sus recursos lleven a cabo sus tareas de forma optimizada. En la mayoría de los casos, la herramienta principal para lograrlo es una aplicación. Estas funcionalidades se pueden combinar en un enfoque multiplataforma en el que se usen diferentes tecnologías para alcanzar un determinado objetivo, o se puede crear una aplicación personalizada capaz de realizar una tarea o automatizar ciertos procesos. Es importante tener en cuenta las aplicaciones a la hora de diseñar la estrategia de BYOD. Los usuarios utilizarán diversos factores de forma para consumir las aplicaciones. Por eso, debe tener en cuenta la variedad de funcionalidades que deben admitir las aplicaciones. En la ilustración 5, se muestra cómo los usuarios y los dispositivos utilizan aplicaciones para consumir datos, y los aspectos que se deben tener en cuenta para cada componente del subdominio Aplicaciones.
+Cada organización utiliza diversas funcionalidades técnicas para permitir que sus recursos lleven a cabo sus tareas de forma optimizada. En la mayoría de los casos, la herramienta principal para lograrlo es una aplicación. Estas funcionalidades se pueden combinar en un enfoque multiplataforma en el que se usen diferentes tecnologías para alcanzar un determinado objetivo, o se puede crear una aplicación personalizada capaz de realizar una tarea o automatizar ciertos procesos. Es importante tener en cuenta las aplicaciones a la hora de diseñar la estrategia de BYOD. Los usuarios utilizarán diversos factores de forma para consumir las aplicaciones. Por eso, debe tener en cuenta la variedad de funcionalidades que deben admitir las aplicaciones. En la figura siguiente se muestra cómo los usuarios y los dispositivos usan aplicaciones para consumir datos, así como los aspectos que se deben tener en cuenta para cada componente del subdominio Aplicaciones.
 
 ![Requisitos de las aplicaciones](./media/BYOD_Figure5.png)
 
@@ -117,7 +117,7 @@ Los requisitos de las aplicaciones se clasifican en seis áreas:
 - ¿Hay algún subsistema de inmunización o validación de entrada común que procese los datos de fuera del sistema?
 - ¿Las aplicaciones consumirán alguna biblioteca externa como, por ejemplo, la biblioteca JavaScript?
     - Si es así, ¿realizó una evaluación de riesgos de seguridad de estas llamadas externas?
-- ¿Las aplicaciones se validaron con el método [STRIDE](https://msdn.microsoft.com/library/ee823878(v=cs.20).aspx) (suplantación de identidad, alteración de datos, rechazo, divulgación de información, denegación de servicio y elevación de privilegios)?
+- ¿Las aplicaciones se han validado con el método [STRIDE](https://msdn.microsoft.com/library/ee823878.aspx) (suplantación de identidad, alteración de datos, rechazo, divulgación de información, denegación de servicio y elevación de privilegios)?
 - ¿Las aplicaciones controlarán datos de identificación personal?
 - ¿Realizó algún análisis de privacidad de estas aplicaciones?
 - ¿Las aplicaciones usarán Live Tiles?
@@ -125,6 +125,6 @@ Los requisitos de las aplicaciones se clasifican en seis áreas:
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

@@ -94,11 +94,10 @@ Las preguntas relativas a los requisitos en cuanto al acceso a datos y a la prot
 - ¿La compañía aplica directivas para definir cómo se clasifica el acceso a los datos?
 - ¿La compañía tiene que cumplir alguna norma de tratamiento y privacidad de datos?
     - Si es así, ¿cómo determinan estas normas las directivas de acceso a datos actuales que se aplican a los recursos locales?
-- ¿La compañía aplica alguna directiva de [administración de dispositivos móviles (MDM)](http://aka.ms/mdmdcg) y administración de aplicaciones móviles (MAM)?
+- ¿La empresa aplica alguna directiva de [Administración de dispositivos móviles (MDM)](mdm-design-considerations-guide.md) y de [Administración de aplicaciones móviles (MAM)](https://blogs.technet.microsoft.com/cbernier/2016/01/05/microsoft-intune-mobile-application-management-mam-standalone/)?
 - ¿La compañía aplica alguna directiva para la confiscación de dispositivos en caso de juicio o investigación de delitos?
 
 
-
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

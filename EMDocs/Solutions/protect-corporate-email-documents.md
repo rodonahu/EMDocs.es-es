@@ -1,13 +1,28 @@
 ---
+# required metadata
+
 title: Protección de documentos y del correo electrónico corporativos
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
+description:
+keywords:
 author: karthikaraman
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer:
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
 
 # Protección de documentos y del correo electrónico corporativos
@@ -35,7 +50,7 @@ Las**directivas de cumplimiento** determinan el cumplimiento de un dispositivo. 
 ## Experiencia de alto nivel del usuario final
 Después de implementar la solución, los usuarios finales solo podrán obtener acceso al correo de la empresa mediante dispositivos administrados y que cumplan los requisitos establecidos. Una vez que tengan acceso al correo electrónico en sus dispositivos, los datos de la empresa estarán protegidos y se guardarán en el ecosistema de la aplicación, por lo que solo estarán disponibles para ciertos usuarios. El acceso se puede revocar en cualquier momento si el dispositivo no cumple con los requisitos establecidos.
 
-En concreto, las directivas de acceso condicional de Intune garantizan que los dispositivos solo puedan tener acceso al correo electrónico si cumplen con las directivas de cumplimiento establecidas. Acciones tales como copiar y pegar o guardar datos en servicios personales en la nube, pueden restringirse mediante directivas de administración de aplicaciones móviles. El servicio Azure Rights Managements puede usarse para garantizar que solo los destinatarios puedan leer los datos de los correos electrónicos confidenciales y los datos adjuntos reenviados. La experiencia del usuario final se describe con más detalle en [Experiencia de acceso condicional del usuario final](../Solutions/end-user-experience-conditional-access.md).
+En concreto, las directivas de acceso condicional de Intune garantizan que los dispositivos solo puedan tener acceso al correo electrónico si cumplen con las directivas de cumplimiento establecidas. Acciones tales como copiar y pegar o guardar datos en servicios personales en la nube, pueden restringirse mediante directivas de administración de aplicaciones móviles. El servicio Azure Rights Managements puede usarse para garantizar que solo los destinatarios puedan leer los datos de los correos electrónicos confidenciales y los datos adjuntos reenviados. La experiencia del usuario final se describe con más detalle en [Experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md).
 
 
 Mire [este](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) vídeo de cuatro minutos para ver cómo afecta el acceso condicional a los usuarios finales.
@@ -48,7 +63,7 @@ Dado que las empresas diferentes tienen requisitos diferentes, EMS se ha diseña
 En las secciones siguientes se describe la arquitectura diseñada para ejecutarse en la nube y se describe brevemente la opción local.
 
 ### Flujo de acceso a correo electrónico
-En función del tipo de aplicación de correo electrónico que utilice para acceder a a Exchange Online, la ruta para establecer un acceso seguro al correo electrónico puede ser ligeramente diferente. Sin embargo, la de los componentes clave Azure Active Directory (Azure AD), Office 365/Exchange Online y Microsoft Intune, es la misma. La experiencia en TI y la experiencia del usuario final también son similares. Actualmente, EMS admite aplicaciones de correo electrónico nativas y la aplicación de Microsoft Outlook para iOS y Android.
+En función del tipo de aplicación de correo electrónico que utilice para acceder a Exchange Online, la ruta para establecer un acceso seguro al correo electrónico puede ser ligeramente diferente. Sin embargo, la de los componentes clave Azure Active Directory (Azure AD), Office 365/Exchange Online y Microsoft Intune, es la misma. La experiencia en TI y la experiencia del usuario final también son similares. Actualmente, EMS admite aplicaciones de correo electrónico nativas y la aplicación de Microsoft Outlook para iOS y Android.
 
 ### Flujo de control de acceso para las aplicaciones de correo electrónico nativas
 Los clientes de Exchange ActiveSync (EAS) que intentan acceder al correo electrónico de Exchange Online se evaluarán respecto a las siguientes propiedades:
@@ -109,9 +124,9 @@ Cuando el usuario intenta tener acceso al correo electrónico en el dispositivo 
 Una vez que el dispositivo se evalúa como inscrito y conforme a las normas, la sincronización de correo electrónico debe realizarse en pocos minutos.
 
 ## Próximos pasos
-Ahora que sabe cómo proteger los documentos y el correo electrónico corporativos, puede consultar cómo [proteger los datos adjuntos del correo](../Solutions/protect-email-attachments.md). O, si ya cuenta con los conocimientos necesarios, puede obtener más información sobre la [implementación de una solución para proteger el correo corporativo](../Solutions/implement-solution.md).
+Ahora que sabe cómo proteger los documentos y el correo electrónico corporativos, puede consultar cómo [proteger los datos adjuntos del correo](protect-email-attachments.md). O, si ya cuenta con los conocimientos necesarios, puede obtener más información sobre la [implementación de una solución para proteger el correo corporativo](implement-solution.md).
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Implementación de Exchange Server local con Microsoft Intune y Configuration Manager
-Ahora que ha leído la [guía de arquitectura para proteger los documentos y correos electrónicos de la empresa](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md), ya puede continuar con la implementación de una solución.
+Ahora que ha leído la [Guía de arquitectura para proteger los documentos y correos electrónicos de la empresa](architecture-guidance-for-protecting-company-email-and-documents.md), ya puede continuar con la implementación de una solución.
 
 Si ya usa System Center Configuration Manager y Exchange en la infraestructura local, puede incorporar Intune para administrar el acceso al correo electrónico y proteger los datos de correo electrónico en dispositivos móviles. El proceso de alto nivel para implementar esta solución es la siguiente:
 
@@ -34,7 +34,7 @@ Si ya usa System Center Configuration Manager y Exchange en la infraestructura l
 
 -   Ejecute una sincronización completa del conector de Exchange Server para detectar a los usuarios y hacer un inventario de todos los identificadores de Exchange ActiveSync (EASID) para dispositivos móviles que se conectan al Exchange Server local.
 
--   Cree recopilaciones de usuarios para grupos de usuarios a los que se dirigirá la directiva de acceso condicional, o que quedarán exentos. A continuación, cree las directivas de cumplimiento que definen las reglas y los valores de configuración que un dispositivo debe respetar para que se le considerarse conforme a las directivas de acceso condicional.
+-   Cree recopilaciones de usuarios para grupos de usuarios a los que se dirigirá la directiva de acceso condicional, o que quedarán exentos. A continuación, cree las directivas de cumplimiento que definen las reglas y los valores de configuración que un dispositivo debe respetar para que se le considere conforme a las directivas de acceso condicional.
 
 -   Para empezar, aplique el acceso condicional.
 
@@ -55,9 +55,9 @@ Este diagrama muestra el flujo de control para los clientes que intentan obtener
 Asegúrese de que su entorno incluya estos requisitos para implementar esta solución.
 
 > [!NOTE]
-> Si ya ha configurado Configuration Manager para administrar dispositivos móviles mediante el servicio Intune, puede continuar con [Pasos de implementación](#DeploySteps).
+> Si ya ha configurado Configuration Manager para administrar dispositivos móviles mediante el servicio Intune, puede continuar con los [Pasos de implementación](#deployment-steps).
 
--   Compruebe que cumple los [requisitos de hardware del conector local](https://stage.docs.microsoft.com/en-us/intune/getstarted/network-infrastructure-requirements-for-microsoft-intune).
+-   Compruebe que cumpla los [requisitos de hardware del conector local](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune).
 
 -   Compruebe que está ejecutando System Center 2012 R2 Configuration Manager SP1 con actualización acumulativa 1 o posterior.
 
@@ -100,7 +100,7 @@ Asegúrese de que su entorno incluya estos requisitos para implementar esta solu
 > [!IMPORTANT]
 > Si trata de instalar o usar el conector de Exchange Server sin los cmdlets necesarios, verá un error con el mensaje _Invoking cmdlet &lt;cmdlet&gt; failed in the EasDisc.log file on the site server computer_ (Error al invocar el cmdlet &lt;cmdlet&gt; en el archivo EasDisc.log del equipo de servidor de sitio).
 
-## <a name="DeploySteps"></a>Pasos de implementación
+## Pasos de implementación
 Siga estos pasos para implementar la solución local de Exchange:
 
 ### Paso 1: asegúrese de que esté instalado el rol de conector de Intune.
@@ -140,7 +140,7 @@ Si quiere tener la capacidad de quitar todos los mensajes de correo corporativo 
 
 ![Captura de pantalla que muestra la página "Reglas" del Asistente para crear directivas de cumplimiento, donde puede especificar que un perfil de correo electrónico debe administrarse mediante Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-Si se especifica esta directiva de cumplimiento, un usuario que ya haya configurado su cuenta de correo electrónico tendrá que eliminarla manualmente y, luego, Intune la agregará de nuevo en el proceso de registro descrito en [Experiencia de acceso condicional del usuario final](../Solutions/end-user-experience-conditional-access.md).
+Si se especifica esta directiva de cumplimiento, un usuario que ya haya configurado su cuenta de correo electrónico tendrá que eliminarla manualmente y, luego, Intune la agregará de nuevo en el proceso de registro descrito en [Experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md).
 
 Después de crear la directiva de cumplimiento, seleccione el nombre de dicha directiva en la lista y haga clic en **Implementar**.
 
@@ -150,7 +150,7 @@ En primer lugar, decida cómo y cuándo desea aplicar el acceso condicional y lo
 ### Paso 7: supervise las inscripciones y aplique el acceso condicional.
 Si ya tiene un número significativo de usuarios inscritos en Intune y compatibles, puede empezar a aplicar el acceso condicional a unos 500 usuarios al día. En total, se emplearán unos 4 o 5 meses con los 70.000 usuarios y se podrán solucionar los posibles problemas que surgirían si no se evitase que demasiados usuarios accediesen al correo electrónico al mismo tiempo.
 
-Si no hay muchos usuarios ya inscritos en Intune, el acceso condicional les ofrece una experiencia guiada de inscripción, tal y como se describe en [Experiencia de acceso condicional del usuario final](../Solutions/end-user-experience-conditional-access.md).
+Si no hay muchos usuarios ya inscritos en Intune, el acceso condicional les ofrece una experiencia guiada de inscripción, tal y como se describe en [Experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md).
 
 ## Pasos de comprobación
 Con la herramienta de registro de seguimiento de Configuration Manager, abra el archivo EasDisc.log (que se encuentra en la carpeta Microsoft Configuration Manager/Logs, donde se haya instalado Configuration Manager). Busque el archivo de registro del "Conector de Exchange" para obtener información sobre si se está ejecutando el conector de Exchange y cuántos dispositivos están conectados.
@@ -188,9 +188,9 @@ A continuación, se muestra el estado de implementación de la directiva de conf
 Un dispositivo se bloquea en cuanto lo detecta el conector de Exchange. La latencia de bloqueo depende de los intervalos configurados para la sincronización completa y la sincronización diferencial y el tiempo entre estos intervalos cuando el dispositivo se conecta al servidor de Exchange. De forma predeterminada, una sincronización completa se produce cada 24 horas, la sincronización diferencial se produce cada 240 minutos. Durante este período de latencia, un dispositivo podría considerarse conforme.
 
 ## Próximos pasos
-Cuando haya implementado una solución para proteger el correo electrónico corporativo y los datos de correo electrónico de los dispositivos móviles, puede obtener más información sobre [la experiencia del usuario final de acceso condicional](../Solutions/end-user-experience-conditional-access.md). Esto le ayudará a prepararse para problemas que podrían surgir al inscribir sus dispositivos específicos.
+Cuando haya implementado una solución para proteger el correo electrónico corporativo y los datos de correo electrónico de los dispositivos móviles, puede obtener más información sobre la [experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md). Esto le ayudará a prepararse para problemas que podrían surgir al inscribir sus dispositivos específicos.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

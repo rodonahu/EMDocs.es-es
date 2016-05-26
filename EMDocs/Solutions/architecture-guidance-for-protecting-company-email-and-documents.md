@@ -18,7 +18,7 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -28,18 +28,20 @@ ms.suite: ems
 # Guía de arquitectura para proteger los documentos y correos electrónicos de la empresa
 Este tema comienza con una visión general de cómo puede proteger los datos de su empresa y garantizar que la experiencia del usuario final sea sencilla y que no afecte a la productividad. A continuación, nos centraremos específicamente en cómo puede proporcionar un acceso seguro al correo electrónico de su empresa y en cómo proteger los datos de la empresa que aparezcan en correos electrónicos y en archivos adjuntos mediante la solución de Microsoft Enterprise Mobility Suite.
 
+En esta sección se trata la arquitectura para proteger los documentos y correos electrónicos de la empresa. Consulte [Learn more about how to deploy a solution for protecting company email and documents](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) (Aprenda a implementar una solución para proteger los documentos y correos electrónicos de su empresa) para obtener instrucciones sobre cómo implementar una solución.
+
 > [!TIP]
 > Obtenga una copia descargable de este tema completo en la [Galería TechNet](https://gallery.technet.microsoft.com/Managing-Access-and-Help-b7a05d0d/file/140056/1/Managing%20Access%20and%20Help%20Protect%20Corporate%20Email%20Data%20on%20Mobile%20Devices.pdf).
 
-Los empleados quieren poder usar sus propios dispositivos para tener acceso a recursos y herramientas de productividad de la empresa. El departamento de TI debe asegurarse de que los empleados tienen esta capacidad, pero se protegen los datos confidenciales de la empresa. El paradigma BYOD, o [Bring Your Own Device](../Solutions/byod-design-considerations-guide.md), supone un desafío específico: separar los datos personales de los profesionales en dispositivos personales, además de evitar el hecho de compartir, de forma intencionada o involuntaria, datos de la empresa.
+Los empleados quieren poder usar sus propios dispositivos para tener acceso a recursos y herramientas de productividad de la empresa. El departamento de TI debe asegurarse de que los empleados tienen esta capacidad, pero se protegen los datos confidenciales de la empresa. El paradigma BYOD, o [Bring Your Own Device](byod-design-considerations-guide.md), supone un desafío específico: separar los datos personales de los profesionales en dispositivos personales, además de evitar el hecho de compartir, de forma intencionada o involuntaria, datos de la empresa.
 
-**Los estudios demuestran que:**
+**Los estudios han demostrado que:**
 
--   El 37 % de los recursos de todo el mundo son móviles.&#42;
+-   El 37 % de los recursos de todo el mundo son móviles.
 
--   El 53 % de todo el correo electrónico se abrió en un teléfono móvil o tableta en el tercer trimestre de 2014.&#42;&#42;
+-   El 53 % de todo el correo electrónico se abrió en un teléfono móvil o tableta en el tercer trimestre de 2014.
 
--   El 61 % de los trabajadores combina tareas personales y profesionales en sus dispositivos.&#42;&#42;&#42;
+-   El 61 % de los trabajadores combina tareas personales y profesionales en sus dispositivos.
 
 Considere lo siguiente:
 
@@ -82,38 +84,26 @@ La tercera capa es la de **administración de aplicaciones**, con el ecosistema 
 *Azure Rights Management (Azure RMS)* completa el modelo de seguridad al proteger los datos en el nivel de archivo. Las directivas de seguridad que se aplican a los datos viajan con los datos, ayudan a proteger los datos en tránsito y en dispositivos, independientemente del dispositivo que se use para acceder a ellos. Esta es la **capa de datos** del modelo de seguridad.
 
 ## Próximos pasos
-[Mire](https://www.youtube.com/watch?v=ltcZvm4VOFU) este vídeo para obtener información sobre cómo registrarse para obtener una cuenta de prueba y comenzar.
+- [Mire](https://www.youtube.com/watch?v=ltcZvm4VOFU) este vídeo para obtener información sobre cómo registrarse para obtener una cuenta de prueba y comenzar.
 
-Consulte la [Guía de consideraciones de diseño de administración de dispositivos móviles](../Solutions/mdm-design-considerations-guide.md) para comprender mejor los requisitos de diseño de la administración de dispositivos móviles.
+- Consulte la [Guía de consideraciones de diseño de administración de dispositivos móviles](mdm-design-considerations-guide.md) para comprender mejor los requisitos de diseño de la administración de dispositivos móviles.
 
-[Obtenga más información acerca de cómo implementar una solución para proteger los documentos y el correo electrónico de la empresa](../Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
+- También puede consultar [Learn more about how to deploy a solution for protecting company email and documents](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) (Aprenda a implementar una solución para proteger los documentos y correos electrónicos de su empresa).
 
-Notas al pie:
+Además, si quiere obtener más información sobre EMS y Azure Active Directory, puede obtener más información de cualquiera de estos artículos:
+- [Arquitectura de EMS](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)
 
-&#42; IDC: "Worldwide Mobile Worker Population 2011–2015 Forecast" (Previsión de población trabajadora mundial que utilizará la tecnología móvil entre 2011 y 2015)
+- [Qué es Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)
 
-&#42;&#42; Experian: informe trimestral de benchmark sobre el correo electrónico (tercer trimestre de 2014)
+- [¿Cómo admite Azure Active Directory Office 365, Microsoft Intune y otros servicios de Microsoft?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/#what-is-an-azure-ad-tenant)
 
-&#42;&#42;&#42; Forrester Research: "BT Futures Report: Info workers will erase boundary between enterprise &amp; consumer technologies" (Los trabajadores de la información suprimirán el límite entre las tecnologías empresariales y de consumo), 21 de febrero de 2013
+- [¿Cómo ayuda Azure Active Directory a administrar identidades?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/)
 
-### Véase también
-[Arquitectura de EMS](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)
+- [¿Qué es Azure Rights Management?](https://technet.microsoft.com/en-us/library/jj585026.aspx)
 
-[Introducción al uso de Intune](https://stage.docs.microsoft.com/en-us/intune/understand/introduction-to-microsoft-intune)
-
-[Qué es Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)
-
-[¿Cómo admite Azure Active Directory Office 365, Microsoft Intune y otros servicios de Microsoft?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/#what-is-an-azure-ad-tenant)
-
-[¿Cómo ayuda Azure Active Directory a administrar identidades?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/)
-
-[¿Qué es Azure Rights Management?](https://technet.microsoft.com/en-us/library/jj585026.aspx)
-
-[¿Cómo admiten las aplicaciones Azure Rights Management?](https://technet.microsoft.com/en-us/library/jj585004.aspx)
-
-[Protección automática de mensajes de correo electrónico con Exchange Online y directivas de prevención de pérdida de datos](https://technet.microsoft.com/en-us/library/jj585026.aspx#BKMK_Example_DLP)
+- [¿Cómo admiten las aplicaciones Azure Rights Management?](https://technet.microsoft.com/en-us/library/jj585004.aspx)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

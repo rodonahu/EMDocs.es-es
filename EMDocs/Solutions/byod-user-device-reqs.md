@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: 69020f79-4ce2-4984-b127-4520503fb729
+ms.assetid: a6319952-e9cd-4308-b9b9-b2e6005e6506
 
 # optional metadata
 
@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Requisitos de usuarios y dispositivos
 
-Antes de permitir que los usuarios accedan a los recursos de la compañía desde sus dispositivos, responda a las preguntas de las secciones siguientes. Para ello, colabore con los consumidores de estos recursos de su entorno y con el departamento de TI. En la ilustración 2, se muestran las interacciones entre usuarios y dispositivos, con el objetivo final de acceder a los datos y consumirlos. Tenga en cuenta que el diagrama no representa la ubicación geográfica. Aunque la ubicación geográfica es un aspecto importante (y se explicará más adelante en este documento), el propósito de la ilustración 2 es representar los componentes principales de los usuarios y los dispositivos. Para que se produzca esta comunicación, se deben tener en cuenta ciertas cuestiones de diseño.
+Antes de permitir que los usuarios accedan a los recursos de la compañía desde sus dispositivos, responda a las preguntas de las secciones siguientes. Para ello, colabore con los consumidores de estos recursos de su entorno y con el departamento de TI. En la figura siguiente, se muestran las interacciones entre usuarios y dispositivos, con el objetivo final de acceder a los datos y consumirlos. Tenga en cuenta que el diagrama no representa la ubicación geográfica. Aunque la ubicación geográfica es un aspecto importante (y se explicará más adelante en esta guía), el propósito de esta figura es representar los componentes principales de los usuarios y los dispositivos. Para que se produzca esta comunicación, se deben tener en cuenta ciertas cuestiones de diseño.
 
 ![Usuarios, dispositivos y datos](./media/BYOD_Figure2.png)
 
@@ -66,8 +66,15 @@ Los requisitos de usuarios y dispositivos se clasifican en tres áreas:
     - Si es así, ¿la lista actual de dispositivos compatibles admite el protocolo de cifrado que se usará?
 - ¿Aplican segmentación de red?
     - Si es así, ¿tendrá los dispositivos de todos los usuarios conectados a una red independiente para aislarlos de la red de producción?
+- Para las personas que trabajan desde casa, ¿cómo se conectarán los usuarios a la red (mediante red cableada, inalámbrica o ambas)?
+    - Si es de forma inalámbrica, ¿cómo pretende controlar la autenticación, autorización y contabilidad (AAA) de los dispositivos de forma que ningún dispositivo sin registrar o autorizar pueda usar los recursos de red sin un permiso adecuado?
+
+### Soporte técnico
+- ¿Está preparado su equipo de red o de seguridad para acomodar auditorías de cumplimiento de dispositivos regulares?
+- ¿Tiene procedimientos y directivas de administración de cambios en su lugar para admitir la implementación de BYOD?
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=May16_HO1-->
 
 

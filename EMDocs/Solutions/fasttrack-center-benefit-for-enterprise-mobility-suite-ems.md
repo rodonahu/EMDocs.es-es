@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)
+title: Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)
 description:
 keywords:
 author: 
@@ -11,11 +11,11 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
+ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 
 # optional metadata
 
-#ROBOTS:
+ROBOTS: noindex
 #audience:
 #ms.devlang:
 ms.reviewer: 
@@ -30,9 +30,9 @@ Puede usar el beneficio de servicio al adquirir un mínimo de 150 licencias para
 
 Este artículo proporciona detalles sobre la elegibilidad del plan y el servicio para el beneficio de servicio.
 
-Para obtener información acerca del proceso de incorporación, así como de los roles y responsabilidades, consulte [Proceso del beneficio del Centro de FastTrack para Intune](FastTrack-Center-Benefit-Process-for-Intune.md). Si le interesa la preparación de su entorno para otros servicios de Enterprise Mobility Suite, consulte [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite](FastTrack-Center-Benefit-for-Enterprise-Mobility-Suite.md).
+Para obtener información sobre el proceso de incorporación, así como de los roles y responsabilidades, consulte [FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS) (Proceso del beneficio del centro de FastTrack para Enterprise Mobility Suite (EMS))](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
 
-¿Quiere obtener información acerca de Microsoft FastTrack para Office 365? Consulte [Beneficio del centro de FastTrack para Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
+¿Quiere obtener información acerca de Microsoft FastTrack para Office 365? Consulte [Beneficio del centro de FastTrack para Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx)..
 
 ## Servicios elegibles
 Si adquiere cualquiera de los siguientes servicios de Microsoft Online Services a través de un plan apto, Microsoft le ayudará a incorporarlo y tratará de ponerse en contacto con usted para ofrecerle asistencia en este asunto. También puede solicitar asistencia desde el [Centro de FastTrack](http://fasttrack.microsoft.com/) si está listo para implementar estos servicios para su organización. Para solicitar asistencia, inicie sesión en el [Centro de FastTrack](http://fasttrack.microsoft.com/) (http://fasttrack.microsoft.com), vaya al panel, seleccione el nombre de su empresa, haga clic en la pestaña Offers (Ofertas) y, luego, en "Request Assistance for Microsoft Intune, Azure Active Directory Premium or Azure Rights Management Premium" (Solicitar asistencia para Microsoft Intune, Azure Active Directory Premium o Azure Rights Management Premium). Cuando empiece el soporte técnico de incorporación, configuraremos una programación de reuniones en línea.
@@ -51,6 +51,6 @@ Enterprise Mobility Suite o cualquiera de sus servicios en la nube que se incluy
 |Microsoft Azure RMS|Sí|
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

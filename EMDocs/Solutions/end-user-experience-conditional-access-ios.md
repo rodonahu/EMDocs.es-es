@@ -11,14 +11,14 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
+ms.assetid: 3c641ea8-2c0e-490e-b1de-831336f46d19
 
 # optional metadata
 
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -33,37 +33,37 @@ El proceso de inscripción y las pantallas que ve el usuario pueden variar liger
 
 1.  Si un usuario ya está inscrito en Intune y cumple las normas, no verá ninguna diferencia en los dispositivos iOS; seguirá pudiendo obtener acceso al correo electrónico. Si el usuario todavía no está inscrito, verá un mensaje de cuarentena similar al siguiente al iniciar la aplicación de correo electrónico:
 
-    ![](./media/EUX-iOS-Get-Started.PNG)
+    ![Captura de pantalla que muestra el correo electrónico de cuarentena que recibe un usuario en un dispositivo iOS](./media/ProtectEmail/EUX-iOS-Get-Started.PNG)
 
     El usuario hace clic en **Empezar ahora** para comenzar la inscripción del dispositivo.
 
 2.  Se pedirá al usuario que instale la aplicación Portal de empresa de Intune desde la tienda de aplicaciones correspondiente.
 
-    ![](./media/ProtectEmail/EUX-iOS-intune-Company-Portal.png)
+    ![Captura de pantalla que muestra el Portal de empresa de Intune en un dispositivo iOS](./media/ProtectEmail/EUX-iOS-intune-Company-Portal.png)
 
     Después, el usuario abre la aplicación e inicia la sesión con las credenciales de empresa.
 
 3.  En la pantalla Configuración de acceso a la empresa, el usuario hace clic en **Empezar** para iniciar la configuración de su dispositivo y comprobar si es compatible.
 
-    ![](./media/ProtectEmail/EUX-iOS-company-AccessSetup.png)
+    ![Captura de pantalla que muestra la pantalla Configuración de acceso a la empresa en un dispositivo iOS](./media/ProtectEmail/EUX-iOS-company-AccessSetup.png)
 
 4.  En la pantalla Inscripción de dispositivos, el usuario hace clic en **Inscripción** para iniciar la inscripción de su dispositivo.
 
-    ![](./media/ProtectEmail/EUX-iOS-device-Enrollment.png)
+    ![Captura de pantalla que muestra la pantalla Inscripción de dispositivos en un dispositivo iOS](./media/ProtectEmail/EUX-iOS-device-Enrollment.png)
 
     Durante la inscripción, se instala el perfil de administración de dispositivos móviles, que permite al administrador de TI administrar el dispositivo de forma remota. El usuario escribe su contraseña si se le solicita.
 
 5.  En la pantalla Configuración de acceso a la empresa, el usuario hace clic en **Continuar** para iniciar la comprobación de cumplimiento en el dispositivo.
 
-    ![](./media/ProtectEmail/EUX-iOS-device-Compliance-Check.png)
+    ![Captura de pantalla que muestra que la inscripción de dispositivos es correcta en un dispositivo iOS y que el usuario necesita comprobar el cumplimiento](./media/ProtectEmail/EUX-iOS-device-Compliance-Check.png)
 
     Si hay un problema de cumplimiento, se pedirá al usuario que resuelva el problema (por ejemplo, creando una contraseña válida) y que haga clic en **Comprobar cumplimiento** para continuar.
 
-    ![](./media/ProtectEmail/EUX-iOS-device-Compliance-Check.png)
+    ![Captura de pantalla que muestra que el usuario debe resolver los problemas de cumplimiento en un dispositivo iOS](./media/ProtectEmail/EUX-iOS-check-Compliance.png)
 
 6.  Cuando el dispositivo cumpla todas las normas, el usuario hará clic en **Continuar** para seguir.
 
-    ![](./media/ProtectEmail/EUX-iOS-compliance-Check-Completed.png)
+    ![Captura de pantalla que muestra que el dispositivo iOS es compatible y que se ha completado la configuración](./media/ProtectEmail/EUX-iOS-compliance-Check-Completed.png)
 
     Después de inscribir al usuario y de comprobar el cumplimiento, el acceso al correo electrónico debería estar disponible en cuestión de minutos.
 
@@ -82,24 +82,24 @@ Cada 8 horas, de forma predeterminada, se comprueban los dispositivos para garan
 
 2.  Si el usuario intenta obtener acceso al correo electrónico, se le redirige a la pantalla Configuración de acceso a la empresa desde el portal de empresa de Intune, donde se muestra la falta de cumplimiento.
 
-    ![](./media/ProtectEmail/EUX-iOS-fallOut-Compliance.png)
+    ![Captura de pantalla que muestra que el dispositivo iOS no es compatible](./media/ProtectEmail/EUX-iOS-fallOut-Compliance.png)
 
 3.  El usuario hace clic en **Continuar** y aparece el problema de cumplimiento que impide el acceso al correo electrónico.
 
-    ![](./media/ProtectEmail/EUX-iOS-check-Compliance.png)
+    ![Captura de pantalla que muestra que el usuario debe resolver los problemas de cumplimiento en un dispositivo iOS](./media/ProtectEmail/EUX-iOS-check-Compliance.png)
 
 4.  Una vez solucionado el problema, el usuario hace clic en **Comprobar cumplimiento** para comprobar que se ha resuelto el problema.
 
 5.  Si el problema está solucionado, el usuario hace clic en **Continuar** para completar el proceso.
 
-    ![](./media/ProtectEmail/EUX-iOS-compliance-Check-Completed.png)
+    ![Captura de pantalla que muestra que el dispositivo iOS es compatible y que se ha completado la configuración](./media/ProtectEmail/EUX-iOS-compliance-Check-Completed.png)
 
     El correo electrónico debería estar disponible de nuevo tras unos minutos.
 
 ### Próximos pasos
-La experiencia del usuario final es ligeramente diferente en otros dispositivos móviles. Puede obtener más información acerca de la experiencia del usuario final en [Android](../Solutions/end-user-experience-conditional-access-android.md) y [Windows Phone](../Solutions/end-user-experience-conditional-access-winphone.md).
+La experiencia del usuario final es ligeramente diferente en otros dispositivos móviles. Puede obtener más información sobre la experiencia del usuario final en [Android](end-user-experience-conditional-access-android.md) y [Windows Phone](end-user-experience-conditional-access-winphone.md).
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

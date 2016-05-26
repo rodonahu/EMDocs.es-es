@@ -18,7 +18,7 @@ ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -36,17 +36,17 @@ Una vez que el dispositivo se evalúa como inscrito y conforme a las normas, la 
 
 ## Android
 
-En [este tema](../Solutions/end-user-experience-conditional-access-android.md) se describe la experiencia de inscripción después de que se habilite el acceso condicional y de que un usuario final trate de acceder al correo electrónico en su dispositivo móvil Android,.
+En [este tema](end-user-experience-conditional-access-android.md) se describe la experiencia de inscripción después de que se habilite el acceso condicional y de que un usuario final trate de acceder al correo electrónico en su dispositivo móvil Android.
 
 ## iOS
 
-En [este tema](../Solutions/end-user-experience-conditional-access-ios.md) se describe la experiencia del usuario final después de que se habilite el acceso condicional y de que un usuario final trate de acceder al correo electrónico en su dispositivo móvil iOS.
+En [este tema](end-user-experience-conditional-access-ios.md) se describe la experiencia del usuario después de que se habilite el acceso condicional y de que un usuario final trate de acceder al correo electrónico en su dispositivo móvil iOS.
 
 ## Windows Phone
 
-En [este tema](../Solutions/end-user-experience-conditional-access-winphone.md) se describe la experiencia del usuario final después de que se habilite el acceso condicional y de que un usuario final trate de acceder al correo electrónico en su dispositivo móvil Windows Phone.
+En [este tema](end-user-experience-conditional-access-winphone.md) se describe la experiencia del usuario final después de que se habilite el acceso condicional y de que un usuario final trate de acceder al correo electrónico en su dispositivo móvil Windows Phone.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

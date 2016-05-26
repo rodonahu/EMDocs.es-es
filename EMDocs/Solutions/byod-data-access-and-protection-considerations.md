@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: fda1b678-a5f7-4207-a9bf-1aa9e24cf54d
+ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 
 # optional metadata
 
@@ -38,9 +38,9 @@ Con Windows Server 2012 R2, puede cifrar los datos en reposo en los dispositivos
 
 Si su concepto de almacenamiento es un contenedor de contenidos, la protección del consumo de ese contenido aportará gran valor. Se puede evitar la fuga de datos si se aplican directivas para regular la forma en que el usuario final va a usar el contenido almacenado. Se puede usar [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/library/hh831554.aspx) para intensificar la estrategia de seguridad de la empresa mediante la protección de los documentos que utilicen Information Rights Management (IRM). AD RMS permite a usuarios y administradores establecer permisos de acceso a documentos, libros y presentaciones a través de las directivas de IRM. Esto ayuda a impedir que personas no autorizadas impriman, reenvíen o copien la información confidencial. Una vez que se haya restringido el permiso para un archivo mediante IRM, se aplican las restricciones de acceso y uso independientemente de dónde se encuentre la información, ya que el permiso para un archivo se almacena en el propio archivo.
 
-Si desea implementar una solución basada en la nube en su empresa para proteger los archivos, también puede recurrir a [Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585026.aspx). Azure RMS puede proteger la información confidencial de la empresa mediante directivas de cifrado, identidad y autorización a fin de ayudar a garantizar la seguridad de los archivos y el correo electrónico. Asimismo, funciona en varios dispositivos: teléfonos, tabletas y PC. La información se mantendrá segura tanto dentro como fuera de la organización, ya que se conserva la protección de los datos, incluso cuando el usuario se sale de los límites de la empresa. 
+Si desea implementar una solución basada en la nube en su empresa para proteger los archivos, también puede recurrir a [Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585026.aspx). Azure Rights Management puede proteger la información confidencial de la empresa mediante directivas de cifrado, identidad y autorización para ayudar a garantizar la seguridad de los archivos y el correo electrónico. Además, funciona en varios dispositivos: teléfonos, tabletas y equipos PC. La información se mantendrá segura tanto dentro como fuera de la organización, ya que se conserva la protección de los datos, incluso cuando el usuario se sale de los límites de la empresa. 
 
-También se pueden usar otras tecnologías de almacenamiento que se incluyen en el sistema operativo Windows para mejorar la protección general de los datos, como BitLocker para el cifrado de unidades y el Sistema de cifrado de archivos (EFS) para el cifrado de estos. Use la siguiente tabla para ver las ventajas y los inconvenientes de la protección del almacenamiento. Tenga en cuenta que estas opciones no son mutuamente excluyentes. En otras palabras, la decisión que tome sobre el diseño podría conllevar la necesidad de usar todas estas opciones en la solución de infraestructura BYOD para la protección del almacenamiento.
+También se pueden usar otras tecnologías de almacenamiento que se incluyen en el sistema operativo Windows para mejorar la protección general de los datos, como BitLocker para el cifrado de unidades y el [Sistema de cifrado de archivos (EFS)](https://technet.microsoft.com/library/cc700811.aspx) para el cifrado de estos. Use la siguiente tabla para ver las ventajas y los inconvenientes de la protección del almacenamiento. Tenga en cuenta que estas opciones no son mutuamente excluyentes. En otras palabras, la decisión que tome sobre el diseño podría conllevar la necesidad de usar todas estas opciones en la solución de infraestructura BYOD para la protección del almacenamiento.
 
 ### Opciones de protección del almacenamiento: ventajas y desventajas
 
@@ -123,7 +123,7 @@ Mediante la siguiente lista, podrá conocer las consideraciones relacionadas con
     - Administración de claves: se debe realizar una copia de seguridad de la clave que se usa para cifrar el almacenamiento y debe disponer de un Key Recovery Agent, en caso de que se necesite.
     - Borrado remoto: se pueden eliminar de forma remota los datos ubicados en los dispositivos de los usuarios, en caso de que sea necesario.
 
-Windows Server 2012 R2 permite el uso de [HTTPS](https://msdn.microsoft.com/library/aa767735(v=vs.85).aspx) para publicar recursos con el [Proxy de aplicación web](https://technet.microsoft.com/library/dn280944.aspx) para proteger los datos mientras se transmiten por la red. También se puede cifrar la comunicación entre los servidores back-end con [IPsec](https://technet.microsoft.com/library/cc757613(v=ws.10).aspx) o el [cifrado SMB](http://support.microsoft.com/kb/2709568) si el tráfico de red se basa exclusivamente en el [protocolo SMB](https://technet.microsoft.com/library/hh831795.aspx). Use la siguiente tabla para evaluar qué opción de protección de red se adapta mejor a los requisitos de diseño para la comunicación del servidor back-end.
+Windows Server 2012 R2 permite el uso de [HTTPS](https://msdn.microsoft.com/library/aa767735.aspx) para publicar recursos con el [Proxy de aplicación web](https://technet.microsoft.com/library/dn280944.aspx) para proteger los datos mientras se transmiten por la red. También se puede cifrar la comunicación entre los servidores back-end con [IPsec](https://technet.microsoft.com/library/cc757613.aspx) o el [cifrado SMB](http://support.microsoft.com/kb/2709568) si el tráfico de red se basa exclusivamente en el [protocolo SMB](https://technet.microsoft.com/library/hh831795.aspx). Use la siguiente tabla para evaluar qué opción de protección de red se adapta mejor a los requisitos de diseño para la comunicación del servidor back-end.
 
 Recurra a la siguiente sección para valorar qué opción de protección de red se adapta mejor a los requisitos de diseño relativos a la comunicación del servidor back-end.
 
@@ -208,7 +208,7 @@ Los entornos híbridos en los que los usuarios necesiten disponer de conectivida
 - Sincronización de directorios con sincronización de contraseñas: mediante DirSync con [sincronización de hash de contraseñas](https://technet.microsoft.com/library/dn246918.aspx) entre AD DS y Azure AD.
 - Autenticación federada con inicio de sesión único: los atributos de usuario se sincronizan mediante DirSync. La autenticación se devuelve mediante federación (AD FS) y se completa según AD DS.
 
-Cuando se usa el servicio de registro de dispositivos en Windows 8.1, se instala un certificado en el dispositivo del usuario y se crea un registro de este en AD DS con el número de huella digital del certificado. Este vínculo entre el dispositivo y el usuario permite al departamento de TI realizar un seguimiento de los dispositivos que registra cada usuario. Esta funcionalidad no requiere una PKI de empresa.
+Cuando se usa el servicio de registro de dispositivos en Windows 8.1, se instala un certificado en el dispositivo del usuario y se crea un registro de este en AD DS con el número de huella digital del certificado. Este vínculo entre el dispositivo y el usuario permite al departamento de TI realizar un seguimiento de los dispositivos que registra cada usuario. Esta funcionalidad no requiere una PKI de empresa. El registro de dispositivos también está disponible en Azure AD para Windows 10. Lea [Introducción al Registro de dispositivos de Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-conditional-access-device-registration-overview/) para obtener más información sobre el registro de dispositivos con Azure AD y Windows 10.
 
 ## Autenticación y autorización
 
@@ -220,11 +220,11 @@ La decisión de permitir a los usuarios tener acceso a aplicaciones y datos desd
 
 La autenticación y la autorización se controlan mediante AD FS en conexión con AD DS. Los datos en tránsito del centro de datos también usarán el protocolo HTTPS cuando se establezca la conexión con el rol de servidor de archivos y servicios de autenticación.
 
-Para aplicar la autenticación multifactor, las empresas pueden utilizar las funciones integradas en AD FS o la autenticación activa de Microsoft Azure (anteriormente denominada "PhoneFactor"). Si se usa esta función de Microsoft Azure, el departamento de TI podrá aplicar la autenticación multifactor a los usuarios que tengan acceso a activos de la empresa a través de una extranet. Para obtener más información sobre la autenticación multifactor, consulte [Administración de riesgos con la autenticación multifactor adicional para aplicaciones confidenciales](https://technet.microsoft.com/library/dn280949.aspx).
+Para aplicar Multi-Factor Authentication, las empresas pueden usar las capacidades integradas en AD FS o usar [Azure Multi-Factor Authentication (MFA)](https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/). Si se usa esta capacidad en Azure, el departamento de TI podrá aplicar la autenticación multifactor a los usuarios que tengan acceso a recursos de la empresa desde Internet. Para obtener más información sobre la autenticación multifactor, consulte [Administración de riesgos con la autenticación multifactor adicional para aplicaciones confidenciales](https://technet.microsoft.com/library/dn280949.aspx).
 
 Para aplicar la autorización por aplicación a los usuarios que tengan acceso a las aplicaciones desde una red interna o externa, el departamento de TI puede usar el Proxy de aplicación web. Con el Proxy de aplicación web, el departamento de TI puede crear reglas específicas para aplicar la autenticación y autorización junto con AD FS. La publicación del Proxy de aplicación web funciona en cualquier dispositivo de usuario; los usuarios pueden usar sus equipos portátiles, tabletas o smartphones personales. Además, no será necesario que los usuarios instalen ningún software adicional en sus dispositivos para tener acceso a las aplicaciones publicadas. El Proxy de aplicación web se usa como un proxy inverso para las aplicaciones publicadas a través de él y, como tal, la experiencia del usuario es la misma que si los dispositivos de los usuarios estuvieran directamente conectados a las aplicaciones. Para obtener más información sobre el Proxy de aplicación web, consulte la [Guía de tutorial de proxy de aplicación web](https://technet.microsoft.com/library/dn280944.aspx).
 
-> AZURE. NOTA: Si se encuentra en un escenario híbrido y necesita tener una experiencia perfecta de autenticación y autorización de usuarios, lea la guía [Consideraciones de diseño de identidad híbrida de Azure Active Directory](http://aka.ms/azhidcg).
+>[!NOTE] Si se encuentra en un escenario híbrido y necesita tener una experiencia perfecta de autenticación y autorización de usuarios, lea la guía [Consideraciones de diseño de identidad híbrida de Azure Active Directory](http://aka.ms/azhidcg).
 
 ## Directiva y cumplimiento
 
@@ -255,6 +255,6 @@ Con las capacidades del control de acceso dinámico, puede identificar datos med
 El control de acceso dinámico, una función del rol de servidor de archivos, confiere al departamento de TI las funcionalidades que se describen en la tabla anterior. Para obtener más información acerca del Control de acceso dinámico, consulte [Control de acceso dinámico: Información general sobre el escenario](https://technet.microsoft.com/library/hh831717.aspx).
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 
