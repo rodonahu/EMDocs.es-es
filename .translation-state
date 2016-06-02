@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "365467f059901daa36560f89d325163c325c7aab",
-  "LastTranslatedCommit": "4838f4783eae34db8e65d85ae1e626d4119275d0",
+  "LastTranslatedCommit": "a0b0a2ff67f88357d707d90e4589947faaad1660",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
       "FileHash": "da63fda594055f3647cc04e6954675a9558776db",
@@ -27722,14 +27722,14 @@
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
-      "TargetFileCommit": null,
-      "TargetFilePath": null,
-      "HandbackFilePath": null,
-      "HandbackFileCommit": null,
-      "HandbackDateTime": "0001-01-01T00:00:00",
+      "TargetFileCommit": "a0b0a2ff67f88357d707d90e4589947faaad1660",
+      "TargetFilePath": "EMDocs\\index.md",
+      "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.es-es\\master\\index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf",
+      "HandbackFileCommit": "5e24397b2c0be9c0db90877c089ab3c155169b1a",
+      "HandbackDateTime": "2016-06-02T23:22:30.2857822Z",
       "HandbackException": null,
       "HandbackFailureTimes": 0,
-      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "UpdatedDateTime": "2016-06-02T23:22:30.2857822Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.es-es\\master\\archive\\index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf",
       "ArchiveFileCommit": "e7aa19ebbdb52fad4060f64d3864ddaa6441dea0",
       "ArchiveFileDateTime": "2016-06-02T00:21:19.5701297Z",

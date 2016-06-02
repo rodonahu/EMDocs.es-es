@@ -9,8 +9,8 @@
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 1
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 24
-[ In Sync Handback Files ](#insync-handback-success-list)| 113
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 23
+[ In Sync Handback Files ](#insync-handback-success-list)| 114
 [ Ignored Files ](#ignored-list)| 137
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -143,7 +143,6 @@
  [contributor-guide\article-metadata.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/article-metadata.md) | OutofSyncHandedBackSuccess | [Details](#bd870713d29cfef3d07c2650bd0ba668fe94a52e5)
  [contributor-guide\content-channel-guidance.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/content-channel-guidance.md) | OutofSyncHandedBackSuccess | [Details](#ba1e846d4ce3029f3315fbbc381bf45544e010607)
  [contributor-guide\custom-markdown-extensions.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/custom-markdown-extensions.md) | OutofSyncHandedBackSuccess | [Details](#c274ae4daf071245387599772945067b03dd9d8210)
- [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/a29d18916f0fc449a71170c62039ab3ff9079ff2/EMDocs/index.md) | OutofSyncHandedBackSuccess | [Details](#fcbba5fdad7470d36e6d0fff0b6671060a33e06e59)
  [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-phases.md](https://github.com/Microsoft/EMDocs-pr/blob/901c43b6d4a96e1403b5ebd7c53720f39c231dd5/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-phases.md) | OutofSyncHandedBackSuccess | [Details](#a85f0c8c0513c1cce7a4b817de0cdbbd9ff32cc191)
  [EMDocs\Solutions\mdm-application-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-application-management-options.md) | OutofSyncHandedBackSuccess | [Details](#2d8c4371a06ab1e006083f91f814028573b46141101)
  [EMDocs\Solutions\mdm-certificate-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-certificate-management-options.md) | OutofSyncHandedBackSuccess | [Details](#d00421d4d27d8d8ed5efd29a82ccb9b115802611103)
@@ -176,6 +175,7 @@
  [contributor-guide\style-and-voice.md](https://github.com/Microsoft/EMDocs-pr/blob/faf6d07bb4d61ce1dc28b1ca15aa7b298e74074b/contributor-guide/style-and-voice.md) | InSyncHandedBackSuccess | [Details](#887b1294b2e63998084a5598858aad0c4469cd6d42)
  [contributor-guide\tools-and-setup.md](https://github.com/Microsoft/EMDocs-pr/blob/faf6d07bb4d61ce1dc28b1ca15aa7b298e74074b/contributor-guide/tools-and-setup.md) | InSyncHandedBackSuccess | [Details](#24edd27bbe1280c3401eaa78e6ed88d1758d82f243)
  [contributor-guide\work-with-git.md](https://github.com/Microsoft/EMDocs-pr/blob/faf6d07bb4d61ce1dc28b1ca15aa7b298e74074b/contributor-guide/work-with-git.md) | InSyncHandedBackSuccess | [Details](#66931315b777c7f7659088ca00eea24db16b8e4f44)
+ [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/a29d18916f0fc449a71170c62039ab3ff9079ff2/EMDocs/index.md) | InSyncHandedBackSuccess | [Details](#fcbba5fdad7470d36e6d0fff0b6671060a33e06e59)
  [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md) | InSyncHandedBackSuccess | [Details](#aaf8e9c07d87798d4945ff3156ac8425a49b1d3961)
  [EMDocs\Solutions\byod-app-considerations.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/byod-app-considerations.md) | InSyncHandedBackSuccess | [Details](#8bbc91330f63b38b7f9b9c0578385701a4293edb62)
  [EMDocs\Solutions\byod-app-reqs.md](https://github.com/Microsoft/EMDocs-pr/blob/7585b9924aabd63114657a99552af9b3e47b0a80/EMDocs/Solutions/byod-app-reqs.md) | InSyncHandedBackSuccess | [Details](#a6a4a73495776c85a5288791a835d065460a928e63)
@@ -1161,18 +1161,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='fcbba5fdad7470d36e6d0fff0b6671060a33e06e59'></a> Source: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/a29d18916f0fc449a71170c62039ab3ff9079ff2/EMDocs/index.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/a0b0a2ff67f88357d707d90e4589947faaad1660/EMDocs/index.md)
 * Handoff File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/31de55242e7668649ba169098a62c065d2e6e382/ol-handoff/Microsoft/EMDocs-pr.es-es/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf)
 * Handoff Datetime: 2016-05-27 17:54:32
 * Handoff Reason: Include
 * Archive File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e7aa19ebbdb52fad4060f64d3864ddaa6441dea0/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf)
 * Archive Datetime: 2016-06-02 00:21:19
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/4838f4783eae34db8e65d85ae1e626d4119275d0/EMDocs/index.md)
-* Current Handback File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/93136f93d41a0abc86b5315a0303e3f2419533ef/ol-handback/Microsoft/EMDocs-pr.es-es/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf)
-* Current Handback Datetime: 2016-05-27 13:04:04
+* Handback File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/5e24397b2c0be9c0db90877c089ab3c155169b1a/ol-handback/Microsoft/EMDocs-pr.es-es/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf)
+* Handback Datetime: 2016-06-02 23:22:30
 * [Back to Top](#report-top)
 
 ##### <a name='755db60abb7859af5065e2c5ddfbfc6cfb7aeeda60'></a> Source: [EMDocs\md.style](https://github.com/Microsoft/EMDocs-pr/blob/365467f059901daa36560f89d325163c325c7aab/EMDocs/md.style)
