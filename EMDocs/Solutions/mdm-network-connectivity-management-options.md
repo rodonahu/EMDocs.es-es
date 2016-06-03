@@ -4,9 +4,9 @@
 title: Opciones de administración de conectividad de red
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -36,7 +36,7 @@ Mediante [Intune](/Intune/deployuse/wi-fi-connections-in-microsoft-intune) o una
 
 [Intune](/Intune/deployuse/vpn-connections-in-microsoft-intune) y [Configuration Manager](https://technet.microsoft.com/library/dn261217.aspx) también pueden implementar perfiles de VPN directamente en dispositivos móviles para que el usuario pueda obtener acceso a recursos corporativos internos sin un trabajo manual o una configuración adicionales. Además, Intune puede configurar dispositivos móviles para iniciar automáticamente una conexión VPN basada en el recurso de tipo o el método de acceso. Sin embargo, tenga en cuenta que existen distintos requisitos de configuración para hacer esto en diferentes tipos de sistemas operativos de dispositivos móviles.
 
-Las respuestas a las preguntas en Tarea 3 pueden ayudarle a determinar cómo desea que los dispositivos se conecten a recursos corporativos. Tenga en cuenta que en estos momentos <token>MDM para Office 365</token> no admite la administración inalámbrica y recursos de red VPN para dispositivos móviles.
+Las respuestas a las preguntas en Tarea 3 pueden ayudarle a determinar cómo desea que los dispositivos se conecten a recursos corporativos. Tenga en cuenta que, actualmente, <token>MDM para Office 365</token> no admite la administración inalámbrica y recursos de red VPN para dispositivos móviles.
 
 La lista siguiente enumera las ventajas y desventajas de la administración inalámbrica y las redes VPN con implementaciones independientes de Intune e híbridas de Intune con Configuration Manager.
 
@@ -77,6 +77,6 @@ Explore los detalles acerca de las opciones de administración de la configuraci
 - Intune: habilitación de perfiles [VPN](/Intune/deployuse/vpn-connections-in-microsoft-intune) e [inalámbricos](/Intune/deployuse/wi-fi-connections-in-microsoft-intune)
 - Configuration Manager: habilitación de perfiles [VPN](https://technet.microsoft.com/library/dn261217.aspx) e [inalámbricos](https://technet.microsoft.com/library/dn261221.aspx)
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

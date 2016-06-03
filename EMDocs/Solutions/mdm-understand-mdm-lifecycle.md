@@ -4,9 +4,9 @@
 title: El ciclo de vida de MDM
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -93,7 +93,7 @@ La administración de dispositivos móviles normalmente implica varias áreas ad
 - **Inventario e informes:** al administrar dispositivos móviles, deseará registrar y analizar los eventos de plataforma y dispositivos móviles para realizar un seguimiento del cumplimiento con las directivas de administración de su organización. Los informes detallados pueden también proporcionar datos y estadísticas en tiempo real para que pueda tomar con mayor rapidez mejores decisiones basadas en el estado de los dispositivos móviles y los usuarios de dispositivos móviles. Se incluye más información acerca del inventario y los informes en una sección posterior.
 
 ### Preguntas de planeación de administración de dispositivos
-Por ahora, céntrese únicamente en los aspectos clave de administración mientras siga definiendo los requisitos. Puede ajustar estos requisitos a medida que itera su plan y comprende mejor las necesidades generales de su organización.</para><para>Responda a las siguientes preguntas de planificación acerca de la administración de dispositivos:
+Por ahora, céntrese únicamente en los aspectos clave de administración mientras siga definiendo los requisitos. Puede ajustar estos requisitos a medida que itera su plan y comprende mejor las necesidades generales de su organización.</para><para>Responda a las siguientes preguntas de planeación acerca de la administración de dispositivos:
 
 - ¿Necesita directivas de administración específicas aplicadas a grupos de usuarios, grupos de dispositivos o grupos de sistemas operativos de dispositivos?
 - ¿Necesita las directivas de administración específicas para diferentes tipos de dispositivos? ¿Por ejemplo, separar las directivas para dispositivos propiedad del usuario o de la empresa, o dispositivos móviles y dispositivos que no son móviles?
@@ -144,6 +144,6 @@ Responda a las siguientes preguntas de planeación sobre la cancelación de insc
 >[!TIP]
 >Asegúrese de que toma las notas de cada respuesta y de que comprende la lógica subyacente en la respuesta. Más adelante, las tareas tratarán las opciones disponibles, y las ventajas y desventajas de cada opción.  Responder a estas preguntas le ayudará a seleccionar la opción que mejor se adapte a sus necesidades empresariales.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

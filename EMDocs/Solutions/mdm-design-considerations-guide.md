@@ -4,9 +4,9 @@
 title: Guía de las consideraciones de diseño de administración de dispositivos móviles
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -69,6 +69,6 @@ Desarrollará el diseño de administración de dispositivos móviles que mejor s
 Obtenga una copia descargable de toda esta guía en la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

@@ -4,9 +4,9 @@
 title: Determinación de los requisitos de red
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -30,7 +30,7 @@ ms.suite: ems
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-La habilitación de acceso administrado seguro a una amplia variedad de recursos corporativos mediante dispositivos móviles es una característica importante de una solución de administración de dispositivos móviles. Aunque estos recursos normalmente se encuentran en redes locales, es más frecuente ahora que los recursos se hospeden además en redes externas y servicios web basados en la nube.</para><para>La forma en la que los dispositivos móviles se conectan a plataformas de correo electrónico corporativas, redes privadas virtuales (VPN) y redes inalámbricas corporativas (Wi-Fi) tiene un papel importante en la conservación de los datos corporativos y otros recursos protegidos del acceso no autorizado. Igualmente importante es conseguir que sea conveniente y fácil para que los usuarios de dispositivos móviles tengan acceso seguro a estos recursos para evitar que los usuarios encuentren un método más conveniente pero no seguro de almacenar recursos u obtener acceso a ellos.</para></content>
+La habilitación de acceso administrado seguro a una amplia variedad de recursos corporativos mediante dispositivos móviles es una característica importante de una solución de administración de dispositivos móviles. Aunque estos recursos normalmente se encuentran en redes locales, ahroa es más frecuente que los recursos se hospeden además en redes externas y servicios web basados en la nube.</para><para>La forma en la que los dispositivos móviles se conectan a plataformas de correo electrónico corporativas, redes privadas virtuales (VPN) y redes inalámbricas corporativas (Wi-Fi) tiene un papel importante en la conservación de los datos corporativos y otros recursos protegidos del acceso no autorizado. Igualmente importante es conseguir que sea conveniente y fácil para que los usuarios de dispositivos móviles tengan acceso seguro a estos recursos para evitar que los usuarios encuentren un método más conveniente pero no seguro de almacenar recursos u obtener acceso a ellos.</para></content>
 
 
 ## Administración de correo electrónico
@@ -115,6 +115,6 @@ Responda a las siguientes preguntas de planificación de la administración de c
 >[!TIP]
 >Asegúrese de que toma las notas de cada respuesta y de que comprende la lógica subyacente en la respuesta. Más adelante, las tareas tratarán las opciones disponibles, y las ventajas y desventajas de cada opción.  Responder a estas preguntas le ayudará a seleccionar la opción que mejor se adapte a sus necesidades empresariales.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

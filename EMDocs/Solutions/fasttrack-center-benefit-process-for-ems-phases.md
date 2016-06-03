@@ -28,7 +28,7 @@ ms.suite: ems
 # Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (fases)
 Cuando se usa [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) con el fin de preparar Azure Active Directory Premium, Microsoft Intune o Azure Rights Management para su uso, el proceso constará de varias fases. En las secciones siguientes se describe cada fase del proceso de incorporación.
 
-Para obtener información sobre las otras partes del proceso de incorporación de FastTrack, consulte [FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS) (Proceso del beneficio del centro de FastTrack para Enterprise Mobility Suite (EMS))](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
+Para obtener información sobre las otras partes del proceso de incorporación de FastTrack, consulte [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 La incorporación tiene cuatro fases principales, tal y como se muestra en la ilustración siguiente:
@@ -83,7 +83,7 @@ El programa de instalación de Azure Active Directory Premium incluye las siguie
 
 -   Azure Multi-Factor Authentication (MFA).
 
--   Aplicación de software como servicio (SaaS): configurar una aplicación de SaaS desde [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)..
+-   Aplicación de software como servicio (SaaS): configurar una aplicación de SaaS desde [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
 -   Administración de grupos de autoservicio (SSGM)
 
@@ -107,8 +107,7 @@ En el caso de Microsoft Intune, y según el dispositivo móvil y las necesidades
 
     -   Si tiene una implementación existente de System Center Configuration Manager y desea para ampliar sus capacidades de administración con Microsoft Intune, establezca Configuration Manager como entidad de MDM.
 
-        > [!NOTE]
-        > Si solo desea sacar partido de la administración de aplicaciones móviles en dispositivos de propiedad, en dispositivos compartidos o en dispositivos de tipo quiosco de sus usuarios finales, no es necesario configurar ninguna entidad de MDM.
+        > [!NOTE] Si solo desea sacar partido de la administración de aplicaciones móviles en dispositivos de propiedad, en dispositivos compartidos o en dispositivos de tipo quiosco de sus usuarios finales, no es necesario configurar ninguna entidad de MDM.
 
 -   Si la administración de dispositivos móviles está incluida, le ofreceremos instrucciones para lo siguiente:
 
@@ -120,7 +119,7 @@ En el caso de Microsoft Intune, y según el dispositivo móvil y las necesidades
 
         -   Directivas de acceso condicional.
 
-        -   Implementación de perfiles de correo electrónico.
+        -   Implementación de correo electrónico, Wi-Fi y perfiles de VPN.
 
         -   Configurar Microsoft Intune Exchange Connector, si corresponde.
 
@@ -167,10 +166,10 @@ El programa de instalación de Azure RMS incluye la habilitación de las siguien
 Lea sobre la siguiente parte del proceso de incorporación de FastTrack: [Responsabilidades de Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md).
 
 ### ¿Desea obtener más información?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)..
+Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO5-->
+<!--HONumber=May16_HO4-->
 
 
