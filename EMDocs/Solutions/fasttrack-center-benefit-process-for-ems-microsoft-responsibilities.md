@@ -4,8 +4,8 @@
 title: Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (responsabilidades de Microsoft)
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -28,7 +28,7 @@ ms.suite: ems
 # Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (responsabilidades de Microsoft)
 En las siguientes secciones se describen lo que puede esperarse de Microsoft cuando se usa [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) con el fin de preparar Azure Active Directory Premium, Microsoft Intune o Azure Rights Management para su uso.
 
-Para obtener información sobre las otras partes del proceso de incorporación de FastTrack, consulte [FastTrack Center Benefit Process for Enterprise Mobility Suite (EMS) (Proceso del beneficio del centro de FastTrack para Enterprise Mobility Suite (EMS))](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
+Para obtener información sobre las otras partes del proceso de incorporación de FastTrack, consulte [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 ## General
@@ -86,13 +86,11 @@ Proporcionar instrucciones sobre:
 
     -   Configurar la sincronización de contraseña (hash de contraseña) para Microsoft Intune (Azure Active Directory) con la herramienta Azure Active Directory Connect.
 
-        > [!NOTE]
-        > El desarrollo y la implementación de extensiones de reglas personalizadas están fuera del ámbito.
+        > [!NOTE] El desarrollo y la implementación de extensiones de reglas personalizadas están fuera del ámbito.
 
 -   Para un bosque único cuando el destino son identidades federadas: Instalar y configurar los Servicios de federación de Active Directory (AD FS) para la autenticación de dominio local con Microsoft Intune en una configuración de sitio único con tolerancia a errores, si es necesario.
 
-    > [!NOTE]
-    > Para todas las configuraciones de bosques múltiples, las implementaciones de AD FS están fuera del ámbito.
+    > [!NOTE] Para todas las configuraciones de bosques múltiples, las implementaciones de AD FS están fuera del ámbito.
 
 -   Probar la función de inicio de sesión único (SSO) si está implementada.
 
@@ -242,10 +240,10 @@ Proporcionar instrucciones sobre las acciones siguientes:
 Lea sobre la siguiente parte del proceso de incorporación de FastTrack: [Responsabilidades del cliente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md).
 
 ### ¿Desea obtener más información?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)..
+Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

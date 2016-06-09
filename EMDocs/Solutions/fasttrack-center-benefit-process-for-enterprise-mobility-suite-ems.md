@@ -4,8 +4,8 @@
 title: Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)
-Si su organización puede disfrutar del beneficio de incorporación y migración a Microsoft FastTrack para EMS, puede trabajar de forma remota con los especialistas de Microsoft con el fin de preparar Azure Active Directory Premium, Microsoft Intune o Azure Rights Management para su uso. Para saber si su organización es apta, consulte [Beneficio del centro de FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)..
+Si su organización puede disfrutar del beneficio de incorporación y migración a Microsoft FastTrack para EMS, puede trabajar de forma remota con los especialistas de Microsoft con el fin de preparar Azure Active Directory Premium, Microsoft Intune o Azure Rights Management para su uso. Para saber si su organización es apta, consulte [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
 
 Los elementos que componen el proceso de beneficio de incorporación y migración a Microsoft FastTrack son los siguientes: 
@@ -60,10 +60,10 @@ Esto es lo que puede esperar cuando se complete la incorporación:
 Lea sobre la siguiente parte del proceso de incorporación de FastTrack: [Información general del proceso de incorporación](fasttrack-center-benefit-process-for-ems-overview.md).
 
 ### ¿Desea obtener más información?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)..
+Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

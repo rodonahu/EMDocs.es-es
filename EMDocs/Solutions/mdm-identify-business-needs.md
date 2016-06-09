@@ -30,8 +30,18 @@ ms.suite: ems
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Cada empresa tendrá requisitos diferentes. Aunque estas empresas forman parte del mismo sector, los requisitos empresariales reales pueden variar. Puede seguir aprovechando las prácticas recomendadas del sector, pero en última instancia, serán las necesidades empresariales de la compañía las que identificarán los requisitos para la solución de administración de dispositivos móviles. 
-Para ayudar a identificar las necesidades del negocio, responda a las preguntas siguientes:
+Cada empresa tendrá requisitos diferentes. Aunque estas empresas forman parte del mismo sector, los requisitos empresariales reales pueden variar. Puede seguir aprovechando las prácticas recomendadas del sector, pero en última instancia, serán las necesidades empresariales de la compañía las que identificarán los requisitos para la solución de administración de dispositivos móviles. Para ayudar a identificar las necesidades del negocio, responda a las preguntas siguientes:
+
+- **Usuario:** uno de los puntos principales en la adopción de la movilidad es poner al usuario en el centro de la solución de movilidad y permitir que el usuario sea más productivo, a la vez que hace que los datos de la compañía sigan siendo seguros y estén disponibles. Esto es importante para comprender cuáles son los requisitos del usuario.
+    - ¿El usuario podrá traer su propio dispositivo y obtener acceso a los recursos de la compañía?
+        - En caso afirmativo, ¿cuáles son los requisitos para obtener acceso a los recursos de la empresa?
+    - ¿Su empresa tiene necesidades de usuario distintas?
+        - En caso afirmativo, ¿cómo el perfil de cada usuario afecta a la estrategia de movilidad?
+    - ¿Los usuarios podrán disponer de acceso a todas las aplicaciones a las tienen acceso en el entorno local a través del dispositivo móvil?
+        - Si no es así, ¿qué aplicaciones estarán disponibles para los usuarios?
+            - ¿Las aplicaciones estarán disponibles para todas las plataformas de dispositivos móviles compatibles?
+            - ¿Será necesario modificar o actualizar las aplicaciones para poder ejecutarlas en todas las plataformas de dispositivos móviles compatibles?
+    - ¿Los usuarios solo necesitan acceso básico a las características de correo electrónico (incluido el calendario, los contactos y las tareas)?
 
 - **Propiedad del dispositivo:** debe entender la directiva de la propiedad de dispositivos para su compañía.
     - ¿A quién pertenece el dispositivo móvil? 
@@ -69,16 +79,6 @@ Para ayudar a identificar las necesidades del negocio, responda a las preguntas 
     - ¿Las aplicaciones funcionan en redes de latencia baja? 
     - ¿Las aplicaciones proporcionan funcionalidades de autenticación?
         - Si lo hacen, ¿qué método de autenticación usan las aplicaciones?
-- **Usuario:** uno de los puntos principales en la adopción de la movilidad es poner al usuario en el centro de la solución de movilidad y permitir que el usuario sea más productivo, a la vez que hace que los datos de la compañía sigan siendo seguros y estén disponibles. Esto es importante para comprender cuáles son los requisitos del usuario.
-    - ¿El usuario podrá traer su propio dispositivo y obtener acceso a los recursos de la compañía?
-        - En caso afirmativo, ¿cuáles son los requisitos para obtener acceso a los recursos de la empresa?
-    - ¿Su empresa tiene necesidades de usuario distintas?
-        - En caso afirmativo, ¿cómo el perfil de cada usuario afecta a la estrategia de movilidad?
-    - ¿Los usuarios podrán disponer de acceso a todas las aplicaciones a las tienen acceso en el entorno local a través del dispositivo móvil?
-        - Si no es así, ¿qué aplicaciones estarán disponibles para los usuarios?
-            - ¿Las aplicaciones estarán disponibles para todas las plataformas de dispositivos móviles compatibles?
-            - ¿Será necesario modificar o actualizar las aplicaciones para poder ejecutarlas en todas las plataformas de dispositivos móviles compatibles?
-    - ¿Los usuarios solo necesitan acceso básico a las características de correo electrónico (incluido el calendario, los contactos y las tareas)?
 
 Durante esta tarea, también debe evaluar si la empresa tiene directivas de cumplimiento y de administración existentes en su lugar para dispositivos móviles y cómo estas directivas pueden afectar a la selección de soluciones de administración de dispositivos móviles.
 
@@ -87,6 +87,6 @@ Durante esta tarea, también debe evaluar si la empresa tiene directivas de cump
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 
