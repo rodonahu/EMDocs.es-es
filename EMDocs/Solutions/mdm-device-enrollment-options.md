@@ -4,9 +4,9 @@
 title: Opciones de inscripción de dispositivos
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -35,7 +35,7 @@ Para inscribir dispositivos en Microsoft Intune, de forma independiente o cuando
 
 Intune independiente debe configurarse para definir la solución de entidad de administración de dispositivos móviles, que puede ser Intune o una infraestructura de Configuration Manager local. Esto significa simplemente "qué plataforma de administración desea utilizar para administrar dispositivos con inscripción a Intune *o* Configuration Manager?" Es *muy importante entender* el [impacto de elegir la mejor opción](/Intune/deployuse/enroll-devices-in-microsoft-intune) para su organización, ya que la solución de administración no puede modificarse fácilmente una vez elegida. Si necesita cambiar esta configuración más adelante, tendrá que ponerse en contacto con el soporte técnico de Microsoft para obtener ayuda. Para los inquilinos de Office 365, puede designar y cambiar la entidad de MDM de forma más sencilla entre Intune y MDM para Office 365. Puede cambiar fácilmente la entidad de administración de nivel de usuario cambiando la asignación de licencias de un usuario. 
 
-Para la mayoría de las organizaciones que ya utilicen Configuration Manager para administrar PC, servidores y otros dispositivos, conectar la solución local a Intune y los dispositivos de administración a Configuration Manager suele ser la mejor opción. Para asignar la entidad de administración de dispositivos móviles en Configuration Manager, podrá crear una [suscripción a Intune desde la consola de Configuration Manager](https://technet.microsoft.com/library/jj884158.aspx) y seleccionar la opción para permitir que Configuration Manager administre los dispositivos con inscripción de Intune y la suscripción a Intune.
+Para la mayoría de las organizaciones que ya utilicen Configuration Manager para administrar PC, servidores y otros dispositivos, conectar la solución local a Intune y los dispositivos de administración a Configuration Manager suele ser la mejor opción. Para asignar la entidad de administración de dispositivos móviles a Configuration Manager, hay que crear una [suscripción a Intune](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0) y seleccionar la opción para permitir que Configuration Manager administre los dispositivos con inscripción de Intune y la suscripción a Intune. La suscripción a Intune también se puede crear [desde la consola de Configuration Manager](https://technet.microsoft.com/library/jj884158.aspx).
 
 Además, para poder inscribir ciertos tipos de dispositivos móviles que ejecutan diferentes tipos de sistemas operativos móviles, necesitará preparar el servicio de Intune o MDM para Office 365 con requisitos específicos de configuración. Por ejemplo, si va a inscribir dispositivos basados en Apple iOS, necesitará **[configurar Intune con un certificado de servicio de notificación de inserción de Apple (APN)](https://technet.microsoft.com/library/dn408185.aspx)** antes de la inscripción de dispositivos basados en iOS. Si esto no está configurado, Intune no puede comunicarse con el servicio APN y los dispositivos basados en iOS. Los dispositivos móviles que ejecutan los sistemas operativos **[Android](https://technet.microsoft.com/library/dn764960.aspx)** o **[Windows Phone](https://technet.microsoft.com/library/dn764959.aspx)** tienen requisitos de inscripción independientes.
 
@@ -50,6 +50,6 @@ Las respuestas a las preguntas del paso 1 le ayudarán a decidir cómo desea que
 
 Puede que su organización desee permitir estos escenarios de inscripción adoptando un enfoque flexible para permitir diferentes métodos para distintos departamentos o situaciones. Si es así, la solución de administración de dispositivos móviles debe poder admitir ambos escenarios.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 
