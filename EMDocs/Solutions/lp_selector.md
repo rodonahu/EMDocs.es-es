@@ -30,8 +30,8 @@ Don't think we need the H1, so I've removed it here, strictly for testing purpos
 Aquí vemos un selector unidireccional:
 
 > [AZURE.SELECTOR]
-- [Opción de selector 1](lp-selector1.md)
-- [Opción de selector 2](lp-selector2.md)
+-[Opción de selector 1](lp-selector1.md)
+-[Opción de selector 2](lp-selector2.md)
 
 En el caso de que usemos el método Azure.
 
