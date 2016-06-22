@@ -1,35 +1,19 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 2
+ Total Files | 1
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/a9ae0934634698b9ada222ca504dd679ec7781ef/EMDocs/index.md) | OutofSyncHandedBackSuccess | [Details](#7cb0d05c95806bee4d19c90f6c38d08c931e0dbc59)
- [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/8893ddb8f09304aaefc783fad33d4acc30ce4552/EMDocs/Solutions/TOC.md) | OutofSyncHandedBackSuccess | [Details](#77114eff6ea58fb6903b3a1c47bc508b211d4ce3329)
+ [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/ce67c35911ce822c9e34a97e83b13d86c307a7ad/EMDocs/Solutions/TOC.md) | OutofSyncHandedBackSuccess | [Details](#4ec52ecc73c4e76f3712050e37dbe42205b1f693329)
 
 ## Item Details
-##### <a name='7cb0d05c95806bee4d19c90f6c38d08c931e0dbc59'></a> Source: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/a9ae0934634698b9ada222ca504dd679ec7781ef/EMDocs/index.md)
+##### <a name='4ec52ecc73c4e76f3712050e37dbe42205b1f693329'></a> Source: [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/ce67c35911ce822c9e34a97e83b13d86c307a7ad/EMDocs/Solutions/TOC.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/8668e177e6955fee5e1d6e0267daef7c346e8f12/ol-handoff/Microsoft/EMDocs-pr.es-es/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf)
-* Handoff Datetime: 2016-06-22 00:46:22
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/a0b0a2ff67f88357d707d90e4589947faaad1660/EMDocs/index.md)
-* Current Handback File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/5e24397b2c0be9c0db90877c089ab3c155169b1a/ol-handback/Microsoft/EMDocs-pr.es-es/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.es-es.xlf)
-* Current Handback Datetime: 2016-06-02 23:22:30
-* [Back to Top](#report-top)
-
-##### <a name='77114eff6ea58fb6903b3a1c47bc508b211d4ce3329'></a> Source: [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/8893ddb8f09304aaefc783fad33d4acc30ce4552/EMDocs/Solutions/TOC.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
-* Handoff File: [TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/8668e177e6955fee5e1d6e0267daef7c346e8f12/ol-handoff/Microsoft/EMDocs-pr.es-es/master/TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.es-es.xlf)
-* Handoff Datetime: 2016-06-22 00:46:22
+* Handoff File: [TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/1aee7048e96a74f047645bf654b765950a2a6076/ol-handoff/Microsoft/EMDocs-pr.es-es/master/TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.es-es.xlf)
+* Handoff Datetime: 2016-06-22 03:17:10
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
