@@ -1608,14 +1608,14 @@
 
 ##### <a name='77f50da8a7dfc5a6fae15fa4c3eecab61caa99ab98'></a> Source: [EMDocs\Solutions\lp_selector.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/lp_selector.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [EMDocs\Solutions\lp_selector.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/e7225b363730ca851875b89f2c7c1a3aaff5f2e0/EMDocs/Solutions/lp_selector.md)
+* Target File: [EMDocs\Solutions\lp_selector.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/f9e96f76a8f69a6450556d87ac515c2e3c49b844/EMDocs/Solutions/lp_selector.md)
 * Handoff File: [lp_selector.cf7d857eaf192407759c89cd575c1c61115bb292.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/4f8bcb03dcccb7c7328961b7f78d72dcb788883b/ol-handoff/Microsoft/EMDocs-pr.es-es/master/lp_selector.cf7d857eaf192407759c89cd575c1c61115bb292.es-es.xlf)
 * Handoff Datetime: 2016-04-13 23:39:31
 * Handoff Reason: Include
 * Archive File: [lp_selector.cf7d857eaf192407759c89cd575c1c61115bb292.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/252b6abecd1dcd57a1e610446ca4880a5473ecef/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/lp_selector.cf7d857eaf192407759c89cd575c1c61115bb292.es-es.xlf)
 * Archive Datetime: 2016-04-15 08:24:26
-* Handback File: [lp_selector.cf7d857eaf192407759c89cd575c1c61115bb292.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/0345723092acfc10a0ffbe5534b127d9c6f776e1/ol-handback/Microsoft/EMDocs-pr.es-es/master/lp_selector.cf7d857eaf192407759c89cd575c1c61115bb292.es-es.xlf)
-* Handback Datetime: 2016-05-03 10:14:29
+* Handback File: [lp_selector.cf7d857eaf192407759c89cd575c1c61115bb292.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/4780ce37858f7ba631925e3af27e3a877a41c80f/ol-handback/Microsoft/EMDocs-pr.es-es/master/lp_selector.cf7d857eaf192407759c89cd575c1c61115bb292.es-es.xlf)
+* Handback Datetime: 2016-06-22 21:51:14
 * [Back to Top](#report-top)
 
 ##### <a name='09287f291cab2a6e4474751c8e59d6a76c0ccaec96'></a> Source: [EMDocs\Solutions\lp-selector1.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/lp-selector1.md)
