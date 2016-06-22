@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Paso 1: Identificación de los requisitos de administración de dispositivos móviles
+title: "Paso 1: Identificación de los requisitos de administración de dispositivos móviles"
 description:
 keywords:
 author: YuriDio

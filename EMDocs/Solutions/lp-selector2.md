@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Opción 2: cómo crear selectores
+title: "Opción 2: cómo crear selectores"
 description:
 keywords:
 author: 

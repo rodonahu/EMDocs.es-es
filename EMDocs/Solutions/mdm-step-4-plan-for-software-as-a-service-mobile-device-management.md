@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Paso 4: Plan de administración de dispositivo móvil de software como servicio
+title: "Paso 4: Plan de administración de dispositivo móvil de software como servicio"
 description:
 keywords:
 author: robmazz

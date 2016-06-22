@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Paso 2: Plan de administración de dispositivos móviles
+title: "Paso 2: Plan de administración de dispositivos móviles"
 description:
 keywords:
 author: robmazz
