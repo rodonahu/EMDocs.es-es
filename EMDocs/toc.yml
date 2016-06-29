@@ -18,7 +18,7 @@
       - name: API de gráficos de AD
         href: /azure-ad-graph-api/api/
         homepage: /azure-ad-graph-api/api/api-catalog
-  - name: Multi-Factor Authentication,
+  - name: Multi-Factor Authentication
     href: /multi-factor-authentication/
     homepage: /multi-factor-authentication
   - name: Advanced Threat Analytics
