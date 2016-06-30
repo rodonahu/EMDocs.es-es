@@ -1,27 +1,20 @@
 ---
-# required metadata
-
 title: Pasos siguientes y recursos adicionales
-description:
-keywords:
-author: robmazz
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: eb38d461-bfb0-407c-a5e6-94fa728a86d6
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: 453de29d00e5fef9ac210059ea62e07f16f4998a
+
 
 ---
 
@@ -61,6 +54,7 @@ La supervisión de los siguientes recursos proporciona las noticias y actualizac
 - [Blog](http://blogs.office.com/office365forbusiness/) de Microsoft Office 365
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO1-->
 
 

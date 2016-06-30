@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Opciones de administración de dispositivos
-description:
-keywords:
-author: robmazz
+title: "Opciones de administración de dispositivos"
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: a25f7407-92a0-4588-b5f7-a7bad9cdd070
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: ce1d66225043cafdfb0b7658b288e8e7855c24a1
+
 
 ---
 
@@ -101,6 +94,7 @@ Las respuestas a las preguntas del paso 1 pueden ayudarle a determinar cómo des
 - Actualmente no se admiten los perfiles de VPN y correo electrónico para dispositivos Android
 - Los exploradores administrados no son compatibles actualmente
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO1-->
 
 

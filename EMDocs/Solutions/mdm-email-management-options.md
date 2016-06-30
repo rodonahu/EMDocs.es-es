@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Opciones de administración de correo electrónico
-description:
-keywords:
-author: robmazz
+title: "Opciones de administración de correo electrónico"
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 9b89da63-039f-4831-b204-28c0681478fe
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: 208b478068e7757673edb76ff6f21b488c4559e2
+
 
 ---
 
@@ -92,6 +85,7 @@ Explore los detalles acerca de las opciones de administración de la configuraci
 - Configuration Manager: habilitación de [perfiles de correo electrónico](https://technet.microsoft.com/library/dn554227.aspx) y [acceso a correo electrónico condicional](https://technet.microsoft.com/library/dn919655.aspx)
 - MDM para Office 365: [funcionalidades de administración de dispositivos móviles](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx)
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO1-->
 
 
