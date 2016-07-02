@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: ac136523-8089-409b-b74d-2d4c0ce399d4
 ms.reviewer: 
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
 ms.openlocfilehash: 3a387d8e83431f5fd3fdd4e7466323f2d768edf1
 
@@ -58,6 +59,6 @@ Responda a las siguientes preguntas de planificación sobre la supervisión de d
 
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jul16_HO1-->
 
 
