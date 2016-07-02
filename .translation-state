@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "7188a091b71f192b148493beaba95e276cd93db1",
-  "LastTranslatedCommit": "9db4d0b212084fa54b58379528002a36d9e450bf",
+  "LastTranslatedCommit": "c5818c6101286740db725fb3f2106addc6a123f3",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
       "FileHash": "da63fda594055f3647cc04e6954675a9558776db",
@@ -26019,7 +26019,7 @@
       "TargetFilePath": "EMDocs\\Solutions\\lp-selector1.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.es-es\\master\\lp-selector1.8693de3b6853e05ac4ce4a70e5fdcab83c864107.es-es.xlf",
       "HandbackFileCommit": "40c8a41782d41fdbb03701923efd61b69c669687",
-      "HandbackDateTime": "2016-07-02T11:56:25.141378Z",
+      "HandbackDateTime": "2016-07-02T12:14:02.952655Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\d2bba5\\ol-handback\\Microsoft\\EMDocs-pr.es-es\\master\\lp-selector1.8693de3b6853e05ac4ce4a70e5fdcab83c864107.es-es.xlf failed.",
@@ -26029,7 +26029,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 3,
+      "HandbackFailureTimes": 4,
       "UpdatedDateTime": "2016-06-22T08:49:18.8948948Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.es-es\\master\\archive\\lp-selector1.8693de3b6853e05ac4ce4a70e5fdcab83c864107.es-es.xlf",
       "ArchiveFileCommit": "731a16fddf3e47ce0d74153bc51124e28844eeed",
@@ -26062,7 +26062,7 @@
       "TargetFilePath": "EMDocs\\Solutions\\lp-selector2.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.es-es\\master\\lp-selector2.72641c76e259d1ef2fb769e328fe20f73fe287b2.es-es.xlf",
       "HandbackFileCommit": "40c8a41782d41fdbb03701923efd61b69c669687",
-      "HandbackDateTime": "2016-07-02T11:56:25.141378Z",
+      "HandbackDateTime": "2016-07-02T12:14:02.952655Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\d2bba5\\ol-handback\\Microsoft\\EMDocs-pr.es-es\\master\\lp-selector2.72641c76e259d1ef2fb769e328fe20f73fe287b2.es-es.xlf failed.",
@@ -26072,7 +26072,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 1,
+      "HandbackFailureTimes": 2,
       "UpdatedDateTime": "2016-06-22T08:49:18.8948948Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.es-es\\master\\archive\\lp-selector2.72641c76e259d1ef2fb769e328fe20f73fe287b2.es-es.xlf",
       "ArchiveFileCommit": "731a16fddf3e47ce0d74153bc51124e28844eeed",
@@ -33316,7 +33316,7 @@
       "TargetFilePath": "EMDocs\\Solutions\\fasttrack-center-benefit-process-for-ems-your-responsibilities.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.es-es\\master\\fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.es-es.xlf",
       "HandbackFileCommit": "40c8a41782d41fdbb03701923efd61b69c669687",
-      "HandbackDateTime": "2016-07-02T11:56:25.141378Z",
+      "HandbackDateTime": "2016-07-02T12:14:02.952655Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\d2bba5\\ol-handback\\Microsoft\\EMDocs-pr.es-es\\master\\fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.es-es.xlf failed.",
@@ -33326,7 +33326,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 5,
+      "HandbackFailureTimes": 1,
       "UpdatedDateTime": "2016-06-22T08:49:18.8948948Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.es-es\\master\\archive\\fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.es-es.xlf",
       "ArchiveFileCommit": "731a16fddf3e47ce0d74153bc51124e28844eeed",
@@ -34269,7 +34269,7 @@
       "TargetFilePath": null,
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
-      "HandbackDateTime": "2016-07-02T11:56:25.141378Z",
+      "HandbackDateTime": "2016-07-02T12:14:02.952655Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\d2bba5\\ol-handback\\Microsoft\\EMDocs-pr.es-es\\master\\mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.es-es.xlf failed.",
@@ -34279,7 +34279,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 3,
+      "HandbackFailureTimes": 4,
       "UpdatedDateTime": "0001-01-01T00:00:00",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.es-es\\master\\archive\\mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.es-es.xlf",
       "ArchiveFileCommit": "731a16fddf3e47ce0d74153bc51124e28844eeed",
