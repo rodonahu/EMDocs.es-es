@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Protección de los datos adjuntos de correo electrónico de la empresa
-description:
-keywords:
+title: "Protección de los datos adjuntos de correo electrónico de la empresa"
+description: 
+keywords: 
 author: karthikaraman
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 0bf455c24808f6dec237acb20150dd6bf129be70
+
 
 ---
 
@@ -76,6 +70,7 @@ Los usuarios finales pueden instalar aplicaciones administradas y usarlas para h
 Ahora que sabe cómo [proteger documentos y correo electrónico corporativos](protect-corporate-email-documents.md), así como datos adjuntos de correo, puede conocer cómo [implementar una solución para proteger el correo electrónico empresarial](implement-solution.md).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

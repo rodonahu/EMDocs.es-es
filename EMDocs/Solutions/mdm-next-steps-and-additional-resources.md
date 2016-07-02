@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: eb38d461-bfb0-407c-a5e6-94fa728a86d6
 ms.reviewer: 
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
 ms.openlocfilehash: 453de29d00e5fef9ac210059ea62e07f16f4998a
 
@@ -55,6 +56,6 @@ La supervisión de los siguientes recursos proporciona las noticias y actualizac
 
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jul16_HO1-->
 
 

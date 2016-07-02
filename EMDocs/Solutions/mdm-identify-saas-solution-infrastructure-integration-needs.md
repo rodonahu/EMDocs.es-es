@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Identificación de necesidades de integración de infraestructura de soluciones de SaaS
-description:
-keywords:
+title: "Identificación de necesidades de integración de infraestructura de soluciones de SaaS"
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 26b15471-b496-4404-934d-67e621655bca
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: 7e43f590182e6a2eacfa60114290848de0b24baa
+
 
 ---
 
@@ -83,6 +77,7 @@ Como parte de la planificación del ciclo de vida de administración de SaaS, qu
 >[!TIP]
 >Asegúrese de que toma las notas de cada respuesta y de que comprende la lógica subyacente en la respuesta. Más adelante, las tareas tratarán las opciones disponibles, y las ventajas y desventajas de cada opción.  Responder a estas preguntas le ayudará a seleccionar la opción que mejor se adapte a sus necesidades empresariales.
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 
