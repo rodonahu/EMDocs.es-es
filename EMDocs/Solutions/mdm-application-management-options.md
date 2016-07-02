@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: 1f77eba2-8e27-4e08-b2f2-e71e3d776cf4
 ms.reviewer: 
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
 ms.openlocfilehash: 2d8c4371a06ab1e006083f91f814028573b46141
 
@@ -71,6 +72,6 @@ Según como haya respondido a las preguntas del paso 1, podrá determinar cómo 
 Obtenga información sobre las opciones de administración de aplicaciones móviles revisando el siguiente artículo de Intune y Configuration Manager: Proteger datos mediante las directivas de administración de aplicaciones móviles con Microsoft Intune. Además, no se olvide de consultar la lista de aplicaciones de Microsoft que se pueden utilizar con las directivas MAM de Intune, así como de expandir la lista de aplicaciones para socios compatibles de Intune.
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jul16_HO1-->
 
 
