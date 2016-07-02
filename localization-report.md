@@ -1676,7 +1676,7 @@
 * Archive File: [lp-selector2.72641c76e259d1ef2fb769e328fe20f73fe287b2.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/731a16fddf3e47ce0d74153bc51124e28844eeed/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/lp-selector2.72641c76e259d1ef2fb769e328fe20f73fe287b2.es-es.xlf)
 * Archive Datetime: 2016-07-02 00:35:44
 * Handback File: [lp-selector2.72641c76e259d1ef2fb769e328fe20f73fe287b2.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/40c8a41782d41fdbb03701923efd61b69c669687/ol-handback/Microsoft/EMDocs-pr.es-es/master/lp-selector2.72641c76e259d1ef2fb769e328fe20f73fe287b2.es-es.xlf)
-* Handback Datetime: 2016-07-02 13:51:48
+* Handback Datetime: 2016-07-02 14:11:53
 * Handback Error: [handback_transform_failed](#669c4652255c8fd5c27dfd4a7822032c922efb8b98handback_transform_failed)
 * [Back to Top](#report-top)
 
