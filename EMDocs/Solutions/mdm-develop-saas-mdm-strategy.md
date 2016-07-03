@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: b3cefcc5-b045-48f9-91f5-6d282a4428f3
 ms.reviewer: 
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
 ms.openlocfilehash: 91d1498db006b387ff524b2b26c715c3a109dd8a
 
@@ -75,6 +76,6 @@ Asegúrese de leer el artículo **[Ayude a proteger sus datos mediante la elimin
 Para obtener más información sobre los requisitos y la funcionalidad de la solución de SaaS, asegúrese de revisar el tema de **[descripción del servicio de Microsoft Intune](https://technet.microsoft.com/library/dn600286.aspx)** para comprender las diferencias en la compatibilidad de SaaS en [MDM para Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) y en una infraestructura [híbrida](https://technet.microsoft.com/library/jj884158.aspx) de Intune y Configuration Manager.
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jul16_HO1-->
 
 

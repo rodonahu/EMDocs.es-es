@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (responsabilidades de Microsoft)
-description:
-keywords:
+title: "Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (responsabilidades de Microsoft)"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
-
-# optional metadata
-
 ROBOTS: noindex
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
+ms.openlocfilehash: 59710c77266e9c20697012208bba5ee468ee0f38
+
 
 ---
 
@@ -86,11 +81,13 @@ Proporcionar instrucciones sobre:
 
     -   Configurar la sincronización de contraseña (hash de contraseña) para Microsoft Intune (Azure Active Directory) con la herramienta Azure Active Directory Connect.
 
-        > [!NOTE] El desarrollo y la implementación de extensiones de reglas personalizadas están fuera del ámbito.
+        > [!NOTE]
+        > El desarrollo y la implementación de extensiones de reglas personalizadas están fuera del ámbito.
 
 -   Para un bosque único cuando el destino son identidades federadas: Instalar y configurar los Servicios de federación de Active Directory (AD FS) para la autenticación de dominio local con Microsoft Intune en una configuración de sitio único con tolerancia a errores, si es necesario.
 
-    > [!NOTE] Para todas las configuraciones de bosques múltiples, las implementaciones de AD FS están fuera del ámbito.
+    > [!NOTE]
+    > Para todas las configuraciones de bosques múltiples, las implementaciones de AD FS están fuera del ámbito.
 
 -   Probar la función de inicio de sesión único (SSO) si está implementada.
 
@@ -244,6 +241,7 @@ Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-clou
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 
