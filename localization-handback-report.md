@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [EMDocs\Token\Exchange-Server.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Exchange-Server.md) | InSyncHandedBackSuccess | [Details](#2b98e4c7aae845f9956bf33d20e43e64c65ad420347)
 
 ## Item Details
+##### <a name='2b98e4c7aae845f9956bf33d20e43e64c65ad420347'></a> Source: [EMDocs\Token\Exchange-Server.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Exchange-Server.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Token\Exchange-Server.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/2cfff2eb2a52313881c970f3986dc1479411c1d5/EMDocs/Token/Exchange-Server.md)
+* Handoff File: [Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e826e8af5e879727c60fc4ed263f1cb39dad756c/ol-handoff/Microsoft/EMDocs-pr.es-es/master/Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf)
+* Handoff Datetime: 2016-06-27 09:01:45
+* Handoff Reason: Include
+* Archive File: [Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/731a16fddf3e47ce0d74153bc51124e28844eeed/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf)
+* Archive Datetime: 2016-07-02 00:35:44
+* Handback File: [Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/910ac476e3ce2cbe8d7a0f1a66653c331fff3f01/ol-handback/Microsoft/EMDocs-pr.es-es/master/Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf)
+* Handback Datetime: 2016-07-04 07:37:05
+* [Back to Top](#report-top)
+
 
 ## Error Details
 

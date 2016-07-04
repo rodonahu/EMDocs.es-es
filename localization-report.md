@@ -9,8 +9,8 @@
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 4
 [ Handback Failed Files ](#handback-failed-list)| 2
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 34
-[ In Sync Handback Files ](#insync-handback-success-list)| 104
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 33
+[ In Sync Handback Files ](#insync-handback-success-list)| 105
 [ Ignored Files ](#ignored-list)| 137
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -179,7 +179,6 @@
  [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/276a4ee6ceab6b39b9add2ea844cdf03f142a253/EMDocs/Solutions/TOC.md) | OutofSyncHandedBackSuccess | [Details](#76e6b60c50ea6e5ebedafe077a514e2b036d194b333)
  [EMDocs\termsofuse.md](https://github.com/Microsoft/EMDocs-pr/blob/195a57b5904e2036fc897da494019b056c114b2d/EMDocs/termsofuse.md) | OutofSyncHandedBackSuccess | [Details](#ae000d09469946c1915e8bbf110f5d099e91ca9e335)
  [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/34c2f8b1d1f7a0e7cfcba60d1ae0bf2e0ecb0928/EMDocs/toc.yml) | OutofSyncHandedBackSuccess | [Details](#ae46ff9126927568c56af9864c05ea72b72e1241336)
- [EMDocs\Token\Exchange-Server.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Exchange-Server.md) | OutofSyncHandedBackSuccess | [Details](#2b98e4c7aae845f9956bf33d20e43e64c65ad420347)
 
 ## <a name='insync-handback-success-list'></a> In Sync Handback File Success List
  Source File | Status | Details 
@@ -250,6 +249,7 @@
  [EMDocs\Token\Enterprise-Mobility-Suite.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Enterprise-Mobility-Suite.md) | InSyncHandedBackSuccess | [Details](#1fe6bc72d74d229e8038b7b36594fab56bb625e0344)
  [EMDocs\Token\Exchange-ActiveSync.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Exchange-ActiveSync.md) | InSyncHandedBackSuccess | [Details](#16655d996d7298629c509995ab18340ecb757ec1345)
  [EMDocs\Token\Exchange-Online.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Exchange-Online.md) | InSyncHandedBackSuccess | [Details](#95240fe3663a8528d52f509601141f5651e66f82346)
+ [EMDocs\Token\Exchange-Server.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Exchange-Server.md) | InSyncHandedBackSuccess | [Details](#2b98e4c7aae845f9956bf33d20e43e64c65ad420347)
  [EMDocs\Token\Intune.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Intune.md) | InSyncHandedBackSuccess | [Details](#eb4b64a8db5b5bb2eea586ca46d0c3f6da4eac88348)
  [EMDocs\Token\katal_1.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/katal_1.md) | InSyncHandedBackSuccess | [Details](#059ec37acdba4a524a92bf32910587d844cd9fdc349)
  [EMDocs\Token\katal_2.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/katal_2.md) | InSyncHandedBackSuccess | [Details](#5d9c8d7573dc2aa65775428e755b351a8d84de17350)
@@ -4776,15 +4776,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='2b98e4c7aae845f9956bf33d20e43e64c65ad420347'></a> Source: [EMDocs\Token\Exchange-Server.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Exchange-Server.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [EMDocs\Token\Exchange-Server.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/74d5d4ef7fa4b1d79653a126859680f4d07d1d6f/EMDocs/Token/Exchange-Server.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Token\Exchange-Server.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/2cfff2eb2a52313881c970f3986dc1479411c1d5/EMDocs/Token/Exchange-Server.md)
 * Handoff File: [Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/e826e8af5e879727c60fc4ed263f1cb39dad756c/ol-handoff/Microsoft/EMDocs-pr.es-es/master/Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf)
 * Handoff Datetime: 2016-06-27 09:01:45
 * Handoff Reason: Include
 * Archive File: [Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf](https://github.com/Microsoft/EM.handoff/blob/731a16fddf3e47ce0d74153bc51124e28844eeed/ol-handoff/Microsoft/EMDocs-pr.es-es/master/archive/Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf)
 * Archive Datetime: 2016-07-02 00:35:44
-* Handback File: [Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/be5399a2993a7c0dff819bbfd0a74ea5e9156477/ol-handback/Microsoft/EMDocs-pr.es-es/master/Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf)
-* Handback Datetime: 2016-04-19 01:02:54
+* Handback File: [Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/910ac476e3ce2cbe8d7a0f1a66653c331fff3f01/ol-handback/Microsoft/EMDocs-pr.es-es/master/Exchange-Server.5506dedeeda88cc0c82087a0e6c8f474edbabec0.es-es.xlf)
+* Handback Datetime: 2016-07-04 07:37:05
 * [Back to Top](#report-top)
 
 ##### <a name='eb4b64a8db5b5bb2eea586ca46d0c3f6da4eac88348'></a> Source: [EMDocs\Token\Intune.md](https://github.com/Microsoft/EMDocs-pr/blob/3fdf6bb63a581a4602819485c82dd3789c0b4eeb/EMDocs/Token/Intune.md)
