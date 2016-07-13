@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Desarrollo de los requisitos de respuesta a incidentes
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 1072858e-dc0a-44ad-a512-d938f20310b6
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: bfeb1fd4cceacf225093d3a5c2d808ebeb21c825
+
 
 ---
 
@@ -40,7 +34,7 @@ Puede usar el cifrado de disco completo o según los datos que administre una ap
 
 Windows 10 Mobile usa el cifrado de dispositivo, que está basado en la tecnología de BitLocker, para cifrar todo el almacenamiento interno, incluido el sistema operativo y las particiones de almacenamiento de datos. El usuario puede activar el cifrado de dispositivo, o bien el departamento de TI puede activar y forzar el cifrado para dispositivos administrados por la empresa a través de herramientas MDM. Cuando se activa el cifrado de dispositivo, todos los datos almacenados en el teléfono se cifran automáticamente. Un dispositivo Windows 10 Mobile que tenga activado el cifrado ayuda a proteger la confidencialidad de los datos almacenados si el dispositivo se roba o pierde. Lea la guía de seguridad de Windows 10 Mobile para obtener más información.
 
->[!TIP] Para obtener más información sobre los dispositivos móviles que pueden tener el cifrado habilitado mediante Configuration Manager, lea [Configuración de compatibilidad para dispositivos móviles en Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx).
+>[!TIP] Para más información sobre los dispositivos móviles en los que se puede habilitar el cifrado mediante Configuration Manager, lea [Configuración general para dispositivos móviles en Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx).
 
 En el caso de aplicaciones que están asociadas a una directiva de administración de aplicaciones móviles de Intune, Microsoft proporciona el cifrado. Los datos se cifran de forma sincrónica durante las operaciones de E/S de archivos según la configuración de la directiva de administración de aplicaciones móviles. En dispositivos Android, las aplicaciones administradas usan el cifrado de AES-128 en el modo de encadenamiento de bloques de cifrado (CBC) utilizando las bibliotecas de criptografía de la plataforma, que no cuentan con una certificación FIPS 140-2. 
 
@@ -86,6 +80,7 @@ La mayoría de soluciones MDM utilizan SSL para proteger los datos en tránsito,
 Para obtener más información sobre cómo combinar funcionalidades de Intune y Configuration Manager para mejorar la protección de datos y configurar el cifrado, lea [Managing Encryption on Mobile Devices with Configuration Manager and Intune](http://blogs.technet.com/b/pauljones/archive/2014/08/04/managing-encryption-on-mobile-devices-with-configuration-manager-and-intune.aspx) (Administración del cifrado en dispositivos móviles con Configuration Manager e Intune).
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
