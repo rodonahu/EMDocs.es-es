@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Consideraciones sobre las aplicaciones
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 95eeb4decc5408d9f4f22cbb44f5bccc14968fb3
+ms.openlocfilehash: 4c9422a04ac855b8e1b97445e7f84685be0dba77
+
 
 ---
 
@@ -234,7 +228,7 @@ Se ha mejorado la experiencia de almacenamiento de VDI en Windows Server 2012 R2
 
 Para obtener más información sobre VDI en Windows Server 2012 R2, consulte [Novedades en los Servicios de Escritorio remoto de Windows Server 2012 R2](https://technet.microsoft.com/library/dn283323.aspx).
 
-La decisión de elegir la implementación de aplicación y la experiencia que se usarán para el diseño de la infraestructura BYOD debe equilibrarse con el costo total de propiedad (TCO). A fin de comprender mejor el TCO de la adopción de VDI, se recomienda la lectura de [VDI TCO Analysis for Office Worker Environments](http://download.microsoft.com/download/7/9/A/79AAA903-25B4-4D76-8580-BC47D5700433/Microsoft VDI TCO whitepaper customer ready v1 2.pdf) (Análisis de TCO de VDI para entornos de trabajo).
+La decisión de elegir la implementación de aplicación y la experiencia que se usarán para el diseño de la infraestructura BYOD debe equilibrarse con el costo total de propiedad (TCO). Para comprender mejor el TCO de la adopción de VDI, se recomienda leer [VDI TCO Analysis for Office Worker Environments (Análisis del TCO de VDI para entornos de trabajo de Office)](http://www.intel.in/content/www/in/en/data-center-efficiency/data-center-efficiency-vdi-tco-analysis-for-office-worker-environments-report.html).
 
 ## Seguridad
 
@@ -243,6 +237,7 @@ Plantéese usar un ciclo de vida de desarrollo de seguridad para todas las aplic
 Las consideraciones de seguridad son importantes para las aplicaciones que usarán los usuarios con sus propios dispositivos. Se recomienda que use colecciones personalizadas en función de los grupos de seguridad de Active Directory para limitar los usuarios de destino para algunas aplicaciones con requisitos de acceso específicos, limitando los usuarios que pueden instalarlas. También se puede aprovechar la seguridad para mejorar la experiencia de los usuarios permitiéndoles acceder a los recursos corporativos con el mismo nombre de usuario y contraseña, algo que se puede conseguir mediante AD FS. La seguridad también es importante al diseñar la implementación para estas aplicaciones. Debe adquirir e implementar certificados y claves de instalación de prueba para poder habilitar la inscripción del usuario. Trabaje conjuntamente con otros equipos para optimizar el proceso de certificación de aplicaciones.
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

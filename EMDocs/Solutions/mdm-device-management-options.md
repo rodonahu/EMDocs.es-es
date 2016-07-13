@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: a25f7407-92a0-4588-b5f7-a7bad9cdd070
 ms.reviewer: 
 ms.suite: ems
-ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
-ms.openlocfilehash: ce1d66225043cafdfb0b7658b288e8e7855c24a1
+translationtype: Human Translation
+ms.sourcegitcommit: ef523f44cd9d51e59fc8d94bbb8d7aa388120945
+ms.openlocfilehash: 3393393abd35b0f61e371325c3e15f67123599f6
 
 
 ---
@@ -36,7 +37,7 @@ Administración de dispositivos móviles con centros de Intune y Configuration M
  2. Creación de [líneas base de configuración](https://technet.microsoft.com/library/gg712268.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT)
  3. Implementación de las [líneas base de configuración](https://technet.microsoft.com/library/hh219289.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT) a colecciones de usuario o dispositivo de Configuration Manager
 
-- **Directivas de acceso condicional**: las directivas de acceso condicional definen cómo se administra el acceso al correo electrónico y se pueden utilizar por separado o junto con directivas de cumplimiento. Las conexiones a su servicio de Exchange Server o Exchange Online locales deben estar configuradas en [Intune](/Intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune) o en [Configuration Manager](https://technet.microsoft.com/library/dn919655.aspx) para que las directivas de acceso condicional puedan implementarse. También puede configurarse el acceso condicional en los servicios de Office 365 y SharePoint Online.
+- **Directivas de acceso condicional**: las directivas de acceso condicional definen cómo se administra el acceso al correo electrónico y se pueden utilizar por separado o junto con directivas de cumplimiento. Las conexiones al servicio Exchange Server o Exchange Online local deben estar configuradas en [Intune](/Intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) o en [Configuration Manager](https://technet.microsoft.com/library/dn919655.aspx) para que las directivas de acceso condicional puedan implementarse. También puede configurarse el acceso condicional en los servicios de Office 365 y SharePoint Online.
 
 Las respuestas a las preguntas del paso 1 pueden ayudarle a determinar cómo desea que los dispositivos se inscriban en la solución de administración de dispositivos móviles. Las listas siguientes le ayudarán a comprender las ventajas y desventajas de cada escenario de administración.
 
@@ -45,7 +46,7 @@ Las respuestas a las preguntas del paso 1 pueden ayudarle a determinar cómo des
 **Ventajas**
 
 - Admite el control de directivas simplificado para la administración de usuarios y dispositivos, ahora separados por la plataforma de dispositivos.
-- Admite Android, iOS, Windows 10 (https://technet.microsoft.com/library/mt147406.aspx), Windows 8.x y plataformas de Windows Phone, así como Exchange ActiveSync.
+- Admite las plataformas Windows Phone, Android, iOS, [Windows 10](https://technet.microsoft.com/library/mt147406.aspx) y Windows 8.x, así como Exchange ActiveSync.
 - Proporciona una consola de administración basada en la web sencilla a la que puede obtenerse acceso desde cualquier ubicación
 - Admite directivas basadas en grupos, lo que facilita la administración de grandes cantidades y diversos tipos de dispositivos móviles
 - Admite funcionalidades y características de cumplimiento de dispositivos móviles avanzadas, que incluyen la detección del descifrado o el descodificado del dispositivo.
@@ -95,6 +96,6 @@ Las respuestas a las preguntas del paso 1 pueden ayudarle a determinar cómo des
 - Los exploradores administrados no son compatibles actualmente
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jul16_HO1-->
 
 

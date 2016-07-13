@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 9b89da63-039f-4831-b204-28c0681478fe
 ms.reviewer: 
 ms.suite: ems
-ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
-ms.openlocfilehash: 208b478068e7757673edb76ff6f21b488c4559e2
+translationtype: Human Translation
+ms.sourcegitcommit: ef523f44cd9d51e59fc8d94bbb8d7aa388120945
+ms.openlocfilehash: 13749f7100df8a157ae8204641442aadfa3c7f16
 
 
 ---
@@ -81,11 +82,11 @@ dministración de correo electrónico para todos los sistemas operativos de disp
 
 Explore los detalles acerca de las opciones de administración de la configuración de correo electrónico de dispositivos móviles revisando lo siguiente:
 
-- Intune: cómo [habilitar perfiles de correo electrónico](/Intune/deployuse/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) y el [acceso a correo electrónico condicional](/Intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune)
+- Intune: cómo [habilitar perfiles de correo electrónico](/Intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) y el [acceso a correo electrónico condicional](/Intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)
 - Configuration Manager: habilitación de [perfiles de correo electrónico](https://technet.microsoft.com/library/dn554227.aspx) y [acceso a correo electrónico condicional](https://technet.microsoft.com/library/dn919655.aspx)
 - MDM para Office 365: [funcionalidades de administración de dispositivos móviles](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx)
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jul16_HO1-->
 
 
