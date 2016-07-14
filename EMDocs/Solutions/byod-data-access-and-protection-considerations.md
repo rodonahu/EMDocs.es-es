@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Consideraciones sobre la protección de datos y el acceso a estos
-description:
-keywords:
+title: "Consideraciones sobre la protección de datos y el acceso a estos"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 02c3a16dfeaef55ff7747f565311c8492875da64
+ms.openlocfilehash: 1b284ec12663422308fb6a44a82fec732d7e9dfa
+
 
 ---
 
@@ -117,8 +111,7 @@ Mediante la siguiente lista, podrá conocer las consideraciones relacionadas con
     - VPN de sitio a sitio: si tiene una [infraestructura de nube híbrida](http://blogs.technet.com/b/cloudsolutions/archive/2013/08/22/hybrid-it-infrastructure-solution-for-enterprise-it-overview.aspx) que esté conectada a Servicios en la nube, plantéese usar una VPN de sitio a sitio para que las aplicaciones de los dispositivos de los usuarios puedan mantener la disponibilidad del canal seguro.
 - (3.2) Datos en reposo en el centro de datos del proveedor de servicios en la nube (opcional: solo se aplica si su empresa usa servicios en la nube para BYOD)
     - Proveedor de servicios en la nube: tenga en cuenta las opciones que puede ofrecer el proveedor de servicios en la nube para cifrar los datos en reposo.
-    - Administración de claves: compruebe con el proveedor de servicios de nube cómo se realiza la administración de claves y el proceso de copia de seguridad. Considere también la integración entre los servicios en la nube y un sistema de administración de claves local.
-(4) Datos en reposo en los dispositivos de los usuarios
+    - Administración de claves: compruebe con el proveedor de servicios de nube cómo se realiza la administración de claves y el proceso de copia de seguridad. Tenga en cuenta también la integración entre los servicios en la nube y un sistema de administración de claves local (4) Datos inactivos en los dispositivos de los usuarios.
     - Cifrado de almacenamiento: plantéese usar una solución de almacenamiento que admita el cifrado.
     - Administración de claves: se debe realizar una copia de seguridad de la clave que se usa para cifrar el almacenamiento y debe disponer de un Key Recovery Agent, en caso de que se necesite.
     - Borrado remoto: se pueden eliminar de forma remota los datos ubicados en los dispositivos de los usuarios, en caso de que sea necesario.
@@ -255,6 +248,7 @@ Con las capacidades del control de acceso dinámico, puede identificar datos med
 El control de acceso dinámico, una función del rol de servidor de archivos, confiere al departamento de TI las funcionalidades que se describen en la tabla anterior. Para obtener más información acerca del Control de acceso dinámico, consulte [Control de acceso dinámico: Información general sobre el escenario](https://technet.microsoft.com/library/hh831717.aspx).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 
