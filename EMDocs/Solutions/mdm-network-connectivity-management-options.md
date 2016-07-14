@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Opciones de administración de conectividad de red
-description:
-keywords:
+title: "Opciones de administración de conectividad de red"
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: bc7cdb8f-3485-45ae-9493-f840ad9ed3ea
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 675953e58a32e6c609380f10dd19008338a128c5
+
 
 ---
 
@@ -32,9 +25,9 @@ ms.suite: ems
 
 Dependiendo de la infraestructura, los dispositivos móviles podrían conectarse a recursos corporativos desde una variedad de servicios de conectividad de Internet, que normalmente están protegidos mediante extremos con VPN.
 
-Mediante [Intune](/Intune/deployuse/wi-fi-connections-in-microsoft-intune) o una [implementación híbrida](https://technet.microsoft.com/library/dn261221.aspx) con Configuration Manager, puede implementar perfiles de Wi-Fi para realizar el aprovisionamiento de redes Wi-Fi, por lo que un dispositivo puede conectarse automáticamente a la red cuando se encuentra en el intervalo. Por ejemplo, los dispositivos móviles pueden configurarse para conectarse a una red Wi-Fi segmentada en una sala de conferencias, pero después cambie la conexión a un segmento de red Wi-Fi al desplazarse a una ubicación diferente. Los usuarios no tienen que escribir contraseñas ni elegir una red; la conexión funciona automáticamente.
+Mediante [Intune](/Intune/deploy-use/wi-fi-connections-in-microsoft-intune) o una [implementación híbrida](https://technet.microsoft.com/library/dn261221.aspx) con Configuration Manager, puede implementar perfiles de Wi-Fi para aprovisionar redes Wi-Fi, de modo que un dispositivo pueda conectarse automáticamente a la red cuando se encuentre dentro de su alcance. Por ejemplo, los dispositivos móviles pueden configurarse para conectarse a una red Wi-Fi segmentada en una sala de conferencias, pero después cambie la conexión a un segmento de red Wi-Fi al desplazarse a una ubicación diferente. Los usuarios no tienen que escribir contraseñas ni elegir una red; la conexión funciona automáticamente.
 
-[Intune](/Intune/deployuse/vpn-connections-in-microsoft-intune) y [Configuration Manager](https://technet.microsoft.com/library/dn261217.aspx) también pueden implementar perfiles de VPN directamente en dispositivos móviles para que el usuario pueda obtener acceso a recursos corporativos internos sin un trabajo manual o una configuración adicionales. Además, Intune puede configurar dispositivos móviles para iniciar automáticamente una conexión VPN basada en el recurso de tipo o el método de acceso. Sin embargo, tenga en cuenta que existen distintos requisitos de configuración para hacer esto en diferentes tipos de sistemas operativos de dispositivos móviles.
+[Intune](/Intune/deploy-use/vpn-connections-in-microsoft-intune) y [Configuration Manager](https://technet.microsoft.com/library/dn261217.aspx) también pueden implementar perfiles de VPN directamente en dispositivos móviles para que el usuario pueda acceder a recursos corporativos internos sin necesidad de tarea manual o configuración adicional algunas. Además, Intune puede configurar dispositivos móviles para iniciar automáticamente una conexión VPN basada en el recurso de tipo o el método de acceso. Sin embargo, tenga en cuenta que existen distintos requisitos de configuración para hacer esto en diferentes tipos de sistemas operativos de dispositivos móviles.
 
 Las respuestas a las preguntas en Tarea 3 pueden ayudarle a determinar cómo desea que los dispositivos se conecten a recursos corporativos. Tenga en cuenta que, actualmente, <token>MDM para Office 365</token> no admite la administración inalámbrica y recursos de red VPN para dispositivos móviles.
 
@@ -74,9 +67,10 @@ Las directivas VPN y Wi-Fi no son compatibles con MDM para Office 365.
 
 Explore los detalles acerca de las opciones de administración de la configuración de correo electrónico de dispositivos móviles revisando lo siguiente:
 
-- Intune: habilitación de perfiles [VPN](/Intune/deployuse/vpn-connections-in-microsoft-intune) e [inalámbricos](/Intune/deployuse/wi-fi-connections-in-microsoft-intune)
+- Intune: habilitación de perfiles [inalámbricos](/Intune/deploy-use/wi-fi-connections-in-microsoft-intune) y [VPN](/Intune/deploy-use/vpn-connections-in-microsoft-intune)
 - Configuration Manager: habilitación de perfiles [VPN](https://technet.microsoft.com/library/dn261217.aspx) e [inalámbricos](https://technet.microsoft.com/library/dn261221.aspx)
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 
