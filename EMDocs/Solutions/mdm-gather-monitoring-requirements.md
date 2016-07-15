@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Recopilación de requisitos de supervisión
-description:
-keywords:
-author: robmazz
+title: "Recopilación de requisitos de supervisión"
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: ac136523-8089-409b-b74d-2d4c0ce399d4
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: 3a387d8e83431f5fd3fdd4e7466323f2d768edf1
+
 
 ---
 
@@ -64,6 +58,7 @@ Responda a las siguientes preguntas de planificación sobre la supervisión de d
 >Asegúrese de que toma las notas de cada respuesta y de que comprende la lógica subyacente en la respuesta. Más adelante, las tareas tratarán las opciones disponibles, y las ventajas y desventajas de cada opción.  Responder a estas preguntas le ayudará a seleccionar la opción que mejor se adapte a sus necesidades empresariales.
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO1-->
 
 

@@ -1,27 +1,22 @@
 ---
-# required metadata
-
-title: Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)
-description:
-keywords:
+title: "Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)"
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
-
-# optional metadata
-
 ROBOTS: noindex
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
+ms.openlocfilehash: 7e0e7e61bdf2dbc38c56c4e768e7b3e511c74eeb
+
 
 ---
 
@@ -51,6 +46,7 @@ Enterprise Mobility Suite o cualquiera de sus servicios en la nube que se incluy
 |Microsoft Azure RMS|Sí|
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

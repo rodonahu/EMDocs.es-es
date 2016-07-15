@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Implementación de una solución para proteger los documentos y correos electrónicos de su empresa
-description:
-keywords:
+title: "Implementación de una solución para proteger los documentos y correos electrónicos de su empresa"
+description: 
+keywords: 
 author: karthikaraman
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: eec74f54e6e6265d53f62fdccead61bff9174503
+
 
 ---
 
@@ -46,8 +40,7 @@ Este artículo le ayuda a preparar el proceso y, después, implementar una soluc
 
 -   **Directivas**: la solución de EMS y sus componentes tienen varias directivas que se usan para administrar la seguridad y el acceso. Determine qué directivas debe configurar el Administrador de TI. Las tres directivas clave que se usarán para la investigación y planificación al proteger el acceso al correo electrónico y los datos de correo electrónico son:
 
-    -   **Directivas de cumplimiento del dispositivo**: determine qué significa “cumplimiento” para su empresa. Intune incluye varias reglas que puede establecer, pero todas esas reglas pueden o no aplicarse a la empresa. Puede cambiar las directivas en cualquier momento, pero se recomienda
-        determinar un conjunto básico de directivas para su empresa. Las directivas de cumplimiento van dirigidas a grupos de dispositivos y de usuarios de Intune.
+    -   **Directivas de cumplimiento del dispositivo**: determine qué significa “cumplimiento” para su empresa. Intune incluye varias reglas que puede establecer, pero todas esas reglas pueden o no aplicarse a la empresa. Puede cambiar las directivas en cualquier momento, pero es recomendable determinar un conjunto básico de directivas para la empresa. Las directivas de cumplimiento van dirigidas a grupos de dispositivos y de usuarios de Intune.
 
     -   **Directivas de acceso condicional**: las directivas de acceso condicional están dirigidas a grupos de seguridad de Azure AD. Determine a qué usuarios se dirigirán las directivas y si hay usuarios que deben estar exentos. El acceso condicional es compatible con la solución basada en la nube y la implementación híbrida.
 
@@ -104,6 +97,7 @@ Para obtener instrucciones detalladas sobre cómo implementar una solución para
 - [Uso del acceso condicional con Microsoft Intune y Configuration Manager](conditional-access-intune-configmgr.md)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

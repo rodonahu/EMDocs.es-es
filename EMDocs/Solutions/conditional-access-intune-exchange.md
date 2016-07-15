@@ -1,27 +1,20 @@
 ---
-# required metadata
-
 title: Uso del acceso condicional con Microsoft Intune y Exchange Server local
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 2a64e898-4c60-48bf-ae14-b05e091e0533
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 6ed28a5ec5449dbca6e4f885dd0fa60bf30c3d91
+
 
 ---
 
@@ -44,7 +37,7 @@ Siga los pasos de [Configurar Microsoft Intune On-Premises Connector para Exchan
 > Solo puede configurar una conexión de Exchange por cuenta de Intune. Si intenta configurar una conexión adicional, se reemplazará la conexión original con la nueva.
 
 ### Paso 2: cree directivas de cumplimiento e impleméntelas para los usuarios.
-Las directivas de cumplimiento definen las reglas y los valores de configuración que un dispositivo debe cumplir para que se le considere conforme a las directivas de acceso condicional. Siga los pasos de [Create a compliance policy in Microsoft Intune](/intune/deployuse/create-a-device-compliance-policy-in-microsoft-intune) (Crear una directiva de cumplimiento en Microsoft Intune) para crear e implementar directivas de cumplimiento.
+Las directivas de cumplimiento definen las reglas y los valores de configuración que un dispositivo debe cumplir para que se le considere conforme a las directivas de acceso condicional. Siga los pasos de [Crear una directiva de cumplimiento normativo de dispositivos en Microsoft Intune](/intune/deploy-use/create-a-device-compliance-policy-in-microsoft-intune) para crear e implementar directivas de cumplimiento.
 
 Si quiere tener la capacidad de quitar todos los mensajes de correo corporativo de un dispositivo iOS cuando este deje de formar parte de la empresa, tiene que crear e implementar un perfil de correo electrónico. Luego, establezca una directiva de cumplimiento que especifique que Intune administra los perfiles de correo electrónico. Debe implementar el perfil de correo electrónico en el mismo conjunto de usuarios al que va dirigido esta directiva de cumplimiento.
 ![Captura de pantalla que muestra la página "Reglas" del Asistente para crear directivas de cumplimiento, donde puede especificar que un perfil de correo electrónico debe administrarse mediante Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
@@ -70,7 +63,7 @@ El siguiente flujo lo emplean las directivas de acceso condicional de un entorno
 
 ![Diagrama de flujo que muestra cómo las directivas de acceso condicional de Exchange Server local evalúan si se permitirá o bloqueará el acceso a los dispositivos](./media/ProtectEmail/conditional-access-8-2.png)
 
-Siga la información proporcionada en [Configurar una directiva de acceso condicional](/intune/deploy-use/restrict-access-to-exchange-onpremises-with-microsoft-intune#-a-name-bkmk_enablexchngonprem-a-configure-a-conditional-access-policy) para establecer la directiva de acceso condicional.
+Siga la información proporcionada en [Configurar una directiva de acceso condicional](/intune/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access) para configurar la directiva de acceso condicional.
 
 ## Generación de informes
 
@@ -84,6 +77,7 @@ En el panel de Intune, haga clic en el icono **Dispositivos bloqueados de Exchan
 Cuando haya implementado una solución para proteger el correo electrónico corporativo y los datos de correo electrónico de los dispositivos móviles, puede obtener más información sobre la [experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md). Esto le ayudará a prepararse para problemas que podrían surgir al inscribir sus dispositivos específicos.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

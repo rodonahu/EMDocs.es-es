@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Guía de arquitectura para proteger los documentos y correos electrónicos de la empresa
-description:
-keywords:
+title: "Guía de arquitectura para proteger los documentos y correos electrónicos de la empresa"
+description: 
+keywords: 
 author: karthikaraman
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 60b9891fcf0e81bc0b5b2d0418a244af231bc8d2
+ms.openlocfilehash: a6cfc88ab59bf31eaeca2ad96327fb66ba23d44f
+
 
 ---
 
@@ -91,19 +85,20 @@ La tercera capa es la de **administración de aplicaciones**, con el ecosistema 
 - También puede consultar [Learn more about how to deploy a solution for protecting company email and documents](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) (Aprenda a implementar una solución para proteger los documentos y correos electrónicos de su empresa).
 
 Además, si quiere obtener más información sobre EMS y Azure Active Directory, puede obtener más información de cualquiera de estos artículos:
-- [Arquitectura de EMS](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)
+- [Arquitectura de EMS](https://azure.microsoft.com/documentation/infographics/enterprise-mobility/)
 
-- [Qué es Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)
+- [Qué es Azure Active Directory](/active-directory/active-directory-whatis)
 
-- [¿Cómo admite Azure Active Directory Office 365, Microsoft Intune y otros servicios de Microsoft?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/#what-is-an-azure-ad-tenant)
+- [¿Cómo admite Azure Active Directory Office 365, Microsoft Intune y otros servicios de Microsoft?](/active-directory/active-directory-administer#what-is-an-azure-ad-tenant)
 
-- [¿Cómo ayuda Azure Active Directory a administrar identidades?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/)
+- [¿Cómo ayuda Azure Active Directory a administrar identidades?](/active-directory/active-directory-administer)
 
-- [¿Qué es Azure Rights Management?](https://technet.microsoft.com/en-us/library/jj585026.aspx)
+- [¿Qué es Azure Rights Management?](/rights-management/understand-explore/what-is-azure-rms)
 
-- [¿Cómo admiten las aplicaciones Azure Rights Management?](https://technet.microsoft.com/en-us/library/jj585004.aspx)
+- [¿Cómo admiten las aplicaciones Azure Rights Management?](/rights-management/understand-explore/applications-support)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jul16_HO1-->
 
 
