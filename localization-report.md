@@ -2146,7 +2146,7 @@
 * Handback Error: [handback_transform_failed](#ee44a4de3b09d2380bcabaa0380f8e2968184b62132handback_transform_failed)
 * Current Target File: [EMDocs\Solutions\mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr.es-es/blob/143ad938c74ca4389ec0f67600277108f202b1a3/EMDocs/Solutions/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md)
 * Current Handback File: [mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.es-es.xlf](https://github.com/Microsoft/EM.handback/blob/40c8a41782d41fdbb03701923efd61b69c669687/ol-handback/Microsoft/EMDocs-pr.es-es/master/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.3b0a547dc0b2f5a286dc023b813ae684a97398f2.es-es.xlf)
-* Current Handback Datetime: 2016-07-15 21:22:00
+* Current Handback Datetime: 2016-07-15 21:55:35
 * [Back to Top](#report-top)
 
 ##### <a name='68a291a3b26d73f5300251e23bbd214378a5a312133'></a> Source: [EMDocs\Solutions\mdm-understand-mdm-lifecycle.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-understand-mdm-lifecycle.md)
