@@ -87,6 +87,6 @@ Explore los detalles acerca de las opciones de administración de la configuraci
 - MDM para Office 365: [funcionalidades de administración de dispositivos móviles](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx)
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
-ms.openlocfilehash: 8670e37bc847485053009db781cabac54e9bc922
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: ac16b3f58680e9a148bfacc352081901aed6daa9
 
 
 ---
@@ -165,12 +165,13 @@ En función de los requisitos que se definieron en Tarea 1, puede elegir qué so
 
 Comprender el comportamiento del usuario e identificar su ubicación son factores importantes que incluir en su estrategia de administración de dispositivos móviles. ¿Cómo variarán los dispositivos de los que se realiza el seguimiento según las necesidades y requisitos empresariales?  Existen capacidades de seguimiento diferentes en cada sistema operativo móvil, por lo que las plataformas de dispositivos móviles que elija para que sean compatibles afectarán a sus opciones. Por ejemplo, los requisitos de cumplimiento pueden influir en dar prioridad a la adopción de plataformas de dispositivos móviles que permiten realizar un seguimiento de la ubicación del usuario y usar el perímetro.
 
->[!TIP] El perímetro le permite supervisar una ubicación geográfica del dispositivo móvil y habilitar o deshabilitar recursos de red y del dispositivo según la ubicación. Por ejemplo, Windows 8.1 permite que una aplicación defina una región geográfica y que el sistema alerte a la aplicación cuando el dispositivo se ejecute en esa área o entre o salga de ella. Para obtener más información acerca de esta característica en Windows 8.1, consulte [Geovalla, de principio a fin (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx). 
+>[!TIP] 
+> El perímetro le permite supervisar una ubicación geográfica del dispositivo móvil y habilitar o deshabilitar recursos de red y del dispositivo según la ubicación. Por ejemplo, Windows 8.1 permite que una aplicación defina una región geográfica y que el sistema alerte a la aplicación cuando el dispositivo se ejecute en esa área o entre o salga de ella. Para obtener más información acerca de esta característica en Windows 8.1, consulte [Geovalla, de principio a fin (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx). 
 
 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

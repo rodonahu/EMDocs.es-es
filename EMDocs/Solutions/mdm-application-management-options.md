@@ -72,6 +72,6 @@ Según como haya respondido a las preguntas del paso 1, podrá determinar cómo 
 Obtenga información sobre las opciones de administración de aplicaciones móviles revisando el siguiente artículo de Intune y Configuration Manager: Proteger datos mediante las directivas de administración de aplicaciones móviles con Microsoft Intune. Además, no se olvide de consultar la lista de aplicaciones de Microsoft que se pueden utilizar con las directivas MAM de Intune, así como de expandir la lista de aplicaciones para socios compatibles de Intune.
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -73,6 +73,6 @@ Según como haya respondido a las preguntas de Tarea 2, podrá determinar la for
 - Requiere los requisitos de implementación locales y cambios de configuración para las organizaciones con Configuration Manager.
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

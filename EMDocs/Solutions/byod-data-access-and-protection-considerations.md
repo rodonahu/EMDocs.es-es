@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 02c3a16dfeaef55ff7747f565311c8492875da64
-ms.openlocfilehash: 1b284ec12663422308fb6a44a82fec732d7e9dfa
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 1d6f468df0675a410d53241ae23014712be2fee4
 
 
 ---
@@ -217,7 +217,8 @@ Para aplicar Multi-Factor Authentication, las empresas pueden usar las capacidad
 
 Para aplicar la autorización por aplicación a los usuarios que tengan acceso a las aplicaciones desde una red interna o externa, el departamento de TI puede usar el Proxy de aplicación web. Con el Proxy de aplicación web, el departamento de TI puede crear reglas específicas para aplicar la autenticación y autorización junto con AD FS. La publicación del Proxy de aplicación web funciona en cualquier dispositivo de usuario; los usuarios pueden usar sus equipos portátiles, tabletas o smartphones personales. Además, no será necesario que los usuarios instalen ningún software adicional en sus dispositivos para tener acceso a las aplicaciones publicadas. El Proxy de aplicación web se usa como un proxy inverso para las aplicaciones publicadas a través de él y, como tal, la experiencia del usuario es la misma que si los dispositivos de los usuarios estuvieran directamente conectados a las aplicaciones. Para obtener más información sobre el Proxy de aplicación web, consulte la [Guía de tutorial de proxy de aplicación web](https://technet.microsoft.com/library/dn280944.aspx).
 
->[!NOTE] Si se encuentra en un escenario híbrido y necesita tener una experiencia perfecta de autenticación y autorización de usuarios, lea la guía [Consideraciones de diseño de identidad híbrida de Azure Active Directory](http://aka.ms/azhidcg).
+>[!NOTE] 
+> Si se encuentra en un escenario híbrido y necesita tener una experiencia perfecta de autenticación y autorización de usuarios, lea la guía [Consideraciones de diseño de identidad híbrida de Azure Active Directory](http://aka.ms/azhidcg).
 
 ## Directiva y cumplimiento
 
@@ -249,6 +250,6 @@ El control de acceso dinámico, una función del rol de servidor de archivos, co
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

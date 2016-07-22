@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 ms.reviewer: 
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
 ms.openlocfilehash: 8185d89d5be464a902aa56f30f15cc6d8f59dff5
 
@@ -81,6 +82,6 @@ Según como haya respondido a las preguntas del paso 1, podrá determinar cómo 
 Para más información sobre las opciones de aprovisionamiento e inscripción de dispositivos móviles, asegúrese de leer cómo [habilitar las inscripciones de dispositivos móviles](/Intune/deploy-use/enroll-devices-in-microsoft-intune) en Intune y comparar estos requisitos y procedimientos para [habilitar las inscripciones de dispositivos móviles](https://technet.microsoft.com/library/jj884158.aspx) en Configuration Manager y MDM para Office 365.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

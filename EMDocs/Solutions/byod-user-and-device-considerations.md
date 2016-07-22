@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Consideraciones sobre usuarios y dispositivos
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
-
-# optional metadataco
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: a3aa062b36a4563c3166d7ce68f616049049034f
+
 
 ---
 
@@ -114,7 +108,7 @@ Utilice la siguiente lista para entender las ventajas y desventajas de las opcio
 
 En Windows Server 2012 R2, el nuevo concepto de [Unión al lugar de trabajo](https://technet.microsoft.com/library/dn280945.aspx) permite al departamento de TI pasar el dispositivo de un estado desconocido a un estado conocido. El dispositivo también puede usarse como autenticación de segundo factor y un inicio de sesión único a las aplicaciones y los recursos de un área de trabajo. La herramienta Unión al lugar de trabajo está disponible de forma nativa en Windows 10, pero también es compatible con otras plataformas como iOS y Android. El área de trabajo aprovecha el servicio de registro de dispositivos (DRS). Para obtener más información sobre el servicio DRS, consulte [Configurar un servidor de federación con el Servicio de registro de dispositivos](https://technet.microsoft.com/library/dn486831.aspx). El área de trabajo es una nueva tecnología y funciona con casos de uso específicos. Consulte [Acceso seguro a recursos de la empresa desde cualquier ubicación y dispositivo](https://technet.microsoft.com/library/dn550982.aspx) para obtener más información sobre una solución que aprovecha Unión al lugar de trabajo con el inicio de sesión único.
 
-Si quiere utilizar DRS, es preciso entender que esta característica no proporciona capacidades de administración. Si la compañía necesita más controles de seguridad para tener disponibles más opciones de control de los dispositivos de usuario, considere la opción de usar el DRS junto con una [inscripción de dispositivo móvil](https://technet.microsoft.com/library/jj733620.aspx) como solución de agente de administración. Sin embargo, si elige esta opción, debe tener una suscripción de Microsoft Intune. Para obtener más información sobre Microsoft Intune, consulte la [página de Microsoft Intune](/intune/understand-explore/introduction-to-microsoft-intune)..
+Si quiere utilizar DRS, es preciso entender que esta característica no proporciona capacidades de administración. Si la compañía necesita más controles de seguridad para tener disponibles más opciones de control de los dispositivos de usuario, considere la opción de usar el DRS junto con una [inscripción de dispositivo móvil](https://technet.microsoft.com/library/jj733620.aspx) como solución de agente de administración. Sin embargo, si elige esta opción, debe tener una suscripción de Microsoft Intune. Para obtener más información sobre Microsoft Intune, consulte la [página de Microsoft Intune](/intune/understand-explore/introduction-to-microsoft-intune).
 
 ## Red
 
@@ -176,7 +170,7 @@ Después de definir el diseño de acceso a redes remotas, considere cómo se con
 
 También puede segmentar los dispositivos que se conectarán a la red Wi-Fi según la plataforma donde se ejecuten. Considere también cómo proteger su comunicación y autorización mientras están en las instalaciones accediendo a recursos corporativos.
 
-Puede elegir una segmentación física en el punto de acceso inalámbrico y los componentes de red (conmutadores y enrutadores) para aislar a los usuarios que se conectan mediante el uso de sus propios dispositivos. También puede implementar este tipo de red con [perfiles Wi-Fi en Configuration Manager](https://technet.microsoft.com/library/dn261221.aspx). Puede elegir entre una amplia gama de opciones de seguridad, como certificados para la autenticación de clientes y la validación del servidor que se hayan aprovisionado con [perfiles de certificados de Configuration Manager](https://technet.microsoft.com/library/dn270540.aspx)..
+Puede elegir una segmentación física en el punto de acceso inalámbrico y los componentes de red (conmutadores y enrutadores) para aislar a los usuarios que se conectan mediante el uso de sus propios dispositivos. También puede implementar este tipo de red con [perfiles Wi-Fi en Configuration Manager](https://technet.microsoft.com/library/dn261221.aspx). Puede elegir entre una amplia gama de perfiles de seguridad, como certificados para la autenticación de clientes y la validación del servidor que se hayan aprovisionado con [perfiles de certificados de Configuration Manager](https://technet.microsoft.com/library/dn270540.aspx).
 
 
 ### Opciones de segmentación de la red Wi-Fi: ventajas y desventajas
@@ -208,12 +202,14 @@ Utilice la siguiente lista para entender las ventajas y desventajas de las opcio
     - Desventajas
         - Requiere IPsec para la implementación con [Protección de acceso a redes (NAP)](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx) de Microsoft, lo que puede ser un problema en un escenario de BYOD en el que se necesite compatibilidad para "todos los dispositivos".
 
-> [!NOTE] Para obtener más información sobre los perfiles de Wi-Fi en Configuration Manager, consulte [Introducción a perfiles de Wi-Fi en Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx)..
+> [!NOTE] 
+> Para más información sobre los perfiles de Wi-Fi en Configuration Manager, consulte [Introducción a perfiles de Wi-Fi en Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 La ubicación de la red tiene un rol importante en las consideraciones sobre los usuarios y los dispositivos. Puede aprovechar el control de acceso multifactor en AD FS para habilitar las directivas de autorización por aplicación, con las que puede permitir o denegar el acceso en función del usuario, el dispositivo y la ubicación de red. Consulte [Guía de tutorial: Administración de riesgos con control de acceso condicional](https://technet.microsoft.com/library/dn280936.aspx) para obtener más información sobre cómo configurar un entorno para validar esta funcionalidad.
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jul16_HO3-->
 
 

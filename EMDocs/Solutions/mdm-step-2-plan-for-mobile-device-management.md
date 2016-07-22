@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: "Paso 2: Plan de administración de dispositivos móviles"
-description:
-keywords:
-author: robmazz
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/20/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 3cdc1318-50a2-4280-b051-1e009620816e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 95eeb4decc5408d9f4f22cbb44f5bccc14968fb3
+ms.openlocfilehash: f5223794a8dbb9a9318de90965fd01bd3e98bcaf
+
 
 ---
 
@@ -42,12 +36,13 @@ Esta sección de la guía contiene 11 pasos. El tiempo total para leer las secci
 - [Opciones de inscripción de dispositivos](mdm-device-enrollment-options.md)
 - [Opciones de aprovisionamiento de dispositivos](mdm-device-provisioning-options.md)
 - [Opciones de administración de dispositivos](mdm-device-management-options.md)
-- [Opciones de administración de aplicaciones](mdm-application-management-options)
+- [Opciones de administración de aplicaciones](mdm-application-management-options.md)
 - [Opciones de supervisión de dispositivos](mdm-device-monitoring-options.md)
 - [Opciones de administración de correo electrónico](mdm-email-management-options.md)
-- [Opciones de administración de conectividad de red](mdm-network-connectivity-management-options)
+- [Opciones de administración de conectividad de red](mdm-network-connectivity-management-options.md)
 - [Opciones de administración de certificados](mdm-certificate-management-options.md)
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO3-->
 
 

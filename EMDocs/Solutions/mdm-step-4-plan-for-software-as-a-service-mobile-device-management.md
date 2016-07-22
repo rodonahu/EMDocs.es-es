@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: "Paso 4: Plan de administración de dispositivo móvil de software como servicio"
-description:
-keywords:
-author: robmazz
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: ab50bf43-0014-4d55-a52d-12e0428adc12
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: ee44a4de3b09d2380bcabaa0380f8e2968184b62
+
 
 ---
 
@@ -45,6 +39,7 @@ Esta sección de la guía contiene 4 pasos. El tiempo total para leer las seccio
 - [Desarrollo de una estrategia de administración de dispositivos móviles de SaaS](mdm-develop-saas-mdm-strategy.md)
 - [Identificación de los requisitos de conectividad de SaaS](mdm-identify-saas-connectivity-requirements.md)
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO3-->
 
 

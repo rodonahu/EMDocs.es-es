@@ -4,7 +4,7 @@ description:
 keywords: 
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
-ms.openlocfilehash: 59710c77266e9c20697012208bba5ee468ee0f38
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 5aa145639d7f38beb0a9b684cd70227edccccf42
 
 
 ---
@@ -115,11 +115,13 @@ Proporcionar instrucciones sobre las acciones siguientes:
 
     -   Configure la sincronización entre bosques de Active Directory local y el directorio de Microsoft Azure Active Directory Premium (Azure Active Directory).
 
-        > [!NOTE] El desarrollo y la implementación de extensiones de reglas personalizadas están fuera del ámbito.
+        > [!NOTE] 
+        > El desarrollo y la implementación de extensiones de reglas personalizadas están fuera del ámbito.
 
 -   Para un bosque único cuando el destino son identidades federadas: instalar y configurar los Servicios de federación de Active Directory (AD FS) para realizar la autenticación del dominio local con Microsoft Azure AD Premium en una configuración de sitio único con tolerancia a errores, si es necesario.
 
-    > [!NOTE] Para todas las configuraciones de bosques múltiples, las implementaciones de AD FS están fuera del ámbito.
+    > [!NOTE] 
+    > Para todas las configuraciones de bosques múltiples, las implementaciones de AD FS están fuera del ámbito.
 
 -   Probar la función de inicio de sesión único (SSO) si está implementada.
 
@@ -164,7 +166,8 @@ Proporcionar instrucciones sobre:
 
     -   Si tiene una implementación existente de System Center Configuration Manager y desea para ampliar sus capacidades de administración con Microsoft Intune, establezca Configuration Manager como entidad de MDM.
 
-        > [!NOTE] Si solo desea sacar partido de la administración de aplicaciones móviles en dispositivos de propiedad, en dispositivos compartidos o en dispositivos de tipo quiosco de sus usuarios finales, no es necesario configurar ninguna entidad de MDM.
+        > [!NOTE] 
+        > Si solo desea sacar partido de la administración de aplicaciones móviles en dispositivos de propiedad, en dispositivos compartidos o en dispositivos de tipo quiosco de sus usuarios finales, no es necesario configurar ninguna entidad de MDM.
 
 -   Si la administración de dispositivos móviles está incluida, le ofreceremos instrucciones para lo siguiente:
 
@@ -242,6 +245,6 @@ Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-clou
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

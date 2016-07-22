@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
 ms.reviewer: 
 ms.suite: ems
-ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
-ms.openlocfilehash: 19ddd4da5796af41b84b979e1382a78856646a6b
+translationtype: Human Translation
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 64cd77f7930216f38786451b56037f49d97b095a
 
 
 ---
@@ -31,7 +32,8 @@ La segregación de datos es importante, no solo para su organización, sino tamb
 
 Mediante la separación de todas las aplicaciones, datos de la compañía y directivas implementadas por la solución MDM, puede quitarse del dispositivo si fuese necesario sin afectar a las aplicaciones y al contenido personal del usuario usando el borrado selectivo. 
 
->[!TIP] Consulte [Ayudar a proteger los datos con el borrado selectivo o completo mediante Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) para obtener más información sobre cómo se comportará el borrado remoto en otras plataformas como iOS y Android. 
+>[!TIP] 
+> Consulte [Ayudar a proteger los datos con el borrado selectivo o completo mediante Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) para obtener más información sobre cómo se comportará el borrado remoto en otras plataformas como iOS y Android. 
 
 El borrado selectivo para la administración de datos de dispositivos móviles se incluye en Windows Server 2012 R2 y Windows 8.1. Funciona mediante la vinculación de recursos que ayudan a los administradores de Exchange Server y Microsoft Intune a administrar los datos empresariales en dispositivos y a desarrollar aplicaciones que pueden usar las funcionalidades del [borrado selectivo de Windows](https://technet.microsoft.com/library/dn486874.aspx).  Windows Phone 8 y las versiones posteriores permiten separar los datos en el almacenamiento interno.
 
@@ -89,6 +91,6 @@ En la tabla siguiente se comparan las características de borrado selectivo disp
 Asegúrese de leer el artículo [Ayudar a proteger los datos con el borrado selectivo o completo mediante Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) para comprender cómo se quitan y conservan los datos después de un borrado selectivo en cada plataforma de dispositivo móvil. Si cuenta con un entorno híbrido, consulte el artículo [Borrado remoto de dispositivos móviles mediante Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) para comprender cómo Configuration Manager puede usarse para llevar a cabo esta tarea.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 
