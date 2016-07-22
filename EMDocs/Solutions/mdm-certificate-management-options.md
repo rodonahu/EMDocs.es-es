@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Opciones de administración de certificados
-description:
-keywords:
-author: robmazz
+title: "Opciones de administración de certificados"
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: fed75819dbc13755b5ef28cbe3abe008d46c8473
+
 
 ---
 
@@ -30,7 +23,7 @@ ms.suite: ems
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-El uso de la administración de certificados digitales y perfiles de certificados es compatible con escenarios de implementaciones independientes de [Intune](/Intune/deployuse/secure-resource-access-with-certificate-profiles) e híbridas de [Intune y Configuration Manager](https://technet.microsoft.com/library/dn261202.aspx). Estas características le permiten implementar certificados raíz de confianza para dispositivos móviles, así como los perfiles basados en el Protocolo de inscripción de certificados simple (SCEP) que ordenan a los dispositivos móviles que obtengan certificados adicionales desde un servidor NDES en su organización.
+El uso de la administración de certificados digitales y de perfiles de certificados es compatible con escenarios de implementaciones independientes de [Intune](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) e híbridas de [Intune y Configuration Manager](https://technet.microsoft.com/library/dn261202.aspx). Estas características le permiten implementar certificados raíz de confianza para dispositivos móviles, así como los perfiles basados en el Protocolo de inscripción de certificados simple (SCEP) que ordenan a los dispositivos móviles que obtengan certificados adicionales desde un servidor NDES en su organización.
 
 Puesto que iOS, Windows 10 y 8.1, y Windows Phone 10 y 8.1 admiten SCEP de forma nativa y también es compatible a través de la aplicación del Portal de empresa de Microsoft Intune para Android, usar este protocolo de inscripción tiene la ventaja de tener la clave privada generada directamente en el dispositivo móvil. La clave privada nunca se genera ni almacena en caché o mediante Configuration Manager o Intune, lo que ayuda a mantener la seguridad de los dispositivos móviles.
 
@@ -87,8 +80,9 @@ La lista siguiente le ayudará a comprender las ventajas y desventajas de la adm
  - Una entidad de certificación empresarial
  - El conector NDES para Intune, que se instala en el servidor que ejecuta NDES
 
-Para obtener más información sobre las opciones de administración de certificados de dispositivos móviles, lea cómo [habilitar perfiles de certificado](/Intune/deployuse/secure-resource-access-with-certificate-profiles) en Intune y compare estos requisitos y procedimientos con la [habilitación de perfiles de certificado](https://technet.microsoft.com/library/dn261202.aspx) en System Center 2012 R2 Configuration Manager.
+Para obtener más detalles sobre las opciones de administración de certificados de dispositivos móviles, consulte cómo [habilitar perfiles de certificado](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) en Intune y compare estos requisitos y procedimientos con la [habilitación de perfiles de certificado](https://technet.microsoft.com/library/dn261202.aspx) en System Center 2012 R2 Configuration Manager.
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

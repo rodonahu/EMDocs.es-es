@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Desarrollo de los requisitos de respuesta a incidentes
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 6f9fd9b3-492b-48e1-871c-e5abefe1293a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: 3be59381d215da3a6c1e7e33bae592d02201c196
+
 
 ---
 
@@ -30,10 +24,9 @@ ms.suite: ems
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Aunque muchas organizaciones ya han implantado un plan de respuesta a incidentes (IR), debe asegurarse de que el plan incluya dispositivos móviles y comprobar los pasos que hay que realizar en caso de que se notifique un incidente en esos dispositivos. Si su compañía está adoptando justo ahora una solución de movilidad, es probable que el plan de IR actual no abarque os dispositivos móviles. 
-Si su organización no tiene un plan de IR, es importante trabajar muy de cerca con su equipo de seguridad para conocer los requisitos a medida que se desarrollan; de este modo, sabrá cuáles son las preguntas adecuadas que plantear y elegir la mejor solución MDM en función de sus necesidades. 
+Aunque muchas organizaciones ya han implantado un plan de respuesta a incidentes (IR), debe asegurarse de que el plan incluya dispositivos móviles y comprobar los pasos que hay que realizar en caso de que se notifique un incidente en esos dispositivos. Si su compañía está adoptando justo ahora una solución de movilidad, es probable que el plan de IR actual no abarque os dispositivos móviles. Si su organización no tiene un plan de IR, es importante trabajar muy de cerca con su equipo de seguridad para conocer los requisitos a medida que se desarrollan; de este modo, sabrá cuáles son las preguntas adecuadas que plantear y elegir la mejor solución MDM en función de sus necesidades. 
  
->[!TIP] Consulte [Respuesta a incidentes de seguridad de TI](https://technet.microsoft.com/library/cc700825.aspx) para comprender mejor los requisitos mínimos para un plan de IR.
+>[!TIP] Consulte [Respuesta a incidentes de seguridad de TI](https://technet.microsoft.com/library/cc700825.aspx) para comprender mejor los requisitos mínimos de un plan de IR.
 
 Cuando diseñe la solución MDM, asegúrese de que formula las preguntas siguientes para asegurarse de que se pueden administrar dispositivos móviles si se produce un incidente.
 
@@ -52,6 +45,7 @@ Cuando diseñe la solución MDM, asegúrese de que formula las preguntas siguien
 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

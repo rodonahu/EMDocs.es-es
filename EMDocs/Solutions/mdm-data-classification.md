@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Clasificación de datos
-description:
-keywords:
+title: "Clasificación de datos"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: f3486381-66d5-469a-93a3-013eaaa17c07
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: b2025b8b3d976b7a14c050c095d199c5a4c73cb8
+
 
 ---
 
@@ -36,7 +29,7 @@ Office 365 proporciona una clasificación automática de los datos de correo ele
 
 Intune y Configuration Manager no tienen una clasificación de datos integrada, por lo que se basan en la clasificación basada en la nube con Azure RMS o de manera local mediante ADRMS. Otra opción consiste en utilizar [Enterprise Mobility Suite (EMS)](http://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx) como solución MDM. Con EMS, dispondrá de acceso a [Azure AD Premium](https://msdn.microsoft.com/library/azure/dn532272.aspx) y [Azure RMS](https://technet.microsoft.com/library/jj585026.aspx), que puede utilizarse para clasificar datos. La clasificación de datos mediante Azure RMS puede integrarse con una solución de administración local en un entorno híbrido. 
 
-Intune permite al departamento de TI cumplir las directivas mediante directivas de cumplimiento, que es un conjunto de reglas y configuración que debe satisfacer un dispositivo para las políticas de acceso condicional lo consideren conforme. Las directivas de cumplimiento también se pueden usar para supervisar y corregir problemas de compatibilidad con dispositivos independientemente del acceso condicional. Consulte [Administrar directivas de cumplimiento del dispositivo de Microsoft Intune](/intune/deploy/introduction-to-device-compliance-policies-in-microsoft-intune) para obtener más información.
+Intune permite al departamento de TI cumplir las directivas mediante directivas de cumplimiento, que es un conjunto de reglas y configuración que debe satisfacer un dispositivo para las políticas de acceso condicional lo consideren conforme. Las directivas de cumplimiento también se pueden usar para supervisar y corregir problemas de compatibilidad con dispositivos independientemente del acceso condicional. Consulte [Directivas de cumplimiento de dispositivos en Microsoft Intune](/intune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) para más información.
 
 Utilice la siguiente tabla como referencia para ayudarle a elegir la opción de MDM que mejor se adapte a los requisitos de *clasificación de datos* de su organización.
 
@@ -86,6 +79,7 @@ Utilice la siguiente tabla como referencia para ayudarle a elegir la opción de 
 - No está disponible para los clientes que no estén adoptando soluciones basadas en la nube
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

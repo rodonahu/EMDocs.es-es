@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Especificación de los requisitos de ubicación de la administración de dispositivos móviles
-description:
-keywords:
+title: "Especificación de los requisitos de ubicación de la administración de dispositivos móviles"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: c8824726-082e-417a-8522-183a69328ae4
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: 541b3a4cbb200558d527a14ce6cc691d74431f0b
+
 
 ---
 
@@ -46,6 +40,7 @@ Los requisitos de ubicación son uno de los numerosos factores que debe tener en
 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

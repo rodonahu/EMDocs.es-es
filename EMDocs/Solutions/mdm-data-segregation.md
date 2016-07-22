@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Segregación de datos
-description:
-keywords:
+title: "Segregación de datos"
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 19ddd4da5796af41b84b979e1382a78856646a6b
+
 
 ---
 
@@ -38,7 +31,7 @@ La segregación de datos es importante, no solo para su organización, sino tamb
 
 Mediante la separación de todas las aplicaciones, datos de la compañía y directivas implementadas por la solución MDM, puede quitarse del dispositivo si fuese necesario sin afectar a las aplicaciones y al contenido personal del usuario usando el borrado selectivo. 
 
->[!TIP] Lea [Ayude a proteger sus datos mediante la eliminación remota, el bloqueo remoto o el restablecimiento de código de acceso mediante Microsoft Intune](/intune/deployuse/help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-microsoft-intune) para obtener más información sobre cómo se comportará el borrado de datos remoto en otras plataformas como iOS y Android. 
+>[!TIP] Consulte [Ayudar a proteger los datos con el borrado selectivo o completo mediante Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) para obtener más información sobre cómo se comportará el borrado remoto en otras plataformas como iOS y Android. 
 
 El borrado selectivo para la administración de datos de dispositivos móviles se incluye en Windows Server 2012 R2 y Windows 8.1. Funciona mediante la vinculación de recursos que ayudan a los administradores de Exchange Server y Microsoft Intune a administrar los datos empresariales en dispositivos y a desarrollar aplicaciones que pueden usar las funcionalidades del [borrado selectivo de Windows](https://technet.microsoft.com/library/dn486874.aspx).  Windows Phone 8 y las versiones posteriores permiten separar los datos en el almacenamiento interno.
 
@@ -52,7 +45,7 @@ Protección de datos de empresa (EDP) proporciona una separación de datos, pero
 
 EDP proporciona una separación de datos en virtud de cifrar los datos de empresa. Lectura [Enterprise data protection (EDP) overview](https://technet.microsoft.com/library/dn985838.aspx) (Información general de protección de datos de empresa [EDP]) para obtener más información. Las directivas de EDP Intune administrarán la lista de aplicaciones protegidas por EDP, las ubicaciones de red de la empresa, el nivel de protección y la configuración de cifrado.
 
-Cuando un usuario instala e inicia sesión en una aplicación que admite varias identidades (múltiple identidad), un dispositivo administrado por Intune, como Outlook, Intune comprueba si la cuenta que usa coincide con la cuenta administrada en el dispositivo. Si se administra la cuenta, y también hay una directiva para la aplicación y el usuario, la configuración de la directiva protege los datos en esa cuenta. Cuando el usuario agrega cuentas personales a la aplicación, esas cuentas están fuera de la protección y administración de Intune. Esto permite el uso personal de la aplicación sin poner en peligro la protección corporativa. Consulte [Proteger datos mediante las directivas de administración de aplicaciones móviles con Microsoft Intune](/intune/deployuse/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console) para obtener más información sobre la funcionalidad de identidad múltiple en Intune. 
+Cuando un usuario instala e inicia sesión en una aplicación que admite varias identidades (múltiple identidad), un dispositivo administrado por Intune, como Outlook, Intune comprueba si la cuenta que usa coincide con la cuenta administrada en el dispositivo. Si se administra la cuenta, y también hay una directiva para la aplicación y el usuario, la configuración de la directiva protege los datos en esa cuenta. Cuando el usuario agrega cuentas personales a la aplicación, esas cuentas están fuera de la protección y administración de Intune. Esto permite el uso personal de la aplicación sin poner en peligro la protección corporativa. Consulte [Proteger datos de aplicación mediante directivas de administración de aplicaciones móviles con Microsoft Intune](/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console) para obtener más información sobre la funcionalidad de varias identidades en Intune. 
 
 En la tabla siguiente se comparan las características de borrado selectivo disponibles con las diferentes soluciones MDM para ayudarle a elegir la solución MDM que mejor se adapte a los requisitos de segregación de datos de su organización.
 
@@ -93,8 +86,9 @@ En la tabla siguiente se comparan las características de borrado selectivo disp
 
 - Si la organización no dispone de una infraestructura de Configuration Manager local en estos momentos, habrá que planificar, instalar y configurar esta plataforma antes de la integración.
 
-Asegúrese de leer el artículo [Ayude a proteger sus datos mediante la eliminación remota, el bloqueo remoto o el restablecimiento de código de acceso mediante Microsoft Intune](/intune/deployuse/help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-microsoft-intune) para comprender cómo se quitan y conservan los datos después de un borrado selectivo en cada plataforma de dispositivos móviles. Si cuenta con un entorno híbrido, consulte el artículo [Borrado remoto de dispositivos móviles mediante Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) para comprender cómo Configuration Manager puede usarse para llevar a cabo esta tarea.
+Asegúrese de leer el artículo [Ayudar a proteger los datos con el borrado selectivo o completo mediante Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) para comprender cómo se quitan y conservan los datos después de un borrado selectivo en cada plataforma de dispositivo móvil. Si cuenta con un entorno híbrido, consulte el artículo [Borrado remoto de dispositivos móviles mediante Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) para comprender cómo Configuration Manager puede usarse para llevar a cabo esta tarea.
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

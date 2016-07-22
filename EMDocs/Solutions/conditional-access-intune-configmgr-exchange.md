@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Uso del acceso condicional con Exchange Server local, Microsoft Intune y Configuration Manager
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: da76ba04d70ece8f20fdbe0fb19ad310f1fb8d28
+ms.openlocfilehash: ca38c22f5de2a33e399d7d7a7a9beafdc49e5686
+
 
 ---
 
@@ -98,7 +92,7 @@ Asegúrese de que su entorno incluya estos requisitos para implementar esta solu
     Remove-ActiveSyncDevice
 
 > [!IMPORTANT]
-> Si trata de instalar o usar el conector de Exchange Server sin los cmdlets necesarios, verá un error con el mensaje _Invoking cmdlet &lt;cmdlet&gt; failed in the EasDisc.log file on the site server computer_ (Error al invocar el cmdlet &lt;cmdlet&gt; en el archivo EasDisc.log del equipo de servidor de sitio).
+> Si intenta instalar o usar el conector de Exchange Server sin los cmdlets necesarios, verá un error con el mensaje _Error al invocar el cmdlet &lt;cmdlet&gt; en el archivo EasDisc.log en el equipo de servidor de sitio_.
 
 ## Pasos de implementación
 Siga estos pasos para implementar la solución local de Exchange:
@@ -191,6 +185,7 @@ Un dispositivo se bloquea en cuanto lo detecta el conector de Exchange. La laten
 Cuando haya implementado una solución para proteger el correo electrónico corporativo y los datos de correo electrónico de los dispositivos móviles, puede obtener más información sobre la [experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md). Esto le ayudará a prepararse para problemas que podrían surgir al inscribir sus dispositivos específicos.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

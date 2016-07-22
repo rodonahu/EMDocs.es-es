@@ -1,27 +1,20 @@
 ---
-# required metadata
-
 title: Opciones de aprovisionamiento de dispositivos
-description:
-keywords:
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 8185d89d5be464a902aa56f30f15cc6d8f59dff5
+
 
 ---
 
@@ -37,7 +30,7 @@ Cuando un usuario puede usar e inscribir su propio dispositivo, esto aumenta los
 **Información general del proceso de inscripción para dispositivos móviles Configuration Manager e Intune híbrido**
 
 1. Con <token>Windows Server 2012 R2, se ha presentado un nuevo concepto conocido como registro de dispositivos.  Los usuarios pueden registrar sus dispositivos para el inicio de sesión único y obtener acceso a datos corporativos mediante la unión al área de trabajo.  Como parte de este proceso de registro, se instala un certificado en el dispositivo. A cambio de registrar su dispositivo y hacer que la solución de administración de dispositivos lo conozca, el usuario obtiene acceso a los recursos corporativos que antes no estaban disponibles fuera de sus PC unidos al dominio.
-2. Los usuarios pueden inscribir dispositivos que configuren el dispositivo para la administración mediante el [uso del portal de empresa](/Intune/deployuse/enroll-devices-in-microsoft-intune), y, luego, utilizar Portal de empresa de Microsoft Intune para facilitar el acceso a aplicaciones corporativas y datos para ser capaces de administrar sus propios dispositivos y realizar tareas como el borrado remoto del dispositivo en el caso pérdida, robo o reemplazo.
+2. Los usuarios pueden inscribir dispositivos, con lo que estos se configuran para la administración con Intune [mediante el portal de empresa](/Intune/deploy-use/enroll-devices-in-microsoft-intune), y luego usar el portal de empresa de Microsoft Intune para facilitar el acceso a las aplicaciones corporativas y los datos y para poder administrar los propios dispositivos y realizar tareas como el borrado remoto de estos en caso de pérdida, robo o reemplazo.
 3. Puede publicar el acceso a los recursos corporativos con la capacidad incorporada disponible en Windows Server 2012 R2 denominada [Proxy de aplicación web](https://technet.microsoft.com/library/dn584107.aspx) según el reconocimiento de dispositivos (es decir, se registra) y la identidad de los usuarios. Si utiliza Enterprise Mobility Suite, también puede publicar aplicaciones mediante el Proxy de aplicación de Azure AD. Se puede utilizar la autenticación multifactor mediante la [autenticación activa de Azure](https://azure.microsoft.com/documentation/articles/multi-factor-authentication-get-started-cloud/).
 4. Para proporcionar a los administradores una vista unificada del entorno completo, los datos de Intune se sincronizan con Configuration Manager, que permite una administración unificada de forma local y en la nube.
 5. Como parte del proceso de inscripción, se crea un nuevo objeto de dispositivo en Active Directory.  Este objeto de dispositivo establece un vínculo entre el usuario y su dispositivo, lo que hace que la solución de administración de dispositivos lo conozca y permite que el dispositivo se autentique a través de una autenticación de dos factores sin problemas y efectiva.
@@ -85,8 +78,9 @@ Según como haya respondido a las preguntas del paso 1, podrá determinar cómo 
 - Para las organizaciones que no tienen una infraestructura de Configuration Manager en estos momentos, habrá que planificarla, instalarla y configurarla antes de su integración con Intune.
 - Requiere opciones de configuración adicionales para conectar Intune con la infraestructura de Configuration Manager local.
 
-Para obtener más detalles acerca de las opciones de aprovisionamiento e inscripción de dispositivos móviles, asegúrese de revisar cómo [habilitar las inscripciones en dispositivos móviles](/Intune/deployuse/enroll-devices-in-microsoft-intune) en y comparar estos requisitos y procedimientos para [habilitar las inscripciones en dispositivos móviles](https://technet.microsoft.com/library/jj884158.aspx) en Configuration Manager y MDM para Office 365.
+Para más información sobre las opciones de aprovisionamiento e inscripción de dispositivos móviles, asegúrese de leer cómo [habilitar las inscripciones de dispositivos móviles](/Intune/deploy-use/enroll-devices-in-microsoft-intune) en Intune y comparar estos requisitos y procedimientos para [habilitar las inscripciones de dispositivos móviles](https://technet.microsoft.com/library/jj884158.aspx) en Configuration Manager y MDM para Office 365.
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

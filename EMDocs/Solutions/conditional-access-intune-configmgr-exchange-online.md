@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Uso del acceso condicional con Exchange Online, Microsoft Intune y Configuration Manager
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: b2772f555ac064a286b084c1ef50ef5449083d90
+
 
 ---
 
@@ -34,8 +28,7 @@ Si ya usa System Center Configuration Manager y Exchange Online, puede incorpora
 
 -   Para empezar, aplique el acceso condicional.
 
--   Si quiere, configure el conector de Exchange Server para Exchange Online.
-    Este conector es necesario únicamente con fines de elaboración de informes. No es necesario para habilitar el acceso condicional.
+-   Opcionalmente, configure el conector de Exchange Server para Exchange Online. Este conector solo se necesita con fines informativos. No es necesario para habilitar el acceso condicional.
 
 ## Flujo de control de acceso condicional para Exchange Online
 Este diagrama muestra el flujo de control para los clientes que intentan obtener acceso al correo electrónico en Exchange Online. A y B pueden realizarse antes de aplicar el acceso condicional.
@@ -156,6 +149,7 @@ A los dispositivos que usan la autenticación moderna se les aplica de inmediato
 Cuando haya implementado una solución para proteger el correo electrónico corporativo y los datos de correo electrónico de los dispositivos móviles, puede obtener más información sobre la [experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md). Esto le ayudará a prepararse para problemas que podrían surgir al inscribir sus dispositivos específicos.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

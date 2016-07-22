@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Protección de documentos y del correo electrónico corporativos
-description:
-keywords:
+title: "Protección de documentos y del correo electrónico corporativos"
+description: 
+keywords: 
 author: karthikaraman
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 5911fc980156316c3b2466dae78d72801bf08934
+
 
 ---
 
@@ -127,6 +121,7 @@ Una vez que el dispositivo se evalúa como inscrito y conforme a las normas, la 
 Ahora que sabe cómo proteger los documentos y el correo electrónico corporativos, puede consultar cómo [proteger los datos adjuntos del correo](protect-email-attachments.md). O, si ya cuenta con los conocimientos necesarios, puede obtener más información sobre la [implementación de una solución para proteger el correo corporativo](implement-solution.md).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

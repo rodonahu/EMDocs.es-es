@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Uso del acceso condicional con Microsoft Intune y Exchange Online
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 8cfe421b-52c9-4d44-8df1-15c82375c335
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 4e6a2c100c63ff21b7ccb89d59517dd63195b657
+ms.openlocfilehash: 82b00a5ce54a25b50563c9e5ef3c33b3c648639d
+
 
 ---
 
@@ -35,7 +29,7 @@ Para que Intune administre dispositivos móviles directamente, los usuarios debe
 Siga estos pasos para implementar la solución Exchange Online con Intune:
 
 ### Paso 1: cree directivas de cumplimiento e impleméntelas a los usuarios.
-Las directivas de cumplimiento definen las reglas y los valores de configuración que un dispositivo debe cumplir para que se le considere conforme a las directivas de acceso condicional. Siga los pasos de [Create a compliance policy in Microsoft Intune](/intune/deployuse/create-a-device-compliance-policy-in-microsoft-intune) (Crear una directiva de cumplimiento en Microsoft Intune) para crear e implementar directivas de cumplimiento.
+Las directivas de cumplimiento definen las reglas y los valores de configuración que un dispositivo debe cumplir para que se le considere conforme a las directivas de acceso condicional. Siga los pasos de [Crear una directiva de cumplimiento normativo de dispositivos en Microsoft Intune](/intune/deploy-use/create-a-device-compliance-policy-in-microsoft-intune) para crear e implementar directivas de cumplimiento.
 
 Si quiere tener la capacidad de quitar todos los mensajes de correo corporativo de un dispositivo iOS cuando este deje de formar parte de la empresa, tiene que crear e implementar un perfil de correo electrónico. Luego, establezca una directiva de cumplimiento que especifique que Intune administra los perfiles de correo electrónico. Debe implementar el perfil de correo electrónico en el mismo conjunto de usuarios al que va dirigido esta directiva de cumplimiento.
 
@@ -47,21 +41,21 @@ Si se especifica esta directiva de cumplimiento, un usuario que ya haya configur
 > Si no ha implementado una directiva de cumplimiento y habilitado la directiva de acceso condicional a Exchange, se permitirá el acceso a todos los dispositivos destinatarios.
 
 ### Paso 2: evalúe el impacto de la directiva de acceso condicional.
-Si ha configurado una conexión entre Intune y Exchange mediante el [conector de servicio a servicio de Microsoft Intune](/intune/deployuse/intune-service-to-service-exchange-connector), puede usar los **informes de inventario de dispositivos móviles** para identificar los clientes de correo de EAS que tendrán el acceso bloqueado a Exchange después de configurar la directiva de acceso condicional.
+Si ha configurado una conexión entre Intune y Exchange mediante [Microsoft Intune Service To Service Connector](/intune/deploy-use/intune-service-to-service-exchange-connector), puede usar los **informes de inventario de dispositivos móviles** para identificar los clientes de correo de EAS que tendrán el acceso bloqueado a Exchange después de configurar la directiva de acceso condicional.
 
-Siga las instrucciones de [Evaluar el impacto de la directiva de acceso condicional](/intune/deployuse/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access) para identificar los usuarios que se verán afectados por la directiva de acceso condicional.
+Siga las instrucciones de [Evaluar el impacto de la directiva de acceso condicional](/intune/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access) para identificar los usuarios que se verán afectados por la directiva de acceso condicional.
 
 ### Paso 3: configure grupos de usuarios para la directiva de acceso condicional.
 El destino de las directivas de acceso condicional se define en distintos grupos de usuarios en función de los tipos de directiva. Estos grupos contienen los usuarios de destino o exentos de la directiva. Cuando un usuario es destinatario de una directiva, cada dispositivo que use debe ser conforme con el fin de obtener acceso al correo electrónico.
 
-Para obtener más información, vea [Configurar grupos de usuarios para la directiva de acceso condicional](/intune/deployuse/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access).
+Para obtener más información, vea [Configurar grupos de usuarios para la directiva de acceso condicional](/intune/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access).
 
 ### Paso 4: configure la directiva de acceso condicional.
 Las directivas de acceso condicional de Exchange Online utilizan el siguiente flujo para evaluar si se permitirá o bloqueará el acceso a los dispositivos.
 
 ![Diagrama de flujo que muestra cómo las directivas de acceso condicional de Exchange Online evalúan si se permitirá o bloqueará el acceso a los dispositivos](./media/ProtectEmail/conditional-access-8-1.png)
 
-Siga la información proporcionada en [Configurar la directiva de acceso condicional](/intune/deployuse/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access) para establecer la directiva de acceso condicional.
+Siga la información proporcionada en [Configurar la directiva de acceso condicional](/intune/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access) para configurar la directiva de acceso condicional.
 
 
 
@@ -79,6 +73,7 @@ En el panel de Intune, haga clic en el icono **Dispositivos bloqueados de Exchan
 Cuando haya implementado una solución para proteger el correo electrónico corporativo y los datos de correo electrónico de los dispositivos móviles, puede obtener más información sobre la [experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md). Esto le ayudará a prepararse para problemas que podrían surgir al inscribir sus dispositivos específicos.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jul16_HO1-->
 
 

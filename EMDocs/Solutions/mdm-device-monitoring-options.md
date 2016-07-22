@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Opciones de supervisión de dispositivos
-description:
-keywords:
-author: robmazz
+title: "Opciones de supervisión de dispositivos"
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 23cfc12a-fa96-4fb3-8de1-af4569e8cb71
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: f543376b1e850c7d6e868c91d942aa8058e11b41
+
 
 ---
 
@@ -32,7 +25,7 @@ ms.suite: ems
 
 La supervisión y comprensión del estado y la configuración de todos los dispositivos móviles administrados por su organización le ayudan a detectar problemas e incumplimientos, y administran el inventario de dispositivos. Sin informes detallados acerca del estado de la conformidad, el hardware y el software, es imposible asegurarse de que las directivas de dispositivos estén realmente en el sitio y funcionando correctamente. La supervisión proactiva ayuda a mitigar los problemas pequeños antes de que sean más grandes y supongan un mayor coste.
 
-[Intune](/Intune/deployuse/monitoring-and-reports-with-microsoft-intune), [MDM para Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) y una [implementación híbrida](https://technet.microsoft.com/library/gg699377.aspx) de Intune y Configuration Manager incluyen supervisión e informes para ayudar a administrar dispositivos y usuarios, así como al cumplimiento con los procedimientos y directivas de su organización. Utilice informes incorporados con informes personalizados para supervisar la administración de dispositivos móviles en áreas como las siguientes:
+[Intune](/Intune/deploy-use/monitoring-and-reports-with-microsoft-intune), [MDM para Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) y las [implementaciones híbridas](https://technet.microsoft.com/library/gg699377.aspx) de Intune y Configuration Manager incluyen supervisión e informes para ayudar a administrar dispositivos y usuarios, así como compatibilidad con los procedimientos y directivas de la organización. Utilice informes incorporados con informes personalizados para supervisar la administración de dispositivos móviles en áreas como las siguientes:
 
 - Informes de actualizaciones de software
 - Informes de inventario de software
@@ -101,10 +94,11 @@ Las respuestas que dio a las preguntas en Tarea 2 pueden ayudarle a determinar l
 
 Explore los detalles acerca de las opciones de supervisión de dispositivos móviles revisando lo siguiente:
 
-- Intune: **[supervisión de dispositivos móviles](https://technet.microsoft.com/library/jj733634.aspx)** y [administración de informes](/Intune/deployuse/monitoring-and-reports-with-microsoft-intune)
+- Intune: **[supervisión de dispositivos móviles](https://technet.microsoft.com/library/jj733634.aspx)** y [administración de informes](/Intune/deploy-use/monitoring-and-reports-with-microsoft-intune)
 - Configuration Manager: [supervisión de dispositivos móviles](https://technet.microsoft.com/library/gg682128.aspx) y [administración de informes](https://technet.microsoft.com/library/gg699377.aspx)
 - MDM para Office 365: [información general y tareas de administración de dispositivos](https://technet.microsoft.com/en-us/library/ms.o365.cc.devicepolicy.aspx)
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

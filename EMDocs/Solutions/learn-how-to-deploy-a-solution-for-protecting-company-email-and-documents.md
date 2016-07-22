@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Aprenda a implementar una solución para proteger los documentos y correos electrónicos de su empresa
-description:
-keywords:
+title: "Aprenda a implementar una solución para proteger los documentos y correos electrónicos de su empresa"
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c965f619511720175393f91ba49d019ba4bcff4f
+ms.openlocfilehash: 2dc585131b1897109afeb3ace9f8b9f6a245a313
+
 
 ---
 
@@ -30,7 +24,7 @@ Las empresas, cada vez con más frecuencia, permiten que sus empleados obtengan 
 
 Con esta guía, esperamos que los profesionales de TI puedan determinar e implementar las mejores soluciones para su empresa y aplicar la directiva de acceso condicional en una de las configuraciones, tal como se describe a continuación. Gracias a ello, los empleados podrán usar sus dispositivos móviles para acceder a los mensajes de correo electrónico de su empresa a la vez que se mantienen los datos protegidos.
 
-En esta sección se trata el proceso para implementar una solución que permita proteger los documentos y correos electrónicos de su empresa. Para obtener más información sobre la arquitectura de estas soluciones, consulte [Guía de arquitectura para proteger los documentos y correos electrónicos de la empresa](architecture-guidance-for-protecting-company-email-and-documents).
+En esta sección se trata el proceso para implementar una solución que permita proteger los documentos y correos electrónicos de su empresa. Para más información sobre la arquitectura de estas soluciones, consulte [Guía de arquitectura para proteger los documentos y correos electrónicos de la empresa](architecture-guidance-for-protecting-company-email-and-documents.md).
 
 > [!TIP]
 > Obtenga una copia descargable de este tema completo en la [Galería de TechNet](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404).
@@ -46,7 +40,7 @@ La protección del correo electrónico corporativo implica dos objetivos princip
 
 -   **Proteger el contenido de los correos electrónicos y los datos adjuntos:** aunque la directiva de acceso condicional le permite asegurarse de que solo los dispositivos que cumplen los requisitos tengan acceso al correo electrónico, siempre queda la cuestión de proteger el contenido del correo electrónico y de los datos adjuntos.  El contenido se puede copiar, mover, guardar en una ubicación diferente o compartir con otro usuario.  EMS soluciona este problema mediante directivas de administración de aplicaciones móviles.
 
-    Las aplicaciones administradas son aplicaciones que tienen directivas de administración de aplicaciones móviles que las hacen compatibles con los requisitos de seguridad de su empresa. Con estas aplicaciones, tendrá control directo sobre las implementaciones, la administración continua (como el inventario o las actualizaciones) y el borrado selectivo de aplicaciones y sus datos asociados. Asimismo, a través de un conjunto de directivas de administración de aplicaciones móviles (MAM), Intune le permite modificar la funcionalidad de las aplicaciones y restringir los datos que se comparten. Para obtener más detalles sobre el funcionamiento de esta solución, incluidos los detalles de la arquitectura, consulte [Proteger documentos y correo electrónico corporativos](architecture-guidance-for-protecting-company-email-and-documents).
+    Las aplicaciones administradas son aplicaciones que tienen directivas de administración de aplicaciones móviles que las hacen compatibles con los requisitos de seguridad de su empresa. Con estas aplicaciones, tendrá control directo sobre las implementaciones, la administración continua (como el inventario o las actualizaciones) y el borrado selectivo de aplicaciones y sus datos asociados. Asimismo, a través de un conjunto de directivas de administración de aplicaciones móviles (MAM), Intune le permite modificar la funcionalidad de las aplicaciones y restringir los datos que se comparten. Para más información sobre el funcionamiento de esta solución, incluidos los detalles de la arquitectura, consulte [Proteger documentos y correo electrónico corporativos](architecture-guidance-for-protecting-company-email-and-documents.md).
 
     > [!NOTE]
     > Puede crear y distribuir un perfil de correo electrónico para, a continuación, establecer una directiva de cumplimiento que especifique que los perfiles de correo electrónico deben administrarse mediante Intune (recomendado). Esto le ofrece la posibilidad de borrar correos electrónicos desde dispositivos retirados y le garantiza que, para iOS, los datos adjuntos solo se puedan abrir en aplicaciones administradas por Intune. Vea [Paso 5: cree directivas de cumplimiento y distribúyalas a los usuarios](conditional-access-intune-configmgr-exchange.md). para obtener más información.
@@ -75,6 +69,7 @@ Ahora que ha leído este tema, puede obtener más información cómo implementar
 - [Uso del acceso condicional con Microsoft Intune y Configuration Manager](conditional-access-intune-configmgr.md)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 
