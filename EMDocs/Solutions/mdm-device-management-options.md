@@ -96,6 +96,6 @@ Las respuestas a las preguntas del paso 1 pueden ayudarle a determinar cómo des
 - Los exploradores administrados no son compatibles actualmente
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 
