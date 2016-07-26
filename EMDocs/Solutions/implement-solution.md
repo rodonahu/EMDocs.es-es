@@ -1,8 +1,8 @@
 ---
 title: "Implementación de una solución para proteger los documentos y correos electrónicos de su empresa"
-description: 
+description: "Prepare e implemente una solución para proteger los datos adjuntos y el contenido de correo electrónico de la empresa."
 keywords: 
-author: karthikaraman
+author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +13,8 @@ ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
-ms.openlocfilehash: eec74f54e6e6265d53f62fdccead61bff9174503
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: 78fb7718a03cc394296a3125619813007a907574
 
 
 ---
@@ -98,6 +98,6 @@ Para obtener instrucciones detalladas sobre cómo implementar una solución para
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

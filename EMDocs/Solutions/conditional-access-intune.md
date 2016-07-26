@@ -1,34 +1,28 @@
 ---
-# required metadata
-
 title: Uso del acceso condicional con Microsoft Intune
-description:
-keywords:
+description: "Use el acceso condicional de Intune para proteger el correo electrónico y otros servicios."
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 28662db2-faea-425f-ada9-04cf1d976fc2
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: 4cdcef9c5c38cf4b4294dde581a0c2864b5ba043
+
 
 ---
 
 # Uso del acceso condicional con Microsoft Intune
 Esta solución permite usar el acceso condicional en Intune para ayudar a proteger el correo electrónico y otros servicios en función de las condiciones que especifique.
 
-Consulte [Restrict access to email and O365 services with Microsoft Intune](/intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune) (Restricción del acceso al correo electrónico y a los servicios de Office 365 con Microsoft Intune) para obtener más información sobre cómo usar la característica de acceso condicional con Intune.
+Consulte [Restringir el acceso al correo electrónico y a los servicios de O365 con Microsoft Intune](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) para más información sobre cómo usar la característica de acceso condicional con Intune.
 
 > [!TIP]
 > Obtenga una copia descargable de este tema completo en la [Galería de TechNet](https://gallery.technet.microsoft.com/protect-company-data-and-8c5e08b4).
@@ -104,6 +98,7 @@ Además:
   Ahora ya puede obtener más información sobre cómo [implementar Exchange Server local con Intune](conditional-access-intune-exchange.md).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jul16_HO3-->
 
 

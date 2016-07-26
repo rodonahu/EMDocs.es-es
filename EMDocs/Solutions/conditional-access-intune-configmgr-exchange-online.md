@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Uso del acceso condicional con Exchange Online, Microsoft Intune y Configuration Manager
-description:
-keywords:
+description: "Use Configuration Manager, Exchange Online e Intune para administrar el acceso al correo electrónico y proteger los datos del correo electrónico en dispositivos móviles."
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: e87f189128279a2f12da202dd0b9022a967fc5c2
+
 
 ---
 
@@ -34,8 +28,7 @@ Si ya usa System Center Configuration Manager y Exchange Online, puede incorpora
 
 -   Para empezar, aplique el acceso condicional.
 
--   Si quiere, configure el conector de Exchange Server para Exchange Online.
-    Este conector es necesario únicamente con fines de elaboración de informes. No es necesario para habilitar el acceso condicional.
+-   Opcionalmente, configure el conector de Exchange Server para Exchange Online. Este conector solo se necesita con fines informativos. No es necesario para habilitar el acceso condicional.
 
 ## Flujo de control de acceso condicional para Exchange Online
 Este diagrama muestra el flujo de control para los clientes que intentan obtener acceso al correo electrónico en Exchange Online. A y B pueden realizarse antes de aplicar el acceso condicional.
@@ -156,6 +149,7 @@ A los dispositivos que usan la autenticación moderna se les aplica de inmediato
 Cuando haya implementado una solución para proteger el correo electrónico corporativo y los datos de correo electrónico de los dispositivos móviles, puede obtener más información sobre la [experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md). Esto le ayudará a prepararse para problemas que podrían surgir al inscribir sus dispositivos específicos.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jul16_HO3-->
 
 

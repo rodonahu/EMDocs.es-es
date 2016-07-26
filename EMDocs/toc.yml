@@ -1,143 +1,149 @@
-- name: Documentos
+- name: "Documentos"
   href: /
   homepage: /
   items:
-  - name: Enterprise Mobility
+  - name: "Enterprise Mobility"
     href: /enterprise-mobility/
     homepage: /enterprise-mobility
     items:
-    - name: Soluciones
+    - name: "Soluciones"
       href: /enterprise-mobility/solutions/
       homepage: /enterprise-mobility/solutions/byod-design-considerations-guide
-    - name: Azure RemoteApp
+    - name: "Azure RemoteApp"
       href: /remoteapp/
       homepage: /remoteapp
-    - name: Azure Active Directory
+    - name: "Azure Active Directory"
       href: /active-directory/
       homepage: /active-directory
       items:
-        - name: Biblioteca de autenticación de AD
+        - name: "Biblioteca de autenticación de AD"
           href: /active-directory/adal/
           homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
-        - name: API de gráficos de AD
+        - name: "API de gráficos de AD"
           href: /azure-ad-graph-api/api/
           homepage: /azure-ad-graph-api/api/api-catalog
-    - name: Multi-Factor Authentication
+    - name: "Multi-Factor Authentication"
       href: /multi-factor-authentication/
       homepage: /multi-factor-authentication
-    - name: Advanced Threat Analytics
+    - name: "Advanced Threat Analytics"
       href: /advanced-threat-analytics/
       homepage: /advanced-threat-analytics
       items:
-        - name: Conceptos básicos y exploración
+        - name: "Conceptos básicos y exploración"
           href: /advanced-threat-analytics/understand-explore/
           homepage: /advanced-threat-analytics/understand/ata-understand-and-explore
-        - name: Planificación y diseño 
+        - name: "Planificación y diseño" 
           href: /advanced-threat-analytics/plan-design/
           homepage: /advanced-threat-analytics/plandesign/ata-plan-and-design
-        - name: Implementación y uso
+        - name: "Implementación y uso"
           href: /advanced-threat-analytics/deploy-use/
           homepage: /advanced-threat-analytics/deployuse/ata-deploy-and-use
-        - name: Solución de problemas
+        - name: "Solución de problemas"
           href: /advanced-threat-analytics/troubleshoot/
           homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
-    - name: Intune
+    - name: "Intune"
       href: /intune/
       homepage: /intune
       items:
-        - name: Conceptos básicos y exploración
+        - name: "Conceptos básicos y exploración"
           href: /intune/understand-explore/
           homepage: /intune/understand/ways-to-do-enterprise-mobility
-        - name: Planificación y diseño 
+        - name: "Planificación y diseño" 
           href: /intune/plan-design/
           homepage: /intune/plandesign/plan-you-user-and-device-groups
-        - name: Implementación y uso
+        - name: "Implementación y uso"
           href: /intune/deploy-use/
           homepage: /intune/deploy-use/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
-        - name: Solución de problemas
+        - name: "Solución de problemas"
           href: /intune/troubleshoot/
           homepage: /intune/troubleshoot/troubleshoot-microsoft-intune
-        - name: Introducción
+        - name: "Introducción"
           href: /intune/get-started/
           homepage: /intune/get-started/what-s-new-in-microsoft-intune
-        - name: Desarrollo y personalización de aplicaciones
+        - name: "Desarrollo y personalización de aplicaciones"
           href: /intune/develop/
           homepage: /intune/develop/intune-app-sdk
           
-    - name: Administración de los derechos de Azure
+    - name: "Administración de los derechos de Azure"
       href: /rights-management/
       homepage: /rights-management
       items:
-        - name: Conceptos básicos y exploración
+        - name: "Conceptos básicos y exploración"
           href: /rights-management/understand-explore/
           homepage: /rights-management/understand-explore/what-is-azure-rights-management
-        - name: Introducción
+        - name: "Introducción"
           href: /rights-management/get-started/
           homepage: /rights-management/get-started/requirements-for-azure-rights-management
-        - name: Planificación y diseño
+        - name: "Planificación y diseño"
           href: /rights-management/plan-design/
           homepage: /rights-management/plan-design/azure-rights-management-deployment-roadmap
-        - name: Implementación y uso del servicio
+        - name: "Implementación y uso del servicio"
           href: /rights-management/deploy-use/
           homepage: /rights-management/deploy-use/activating-azure-rights-management
-        - name: Implementación y uso del cliente
+        - name: "Implementación y uso del cliente"
           href: /rights-management/rms-client/
           homepage: /rights-management/rms-client/rights-management-rms-client
-        - name: Desarrollo y personalización de aplicaciones
+        - name: "Desarrollo y personalización de aplicaciones"
           href: /rights-management/develop/
           homepage: /rights-management/develop/developers-guide
           items:
-          - name: SDK 4.2
+          - name: "SDK 4.2"
             href: /rights-management/sdk/4.2/api/
             homepage: /rights-management/develop/api-reference-4-2
             items:
-            - name: Android
+            - name: "Android"
               href: /rights-management/sdk/4.2/api/android/
               homepage: /rights-management/develop/android-namespaces
-            - name: iOS 
+            - name: "iOS" 
               href: /rights-management/sdk/4.2/api/iOS/
               homepage: /rights-management/sdk/4.2/api/iOS/iOS
-            - name: WinRT
+            - name: "WinRT"
               href: /rights-management/sdk/4.2/api/winrt/
               homepage: /rights-management/sdk/4.2/api/winrt/Microsoft.RightsManagement
-          - name: SDK 2.1
+          - name: "SDK 2.1"
             href: /rights-management/sdk/2.1/api/
             homepage: /rights-management/develop/api-reference-2-1
             items:
-            - name: Win
+            - name: "Win"
               href: /rights-management/sdk/2.1/api/win/
               homepage: /rights-management/develop/api-reference-2-1
               items:
-              - name: Constantes
+              - name: "Constantes"
                 href: /rights-management/sdk/2.1/api/win/constants/
                 homepage: /rights-management/sdk/2.1/api/win/constants
-              - name: Tipos de datos
+              - name: "Tipos de datos"
                 href: /rights-management/sdk/2.1/api/win/data%20types/
                 homepage: /rights-management/sdk/2.1/api/win/data%20types
-              - name: Funciones
+              - name: "Funciones"
                 href: /rights-management/sdk/2.1/api/win/functions/
                 homepage: /rights-management/sdk/2.1/api/win/functions
-              - name: Estructuras
+              - name: "Estructuras"
                 href: /rights-management/sdk/2.1/api/win/structures/
                 homepage: /rights-management/sdk/2.1/api/win/structures
-    - name: Microsoft Identity Manager
+        - name: "Information Protection (versión preliminar)"
+          href: /rights-management/information-protection/
+          homepage: /rights-management/information-protection/what-is-information-protection
+    - name: "Microsoft Identity Manager"
       href: /microsoft-identity-manager/
       homepage: /microsoft-identity-manager
       items:
-        - name: Conceptos básicos y exploración
+        - name: "Conceptos básicos y exploración"
           href: /microsoft-identity-manager/understand-explore/
           homepage: /microsoft-identity-manager/understand-explore/journey-understand-evaluate
-        - name: Planificación y diseño 
+        - name: "Planificación y diseño" 
           href: /microsoft-identity-manager/plan-design/
           homepage: /microsoft-identity-manager/plan-design/journey-plan-design
-        - name: Implementación y uso
+        - name: "Implementación y uso"
           href: /microsoft-identity-manager/deploy-use/
           homepage: /microsoft-identity-manager/deploy-use/journey-deploy-use-html
-        - name: Referencia
+        - name: "Referencia"
           href: /microsoft-identity-manager/reference/
           homepage: /microsoft-identity-manager/reference/journey-develop-applications
-        - name: Introducción
+        - name: "Introducción"
           href: /microsoft-identity-manager/get-started/
           homepage: /microsoft-identity-manager/get-started/journey-get-started
+        - name: "PAM"
+          href: /microsoft-identity-manager/pam/
+          homepage: https://docs.microsoft.com/en-us/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services
   
   

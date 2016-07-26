@@ -1,6 +1,6 @@
 ---
 title: Proteger los datos de empresa mediante MAM con MDM
-description: 
+description: "Cree e implemente aplicaciones con directivas de administración de aplicaciones móviles (MAM) para proteger mejor los datos de la empresa."
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,13 +13,13 @@ ms.assetid: 6c7088a9-ca88-4ff2-97a6-f842691fd3c7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 276a4ee6ceab6b39b9add2ea844cdf03f142a253
-ms.openlocfilehash: e925f84d1e885c8427dbd13eb060e8e2761aaeb6
+ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
+ms.openlocfilehash: 5a58ea05ce49f0d135d8a5ca3ad2e52c312f4490
 
 
 ---
 
-# Proteger los datos de empresa en dispositivos móviles mediante directivas de administración de aplicaciones
+# Proteger los datos de la empresa en dispositivos móviles mediante directivas de administración de aplicaciones
 Proteger los datos de su empresa es de vital importancia y supone un desafío que no deja de aumentar en complejidad, ya que cada vez más empleados usan sus dispositivos móviles para obtener acceso a recursos de la empresa como el correo electrónico y sus datos adjuntos. Como administrador de TI, debe asegurarse de que los datos de la empresa están protegidos incluso cuando los dispositivos móviles no están dentro de la ubicación física de la empresa.
 
 Esta guía se centrará en la habilitación de aplicaciones administradas tal como se aplica a dos implementaciones de MDM de Intune:
@@ -27,12 +27,15 @@ Esta guía se centrará en la habilitación de aplicaciones administradas tal co
 - Como una solución de administración de la nube mediante Intune
 - Como un servicio integrado con Configuration Manager
 
-Esto le permite crear e implementar aplicaciones con directivas de administración de aplicaciones móviles (MAM) para proteger mejor los datos de empresa.
+Esto le permite crear e implementar aplicaciones con directivas de administración de aplicaciones móviles (MAM) para proteger mejor los datos de la empresa.
 
 Este documento se centra en la creación de estas directivas basadas en MAM cuando el dispositivo del usuario final se inscribe en Intune para MDM. Consulte [Proteger aplicaciones y datos de línea de negocio en dispositivos no inscritos en Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune) para obtener información sobre la configuración de estas directivas MAM cuando el propio dispositivo no está inscrito en Intune para MDM.
 
+> [!TIP]
+> Obtenga una copia descargable de este tema completo de la [Galería de TechNet](https://gallery.technet.microsoft.com/Protect-Company-Data-on-d972f4f4/file/154240/1/Protect%20Company%20Data%20on%20Mobile%20Devices%20through%20Application%20Management%20Policies.pdf).
+
 ## Introducción
-Las aplicaciones administradas son aplicaciones que tienen directivas de administración de aplicaciones móviles que las hacen compatibles con los requisitos de seguridad de su empresa. Tiene dos opciones para administrar aplicaciones móviles:
+Las aplicaciones administradas son aplicaciones que tienen directivas de MAM que las hacen compatibles con los requisitos de seguridad de su empresa. Tiene dos opciones para administrar aplicaciones móviles:
 - **La funcionalidad predeterminada**, como Apple Managed Open In, que protege los datos corporativos mediante el control de las aplicaciones que pueden abrir determinados documentos y datos adjuntos de correo electrónico
 - **El SDK para aplicaciones de Intune**, que permite limitar la funcionalidad y restringir el uso compartido de datos en las aplicaciones que tienen habilitado el SDK para aplicaciones de Intune. Algunas de las principales características del SDK para aplicaciones de Intune es que permite:
   - Administrar la función guardar como
@@ -52,13 +55,13 @@ Las aplicaciones administradas son aplicaciones que tienen directivas de adminis
    > La experiencia del usuario final de esta solución se describe con más detalle en el artículo [Experiencia del usuario final](end-user-experience-mam.md).
 
 - **Comprenda el ciclo de vida de la aplicación:** al igual que ocurre con la administración de los dispositivos, las aplicaciones tienen un ciclo de vida que comienza con la preparación y continúa con la implementación, la supervisión, la actualización y la retirada. Intune puede ayudarle en todas las fases de este ciclo de vida. Para obtener información detallada sobre el ciclo de vida de la aplicación, consulte [Información general sobre el ciclo de vida de la aplicación](https://docs.microsoft.com/en-us/intune/deploy-use/overview-of-app-lifecycle-in-microsoft-intune).
-- **Más información sobre las aplicaciones de Microsoft que se pueden usar con directivas MAM:** la página de [socios de aplicaciones de Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners) contiene la información más reciente sobre aplicaciones de Microsoft y otras empresas que puede usar con directivas de administración de aplicaciones móviles.
+- **Obtenga más información sobre las aplicaciones de Microsoft que se pueden usar con directivas de MAM:** la página de [socios de aplicaciones de Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners) contiene la información más reciente sobre aplicaciones de Microsoft y otras empresas que puede usar con directivas de administración de aplicaciones móviles.
 
   Puede usar la herramienta de ajuste de aplicaciones de Microsoft Intune para modificar el comportamiento de las aplicaciones internas a fin de configurar características de la aplicación sin modificar el código de la propia aplicación. Para obtener información más concreta, consulte los siguientes temas:
  - [Preparar aplicaciones iOS para la administración de aplicaciones móviles con la herramienta de ajuste de aplicaciones de Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
  - [Preparar aplicaciones Android para la administración de aplicaciones móviles con la Herramienta de ajuste de aplicaciones de Intune](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
 
-- **Comprenda cómo se resuelven los conflictos entre directivas:** cuando hay un conflicto entre directivas de administración de aplicaciones móviles en la primera implementación para el usuario o el dispositivo, el valor específico de configuración en conflicto se quitará de la directiva implementada en la aplicación y esta usará un valor de conflicto integrado (el valor predeterminado es **más restrictiva**).
+- **Comprenda cómo se resuelven los conflictos entre directivas:** cuando hay un conflicto entre directivas de administración de aplicaciones móviles en la primera implementación para el usuario o el dispositivo, el valor específico de configuración en conflicto se quitará de la directiva implementada en la aplicación y esta usará un valor de conflicto integrado (el valor predeterminado es el **más restrictivo**).
 
   Cuando hay un conflicto de directivas de administración de aplicaciones móviles en implementaciones posteriores para la aplicación o el usuario, el valor específico de la configuración en conflicto no se actualizará en la directiva de administración de aplicaciones móviles implementada para la aplicación y la aplicación usará el valor existente para dicha configuración.
 
@@ -71,6 +74,6 @@ Ahora que está familiarizado con el proceso general de MAM, está listo para [u
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,6 +1,6 @@
 ---
 title: Experiencia del usuario final de MAM
-description: 
+description: "Experiencia del usuario final de directivas de administración de aplicaciones móviles."
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,8 +13,8 @@ ms.assetid: bbc9f6ea-fc92-468d-bb5b-60c67949ca28
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 276a4ee6ceab6b39b9add2ea844cdf03f142a253
-ms.openlocfilehash: 4d1db666c95ef845802952369eb0d505ef4a3dd0
+ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
+ms.openlocfilehash: 3fc1303f0db0a9db7d3d4d37c703e2d4ec168ecb
 
 
 ---
@@ -66,6 +66,6 @@ Hay otras experiencias de usuario final sobre las que puede obtener más informa
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

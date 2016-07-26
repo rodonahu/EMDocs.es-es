@@ -1,6 +1,6 @@
 ---
 title: "Usar directivas de administración de aplicaciones móviles en Configuration Manager"
-description: 
+description: "Cree e implemente una aplicación en Configuration Manager con una directiva de administración de aplicaciones móviles (MAM)."
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,8 +13,8 @@ ms.assetid: 74288276-84d3-4d24-8307-7875491be9c9
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 276a4ee6ceab6b39b9add2ea844cdf03f142a253
-ms.openlocfilehash: 48f0f43b925090aec2cf0585b1372f5c27d1bd5b
+ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
+ms.openlocfilehash: abc605760bbe8b6bea886763f91f287ff6a92f15
 
 
 ---
@@ -26,7 +26,7 @@ A partir de System Center 2012 Configuration Manager SP2, las directivas de admi
 - Dispositivos que ejecutan iOS 7 y versiones posteriores.
 
 > [!TIP]
-> Además de los dispositivos administrados, las directivas de administración de aplicaciones móviles pueden usarse para proteger las aplicaciones de dispositivos que no están administrados por Intune. Con esta nueva capacidad, puede aplicar directivas de administración de aplicaciones móviles en aplicaciones que se conecten a los servicios de Office 365. Esto no se admite en aplicaciones que se conecten a Exchange o SharePoint local.
+> Además de los dispositivos administrados, las directivas de administración de aplicaciones móviles (MAM) pueden usarse para proteger las aplicaciones de dispositivos que no están administrados por Intune. Con esta nueva capacidad, puede aplicar directivas de administración de aplicaciones móviles en aplicaciones que se conecten a los servicios de Office 365. Esto no se admite en aplicaciones que se conecten a Exchange o SharePoint local.
 Para usar esta nueva funcionalidad, debe emplear el portal de Azure. Los siguientes temas le ayudarán a empezar a trabajar:
 - [Get ready to configure mobile app management policies with Microsoft Intune (Preparación para configurar directivas de administración de aplicaciones móviles con Microsoft Intune)](https://docs.microsoft.com/en-us/intune/deploy-use/get-ready-to-configure-mobile-app-management-policies-with-microsoft-intune)
 - [Crear e implementar directivas de administración de aplicaciones móviles con Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune)
@@ -38,7 +38,7 @@ Para aplicar restricciones a una aplicación, esta debe incorporar el Kit de des
 - **Usar una aplicación administrada por directivas** (Android e iOS): tiene integrado el SDK para aplicaciones. Para agregar este tipo de aplicación, especifique un vínculo a la aplicación desde una tienda de aplicaciones como, por ejemplo, iTunes Store o Google Play. No es necesario ningún procesamiento adicional para este tipo de aplicación. Para obtener una lista de aplicaciones administradas por directivas disponibles para dispositivos iOS y Android, consulte [Microsoft Intune mobile application gallery (Galería de aplicaciones móviles de Microsoft Intune)](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners).
 - **Usar una aplicación "ajustada"** (Android e iOS): aplicaciones que se vuelven a empaquetar para incluir el SDK para aplicaciones mediante la herramienta de ajuste de aplicaciones de Microsoft Intune. Esta herramienta se usa normalmente para procesar aplicaciones de empresa que se hayan creado internamente. No se puede usar para procesar aplicaciones que se hayan descargado desde la tienda de aplicaciones. Consulte [Preparar aplicaciones iOS para la administración de aplicaciones móviles con la Herramienta de ajuste de aplicaciones de Intune](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) y [Preparar aplicaciones Android para la administración de aplicaciones móviles con la Herramienta de ajuste de aplicaciones de Intune](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool).
 
-## Crear e implementar una aplicación con una directiva de administración de aplicaciones móviles
+## Crear e implementar una aplicación en Configuration Manager con una directiva de administración de aplicaciones móviles
 
 - Paso 1: obtenga el vínculo a una aplicación administrada por directivas o cree una aplicación ajustada.
 - Paso 2: cree una aplicación de Configuration Manager que contenga una aplicación.
@@ -73,7 +73,7 @@ Cuando se crea un tipo de implementación para una aplicación que requiere una 
 
 
 ### Paso 5: supervise la implementación de la aplicación.
-Una vez creada e implementada una aplicación asociada a una directiva de administración de aplicaciones móviles, puede [supervisar la aplicación y resolver los conflictos entre directivas](https://technet.microsoft.com/en-us/library/mt131414.aspx?f=255&MSPPError=-2147217396#BKMK_Step5).
+Una vez haya creado e implementado una aplicación asociada a una directiva de MAM, puede [supervisar la aplicación y resolver cualquier conflicto entre directivas](https://technet.microsoft.com/en-us/library/mt131414.aspx?f=255&MSPPError=-2147217396#BKMK_Step5).
 
 Para obtener información general sobre la supervisión de aplicaciones, consulte [Cómo supervisar aplicaciones en Configuration Manager](https://technet.microsoft.com/en-us/library/gg682201.aspx).
 
@@ -83,6 +83,6 @@ Después de haber creado e implementado una aplicación asociada a una directiva
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

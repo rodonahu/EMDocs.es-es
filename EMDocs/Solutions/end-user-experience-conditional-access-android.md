@@ -1,6 +1,6 @@
 ---
 title: Experiencia del usuario final de acceso condicional en dispositivos Android
-description: 
+description: La experiencia del usuario final al inscribir un dispositivo Android.
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,15 +13,15 @@ ms.assetid: 0b5e4330-6fa5-445c-b73e-86ce5b9c7964
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
-ms.openlocfilehash: 5efa0fd3567b3f91e0edcddae929bdb494f013da
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: 19ea25ed17121c8310024e0dcfd1b1a048486eca
 
 
 ---
 
 # Android
 
-El proceso de inscripción y las pantallas que ve el usuario pueden variar ligeramente en función de la versión del sistema operativo que se ejecuta en el dispositivo del usuario final. En este tema se describe la experiencia del usuario final para dispositivos Android.
+El proceso de inscripción y las pantallas que ve el usuario pueden variar ligeramente en función de la versión del sistema operativo que se ejecuta en el dispositivo del usuario final. En este tema se describe la experiencia del usuario final al inscribir dispositivos Android.
 
 ## Inscripción
 
@@ -107,6 +107,6 @@ La experiencia del usuario final es ligeramente diferente en otros dispositivos 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

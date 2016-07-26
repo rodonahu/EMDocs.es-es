@@ -1,6 +1,6 @@
 ---
 title: Experiencia de acceso condicional del usuario final
-description: 
+description: La experiencia del usuario final al inscribir un dispositivo o solucionar problemas de cumplimiento.
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,8 +13,8 @@ ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
-ms.openlocfilehash: e0843fc9808963fcc61d48abdc58953f57dcc471
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: 2972c5cfbfcc261138716aaa212728c74672c0eb
 
 
 ---
@@ -42,6 +42,6 @@ En [este tema](end-user-experience-conditional-access-winphone.md) se describe l
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

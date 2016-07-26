@@ -1,6 +1,6 @@
 ---
 title: Experiencia de acceso condicional del usuario final en dispositivos iOS
-description: 
+description: La experiencia del usuario final al inscribir un dispositivo iOS.
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,15 +13,15 @@ ms.assetid: 3c641ea8-2c0e-490e-b1de-831336f46d19
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
-ms.openlocfilehash: 6ff6f8c66e5b4ed838c72dd06f200118c6461cb0
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: 0c1731b9acc8dc6f959702d218a9e59ce70a4e6e
 
 
 ---
 
 # iOS
 
-El proceso de inscripción y las pantallas que ve el usuario pueden variar ligeramente en función de la versión del sistema operativo que se ejecuta en el dispositivo del usuario final. En este tema se describe la experiencia del usuario final en dispositivos iOS.
+El proceso de inscripción y las pantallas que ve el usuario pueden variar ligeramente en función de la versión del sistema operativo que se ejecuta en el dispositivo del usuario final. En este tema se describe la experiencia del usuario final al inscribir dispositivos iOS.
 
 ## Inscripción
 
@@ -95,6 +95,6 @@ La experiencia del usuario final es ligeramente diferente en otros dispositivos 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

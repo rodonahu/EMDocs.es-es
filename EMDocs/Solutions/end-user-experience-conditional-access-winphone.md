@@ -1,33 +1,27 @@
 ---
-# required metadata
-
 title: Experiencia de acceso condicional del usuario final en Windows Phone
-description:
-keywords:
+description: La experiencia del usuario final al inscribir un dispositivo Windows Phone.
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 906566e0-f05e-4af5-b4d5-0efb083dca76
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: 880bdf44371ad59c4d1d0a619e941f1b8e926aa3
+
 
 ---
 
 # Windows Phone
 
-El proceso de inscripción y las pantallas que ve el usuario pueden variar ligeramente en función de la versión del sistema operativo que se ejecuta en el dispositivo del usuario final.  En este tema se describe la experiencia del usuario final en Windows Phone.
+El proceso de inscripción y las pantallas que ve el usuario pueden variar ligeramente en función de la versión del sistema operativo que se ejecuta en el dispositivo del usuario final.  En este tema se describe la experiencia del usuario final al inscribir dispositivos Windows Phone.
 
 ## Inscripción
 
@@ -103,10 +97,10 @@ Cada 8 horas, de forma predeterminada, se comprueban los dispositivos para garan
 5.  Si el problema está solucionado, el usuario hace clic en **Continuar** para completar el proceso. El correo electrónico debería estar disponible de nuevo tras unos minutos.
 
 ### Próximos pasos
-La experiencia del usuario final es ligeramente diferente en otros dispositivos móviles. Puede obtener más información sobre la experiencia del usuario final en [Android](end-user-experience-conditional-access-android.md) e
-[iOS](end-user-experience-conditional-access-ios.md).
+La experiencia del usuario final es ligeramente diferente en otros dispositivos móviles. Puede obtener más información sobre la experiencia del usuario final de [Android](end-user-experience-conditional-access-android.md) e [iOS](end-user-experience-conditional-access-ios.md).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jul16_HO3-->
 
 

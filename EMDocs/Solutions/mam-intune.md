@@ -1,6 +1,6 @@
 ---
 title: "Usar directivas de administración de aplicaciones móviles en Intune"
-description: 
+description: "Cree e implemente una aplicación en Intune con una directiva de administración de aplicaciones móviles."
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,8 +13,8 @@ ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 276a4ee6ceab6b39b9add2ea844cdf03f142a253
-ms.openlocfilehash: 6e1c55e17c37c5e470c4b391cc8aea4ea777856f
+ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
+ms.openlocfilehash: 6e1141ea69d92e0afcaa36f8b29d4d5000019769
 
 
 ---
@@ -26,14 +26,14 @@ Por ejemplo, si la empresa usa Microsoft Word, hay versiones disponibles para Wi
 
 Si usa Intune con Configuration Manager, consulte [Cómo controlar aplicaciones mediante directivas de administración de aplicaciones móviles en Configuration Manager](https://technet.microsoft.com/library/mt131414.aspx?f=255&MSPPError=-2147217396).
 
-Compatibilidad con las directivas de administración de aplicaciones móviles:
-- Dispositivos que ejecutan Android 4 y versiones posteriores.
+Compatibilidad de las directivas de administración de aplicaciones móviles (MAM):
+- Dispositivos que ejecutan Android 4 y versiones posteriores.
 - Dispositivos que ejecutan iOS 7 y versiones posteriores.
 
 > [!NOTE]
-> Las directivas de administración de aplicaciones móviles admiten dispositivos que están inscritos con Intune. Para más información sobre cómo crear directivas de administración de aplicaciones para dispositivos no administrados por Intune, consulte [Proteger datos de aplicación mediante directivas de administración de aplicaciones móviles con Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune).
+> Las directivas de MAM son compatibles con los dispositivos que están inscritos en Intune. Para más información sobre cómo crear directivas de administración de aplicaciones para dispositivos no administrados por Intune, consulte [Proteger datos de aplicación mediante directivas de administración de aplicaciones móviles con Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune).
 
-A diferencia de otras directivas de Intune, las directivas de administración de aplicaciones móviles no se implementan directamente. En su lugar, se asocia la directiva con la aplicación que desea restringir. Cuando la aplicación se implementa e instala en dispositivos, se aplicará la configuración especificada.
+A diferencia de otras directivas de Intune, no se implementa una directiva de MAM directamente. En su lugar, se asocia la directiva con la aplicación que desea restringir. Cuando la aplicación se implementa e instala en dispositivos, se aplicará la configuración especificada.
 
 Para aplicar restricciones a una aplicación, esta debe incorporar el Kit de desarrollo de software (SDK) para aplicaciones de Microsoft Intune. Existen dos métodos de obtención de este tipo de aplicación:
 
@@ -51,12 +51,12 @@ Por ejemplo, mediante la aplicación de Outlook:
 
 Word, Excel y PowerPoint también admiten varias identidades, aunque las restricciones de directivas solo se aplican al administrar y editar datos de identificación de empresa desde un servicio como OneDrive o SharePoint.
 
-## Crear e implementar una aplicación con una directiva de administración de aplicaciones móviles
+## Crear e implementar una aplicación en Intune con una directiva de administración de aplicaciones móviles
 
 - Paso 1: obtenga el vínculo a una aplicación administrada por directivas o cree una aplicación ajustada.
 - Paso 2: publique la aplicación en el espacio de almacenamiento en la nube.
 - Paso 3: cree una directiva de administración de aplicaciones móviles.
-- Paso 4: implemente la aplicación seleccionando la opción para asociarla a una directiva de administración de aplicaciones móviles.
+- Paso 4: implemente la aplicación (seleccione la opción para asociar la aplicación a una directiva de administración de aplicaciones móviles).
 - Paso 5: supervise la implementación de la aplicación.
 
 ### Paso 1: obtenga el vínculo a una aplicación administrada por directivas o cree una aplicación ajustada
@@ -69,7 +69,7 @@ Cuando se publica una aplicación administrada, los procedimientos difieren en f
 
 Consulte [Agregar aplicaciones para dispositivos móviles en Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune#add-the-app) para ver todos los pasos necesarios para cargar una aplicación en el espacio de almacenamiento en la nube.
 
-### Paso 3: cree una directiva de administración de aplicaciones móviles
+### Paso 3: cree una directiva de administración de aplicaciones móviles.
 El portal de Azure es la consola de administración recomendada para crear directivas MAM. El portal de Azure admite los siguientes escenarios de MAM:
 - Dispositivos inscritos en Intune
 - Dispositivos administrados por una solución de MDM de terceros
@@ -93,7 +93,7 @@ Puede haber situaciones en que implemente una aplicación y uno de los usuarios 
 
 En este caso, debe pedir al usuario que desinstale manualmente la versión no administrada para que se pueda instalar la versión administrada que se ha configurado.
 
-En cambio, en el caso de los dispositivos que ejecutan iOS 9 y versiones posteriores, Intune pedirá automáticamente al usuario permiso para ocuparse de la administración de la aplicación existente. Si acepta, Intune administrará la aplicación y también se aplicarán las directivas de administración de aplicaciones móviles asociadas a ella.
+En cambio, en el caso de los dispositivos que ejecutan iOS 9 y versiones posteriores, Intune pedirá automáticamente al usuario permiso para ocuparse de la administración de la aplicación existente. Si acepta, Intune administrará la aplicación y también se aplicarán las directivas de MAM que ha asociado a la aplicación.
 
 
 ### Paso 5: supervise la implementación de la aplicación con la directiva MAM
@@ -103,9 +103,9 @@ Use los procedimientos siguientes para supervisar la implementación de la aplic
 2. Realice uno de los siguientes pasos:
   -  Haga clic en **Todos los usuarios** y luego haga doble clic en el usuario cuyos dispositivos desea examinar. En la página Propiedades del usuario, haga clic en **Dispositivos** y luego haga doble clic en el dispositivo que quiere examinar.
   -  Haga clic en **Todos los dispositivos > Todos los dispositivos móviles**. En la página Propiedades de grupo de dispositivos, haga clic en **Dispositivos** y luego haga doble clic en el dispositivo que quiere examinar.
-3. En la página Propiedades del dispositivo móvil , haga clic en **Directiva** para ver una lista de las directivas de administración de aplicaciones móviles que se hayan implementado en el dispositivo.
-4. Seleccione la directiva de administración de aplicaciones móviles cuyo estado desea ver. Puede ver los detalles de la directiva en el panel inferior y expandir el nodo para mostrar su configuración.
-5.  En la columna Estado de cada una de las directivas de administración de aplicaciones móviles se mostrará Cumple, Cumple (pendiente) o Error. Si la directiva seleccionada tiene uno o más valores en conflicto, se mostrará Error en este campo.
+3. En la página Propiedades del dispositivo móvil, haga clic en **Directiva** para ver una lista de las directivas de MAM que se hayan implementado en el dispositivo.
+4. Seleccione la directiva de MAM cuyo estado quiere ver. Puede ver los detalles de la directiva en el panel inferior y expandir el nodo para mostrar su configuración.
+5.  En la columna Estado de cada una de las directivas de MAM, se mostrará Cumplimiento, Cumplimiento (pendiente) o Error. Si la directiva seleccionada tiene uno o más valores en conflicto, se mostrará Error en este campo.
 6.  Cuando haya identificado un conflicto, puede modificar las configuraciones de directivas en conflicto para que usen la misma configuración o implementar una sola directiva para la aplicación y el usuario.
 
 > [!NOTE]
@@ -117,6 +117,6 @@ Después de haber creado e implementado una aplicación asociada a una directiva
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 
