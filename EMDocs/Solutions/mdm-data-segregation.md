@@ -4,17 +4,17 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 07/07/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
-ms.openlocfilehash: 64cd77f7930216f38786451b56037f49d97b095a
+ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
+ms.openlocfilehash: f1bfa11cd6b456a28858b1d41390a734b65ddb32
 
 
 ---
@@ -91,6 +91,7 @@ En la tabla siguiente se comparan las características de borrado selectivo disp
 Asegúrese de leer el artículo [Ayudar a proteger los datos con el borrado selectivo o completo mediante Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) para comprender cómo se quitan y conservan los datos después de un borrado selectivo en cada plataforma de dispositivo móvil. Si cuenta con un entorno híbrido, consulte el artículo [Borrado remoto de dispositivos móviles mediante Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) para comprender cómo Configuration Manager puede usarse para llevar a cabo esta tarea.
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO1-->
 
 

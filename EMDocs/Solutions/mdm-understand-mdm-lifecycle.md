@@ -4,17 +4,17 @@ description:
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 05/31/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 901b52bf-2340-4847-aaff-c94fec9ee925
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
-ms.openlocfilehash: 68a291a3b26d73f5300251e23bbd214378a5a312
+ms.sourcegitcommit: 0b77c2b49180c3871a1885d8faa232b412bac384
+ms.openlocfilehash: 050e5ee4615d020f23079aa69f6e07489495b5bb
 
 
 ---
@@ -139,6 +139,7 @@ Responda a las siguientes preguntas de planeación sobre la cancelación de insc
 >Asegúrese de que toma las notas de cada respuesta y de que comprende la lógica subyacente en la respuesta. Más adelante, las tareas tratarán las opciones disponibles, y las ventajas y desventajas de cada opción.  Responder a estas preguntas le ayudará a seleccionar la opción que mejor se adapte a sus necesidades empresariales.
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO1-->
 
 

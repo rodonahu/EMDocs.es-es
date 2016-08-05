@@ -4,17 +4,17 @@ description:
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 05/31/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9b89da63-039f-4831-b204-28c0681478fe
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ef523f44cd9d51e59fc8d94bbb8d7aa388120945
-ms.openlocfilehash: 13749f7100df8a157ae8204641442aadfa3c7f16
+ms.sourcegitcommit: 0b77c2b49180c3871a1885d8faa232b412bac384
+ms.openlocfilehash: d2d2eb53dcf52eae1ca5673617936667bd51d796
 
 
 ---
@@ -87,6 +87,7 @@ Explore los detalles acerca de las opciones de administración de la configuraci
 - MDM para Office 365: [funcionalidades de administración de dispositivos móviles](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx)
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO1-->
 
 
