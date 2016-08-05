@@ -13,8 +13,8 @@ ms.assetid: bbc9f6ea-fc92-468d-bb5b-60c67949ca28
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
-ms.openlocfilehash: 3fc1303f0db0a9db7d3d4d37c703e2d4ec168ecb
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: 38a642c24e506d1528f0e79ad26fa77a50a4fed6
 
 
 ---
@@ -29,9 +29,9 @@ En esta sección se proporcionan ejemplos de las siguientes experiencias de usua
 
 Para más información sobre otras experiencias específicas de usuarios finales, consulte los artículos siguientes:
 
-- [Uso de aplicaciones con compatibilidad con varias identidades](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support)
-- [Administración de cuentas de usuario](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts)
-- [Ver archivos multimedia con la aplicación Rights Management sharing](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)
+- [Uso de aplicaciones con compatibilidad con varias identidades](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support)
+- [Administración de cuentas de usuario](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts)
+- [Ver archivos multimedia con la aplicación Rights Management sharing](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)
 
 ## Escenario: acceso a OneDrive en un dispositivo iOS
 
@@ -62,10 +62,10 @@ Para más información sobre otras experiencias específicas de usuarios finales
 4.  Una vez que el PIN está establecido y confirmado, puede seguir usando **OneDrive**, que ahora estará administrado por directivas de aplicaciones.
 
 ## Próximos pasos
-Hay otras experiencias de usuario final sobre las que puede obtener más información, como [Uso de aplicaciones con compatibilidad con varias identidades](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support), [Administración de cuentas de usuario](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts) y [Ver archivos multimedia con la aplicación Rights Management sharing](https://docs.microsoft.com/en-us/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app).
+Hay otras experiencias de usuario final sobre las que puede obtener más información, como [Uso de aplicaciones con compatibilidad con varias identidades](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support), [Administración de cuentas de usuario](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts) y [Ver archivos multimedia con la aplicación Rights Management sharing](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app).
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

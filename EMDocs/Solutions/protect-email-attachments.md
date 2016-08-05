@@ -13,8 +13,8 @@ ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
-ms.openlocfilehash: 43f9ccd3fe546fa7b708ed2cc6215536501db54b
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: 3a3631e454323226958b2f1db003883d1ace562e
 
 
 ---
@@ -34,7 +34,7 @@ Las aplicaciones administradas son aplicaciones que implementa el Administrador 
 
 -   Borrar selectivamente solo los datos asociados con la aplicación administrada. Cuando un dispositivo se pierde o roba, o ya no lo administra el departamento de TI, una eliminación selectiva puede quitar todos los datos corporativos de las aplicaciones, dejando sólo los datos personales de la aplicación. Esto se conoce como multiidentidad.
 
-Con [Azure Rights Management Services](https://technet.microsoft.com/en-us/library/jj585026.aspx), puede ampliar la protección de correo electrónico de las maneras siguientes:
+Con [Azure Rights Management Services](https://docs.microsoft.com/rights-management/understand-explore/what-is-azure-rms), puede ampliar la protección de correo electrónico de las maneras siguientes:
 
 -   Los mensajes de correo electrónico pueden cifrarse de manera que solo los usuarios deseados puedan leer o ver el contenido dentro o fuera de la empresa.
 
@@ -59,7 +59,7 @@ Con [Azure Rights Management Services](https://technet.microsoft.com/en-us/libra
 ## La experiencia de administración de TI:
 El Administrador de TI crea las directivas de administración de aplicaciones móviles, asocia la directiva a la aplicación y distribuye a los usuarios o dispositivos. Cuando la aplicación administrada se instala en el dispositivo, se aplican las restricciones de la aplicación. Crear e implementar aplicaciones administradas supone poco o ningún esfuerzo adicional:
 
--   Hay aplicaciones existentes que ya tienen el SDK de aplicación que permite aplicar restricciones a la aplicación. No requieren ningún otro procesamiento: basta con agregar un vínculo a una tienda de aplicaciones, como iTunes o Google Play. Lea [este](https://technet.microsoft.com/en-us/library/dn708489.aspx) artículo para ver la lista de aplicaciones administradas.
+-   Hay aplicaciones existentes que ya tienen el SDK de aplicación que permite aplicar restricciones a la aplicación. No requieren ningún otro procesamiento: basta con agregar un vínculo a una tienda de aplicaciones, como iTunes o Google Play. Lea [este artículo](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners) para ver la lista de aplicaciones administradas.
 
 -   Si quiere administrar las aplicaciones creadas internamente, puede volver a empaquetar las aplicaciones con la herramienta de ajuste de aplicaciones de Microsoft Intune. La herramienta vuelve a empaquetar la aplicación, lo que le permite aplicar restricciones a la aplicación.
 
@@ -71,6 +71,6 @@ Ahora que sabe cómo [proteger documentos y correo electrónico corporativos](pr
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

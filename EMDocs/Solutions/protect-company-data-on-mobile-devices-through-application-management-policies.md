@@ -13,8 +13,8 @@ ms.assetid: 6c7088a9-ca88-4ff2-97a6-f842691fd3c7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
-ms.openlocfilehash: 5a58ea05ce49f0d135d8a5ca3ad2e52c312f4490
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: 8e1b6153191727fba11366f6907ae3f70e11d246
 
 
 ---
@@ -29,7 +29,7 @@ Esta guía se centrará en la habilitación de aplicaciones administradas tal co
 
 Esto le permite crear e implementar aplicaciones con directivas de administración de aplicaciones móviles (MAM) para proteger mejor los datos de la empresa.
 
-Este documento se centra en la creación de estas directivas basadas en MAM cuando el dispositivo del usuario final se inscribe en Intune para MDM. Consulte [Proteger aplicaciones y datos de línea de negocio en dispositivos no inscritos en Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune) para obtener información sobre la configuración de estas directivas MAM cuando el propio dispositivo no está inscrito en Intune para MDM.
+Este documento se centra en la creación de estas directivas basadas en MAM cuando el dispositivo del usuario final se inscribe en Intune para MDM. Consulte [Proteger aplicaciones y datos de línea de negocio en dispositivos no inscritos en Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune) para obtener información sobre la configuración de estas directivas MAM cuando el propio dispositivo no está inscrito en Intune para MDM.
 
 > [!TIP]
 > Obtenga una copia descargable de este tema completo de la [Galería de TechNet](https://gallery.technet.microsoft.com/Protect-Company-Data-on-d972f4f4/file/154240/1/Protect%20Company%20Data%20on%20Mobile%20Devices%20through%20Application%20Management%20Policies.pdf).
@@ -43,23 +43,23 @@ Las aplicaciones administradas son aplicaciones que tienen directivas de MAM que
   - Exigir autenticación cuando se accede a una aplicación
   - Borrar datos corporativos desde una aplicación administrada por Intune
 
-  Consulte [Información general del SDK para aplicaciones de Intune](https://docs.microsoft.com/en-us/intune/develop/intune-app-sdk) para obtener una descripción de todas las características del SDK.
+  Consulte [Información general del SDK para aplicaciones de Intune](https://docs.microsoft.com/intune/develop/intune-app-sdk) para obtener una descripción de todas las características del SDK.
 
 ## Antes de comenzar
-- **Más información sobre la implementación de aplicaciones con Microsoft Intune:** [conozca los aspectos básicos](https://docs.microsoft.com/en-us/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune) sobre la implementación de aplicaciones de Intune.
+- **Más información sobre la implementación de aplicaciones con Microsoft Intune:** [conozca los aspectos básicos](https://docs.microsoft.com/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune) sobre la implementación de aplicaciones de Intune.
 
-- **Evalúe la implementación deseada:** con todas las distintas opciones de diseño y configuración que existen para administrar dispositivos móviles, es difícil determinar cuál es la combinación que mejor se adapta a las necesidades de la empresa. La [Guía de las consideraciones de diseño de administración de dispositivos móviles](https://docs.microsoft.com/en-us/enterprise-mobility/Solutions/mdm-design-considerations-guide) le ayudará a comprender los requisitos de diseño de administración de dispositivos móviles y le proporcionará una serie de pasos y tareas que puede seguir para diseñar la solución que mejor se adapte a las necesidades tecnológicas y de negocio de la empresa.
+- **Evalúe la implementación deseada:** con todas las distintas opciones de diseño y configuración que existen para administrar dispositivos móviles, es difícil determinar cuál es la combinación que mejor se adapta a las necesidades de la empresa. La [Guía de consideraciones de diseño de administración de dispositivos móviles](https://docs.microsoft.com/enterprise-mobility/Solutions/mdm-design-considerations-guide) le ayudará a comprender los requisitos de diseño de la administración de dispositivos móviles y le proporcionará detalles para seguir una serie de pasos y tareas que le ayudarán a diseñar la solución que mejor se adapte a las necesidades tecnológicas y de negocio de su empresa.
 - **Comprenda la experiencia del usuario final de alto nivel:** después de implementar la solución, podrá proteger los datos en dispositivos administrados por la empresa o no. Con solo implementar directivas de nivel de aplicación, puede restringir el acceso a los recursos de la empresa y mantener los datos dentro del ámbito del departamento de TI.
 
    > [!NOTE]
    > La experiencia del usuario final de esta solución se describe con más detalle en el artículo [Experiencia del usuario final](end-user-experience-mam.md).
 
-- **Comprenda el ciclo de vida de la aplicación:** al igual que ocurre con la administración de los dispositivos, las aplicaciones tienen un ciclo de vida que comienza con la preparación y continúa con la implementación, la supervisión, la actualización y la retirada. Intune puede ayudarle en todas las fases de este ciclo de vida. Para obtener información detallada sobre el ciclo de vida de la aplicación, consulte [Información general sobre el ciclo de vida de la aplicación](https://docs.microsoft.com/en-us/intune/deploy-use/overview-of-app-lifecycle-in-microsoft-intune).
+- **Comprenda el ciclo de vida de la aplicación:** al igual que ocurre con la administración de los dispositivos, las aplicaciones tienen un ciclo de vida que comienza con la preparación y continúa con la implementación, la supervisión, la actualización y la retirada. Intune puede ayudarle en todas las fases de este ciclo de vida. Para obtener información detallada sobre el ciclo de vida de la aplicación, consulte la [Información general sobre el ciclo de vida de la aplicación](https://docs.microsoft.com/intune/deploy-use/overview-of-app-lifecycle-in-microsoft-intune).
 - **Obtenga más información sobre las aplicaciones de Microsoft que se pueden usar con directivas de MAM:** la página de [socios de aplicaciones de Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners) contiene la información más reciente sobre aplicaciones de Microsoft y otras empresas que puede usar con directivas de administración de aplicaciones móviles.
 
   Puede usar la herramienta de ajuste de aplicaciones de Microsoft Intune para modificar el comportamiento de las aplicaciones internas a fin de configurar características de la aplicación sin modificar el código de la propia aplicación. Para obtener información más concreta, consulte los siguientes temas:
- - [Preparar aplicaciones iOS para la administración de aplicaciones móviles con la herramienta de ajuste de aplicaciones de Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
- - [Preparar aplicaciones Android para la administración de aplicaciones móviles con la Herramienta de ajuste de aplicaciones de Intune](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
+ - [Preparar aplicaciones iOS para la administración de aplicaciones móviles con la herramienta de ajuste de aplicaciones de Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
+ - [Preparar aplicaciones Android para la administración de aplicaciones móviles con la Herramienta de ajuste de aplicaciones de Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
 
 - **Comprenda cómo se resuelven los conflictos entre directivas:** cuando hay un conflicto entre directivas de administración de aplicaciones móviles en la primera implementación para el usuario o el dispositivo, el valor específico de configuración en conflicto se quitará de la directiva implementada en la aplicación y esta usará un valor de conflicto integrado (el valor predeterminado es el **más restrictivo**).
 
@@ -74,6 +74,6 @@ Ahora que está familiarizado con el proceso general de MAM, está listo para [u
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

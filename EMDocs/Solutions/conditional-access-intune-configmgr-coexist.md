@@ -13,8 +13,8 @@ ms.assetid: 5ccd033f-bc31-4fae-b6bf-9e1c2722627f
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 026e6701b635a3b05753404fd064fee5bf10147e
-ms.openlocfilehash: 8d1e7f6bf8d798dee570d970c30e98974f9bd5be
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: 9f783b0faf8da0beaffbfd2e5dd9d7bfcdc08ac2
 
 
 ---
@@ -29,7 +29,7 @@ Si ya usa Configuration Manager junto con una coexistencia de Exchange local y E
 ## Requisitos previos
 Para configurar un tipo de coexistencia del entorno que implemente Exchange local y Exchange Online, la organización de Exchange existente debe cumplir determinados requisitos. Si no se cumplen estos requisitos, no se podrán completar los pasos necesarios para configurar una implementación híbrida entre la organización de Exchange local y la organización de Exchange Online de Microsoft Office 365.
 
-Vea [Requisitos previos de implementación híbrida](https://technet.microsoft.com/en-us/library/hh534377.aspx) para revisar los requisitos para crear y configurar este tipo de entorno.
+Vea [Requisitos previos de implementación híbrida](https://technet.microsoft.com/library/hh534377.aspx) para revisar los requisitos para crear y configurar este tipo de entorno.
 
 ## Pasos de implementación
 Para implementar una solución de coexistencia, siga los pasos anteriores con el fin de implementar las soluciones de [Exchange Server local](conditional-access-intune-configmgr-exchange.md) y [Exchange Online](conditional-access-intune-configmgr-exchange-online.md).
@@ -39,6 +39,6 @@ Cuando haya implementado una solución para proteger el correo electrónico corp
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 

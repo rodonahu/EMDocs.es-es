@@ -4,17 +4,17 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f752f75206cb37cbe565e44a00f20fcdad13ddb5
-ms.openlocfilehash: 91deaf9d02b27182353cbe511ff86a01582dc60a
+ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
+ms.openlocfilehash: 20a93c06b30fddf42f464a9a30b784c8aa4d7a33
 
 
 ---
@@ -54,7 +54,7 @@ Como se observa en la tabla anterior, al diseñar la solución de infraestructur
 
 Si la empresa opta por ofrecer compatibilidad a distintos tipos de dispositivos, deberá saber cuáles son las capacidades de los dispositivos como, por ejemplo, el cifrado para el almacenamiento, las opciones de conectividad VPN y lenguajes de programación compatibles. Evalúe aquello que se puede implementar para cumplir las directivas de la empresa. La supervisión de los dispositivos con el fin de satisfacer los requisitos de cumplimiento de la normativa se puede llevar a cabo mediante la aplicación de directivas. Piense en poder habilitar el cifrado de dispositivos mientras los datos están almacenados en los dispositivos de los usuarios; esto le puede ayudar con la estrategia de fuga de datos. La implantación de directivas como el desbloqueo de contraseñas, el historial de contraseñas y las contraseñas seguras puede aportar el mismo grado de protección en el entorno local y en los dispositivos móviles.
 
-La configuración del cumplimiento de la normativa en Configuration Manager hace posible que el departamento de TI administre la configuración y el cumplimiento de la normativa de los servidores, los equipos portátiles, los equipos de escritorio y los dispositivos móviles en la empresa. Piense en usar la configuración predeterminada para el cumplimiento de la normativa que se incorpora en Configuration Manager para dispositivos móviles como referencia y, a partir de ahí, personalícela según las necesidades de su empresa. Para obtener más información sobre la configuración de cumplimiento en Configuration Manager, consulte [Introducción a la configuración de cumplimiento en Configuration Manager](https://technet.microsoft.com/en-us/library/gg682139.aspx).
+La configuración del cumplimiento de la normativa en Configuration Manager hace posible que el departamento de TI administre la configuración y el cumplimiento de la normativa de los servidores, los equipos portátiles, los equipos de escritorio y los dispositivos móviles en la empresa. Piense en usar la configuración predeterminada para el cumplimiento de la normativa que se incorpora en Configuration Manager para dispositivos móviles como referencia y, a partir de ahí, personalícela según las necesidades de su empresa. Para obtener más información sobre la configuración de cumplimiento en Configuration Manager, consulte [Introducción a la configuración de cumplimiento en Configuration Manager](https://technet.microsoft.com/library/gg682139.aspx).
 
 Si usa la eliminación selectiva de Windows, el departamento de TI podrá proteger los datos corporativos de la empresa que están dispersos en los dispositivos personales o corporativos. Los programadores pueden crear aplicaciones para usar una directiva de eliminación selectiva de Windows que se aplique a los datos y protegerlos en un dominio de Internet que pertenezca a la empresa. Para obtener más información sobre la función de borrado selectivo de Windows, consulte Windows Selective Wipe for Device Data Management (Borrado selectivo de Windows para la administración de datos de dispositivos).
 
@@ -178,7 +178,7 @@ La solución de administración que adopte la empresa también debe ocuparse de 
 
 En este sentido, se presenta la dificultad de poder administrar plataformas diferentes con una interfaz de administración centralizada que permita al departamento de TI identificar rápidamente los dispositivos que estén conectados en entornos locales y en la nube. Debe tener en cuenta la adopción de una plataforma de administración que pueda consolidar ambos entornos (local y nube), así como una plataforma de administración que sea capaz de administrar sistemas de Windows y que no sean de Windows.
 
-Para la administración centralizada local, puede usar Configuration Manager. Con esta opción, el equipo de TI podrá aprovechar la funcionalidad de inscripción Enterprise para inscribir dispositivos con el servidor de Configuration Manager de la empresa. Para obtener más información sobre cómo administrar dispositivos con Configuration Manager, consulte [Administrar dispositivos móviles con Configuration Manager y Microsoft Intune](https://technet.microsoft.com/en-us/library/jj884158.aspx).
+Para la administración centralizada local, puede usar Configuration Manager. Con esta opción, el equipo de TI podrá aprovechar la funcionalidad de inscripción Enterprise para inscribir dispositivos con el servidor de Configuration Manager de la empresa. Para obtener más información sobre cómo administrar dispositivos con Configuration Manager, consulte [Administrar dispositivos móviles con Configuration Manager y Microsoft Intune](https://technet.microsoft.com/library/jj884158.aspx).
 
 Para administrar otras plataformas que no sean dispositivos basados en Windows, puede aprovechar el servicio en la nube Microsoft Intune. Se puede usar el portal de empresa de Microsoft Intune para inscribir, administrar e instalar aplicaciones con licencia. Los usuarios pueden obtener acceso fácilmente a las aplicaciones e instalarlas en sus dispositivos. 
 
@@ -197,6 +197,6 @@ Pese a que se trata de dos opciones diferentes, puede integrar ambas para llevar
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 
