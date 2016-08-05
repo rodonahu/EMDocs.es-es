@@ -26,7 +26,7 @@ Las aplicaciones administradas son aplicaciones que implementa el Administrador 
 
 -   Copiar y pegar en bloque o impedir la transferencia de datos desde una aplicación administrada a una aplicación sin directiva MAM.
 
--   Evitar la copia de seguridad en el almacenamiento en nube personal, la opción Guardar como, etc..
+-   Evitar la copia de seguridad en el almacenamiento en nube personal, la opción Guardar como, etc.
 
 -   Proteger el acceso a la aplicación al requerir el PIN o código de acceso o credenciales corporativas en una aplicación protegida con MAM.
 
