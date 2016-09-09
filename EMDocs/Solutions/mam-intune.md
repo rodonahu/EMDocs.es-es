@@ -7,14 +7,14 @@ manager: swadhwa
 ms.date: 05/12/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
-ms.openlocfilehash: 9f97f1090792064ee909ff27f81e01957fb07964
+ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
+ms.openlocfilehash: 4a919dcc0e4b754cbbe8a88140e8b1e8dcc7f924
 
 
 ---
@@ -24,7 +24,7 @@ Uno de los principales motivos de que muchas empresas usen Microsoft Intune es p
 
 Por ejemplo, si la empresa usa Microsoft Word, hay versiones disponibles para Windows, iOS, Android y otros. El desafío al que se enfrenta como administrador de TI consiste en administrar la gran cantidad de aplicaciones disponibles en muchos dispositivos diferentes y plataformas informáticas, de forma que los usuarios puedan hacer su trabajo y a la vez se garantice la seguridad de los datos de la empresa.
 
-Si usa Intune con Configuration Manager, consulte [Cómo controlar aplicaciones mediante directivas de administración de aplicaciones móviles en Configuration Manager](https://technet.microsoft.com/library/mt131414.aspx?f=255&MSPPError=-2147217396).
+Si usa Intune con Configuration Manager, vea [Cómo controlar aplicaciones mediante directivas de administración de aplicaciones móviles en Configuration Manager](https://technet.microsoft.com/library/mt131414.aspx?f=255&MSPPError=-2147217396).
 
 Compatibilidad de las directivas de administración de aplicaciones móviles (MAM):
 - Dispositivos que ejecutan Android 4 y versiones posteriores.
@@ -117,6 +117,6 @@ Después de haber creado e implementado una aplicación asociada a una directiva
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Sep16_HO1-->
 
 
