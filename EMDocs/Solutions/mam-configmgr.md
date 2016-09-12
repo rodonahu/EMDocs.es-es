@@ -7,14 +7,14 @@ manager: swadhwa
 ms.date: 05/12/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 74288276-84d3-4d24-8307-7875491be9c9
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
-ms.openlocfilehash: 75ebd7a7bf49ce640dd8bb2914d6f9748c18db6b
+ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
+ms.openlocfilehash: 68598a547304ca4bc0884156334b02914e517814
 
 
 ---
@@ -22,7 +22,7 @@ ms.openlocfilehash: 75ebd7a7bf49ce640dd8bb2914d6f9748c18db6b
 # Usar directivas de administración de aplicaciones móviles en Configuration Manager
 A partir de System Center 2012 Configuration Manager SP2, las directivas de administración de aplicaciones permiten modificar la funcionalidad de las aplicaciones que implementa para ayudar a armonizarlas con las directivas de cumplimiento y seguridad de la empresa. Por ejemplo, puede limitar las operaciones de cortar, copiar y pegar dentro de una aplicación restringida, o configurar una aplicación para abrir todos los vínculos web dentro de un explorador administrado. Las directivas de administración de aplicaciones son compatibles con:
 
-- Dispositivos que ejecutan Android 4 y versiones posteriores.
+- Dispositivos que ejecutan Android 4 y versiones posteriores.
 - Dispositivos que ejecutan iOS 7 y versiones posteriores.
 
 > [!TIP]
@@ -83,6 +83,6 @@ Después de haber creado e implementado una aplicación asociada a una directiva
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Sep16_HO1-->
 
 
