@@ -11,8 +11,8 @@ ms.topic: hubpage
 ms.suite: ems
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 translationtype: Human Translation
-ms.sourcegitcommit: d36908f56ada888e6b6b987ca3c160f85e3c44a8
-ms.openlocfilehash: 705c0dcf6541095ccc7df7207e62280da0411b82
+ms.sourcegitcommit: e6fdd88632bfe1bb1a04f73923273709eaf54559
+ms.openlocfilehash: f27297ff6801beb60fc6fe9d0859093df8c3cc1c
 
 
 ---
@@ -33,7 +33,7 @@ ms.openlocfilehash: 705c0dcf6541095ccc7df7207e62280da0411b82
         <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> Contenido destacado</h2>
         <div class="features row">
             <ul class="column-half">
-                <li><mark><b>NUEVO</b></mark> <a href="/rights-management/information-protection/what-is-information-protection">Azure Information Protection (versión preliminar)</a></li>
+                <li><mark><b>NUEVO</b></mark> <a href="/information-protection/">Disponibilidad General: Azure Information Protection</a></li>
                 <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">Beneficio de FastTrack para EMS</a></li>
                 <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">¿Qué es Microsoft Intune?</a></li>
                 <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">¿Qué es Advanced Threat Analytics?</a></li>
@@ -115,7 +115,7 @@ ms.openlocfilehash: 705c0dcf6541095ccc7df7207e62280da0411b82
                         <ul class="row">
                             <li class="column column-third">
                                 <a href="/rights-management/">
-                                <h3>Administración de los derechos de Azure</h3>
+                                <h3>Azure Rights Management</h3>
                                 <p>Protección de la información frente a accesos no autorizados y control del uso de esta.</p>
                                 </a>
                             </li>
@@ -179,6 +179,6 @@ ms.openlocfilehash: 705c0dcf6541095ccc7df7207e62280da0411b82
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Sep16_HO4-->
 
 
