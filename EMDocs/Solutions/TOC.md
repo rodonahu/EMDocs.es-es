@@ -7,6 +7,11 @@
 #### [Fases](fasttrack-center-benefit-process-for-ems-phases.md)
 #### [Responsabilidades de Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
 #### [Responsabilidades del cliente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
+### [Cómo configurar el método preferido para la comprobación de seguridad adicional](fasttrack-how-to-enroll-in-mfa.md)
+### [Cómo administrar su propia contraseña](fasttrack-how-to-manage-your-password.md)
+### [Instrucciones de inscripción de Intune de usuario final para los administradores de TI](fasttrack-intune-enduser-enrollment-instructions.md)
+### [Cómo usar aplicaciones con compatibilidad con varias identidades](fasttrack-how-to-use-apps-with-multi-identity-support.md)
+### [Cómo usar aplicaciones móviles administradas por la organización](fasttrack-how-to-work-with-managed-apps.md)
 ## [Guía de diseño de BYOD](byod-design-considerations-guide.md)
 ### [Previsión de la solución de infraestructura](byod-envisioning-the-byod-infrastructure-solution.md)
 #### [Requisitos de usuarios y dispositivos](byod-user-device-reqs.md)
@@ -75,6 +80,6 @@
 ### [Experiencia del usuario de MAM](end-user-experience-MAM.md)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Sep16_HO4-->
 
 
