@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: f3486381-66d5-469a-93a3-013eaaa17c07
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: f20dcc2f6d1fe03a5570eaba4eaca6933205d723
+ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
+ms.openlocfilehash: 1c93f74e7e0e4c8591f800954bb60dda59005af8
 
 
 ---
@@ -28,7 +29,7 @@ La mayoría de las empresas ya disponen de una directiva de [clasificación de d
 
 Office 365 proporciona una clasificación automática de los datos de correo electrónico que puede ayudar a la información confidencial superficial que debe protegerse. Office 365 usa reglas de transporte incorporadas en el procesamiento de flujo de correo para detectar la información confidencial. A continuación, la [característica DLP](http://blogs.office.com/2013/10/28/office-365-compliance-controls-data-loss-prevention/) realiza un análisis profundo del contenido a través de coincidencias de palabras clave, coincidencias de diccionario, evaluaciones de expresiones regulares, funciones internas como la suma de comprobación de números de tarjeta de crédito y otros exámenes de contenido para detectar tipos de contenido específico dentro del cuerpo del mensaje o los archivos adjuntos. 
 
-Intune y Configuration Manager no tienen una clasificación de datos integrada, por lo que se basan en la clasificación basada en la nube con Azure RMS o de manera local mediante ADRMS. Otra opción consiste en utilizar [Enterprise Mobility Suite (EMS)](http://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx) como solución MDM. Con EMS, dispondrá de acceso a [Azure AD Premium](https://msdn.microsoft.com/library/azure/dn532272.aspx) y [Azure RMS](https://technet.microsoft.com/library/jj585026.aspx), que puede utilizarse para clasificar datos. La clasificación de datos mediante Azure RMS puede integrarse con una solución de administración local en un entorno híbrido. 
+Intune y Configuration Manager no tienen una clasificación de datos integrada, por lo que se basan en la clasificación basada en la nube con Azure RMS o de manera local mediante ADRMS. Otra opción consiste en usar [Enterprise Mobility + Security (EMS)](http://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx) como solución MDM. Con EMS, dispondrá de acceso a [Azure AD Premium](https://msdn.microsoft.com/library/azure/dn532272.aspx) y [Azure RMS](https://technet.microsoft.com/library/jj585026.aspx), que puede utilizarse para clasificar datos. La clasificación de datos mediante Azure RMS puede integrarse con una solución de administración local en un entorno híbrido. 
 
 Intune permite al departamento de TI cumplir las directivas mediante directivas de cumplimiento, que es un conjunto de reglas y configuración que debe satisfacer un dispositivo para las políticas de acceso condicional lo consideren conforme. Las directivas de cumplimiento también se pueden usar para supervisar y corregir problemas de compatibilidad con dispositivos independientemente del acceso condicional. Consulte [Directivas de cumplimiento de dispositivos en Microsoft Intune](/intune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) para más información.
 
@@ -65,7 +66,7 @@ Utilice la siguiente tabla como referencia para ayudarle a elegir la opción de 
 
 - No disponible
 
-## Enterprise Mobility Suite
+## Enterprise Mobility + Security
 
 **Ventajas**
 
@@ -81,6 +82,6 @@ Utilice la siguiente tabla como referencia para ayudarle a elegir la opción de 
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

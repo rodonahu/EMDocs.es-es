@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: 878f20d5fa1e1180f149bf8b2865ae719cf61352
+ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
+ms.openlocfilehash: 696374bf33144ef29b7143414035f761786bd4e9
 
 
 ---
@@ -32,7 +33,7 @@ Con Windows Server 2012 R2, puede cifrar los datos en reposo en los dispositivos
 
 Si su concepto de almacenamiento es un contenedor de contenidos, la protección del consumo de ese contenido aportará gran valor. Se puede evitar la fuga de datos si se aplican directivas para regular la forma en que el usuario final va a usar el contenido almacenado. Se puede usar [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/library/hh831554.aspx) para intensificar la estrategia de seguridad de la empresa mediante la protección de los documentos que utilicen Information Rights Management (IRM). AD RMS permite a usuarios y administradores establecer permisos de acceso a documentos, libros y presentaciones a través de las directivas de IRM. Esto ayuda a impedir que personas no autorizadas impriman, reenvíen o copien la información confidencial. Una vez que se haya restringido el permiso para un archivo mediante IRM, se aplican las restricciones de acceso y uso independientemente de dónde se encuentre la información, ya que el permiso para un archivo se almacena en el propio archivo.
 
-Si desea implementar una solución basada en la nube en su empresa para proteger los archivos, también puede recurrir a [Azure Rights Management](https://technet.microsoft.com/library/jj585026.aspx). Azure Rights Management puede proteger la información confidencial de la empresa mediante directivas de cifrado, identidad y autorización para ayudar a garantizar la seguridad de los archivos y el correo electrónico. Además, funciona en varios dispositivos: teléfonos, tabletas y equipos PC. La información se mantendrá segura tanto dentro como fuera de la organización, ya que se conserva la protección de los datos, incluso cuando el usuario se sale de los límites de la empresa. 
+Si quiere usar una solución basada en la nube en su empresa para proteger los archivos, también puede recurrir a [Azure Information Protection](/information-protection/understand-explore/what-is-information-protection). Azure Information Protection puede proteger la información confidencial de la empresa mediante directivas de cifrado, identidad y autorización para ayudar a garantizar la seguridad de los archivos y el correo electrónico. Además, funciona en varios dispositivos: teléfonos, tabletas y equipos PC. La información se mantendrá segura tanto dentro como fuera de la organización, ya que se conserva la protección de los datos, incluso cuando el usuario se sale de los límites de la empresa. 
 
 También se pueden usar otras tecnologías de almacenamiento que se incluyen en el sistema operativo Windows para mejorar la protección general de los datos, como BitLocker para el cifrado de unidades y el [Sistema de cifrado de archivos (EFS)](https://technet.microsoft.com/library/cc700811.aspx) para el cifrado de estos. Use la siguiente tabla para ver las ventajas y los inconvenientes de la protección del almacenamiento. Tenga en cuenta que estas opciones no son mutuamente excluyentes. En otras palabras, la decisión que tome sobre el diseño podría conllevar la necesidad de usar todas estas opciones en la solución de infraestructura BYOD para la protección del almacenamiento.
 
@@ -70,7 +71,7 @@ Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las op
         - Se puede habilitar mediante directivas de grupo por usuario o por dispositivo.
         - Se integra con Microsoft Intune, que permite borrar de forma selectiva los datos ubicados en Carpetas de trabajo de los dispositivos de los usuarios.
         - Puede forzar a los usuarios a volver a realizar el proceso de autenticación para acceder a datos ubicados en Carpetas de trabajo.
-        - Permite la integración con los servicios de Microsoft Rights Management para la clasificación de datos.
+        - Permite la integración con los servicios de Microsoft Information Protection para la clasificación de datos.
     - Desventajas
         - Solo se encuentra disponible para Windows 8.1, Windows RT 8.1 y Windows 10.
         - Requiere Windows Server 2012 R2 para hospedar los recursos compartidos de sincronización.
@@ -250,6 +251,6 @@ El control de acceso dinámico, una función del rol de servidor de archivos, co
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
