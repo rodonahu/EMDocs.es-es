@@ -2,12 +2,12 @@
   href: /
   homepage: /
   items:
-  - name: "Enterprise Mobility"
-    href: /enterprise-mobility/
-    homepage: /enterprise-mobility
+  - name: "Enterprise Mobility + Security"
+    href: /enterprise-mobility-security/
+    homepage: /enterprise-mobility-security
     items:
     - name: "Soluciones"
-      href: /enterprise-mobility/solutions/
+      href: /enterprise-mobility-security/solutions/
       homepage: /enterprise-mobility/solutions/byod-design-considerations-guide
     - name: "Azure RemoteApp"
       href: /remoteapp/
@@ -147,24 +147,24 @@
       href: /sccm/
       homepage: /sccm
       items:
-        - name: "Guía de infraestructura básica"
+        - name: "Infraestructura básica"
           href: /sccm/core/
           homepage: /sccm/core/understand/introduction
-        - name: "Guía de administración de aplicaciones"
+        - name: "Administración de aplicaciones"
           href: /sccm/apps/
           homepage: /sccm/apps/understand/get-started-with-application-management
-        - name: "Guía de cumplimiento de dispositivos"
+        - name: "Cumplimiento de dispositivos"
           href: /sccm/compliance/
           homepage: /sccm/compliance/understand/ensure-device-compliance
-        - name: "Guía de administración de dispositivos móviles"
+        - name: "Administración de dispositivos móviles"
           href: /sccm/mdm/
           homepage: /sccm/mdm/understand/whats-new-in-hybrid-mobile-device-management
-        - name: "Guía de implementación de sistema operativo"
+        - name: "Implementación de sistema operativo"
           href: /sccm/osd/
           homepage: /sccm/osd/understand/introduction-to-operating-system-deployment
-        - name: "Guía para proteger los datos y la infraestructura"
+        - name: "Proteger los datos y la infraestructura"
           href: /sccm/protect/
           homepage: /sccm/protect/understand/protect-data-and-site-infrastructure
-        - name: "Guía de administración de actualizaciones de software"
+        - name: "Administración de actualizaciones de software"
           href: /sccm/sum/
           homepage: /sccm/sum/understand/software-updates-introduction

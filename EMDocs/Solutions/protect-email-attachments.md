@@ -13,8 +13,8 @@ ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
-ms.openlocfilehash: 3a3631e454323226958b2f1db003883d1ace562e
+ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
+ms.openlocfilehash: f00fa25e5e0b03c098f78e4d5f1be0957cdea24f
 
 
 ---
@@ -34,7 +34,7 @@ Las aplicaciones administradas son aplicaciones que implementa el Administrador 
 
 -   Borrar selectivamente solo los datos asociados con la aplicación administrada. Cuando un dispositivo se pierde o roba, o ya no lo administra el departamento de TI, una eliminación selectiva puede quitar todos los datos corporativos de las aplicaciones, dejando sólo los datos personales de la aplicación. Esto se conoce como multiidentidad.
 
-Con [Azure Rights Management Services](https://docs.microsoft.com/rights-management/understand-explore/what-is-azure-rms), puede ampliar la protección de correo electrónico de las maneras siguientes:
+Con [Azure Information Protection](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms), puede ampliar la protección de correo electrónico de las maneras siguientes:
 
 -   Los mensajes de correo electrónico pueden cifrarse de manera que solo los usuarios deseados puedan leer o ver el contenido dentro o fuera de la empresa.
 
@@ -71,6 +71,6 @@ Ahora que sabe cómo [proteger documentos y correo electrónico corporativos](pr
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

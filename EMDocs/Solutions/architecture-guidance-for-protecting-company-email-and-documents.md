@@ -13,14 +13,14 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 13bb743a1300a51d305f1ee1857b14b73ca0a4df
+ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
+ms.openlocfilehash: c50f47066794b411e272b74828cd6f707b96caec
 
 
 ---
 
 # Guía de arquitectura para proteger los documentos y correos electrónicos de la empresa
-Este tema comienza con una visión general de cómo puede proteger los datos de su empresa y garantizar que la experiencia del usuario final sea sencilla y que no afecte a la productividad. A continuación, nos centraremos específicamente en cómo puede proporcionar un acceso seguro al correo electrónico de su empresa y en cómo proteger los datos de la empresa que aparezcan en correos electrónicos y en archivos adjuntos mediante la solución de Microsoft Enterprise Mobility Suite.
+Este tema comienza con una visión general de cómo puede proteger los datos de su empresa y garantizar que la experiencia del usuario final sea sencilla y que no afecte a la productividad. Después, nos centraremos específicamente en cómo puede proporcionar un acceso seguro al correo electrónico de su empresa y en cómo proteger los datos de la empresa que aparezcan en correos electrónicos y en archivos adjuntos mediante la solución de Microsoft Enterprise Mobility + Security.
 
 En esta sección se trata la arquitectura para proteger los documentos y correos electrónicos de la empresa. Consulte [Learn more about how to deploy a solution for protecting company email and documents](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) (Aprenda a implementar una solución para proteger los documentos y correos electrónicos de su empresa) para obtener instrucciones sobre cómo implementar una solución.
 
@@ -46,11 +46,11 @@ Considere lo siguiente:
 Puesto que los usuarios finales quieren trabajar con sus propios dispositivos personales y el correo electrónico es la aplicación que más se utiliza, el primer paso para el departamento de TI es asegurarse de que los usuarios finales puedan acceder al correo electrónico corporativo en sus dispositivos y asegurarse de que los datos confidenciales del correo electrónico no se vean comprometidos.
 
 ## Información general
-Microsoft ofrece Enterprise Mobility Suite (EMS), una solución completa para la administración de identidades, dispositivos móviles y aplicaciones, así como para la protección de datos. EMS proporciona un modelo de seguridad por capas que permite al departamento de TI administrar el acceso al correo electrónico, datos y aplicaciones corporativas desde casi cualquier dispositivo.
+Microsoft ofrece Enterprise Mobility + Security (EMS), una solución completa para la administración de identidades, dispositivos móviles y aplicaciones, así como para la protección de datos. EMS proporciona un modelo de seguridad por capas que permite al departamento de TI administrar el acceso al correo electrónico, datos y aplicaciones corporativas desde casi cualquier dispositivo.
 
 EMS se compone de los siguientes servicios en la nube:
 
-![Gráfico que muestra los servicios en la nube que forman parte de EMS: Microsoft Azure AD Premium, Microsoft Intune y Microsoft Azure Rights Management](./media/ProtectEmail/Enterprise-Mobility-Suite.png)
+![Gráfico que muestra los servicios en la nube que forman parte de EMS: Microsoft Azure AD Premium, Microsoft Intune y Microsoft Azure Information Protection](./media/ProtectEmail/Enterprise-Mobility-Suite.png)
 
 Con EMS, los datos están protegidos dentro y fuera de la red corporativa:
 
@@ -75,7 +75,7 @@ A partir de la línea de base de identidad, el administrador de TI puede usar *M
 
 La tercera capa es la de **administración de aplicaciones**, con el ecosistema de aplicaciones administradas con Intune. Este ecosistema, al tiempo que permite a los usuarios ser productivos y usar las herramientas que necesitan y conocen, como Office, también permite al departamento de TI mantener los datos confidenciales dentro del ecosistema de aplicaciones administradas.
 
-*Azure Rights Management (Azure RMS)* completa el modelo de seguridad al proteger los datos en el nivel de archivo. Las directivas de seguridad que se aplican a los datos viajan con los datos, ayudan a proteger los datos en tránsito y en dispositivos, independientemente del dispositivo que se use para acceder a ellos. Esta es la **capa de datos** del modelo de seguridad.
+*Azure Information Protection (anteriormente Azure RMS)* completa el modelo de seguridad al proteger los datos en el nivel de archivo. Las directivas de seguridad que se aplican a los datos viajan con los datos, ayudan a proteger los datos en tránsito y en dispositivos, independientemente del dispositivo que se use para acceder a ellos. Esta es la **capa de datos** del modelo de seguridad.
 
 ## Próximos pasos
 - [Mire](https://www.youtube.com/watch?v=ltcZvm4VOFU) este vídeo para obtener información sobre cómo registrarse para obtener una cuenta de prueba y comenzar.
@@ -93,12 +93,12 @@ Además, si quiere obtener más información sobre EMS y Azure Active Directory,
 
 - [¿Cómo ayuda Azure Active Directory a administrar identidades?](/active-directory/active-directory-administer)
 
-- [¿Qué es Azure Rights Management?](/rights-management/understand-explore/what-is-azure-rms)
+- [¿Qué es Azure Information Protection?](/information-protection/understand-explore/what-is-azure-rms)
 
-- [¿Cómo admiten las aplicaciones Azure Rights Management?](/rights-management/understand-explore/applications-support)
+- [Cómo admiten las aplicaciones Azure Information Protection](/information-protection/understand-explore/applications-support)
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

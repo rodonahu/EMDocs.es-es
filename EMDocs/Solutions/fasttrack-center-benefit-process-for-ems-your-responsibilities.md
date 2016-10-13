@@ -1,10 +1,10 @@
 ---
-title: 'Proceso del beneficio del centro de FastTrack para Enterprise Mobility Suite: sus responsabilidades'
+title: Sus responsabilidades
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,17 +14,15 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
-ms.openlocfilehash: 2dd5e54fe1348cc23274afc735759c92fbf81e28
+ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
+ms.openlocfilehash: 035279b0dd7ca88123d94016ceb6caaf6306350f
 
 
 ---
 
-# Proceso del beneficio del centro de FastTrack para Enterprise Mobility Suite: sus responsabilidades
+# Sus responsabilidades
 
-Cuando se usa [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) con el fin de preparar Azure Active Directory Premium, Microsoft Intune o Azure Rights Management para su uso, la organización tendrá que cumplir algunas responsabilidades durante el proceso. En las secciones siguientes se describen cuáles serán sus responsabilidades en cada fase del proceso de incorporación.
-
-Para obtener información sobre las otras partes del proceso de incorporación de FastTrack, consulte [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Tiene las siguientes responsabilidades durante la incorporación.
 
 ## Responsabilidades generales
 
@@ -46,7 +44,7 @@ Para obtener información sobre las otras partes del proceso de incorporación d
 
 -   Administración, configuración y aplicación de directivas de seguridad más allá de las creadas para la funcionalidad y configuración de línea de base de los servicios de EMS.
 
--   Inscripción de cuentas de usuario distintas de las que se usan para probar la funcionalidad y configuración de línea de base de servicios de EMS de Microsoft Azure AD Premium.
+-   Inscripción de cuentas de usuario distintas de las que se usan para probar la funcionalidad y la configuración de línea de base de servicios de Microsoft Azure AD EMS.
 
 -   Configuración de red, análisis, validación de ancho de banda, pruebas y supervisión.
 
@@ -64,7 +62,7 @@ Para obtener información sobre las otras partes del proceso de incorporación d
 
 -   Suministro y configuración de certificados SSL públicos.
 
--   Redacción de las condiciones de uso (CDU) de la organización que se configurarán y mostrarán en los portales de empresa de Microsoft Intune a los que puedan acceder los usuarios finales.
+-   Redacción de las condiciones de uso (CDU) de la organización que se configurarán y mostrarán en los portales de empresa de Microsoft Intune a los que puedan tener acceso los usuarios finales.
 
 ## Fase de inicio
 
@@ -110,14 +108,11 @@ Para obtener información sobre las otras partes del proceso de incorporación d
 
 -   Habilitar varios servicios de acuerdo con las instrucciones de Microsoft.
 
-Esta es la última parte del proceso de incorporación de FastTrack.
+**¿Desea obtener más información?**
 
-### ¿Desea obtener más información?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Oct16_HO1-->
 
 

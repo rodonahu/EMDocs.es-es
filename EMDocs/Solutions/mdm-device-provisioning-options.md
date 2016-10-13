@@ -4,17 +4,18 @@ description:
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0b77c2b49180c3871a1885d8faa232b412bac384
-ms.openlocfilehash: 2fb0593746d48cbe3160d3a60cc6bf1f5a14bd5a
+ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
+ms.openlocfilehash: 9a92d3822f8791d2095f434cdf3e67582e329cae
 
 
 ---
@@ -32,7 +33,7 @@ Cuando un usuario puede usar e inscribir su propio dispositivo, esto aumenta los
 
 1. Con <token>Windows Server 2012 R2, se ha presentado un nuevo concepto conocido como registro de dispositivos.  Los usuarios pueden registrar sus dispositivos para el inicio de sesión único y obtener acceso a datos corporativos mediante la unión al área de trabajo.  Como parte de este proceso de registro, se instala un certificado en el dispositivo. A cambio de registrar su dispositivo y hacer que la solución de administración de dispositivos lo conozca, el usuario obtiene acceso a los recursos corporativos que antes no estaban disponibles fuera de sus PC unidos al dominio.
 2. Los usuarios pueden inscribir dispositivos, con lo que estos se configuran para la administración con Intune [mediante el portal de empresa](/Intune/deploy-use/enroll-devices-in-microsoft-intune), y luego usar el portal de empresa de Microsoft Intune para facilitar el acceso a las aplicaciones corporativas y los datos y para poder administrar los propios dispositivos y realizar tareas como el borrado remoto de estos en caso de pérdida, robo o reemplazo.
-3. Puede publicar el acceso a los recursos corporativos con la capacidad incorporada disponible en Windows Server 2012 R2 denominada [Proxy de aplicación web](https://technet.microsoft.com/library/dn584107.aspx) según el reconocimiento de dispositivos (es decir, se registra) y la identidad de los usuarios. Si utiliza Enterprise Mobility Suite, también puede publicar aplicaciones mediante el Proxy de aplicación de Azure AD. Se puede utilizar la autenticación multifactor mediante la [autenticación activa de Azure](https://azure.microsoft.com/documentation/articles/multi-factor-authentication-get-started-cloud/).
+3. Puede publicar el acceso a los recursos corporativos con la capacidad incorporada disponible en Windows Server 2012 R2 denominada [Proxy de aplicación web](https://technet.microsoft.com/library/dn584107.aspx) según el reconocimiento de dispositivos (es decir, se registra) y la identidad de los usuarios. Si usa Enterprise Mobility + Security, también puede publicar aplicaciones mediante el proxy de aplicación de Azure AD. Se puede utilizar la autenticación multifactor mediante la [autenticación activa de Azure](https://azure.microsoft.com/documentation/articles/multi-factor-authentication-get-started-cloud/).
 4. Para proporcionar a los administradores una vista unificada del entorno completo, los datos de Intune se sincronizan con Configuration Manager, que permite una administración unificada de forma local y en la nube.
 5. Como parte del proceso de inscripción, se crea un nuevo objeto de dispositivo en Active Directory.  Este objeto de dispositivo establece un vínculo entre el usuario y su dispositivo, lo que hace que la solución de administración de dispositivos lo conozca y permite que el dispositivo se autentique a través de una autenticación de dos factores sin problemas y efectiva.
 
@@ -83,6 +84,6 @@ Para más información sobre las opciones de aprovisionamiento e inscripción de
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
