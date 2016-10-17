@@ -13,8 +13,8 @@ ms.assetid: 8cfe421b-52c9-4d44-8df1-15c82375c335
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 37ec8e1f175cfbe5a6ff3f101b2773abb8680786
+ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
+ms.openlocfilehash: b0141331db2c63761997ffa1ad20d062b9e9969b
 
 
 ---
@@ -33,7 +33,7 @@ Las directivas de cumplimiento definen las reglas y los valores de configuració
 
 Si quiere tener la capacidad de quitar todos los mensajes de correo corporativo de un dispositivo iOS cuando este deje de formar parte de la empresa, tiene que crear e implementar un perfil de correo electrónico. Luego, establezca una directiva de cumplimiento que especifique que Intune administra los perfiles de correo electrónico. Debe implementar el perfil de correo electrónico en el mismo conjunto de usuarios al que va dirigido esta directiva de cumplimiento.
 
-![Captura de pantalla que muestra la página "Reglas" del Asistente para crear directivas de cumplimiento, donde puede especificar que un perfil de correo electrónico debe administrarse mediante Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
+![Captura de pantalla que muestra la sección “Perfiles de correo” en la pestaña General del asistente Crear directiva de Intune, donde puede especificar que Intune debe administrar un perfil de correo electrónico.](./media/ProtectEmail/intune-create-policy-email-profile.PNG)
 
 Si se especifica esta directiva de cumplimiento, un usuario que ya haya configurado su cuenta de correo electrónico tendrá que eliminarla manualmente y, luego, Intune la agregará de nuevo en el proceso de registro descrito en [Experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md).
 
@@ -74,6 +74,6 @@ Cuando haya implementado una solución para proteger el correo electrónico corp
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Oct16_HO2-->
 
 

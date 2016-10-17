@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c704180f9c607e39c27d75676eec30afa1a1730c
-ms.openlocfilehash: b349cae1f73c4dab5dbce45937b91a8aaca7c052
+ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
+ms.openlocfilehash: 4b1c82f5ecd5360b51d0f2af69df77ff2924aa0e
 
 
 ---
@@ -35,10 +35,10 @@ Mediante el proceso de inscripción, podrá especificar su método preferido de 
 
 |Método|Descripción|
 |------------|----------------------------------|
-|Llamada de teléfono móvil|Realiza una llamada de voz automatizada al número de teléfono de autenticación. El usuario responde a la llamada y pulsa la # del teclado del teléfono para autenticarse. Este número de teléfono no se sincronizará con Active Directory local.|
-|Mensaje de texto en el teléfono móvil|Envía al usuario un mensaje de texto que contiene un código de comprobación. Se le pide al usuario o bien que responda al mensaje de texto con el código de comprobación o bien que lo escriba en la interfaz de inicio de sesión.|
-|Llamada al teléfono del trabajo|Establece una llamada de voz automática al usuario. El usuario responde a la llamada y pulsa la # del teclado del teléfono para autenticarse.|
-|Aplicación móvil|Inserta una notificación en la aplicación móvil de Azure Authenticator en el smartphone o la tableta del usuario. El usuario pulsa "Comprobar" en la aplicación para autenticarse. Como alternativa, también se puede usar la aplicación como un token OTP para proceder a la autenticación sin conexión. El usuario escribe el token en la pantalla de inicio de sesión para autenticarse.|
+|[Llamada de teléfono móvil](#mobile-phone-(text-or-call))|Realiza una llamada de voz automatizada al número de teléfono de autenticación. El usuario responde a la llamada y pulsa la # del teclado del teléfono para autenticarse. Este número de teléfono no se sincronizará con Active Directory local.|
+|[Mensaje de texto en el teléfono móvil](#mobile-phone-(text-or-call))|Envía al usuario un mensaje de texto que contiene un código de comprobación. Se le pide al usuario o bien que responda al mensaje de texto con el código de comprobación o bien que lo escriba en la interfaz de inicio de sesión.|
+|[Llamada al teléfono del trabajo](#office-phone-call)|Establece una llamada de voz automática al usuario. El usuario responde a la llamada y pulsa la # del teclado del teléfono para autenticarse.|
+|[Aplicación móvil](#mobile-application)|Inserta una notificación en la aplicación móvil de Azure Authenticator en el smartphone o la tableta del usuario. El usuario pulsa "Comprobar" en la aplicación para autenticarse. Como alternativa, también se puede usar la aplicación como un token OTP para proceder a la autenticación sin conexión. El usuario escribe el token en la pantalla de inicio de sesión para autenticarse.|
 
 _La aplicación de Azure Authenticator puede operar en dos modos diferentes para proporcionar la seguridad adicional que un servicio de autenticación multifactor puede proporcionar. Son los siguientes:_
 
@@ -117,10 +117,10 @@ La aplicación Azure Authenticator está disponible para Windows Phone, Android 
 12. Haga clic en **Listo**.
 
 ### ¿Desea obtener más información?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO2-->
 
 

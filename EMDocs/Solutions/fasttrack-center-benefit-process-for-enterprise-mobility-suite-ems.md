@@ -13,14 +13,14 @@ ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4edfa04ab1ecf371e207497d74aa4c1e2366d7a9
-ms.openlocfilehash: 678b0f25d03f2b5ff8d53effd75ea9c6fc99cfa9
+ms.sourcegitcommit: 2631d31711823e8a3f50ab58edf841aefb4f7153
+ms.openlocfilehash: 8f880796888183053f3311edeb13dbbfac44e667
 
 
 ---
 
 # Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility + Security (EMS)
-Si su organización puede disfrutar del beneficio del centro FastTrack para EMS, puede trabajar de forma remota con los especialistas de Microsoft con el fin de preparar Azure Active Directory Premium o Microsoft Intune para su uso. También puede solicitar ayuda mediante el portal de FastTrack para Azure Information Protection, Microsoft Cloud App Security y Microsoft Advanced Threat Analytics. Para saber si su organización es apta, vea [Planes y servicios aptos del beneficio del centro de FastTrack](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
+Si su organización puede disfrutar del beneficio del centro FastTrack para EMS, puede trabajar de forma remota con los especialistas de Microsoft con el fin de preparar Azure Active Directory Premium o Microsoft Intune para su uso. También puede solicitar ayuda mediante el [sitio de FastTrack](http://fasttrack.microsoft.com/ems) para Azure Information Protection, Microsoft Cloud App Security y Microsoft Advanced Threat Analytics. Para saber si su organización es apta, vea [Planes y servicios aptos del beneficio del centro de FastTrack](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
 
 Esto es lo que trataremos sobre el proceso de incorporación:
@@ -52,6 +52,6 @@ Esto es lo que puede esperar cuando se complete la incorporación:
     -   Federadas con Servicios de federación de Active Directory (AD FS) de Windows Server 2012 R2 (versión 2.0 o posterior) en su instancia de Active Directory local.
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO2-->
 
 
