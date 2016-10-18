@@ -1,10 +1,10 @@
 ---
-title: "Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (fases)"
+title: "Fases de migración e incorporación"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,31 +14,29 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
-ms.openlocfilehash: 7f89f613d40daf3472685d0bce12767f35ee65c8
+ms.sourcegitcommit: fd3cdf64ae84d45f285302fd8557dfdfadc60c8f
+ms.openlocfilehash: 9f0a69a7bd9bc1910281c44ec818efbf9c87370a
 
 
 ---
 
-# Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (fases)
-Cuando se usa [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) con el fin de preparar Azure Active Directory Premium, Microsoft Intune o Azure Rights Management para su uso, el proceso constará de varias fases. En las secciones siguientes se describe cada fase del proceso de incorporación.
+# Fases de migración e incorporación
+Cuando usa los [Planes y servicios aptos del beneficio del centro de FastTrack](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) para obtener Azure Active Directory Premium o Microsoft Intune para su uso, existen varias fases implicadas en el proceso. En las secciones siguientes se describe cada fase del proceso de incorporación.
 
-Para obtener información sobre las otras partes del proceso de incorporación de FastTrack, consulte [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+La incorporación tiene las siguientes fases principales:
 
-
-La incorporación tiene cuatro fases principales, tal y como se muestra en la ilustración siguiente:
-
-
-![Las cuatro fases del proceso de incorporación de FastTrack](./media/ft-2-onboarding-phases.png)
+![Las cuatro fases del proceso de incorporación de FastTrack](./media/ft-onboarding-benefit.png)
 
 
 ## Fase de inicio
 
-Una vez haya adquirido el número adecuado de licencias, siga las instrucciones que encontrará en el correo electrónico de confirmación de compra para asociar las licencias a un inquilino existente o a un nuevo inquilino. Microsoft comprobará si cumple los requisitos para disfrutar del programa de beneficio de incorporación y migración a Microsoft FastTrack y tratará de ponerse en contacto con usted para ofrecerle asistencia de incorporación. También puede solicitar asistencia desde el [Centro de FastTrack](http://fasttrack.microsoft.com/) si está listo para implementar estos servicios para su organización. Para solicitar asistencia, inicie sesión en el [Centro de FastTrack](http://fasttrack.microsoft.com/) (http://fasttrack.microsoft.com), vaya al panel, seleccione el nombre de su empresa, haga clic en la pestaña Offers (Ofertas) y, luego, en "Request Assistance for Microsoft Intune, Azure Active Directory Premium or Azure Rights Management Premium" (Solicitar asistencia para Microsoft Intune, Azure Active Directory Premium o Azure Rights Management Premium). Cuando empiece el soporte técnico de incorporación, configuraremos una programación de reuniones en línea.
+Una vez haya adquirido el número adecuado de licencias, siga las instrucciones que encontrará en el correo electrónico de confirmación de compra para asociar las licencias a un inquilino existente o a un nuevo inquilino. Microsoft comprobará si cumple los requisitos para disfrutar del programa de beneficio de incorporación y migración a Microsoft FastTrack y tratará de ponerse en contacto con usted para ofrecerle asistencia de incorporación. También puede solicitar asistencia desde el [Centro de FastTrack](http://fasttrack.microsoft.com/) si está listo para implementar estos servicios para su organización.
+
+Para solicitar asistencia, inicie sesión en el [Centro de FastTrack](http://fasttrack.microsoft.com/) (http://fasttrack.microsoft.com) con su cuenta profesional o educativa, haga clic en su empresa (o agréguela si es necesario), haga clic en la pestaña Servicios y en "Request Assistance for Microsoft Intune or Azure Active Directory Premium" (Solicitar asistencia para Microsoft Intune o Azure Active Directory Premium). Cuando empiece el soporte técnico de incorporación, configuraremos una programación de reuniones en línea.
 
 Durante esta fase, explicaremos el proceso de incorporación, comprobaremos los datos y convocaremos una reunión de puesta en marcha.
 
-![Fase de inicio de la incorporación](./media/ft-3-initiate-phase.png)
+![Fase de inicio de la incorporación](./media/ft-initiate-phase.png)
 
 ## Fase de evaluación
 
@@ -48,12 +46,12 @@ Microsoft también se pondrá en contacto con usted para ofrecerle instrucciones
 
 Según la configuración actual, le presentaremos un plan de corrección para que su entorno de origen reúna los requisitos mínimos para incorporar correctamente EMS o sus servicios en la nube individuales. También programaremos llamadas de control pertinentes durante la fase de corrección.
 
-![Fase de evaluación de la incorporación](./media/ft-4-assess-phase.png)
+![Fase de evaluación de la incorporación](./media/ft-assess-phase.png)
 
 ## Fase de corrección
 Si es necesario, realizará las tareas del plan de corrección en su entorno de origen para cumplir los requisitos de incorporación y adopción de cada servicio.
 
-![Fase de corrección de la incorporación](./media/ft-5-remediate-phase.png)
+![Fase de corrección de la incorporación](./media/ft-remediate-phase.png)
 
 Antes de comenzar la fase de habilitación, comprobaremos juntos los resultados de las actividades de corrección para asegurarnos de que está listo para continuar.
 
@@ -62,31 +60,45 @@ Cuando complete todas las actividades de corrección, el proyecto pasará a la c
 
 **Habilitar la fase: capacidades principales**
 
-La incorporación principal implica el aprovisionamiento del servicio y la integración de inquilinos e identidades. También incluye los pasos para proporcionar una base con el objetivo de incorporar servicios en línea como Azure Active Directory Premium, Microsoft Intune y Azure Rights Management Premium.
+La incorporación principal implica el aprovisionamiento del servicio y la integración de inquilinos e identidades. También incluye los pasos para proporcionar una base con el objetivo de incorporar servicios en línea como Azure Active Directory Premium y Microsoft Intune.
 
-![Fase de habilitación de la incorporación: capacidades principales](./media/ft-6-enable-phase-core.png)
+![Fase de habilitación de la incorporación: capacidades principales](./media/ft-enable-phase-core-01.png)
 
-###Fase de habilitación: Azure Active Directory Premium
+![Fase de habilitación de la incorporación: capacidades principales](./media/ft-enable-phase-core-02.png)
+
+### Fase de habilitación: Azure Active Directory Premium
 
 Según sea necesario, el entorno de Azure Active Directory Premium puede configurarse con la sincronización de directorios de la herramienta Azure Active Directory Connect y los Servicios de federación de Active Directory (AD FS).
 
-Para los escenarios de Azure Active Directory Premium que incluyen la sincronización de identidades locales en la nube, le ayudaremos mediante la adición de usuarios y administradores de TI a su suscripción, la configuración de los requisitos previos de administración, la configuración de Azure Active Directory Premium, la configuración de la sincronización de directorios con la herramienta Azure Active Directory Connect, los Servicios de federación de Active Directory (AD FS) mediante la herramienta Azure Active Directory Connect, la configuración de usuarios de prueba y la validación de sus principales casos de uso para el servicio.
+Para los escenarios de Azure Active Directory Premium que incluyen la sincronización de identidades locales en la nube, le ayudaremos mediante la adición de usuarios y administradores de TI a su suscripción, la configuración de los requisitos previos de administración, la configuración de Azure Active Directory Premium, la configuración de la sincronización de directorios y los Servicios de federación de Active Directory (AD FS) mediante la herramienta Azure Active Directory Connect, la configuración de usuarios de prueba y la validación de sus principales casos de uso para el servicio.
 
 El programa de instalación de Azure Active Directory Premium incluye las siguientes características:
 
--   Restablecimiento de la contraseña de autoservicio (SSPR)
+-   Restablecimiento de la contraseña de autoservicio (SSPR).
 
--   Azure Multi-Factor Authentication (MFA).
+-   Azure Multi-Factor Authentication (Azure MFA).
 
--   Aplicación de software como servicio (SaaS): configurar una aplicación de SaaS desde [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+-   Integración de aplicaciones de software como servicio (SaaS) con el inicio de sesión único (SSO) desde [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
--   Administración de grupos de autoservicio (SSGM)
+-   Pantalla de inicio de sesión personalizada, que incluye un logotipo, texto e imágenes.
 
--   Informes administrativos
+-   Grupo dinámico y de autoservicio (Grupos).
 
-![Fase de habilitación de la incorporación: AADP](./media/ft-7-enable-phase-aadp.png)
+-   Proxy de aplicación de Azure Active Directory.
 
-###Fase de habilitación: Microsoft Intune
+-   Azure Active Directory Connect Health.
+
+-   Identity Protection.
+
+-   Privileged Identity Management.
+
+-   Informes de uso y seguridad para administradores.
+
+-   Alertas y notificaciones administrativas.
+
+![Fase de habilitación de la incorporación: AADP](./media/ft-enable-phase_aad-premium_adconnect_adfed.png)
+
+### Fase de habilitación: Microsoft Intune
 
 En el caso de Microsoft Intune, y según el dispositivo móvil y las necesidades de administración de aplicaciones móviles, le guiaremos durante la preparación para usar Microsoft Intune para administrar dispositivos. Los pasos exactos dependerán del entorno de origen y pueden incluir:
 
@@ -100,10 +112,10 @@ En el caso de Microsoft Intune, y según el dispositivo móvil y las necesidades
 
     -   Establecer Microsoft Intune como entidad de MDM en los casos en que Microsoft Intune es la única solución de MDM o cuando se usa con la administración de dispositivos móviles para Office 365.
 
-    -   Si tiene una implementación existente de System Center Configuration Manager y desea para ampliar sus capacidades de administración con Microsoft Intune, establezca Configuration Manager como entidad de MDM.
+    -   Si tiene una implementación existente de System Center Configuration Manager y quiere ampliar sus funcionalidades de administración con Microsoft Intune, establezca Configuration Manager como entidad de MDM.
 
         > [!NOTE]
-        > Si solo desea sacar partido de la administración de aplicaciones móviles en dispositivos de propiedad, en dispositivos compartidos o en dispositivos de tipo quiosco de sus usuarios finales, no es necesario configurar ninguna entidad de MDM.
+        > Si solo quiere sacar partido de la administración de aplicaciones móviles en dispositivos de propiedad, en dispositivos compartidos o en dispositivos de tipo quiosco de sus usuarios finales, no es necesario configurar ninguna entidad de MDM.
 
 -   Si la administración de dispositivos móviles está incluida, le ofreceremos instrucciones para lo siguiente:
 
@@ -139,34 +151,17 @@ En el caso de Microsoft Intune, y según el dispositivo móvil y las necesidades
 
 Microsoft también se pondrá en contacto con usted para ofrecerle instrucciones sobre cómo impulsar la adopción correcta de los servicios aptos.
 
-![Fase de habilitación de la incorporación: Intune](./media/ft-8-enable-phase-intune.png)
+![Fase de habilitación de la incorporación: Intune](./media/ft-enable-phase_intune_mam.png)
 
-###Fase de habilitación: Azure Rights Management Premium
+![Fase de habilitación de la incorporación: Intune](./media/ft-enable-phase_intune_mdm-mam_cloudonly.png)
 
-Según sea necesario, el entorno de Azure Rights Management Premium puede configurarse con la sincronización de directorios de Azure Active Directory Connect y los Servicios de federación de Active Directory (AD FS).
+![Fase de habilitación de la incorporación: Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
 
-En el caso de los escenarios de Azure RMS que incluyan la sincronización de identidades locales en la nube, para ayudarlo, agregaremos usuarios y administradores de TI a su suscripción; configuraremos los requisitos previos de administración, Azure Rights Management Premium, la sincronización de directorios con la herramienta Azure Active Directory Connect, los Servicios de federación de Active Directory mediante Azure Active Directory Connect, y los usuarios de prueba; luego, validaremos sus principales casos de uso para el servicio.
+**¿Desea obtener más información?**
 
-El programa de instalación de Azure RMS incluye la habilitación de las siguientes características:
-
--   Habilitación del servicio de RMS
-
--   Configuración de IRM para Exchange Online y Sharepoint Online
-
--   Conector Rights Management con Exchange y Sharepoint locales
-
--   Aplicación de uso compartido de RMS para dispositivos Windows y dispositivos que no son Windows
-
-![Fase de habilitación de la incorporación: Azure RMS](./media/ft-7-enable-phase-aadp.png)
-
-Lea sobre la siguiente parte del proceso de incorporación de FastTrack: [Responsabilidades de Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md).
-
-### ¿Desea obtener más información?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Oct16_HO2-->
 
 

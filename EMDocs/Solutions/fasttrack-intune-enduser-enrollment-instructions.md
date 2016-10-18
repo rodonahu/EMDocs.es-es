@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c704180f9c607e39c27d75676eec30afa1a1730c
-ms.openlocfilehash: c11de7d94408b2a0d3e1511f2f93c1f56655c080
+ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
+ms.openlocfilehash: 7d04b320606403530801de71a37d308cf378856f
 
 
 ---
@@ -99,7 +99,7 @@ Antes o después de la inscripción, se le pedirá que elija una categoría que 
   ![Captura de pantalla en la que se muestra que el dispositivo Android es conforme y se le pide al usuario que continúe.](./media/ft-userEnrollAndroid-15-coAccessSetup.png)
 15. Pulse **LISTO**.
 
-  ![Captura de pantalla que muestra que se ha completado la configuración de acceso a la empresa en un dispositivo Android](./media/ft-userEnrollAndroid-16-SetupComplete.png)
+  ![Captura de pantalla en la cual se muestra que se ha completado la configuración de acceso a la empresa en un dispositivo Android](./media/ft-userEnrollAndroid-16-SetupComplete.png)
 16. El dispositivo ya está inscrito en Intune. Se le dirigirá de nuevo a la aplicación de portal de empresa.
 17. Antes de intentar instalar aplicaciones de empresa, vaya a **Ajustes > Seguridad** y active **Fuentes desconocidas**. Si no activa esta opción antes de intentar instalar aplicaciones, verá el mensaje "Instalación bloqueada. Por motivos de seguridad, el teléfono está configurado para bloquear las instalaciones de aplicaciones procedentes de orígenes desconocidos.". Puede pulsar **Configuración** en el cuadro de diálogo del error para ir a la opción **Orígenes desconocidos**.
 
@@ -162,17 +162,17 @@ El dispositivo ya está inscrito en Intune. Se le dirigirá de nuevo a la aplica
   ![Captura de pantalla en la que se le pide al usuario que inscriba el dispositivo Mac OS X.](./media/ft-userEnrollMacOSx-2-enrollDevice.png)
 4.  En el cuadro de diálogo Install "Management Profile" (Instalar el perfil de administración), pulse **Instalar**. Si se abre un cuadro de diálogo que le pide que escriba sus credenciales, escriba el nombre de usuario y la contraseña y, luego, pulse **Continuar > Instalar**.
 
-  ![Se le pide al usuario que instale el perfil de administración en un dispositivo Mac OS X.](./media/ft-userEnrollMacOSx-3-installProfile.png)
+  ![Captura de pantalla en la cual se solicita al usuario que instale el perfil de administración en un dispositivo Mac OS X.](./media/ft-userEnrollMacOSx-3-installProfile.png)
 
 Cuando termine la inscripción, verá una página de perfil de administración en la que se muestra que se ha verificado el perfil.
 
   ![Captura de pantalla en la que se muestra que se ha comprobado el perfil de administración en un dispositivo Mac OS X.](./media/ft-userEnrollMacOSx-4-profileVerified.png)
 
 ### ¿Desea obtener más información?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO2-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
-ms.openlocfilehash: cc6844a9329cafd14d7902ec1d677c5bea685b86
+ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
+ms.openlocfilehash: b3a0ce1b7a7465ca29888b4d332ede6b5a604fd6
 
 
 ---
@@ -44,7 +44,7 @@ Las**directivas de cumplimiento** determinan el cumplimiento de un dispositivo. 
 ## Experiencia de alto nivel del usuario final
 Después de implementar la solución, los usuarios finales solo podrán obtener acceso al correo de la empresa mediante dispositivos administrados y que cumplan los requisitos establecidos. Una vez que tengan acceso al correo electrónico en sus dispositivos, los datos de la empresa estarán protegidos y se guardarán en el ecosistema de la aplicación, por lo que solo estarán disponibles para ciertos usuarios. El acceso se puede revocar en cualquier momento si el dispositivo no cumple con los requisitos establecidos.
 
-En concreto, las directivas de acceso condicional de Intune garantizan que los dispositivos solo puedan tener acceso al correo electrónico si cumplen con las directivas de cumplimiento establecidas. Acciones tales como copiar y pegar o guardar datos en servicios personales en la nube, pueden restringirse mediante directivas de administración de aplicaciones móviles. El servicio Azure Rights Managements puede usarse para garantizar que solo los destinatarios puedan leer los datos de los correos electrónicos confidenciales y los datos adjuntos reenviados. La experiencia del usuario final se describe con más detalle en [Experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md).
+En concreto, las directivas de acceso condicional de Intune garantizan que los dispositivos solo puedan tener acceso al correo electrónico si cumplen con las directivas de cumplimiento establecidas. Acciones tales como copiar y pegar o guardar datos en servicios personales en la nube, pueden restringirse mediante directivas de administración de aplicaciones móviles. Azure Information Protection puede usarse para garantizar que solo los destinatarios puedan leer los datos de los correos electrónicos confidenciales y los datos adjuntos reenviados. La experiencia del usuario final se describe con más detalle en [Experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md).
 
 
 Mire [este](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) vídeo de cuatro minutos para ver cómo afecta el acceso condicional a los usuarios finales.
@@ -122,6 +122,6 @@ Ahora que sabe cómo proteger los documentos y el correo electrónico corporativ
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

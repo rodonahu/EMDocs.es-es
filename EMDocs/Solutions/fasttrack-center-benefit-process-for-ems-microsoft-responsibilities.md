@@ -1,10 +1,10 @@
 ---
-title: "Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (responsabilidades de Microsoft)"
+title: Responsabilidades de Microsoft
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 07/07/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,17 +14,15 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
-ms.openlocfilehash: 5aa145639d7f38beb0a9b684cd70227edccccf42
+ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
+ms.openlocfilehash: 777236784c06eeea2e62bcb77b2ceabc5d31b14a
 
 
 ---
 
-# Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (responsabilidades de Microsoft)
-En las siguientes secciones se describen lo que puede esperarse de Microsoft cuando se usa [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) con el fin de preparar Azure Active Directory Premium, Microsoft Intune o Azure Rights Management para su uso.
+# Responsabilidades de Microsoft
 
-Para obtener información sobre las otras partes del proceso de incorporación de FastTrack, consulte [Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
-
+Microsoft tiene las siguientes responsabilidades durante la incorporación.
 
 ## General
 
@@ -115,12 +113,12 @@ Proporcionar instrucciones sobre las acciones siguientes:
 
     -   Configure la sincronización entre bosques de Active Directory local y el directorio de Microsoft Azure Active Directory Premium (Azure Active Directory).
 
-        > [!NOTE] 
+        > [!NOTE]
         > El desarrollo y la implementación de extensiones de reglas personalizadas están fuera del ámbito.
 
--   Para un bosque único cuando el destino son identidades federadas: instalar y configurar los Servicios de federación de Active Directory (AD FS) para realizar la autenticación del dominio local con Microsoft Azure AD Premium en una configuración de sitio único con tolerancia a errores, si es necesario.
+-   Para un bosque único cuando el destino son identidades federadas: instalar y configurar los Servicios de federación de Active Directory (AD FS) para realizar la autenticación del dominio local con Microsoft Azure Active Directory Premium en una configuración de sitio único con tolerancia a errores, si es necesario.
 
-    > [!NOTE] 
+    > [!NOTE]
     > Para todas las configuraciones de bosques múltiples, las implementaciones de AD FS están fuera del ámbito.
 
 -   Probar la función de inicio de sesión único (SSO) si está implementada.
@@ -133,24 +131,28 @@ Proporcionar instrucciones sobre la configuración:
 
 -   Sincronización de directorios de Azure Active Directory Connect (con escritura diferida de contraseñas y sincronización de hash de contraseña).
 
--   Servicios de federación de Active Directory (AD FS)
+  - Restablecimiento de la contraseña de autoservicio (SSPR).
 
-- Restablecimiento de la contraseña de autoservicio (SSPR).
+  - Azure Multi-Factor Authentication (MFA).
 
-- Azure Multi-Factor Authentication (MFA).
+  - Integración de aplicaciones de software como servicio (SaaS) con el inicio de sesión único (SSO) desde [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
-- Una sola aplicación integrada que puede incluir el inicio de sesión único para las aplicaciones de SaaS.
+  - Pantalla de inicio de sesión personalizada, que incluye un logotipo, texto e imágenes.
 
-- Informes de uso y seguridad para administradores.
+  - Grupos dinámicos y de autoservicio (Grupos).
 
-- Administración de grupos de autoservicio (SSGM).
+  - Proxy de aplicación de Azure Active Directory.
 
-- Proxy de aplicación.
+  - Azure Active Directory Connect Health.
 
-- Notificaciones del administrador.
+  - Identity Protection.
 
-- Pantalla de inicio de sesión personalizada, que incluye un logotipo, texto e imágenes.
- 
+  - Privileged Identity Management.
+
+  - Informes de uso y seguridad para administradores.
+
+  - Alertas y notificaciones administrativas.
+
 ### Fase de habilitación: Microsoft Intune
 Proporcionar instrucciones sobre:
 
@@ -164,10 +166,10 @@ Proporcionar instrucciones sobre:
 
     -   Establecer Microsoft Intune como entidad de MDM en los casos en que Microsoft Intune es la única solución de MDM o cuando se usa con la administración de dispositivos móviles para Office 365.
 
-    -   Si tiene una implementación existente de System Center Configuration Manager y desea para ampliar sus capacidades de administración con Microsoft Intune, establezca Configuration Manager como entidad de MDM.
+    -   Si tiene una implementación existente de System Center Configuration Manager y quiere ampliar sus funcionalidades de administración con Microsoft Intune, establezca Configuration Manager como entidad de MDM.
 
-        > [!NOTE] 
-        > Si solo desea sacar partido de la administración de aplicaciones móviles en dispositivos de propiedad, en dispositivos compartidos o en dispositivos de tipo quiosco de sus usuarios finales, no es necesario configurar ninguna entidad de MDM.
+        > [!NOTE]
+        > Si solo quiere sacar partido de la administración de aplicaciones móviles en dispositivos de propiedad, en dispositivos compartidos o en dispositivos de tipo quiosco de sus usuarios finales, no es necesario configurar ninguna entidad de MDM.
 
 -   Si la administración de dispositivos móviles está incluida, le ofreceremos instrucciones para lo siguiente:
 
@@ -183,7 +185,7 @@ Proporcionar instrucciones sobre:
 
         -   Configurar Microsoft Intune Exchange Connector, si corresponde.
 
-    -   Inscribir hasta dos dispositivos de prueba de cada plataforma compatible en Microsoft Intune o Configuration Manager con el servicio de Microsoft Intune.
+    -   Inscribir dispositivos de prueba de cada plataforma compatible en Microsoft Intune o Configuration Manager con el servicio de Microsoft Intune.
 
     -   Usar informes de inventario de software y hardware.
 
@@ -203,48 +205,11 @@ Proporcionar instrucciones sobre:
 
     -   Usar los informes de hardware y software disponibles en Intune.
 
-### Fase de habilitación: Azure Rights Management Premium
+**¿Desea obtener más información?**
 
-Proporcionar instrucciones sobre las acciones siguientes:
-
--   Activar el inquilino de Azure RMS.
-
--   Adición de administradores de seguridad de información adicionales para administrar plantillas.
-
--   Asignación de una cuenta de superusuario para Azure RMS.
-
--   Licencias para dos usuarios pilotos de Azure RMS.
-
--   Configuración de dos grupos de distribución de prueba para validar directivas.
-
--   Configuración de una plantilla personalizada de Azure RMS para su directorio.
-
--   Instrucciones para la configuración de la integración de SharePoint Online y Exchange Online con Azure RMS, que incluyen:
-
-    -   Configuración y validación de la integración de Exchange Online con Azure RMS.
-
-    -   Configuración de una regla de flujo de correo de prueba para cifrar mensajes confidenciales enviados a destinatarios ajenos a la organización.
-
-    -   Configuración y validación de la protección de SharePoint Online de una biblioteca de prueba que se protegerá con Azure RMS.
-
--   Configuración de un servidor local con el conector RMS, cuando sea aplicable:
-
-    -   La configuración y validación de la integración de Exchange 2013/2010 local con Azure RMS.
-
-    -   La configuración de una regla de flujo de correo de prueba para cifrar mensajes confidenciales enviados a destinatarios ajenos a la organización mediante el conector.
-
-    -   La configuración y validación de la protección de SharePoint 2013/2010 local de una biblioteca de prueba que se protegerá con Azure RMS.
-
--   La configuración de la aplicación de uso compartido de RMS para dispositivos Windows y dispositivos que no son Windows.
-
-Lea sobre la siguiente parte del proceso de incorporación de FastTrack: [Responsabilidades del cliente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md).
-
-### ¿Desea obtener más información?
-Consulte [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-
-
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
