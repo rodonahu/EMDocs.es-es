@@ -4,17 +4,18 @@ description:
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: 9b89da63-039f-4831-b204-28c0681478fe
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0b77c2b49180c3871a1885d8faa232b412bac384
-ms.openlocfilehash: d2d2eb53dcf52eae1ca5673617936667bd51d796
+ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
+ms.openlocfilehash: 919ce43f116714c7b08b8a17973c4955681b5a5a
 
 
 ---
@@ -40,8 +41,7 @@ Las respuestas a las preguntas del paso 1 pueden ayudarle a determinar cómo des
 
 **Ventajas**
 
-- Admite la a
-dministración de correo electrónico para todos los sistemas operativos de dispositivos móviles principales (Android, iOS, Windows 10, Windows 8.x y Windows Phone)
+- Admite la administración de correo electrónico para todos los sistemas operativos de dispositivos móviles principales (Android, iOS, Windows 10, Windows 8.x y Windows Phone).
 - Puede aprovechar las aplicaciones de correo electrónico de dispositivos móviles nativas mediante la integración con Exchange ActiveSync.
 - Integración con Exchange Online a través del conector de servicio a servicio para permitir la supervisión e informes multiplataforma entre Intune y Office 365.
 - Admite la configuración de perfiles de correo electrónico para la administración de la configuración basada en Exchange ActiveSync en dispositivos móviles.
@@ -88,6 +88,6 @@ Explore los detalles acerca de las opciones de administración de la configuraci
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: ecb6271f-8f38-42bd-aae7-10ba5e17a5f1
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: affb004f69e50d7c41ede6d29355fbb991949ebd
+ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
+ms.openlocfilehash: 64fff538f7e0a8ace6c38404a9bde3c20e87eb9a
 
 
 ---
@@ -29,7 +30,7 @@ Para solucionar los problemas que identificamos antes y para ayudar a las organi
 
 - Proporcionar a los usuarios la flexibilidad necesaria para que accedan a los datos y las aplicaciones empresariales con sus propios dispositivos.
 - Administrar los dispositivos que acceden a los recursos corporativos de forma local y desde la nube.
-- Permitir que un departamento de TI proteja los datos corporativos almacenados en los dispositivos con cifrado y administración de derechos para protegerlos del acceso local no autorizado, y borrar los datos corporativos de forma remota por Internet cuando se pierda o se deseche un dispositivo o al finalizar el contrato de un empleado.
+- Permitir que un departamento de TI proteja los datos corporativos almacenados en los dispositivos con cifrado y protección de la información para protegerlos del acceso local no autorizado, y borrar los datos corporativos de forma remota por Internet cuando se pierda o se deseche un dispositivo o al finalizar el contrato de un empleado.
 - Proporcionar a los usuarios una identidad común con la que acceder a los recursos de forma local y desde la nube.
 - Permitir que las TI administren varias identidades y mantengan la información sincronizada entre diferentes entornos.
 - Habilitar servicios de autenticación empresariales, como la autenticación multifactor y el inicio de sesión único.
@@ -53,6 +54,6 @@ Los aspectos relacionados con el dominio del problema de BYOD que se presenta en
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
