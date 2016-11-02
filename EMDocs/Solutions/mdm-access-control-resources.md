@@ -1,10 +1,10 @@
 ---
 title: Control de acceso a los recursos
-description: 
+description: "Consideraciones de diseño del control de acceso para la administración de dispositivos móviles."
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: fa1bf43d4c711da69f069e23d518b354cff162da
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: 80a435883f8df7ea7f6dde46e40f80e873ea617e
 
 
 ---
@@ -92,6 +92,6 @@ Utilice la tabla siguiente como referencia para ayudarle a elegir la opción de 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 
