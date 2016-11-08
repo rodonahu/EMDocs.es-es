@@ -1,10 +1,10 @@
 ---
 title: "Segregación de datos"
-description: 
+description: "Consideraciones de diseño de la segregación de datos para un escenario de administración de dispositivos móviles."
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: c25ffae65d37b92e8b09ccfa1615fa92a9580638
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: 56e61eddf9ae62417d3e05082edbdf0560f6e00d
 
 
 ---
@@ -93,6 +93,6 @@ Asegúrese de leer el artículo [Ayudar a proteger los datos con el borrado sele
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

@@ -1,10 +1,10 @@
 ---
 title: Consideraciones sobre las aplicaciones
-description: 
+description: "Consideraciones de dise√±o para las aplicaciones en un escenario de BYOD."
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 2340a5578d01f52e672a3b399ec1200dcff9373d
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: 09044a31ace0ea1409599abcc70dba857e45a8af
 
 
 ---
@@ -239,6 +239,6 @@ Las consideraciones de seguridad son importantes para las aplicaciones que usar√
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 
