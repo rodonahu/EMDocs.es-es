@@ -1,10 +1,10 @@
 ---
 title: "Especificación de los requisitos de ubicación de la administración de dispositivos móviles"
-description: 
+description: "Requisitos comunes con respecto a la ubicación del dispositivo en un escenario de administración de dispositivos móviles."
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: ab4178172344c25dba2db28a2fd8f3c8b4ad0ef5
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: 32fb388ab38399a23193c4d9fffda7c305251624
 
 
 ---
@@ -43,6 +43,6 @@ Los requisitos de ubicación son uno de los numerosos factores que debe tener en
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 
