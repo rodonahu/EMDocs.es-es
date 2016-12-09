@@ -1,10 +1,11 @@
 ---
 title: "Identificación de las necesidades empresariales"
-description: "Instrucciones sobre las identificación de las necesidades empresariales para justificar la adopción de la administración de dispositivos móviles."
+description: "En este artículo se proporcionan instrucciones sobre la identificación de las necesidades empresariales que son necesarias para justificar la adopción de la administración de dispositivos móviles."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: cd9f30d1474745919e4c0ff251206d8c900dc4c2
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 35c9101de6df041b906660743654a8b137d4a542
 
 
 ---
 
-# Identificación de las necesidades empresariales
+# <a name="identify-your-business-needs"></a>Identificación de las necesidades empresariales
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -84,6 +85,6 @@ Durante esta tarea, también debe evaluar si la empresa tiene directivas de cump
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

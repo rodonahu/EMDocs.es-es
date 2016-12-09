@@ -1,8 +1,9 @@
 ---
 title: "Desarrollo de una estrategia de administración de dispositivos móviles de SaaS"
-description: 
+description: "Con este artículo se pretende ayudar a los clientes a desarrollar una estrategia de software como servicio para la administración de dispositivos móviles con Microsoft Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,22 +15,22 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 601e2e16d62c59002da329e99873263d64e005a0
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 735874e0f5c30628fbc4bdcdce18e6db3a2ec735
 
 
 ---
 
-# Desarrollo de una estrategia de administración de dispositivos móviles de SaaS
+# <a name="develop-saas-mobile-device-management-strategy"></a>Desarrollo de una estrategia de administración de dispositivos móviles de SaaS
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-## Identificación de los requisitos de la solución de SaaS
+## <a name="identify-your-saas-solution-requirements"></a>Identificación de los requisitos de la solución de SaaS
 
 Según como haya respondido a las preguntas de Tarea 1, podrá determinar qué necesita la solución de SaaS para ser compatible con la solución de administración de dispositivos. La tabla 20 siguiente le ayudará a comprender las ventajas y desventajas de cada escenario de la solución de SaaS:
 
-## Intune (independiente)
+## <a name="intune-standalone"></a>Intune (independiente)
 
 **Ventajas**
 
@@ -46,7 +47,7 @@ Según como haya respondido a las preguntas de Tarea 1, podrá determinar qué n
 - Las instancias en la nube privada no son compatibles
 - Si necesita ofrecer más de 50 000 dispositivos móviles, tendrá que conectar Intune a Configuration Manager para administrar los dispositivos adicionales.
 
-## MDM para Office 365
+## <a name="mdm-for-office-365"></a>MDM para Office 365
 
 **Ventajas**
 
@@ -59,7 +60,7 @@ Según como haya respondido a las preguntas de Tarea 1, podrá determinar qué n
 - No admite la administración de los sistemas operativos que no son móviles.
 - Interfaz de administración adicional para el aprovisionamiento de dispositivos móviles (solo) si se usa una plataforma de administración local para dispositivos que no son móviles.
 
-## Híbridas (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Híbridas (Intune con Configuration Manager)
 
 **Ventajas**
 
@@ -78,6 +79,6 @@ Para obtener más información sobre los requisitos y la funcionalidad de la sol
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,10 +1,11 @@
 ---
 title: Desarrollo de los requisitos de respuesta a incidentes
-description: "Requisitos comunes para desarrollar un proceso de respuesta a incidentes para un escenario de administración de dispositivos móviles."
+description: "En este artículo se proporciona un conjunto de requisitos comunes para desarrollar un proceso de respuesta a incidentes para un escenario de administración de dispositivos móviles."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 91aee40cd8ec7aa38142da3a5617e3c7cb64b7d0
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: a9bb76fdff02b8ded31fe3e1811678138ffd5504
 
 
 ---
 
-# Desarrollo de los requisitos de respuesta a incidentes
+# <a name="develop-your-incident-response-requirements"></a>Desarrollo de los requisitos de respuesta a incidentes
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -48,6 +49,6 @@ Cuando diseñe la solución MDM, asegúrese de que formula las preguntas siguien
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,8 +1,9 @@
 ---
 title: "Determinación de los requisitos de red"
-description: 
+description: "En este artículo se proporciona ayuda a los clientes para determinar los requisitos de red a la hora de planear y diseñar una solución de administración de dispositivos móviles de Microsoft con Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,21 +15,21 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 1373a466207feae97da2298f995c06015da743eb
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
 
 
 ---
 
-# Determinación de los requisitos de red
+# <a name="determine-network-requirements"></a>Determinación de los requisitos de red
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-La habilitación de acceso administrado seguro a una amplia variedad de recursos corporativos mediante dispositivos móviles es una característica importante de una solución de administración de dispositivos móviles. Aunque estos recursos normalmente se encuentran en redes locales, ahroa es más frecuente que los recursos se hospeden además en redes externas y servicios web basados en la nube.</para><para>La forma en la que los dispositivos móviles se conectan a plataformas de correo electrónico corporativas, redes privadas virtuales (VPN) y redes inalámbricas corporativas (Wi-Fi) tiene un papel importante en la conservación de los datos corporativos y otros recursos protegidos del acceso no autorizado. Igualmente importante es conseguir que sea conveniente y fácil para que los usuarios de dispositivos móviles tengan acceso seguro a estos recursos para evitar que los usuarios encuentren un método más conveniente pero no seguro de almacenar recursos u obtener acceso a ellos.</para></content>
+La habilitación de acceso administrado seguro a una amplia variedad de recursos corporativos mediante dispositivos móviles es una característica importante de una solución de administración de dispositivos móviles. Aunque estos recursos normalmente se encuentran en redes locales, ahora es más frecuente que los recursos se hospeden además en redes externas y servicios web basados en la nube.</para><para>La forma en la que los dispositivos móviles se conectan a plataformas de correo electrónico corporativas, redes privadas virtuales (VPN) y redes inalámbricas corporativas (Wi-Fi) tiene un papel importante en la conservación de los datos corporativos y otros recursos protegidos del acceso no autorizado. Igualmente importante es conseguir que sea conveniente y fácil para que los usuarios de dispositivos móviles tengan acceso seguro a estos recursos para evitar que los usuarios encuentren un método más conveniente pero no seguro de almacenar recursos u obtener acceso a ellos.</para></content>
 
 
-## Administración de correo electrónico
+## <a name="email-management"></a>Administración de correo electrónico
 El correo electrónico corporativo es normalmente el recurso de datos principal que la mayoría de los usuarios necesita para obtener acceso a la red corporativa, ya sea un dispositivo móvil de propiedad personal o de la compañía. El acceso al correo electrónico es normalmente la conexión que activa la inscripción de dispositivos móviles inicial. Permite administrar el acceso de correo electrónico para dispositivos móviles en la solución de administración de dispositivos que no son móviles existentes y la solución de administración de dispositivos móviles, lo que le ayuda a evitar espacios de cobertura en el dispositivo y aumenta la protección de los datos almacenados en servidores de correo electrónico.
 
 Las mayoría de las soluciones de administración de dispositivos móviles proporcionan una protección de acceso a correo electrónico mediante una de las siguientes características o ambas:
@@ -36,7 +37,7 @@ Las mayoría de las soluciones de administración de dispositivos móviles propo
 - **Perfiles de correo electrónico**: cuando se configuran e implementan perfiles de correo electrónico, los administradores pueden configurar automáticamente dispositivos móviles con información del servidor de correo electrónico adecuada para que los usuarios se conecten a sus buzones de correo electrónico. Esto ayuda a los usuarios a conectarse al servidor de correo electrónico correcto sin tener que recordar los nombres del extremo de servidor de correo electrónico o las direcciones de red adecuados. Además, cuando se quita un perfil de correo electrónico, los administradores pueden quitar el correo electrónico desde los dispositivos como parte del proceso de borrado selectivo o restablecimiento del dispositivo. La administración de perfiles de correo electrónico puede ser una característica de una solución de administración de dispositivos que no son móviles o se puede integrar con una solución de administración de dispositivos móviles.
 - **Acceso condicional de correo electrónico**: el acceso condicional de correo electrónico o acceso de correo electrónico "administrado", se centra normalmente en la seguridad y el cumplimiento para obtener acceso al correo electrónico en un dispositivo móvil en lugar de en el punto de conexión al que se conecta el dispositivo móvil. Con el acceso condicional de correo electrónico, se define una directiva de conformidad y se asigna a dispositivos o usuarios individuales, o a grupos de usuarios o dispositivos. La directiva describe los requisitos previos que deben estar en su lugar para que un dispositivo móvil pueda conectarse a un recurso de correo electrónico; por ejemplo, podría solicitarse un PIN en el dispositivo. Normalmente, la directiva se aplica cuando se realiza la inscripción en el dispositivo por primera vez, pero permanece en el lugar y se activa siempre que el dispositivo móvil se inscriba en el sistema de administración de dispositivos móviles.
 
-###Preguntas de planeación de la administración de correo electrónico
+###<a name="email-management-planning-questions"></a>Preguntas de planeación de la administración de correo electrónico
 
  Responda a las siguientes preguntas de planificación sobre la administración de correo electrónico:
 
@@ -58,7 +59,7 @@ Las mayoría de las soluciones de administración de dispositivos móviles propo
 - Si utiliza un sistema de correo electrónico basado en la nube y local, ¿cómo se integran con la solución de administración de dispositivos móviles? 
 - ¿Los perfiles de correo electrónico o las directivas de acceso administrado se administran de igual o diferente forma desde la perspectiva de TI? ¿Es la experiencia de conexión de correo electrónico del usuario la misma o diferente en el lugar en el que se hospeda la bandeja de correo?
 
-## Administración de la conectividad de red
+## <a name="network-connectivity-management"></a>Administración de la conectividad de red
 
 Los dispositivos móviles se suelen conectar a recursos y redes corporativas mediante las siguientes tecnologías de acceso:
 
@@ -68,7 +69,7 @@ Los dispositivos móviles se suelen conectar a recursos y redes corporativas med
 >[!NOTE]
 >Puede que desee disponer de otros recursos web, como SharePoint, que aprovechen el acceso seguro a través de la Capa de sockets seguros (SSL) o la Seguridad de la capa de transporte (TLS). Asegúrese de comprender cómo los dispositivos móviles dispondrán de acceso a estos recursos con métodos de acceso seguros o VPN independientes.
 
-### Preguntas de planeación de la administración de conectividad de red
+### <a name="network-connectivity-management-planning-questions"></a>Preguntas de planeación de la administración de conectividad de red
 
 Responda a las siguientes preguntas de planeación de la administración de la conectividad de red:
  
@@ -87,16 +88,16 @@ Responda a las siguientes preguntas de planeación de la administración de la c
  - ¿Necesita proporcionar diferentes configuraciones de seguridad o configuraciones de red inalámbrica para distintos tipos de usuarios, dispositivos, sistemas operativos de dispositivos o roles y grupos de usuarios?
  - ¿Necesita la capacidad de importar o exportar directivas de conexión de seguridad o configuración VPN o inalámbrica?
 
-## Administración de certificados
+## <a name="certificate-management"></a>Administración de certificados
 
-Los certificados digitales, ya sean autofirmados o emitidos por una entidad de certificación de terceros, pueden utilizarse para autenticar dispositivos móviles en las conexiones de red o recursos de red específicos. Para simplificar la administración de certificados digitales, los administradores suelen administrar certificados mediante perfiles de certificado. Esto permite un método uniforme y centralizado para la administración de certificados, incluido el modo de creación, emisión y renovación. Esto también ayuda a los usuarios conectarse a recursos corporativos sin tener que solicitar e instalar certificados manualmente o mediante un proceso de seguridad no aprobado.</para><para>Sin embargo, el uso de certificados para este tipo de autenticación a menudo requiere requisitos de infraestructura locales adicionales. Esto puede incluir todos o algunos de los siguientes componentes de red, dependiendo del nivel de integración compatible con la solución de administración de dispositivos móviles:
+Los certificados digitales, ya sean autofirmados o emitidos por una entidad de certificación de terceros, pueden utilizarse para autenticar dispositivos móviles en las conexiones de red o recursos de red específicos. Para simplificar la administración de certificados digitales, los administradores suelen administrar certificados mediante perfiles de certificado. Esto permite un método uniforme y centralizado para la administración de certificados, incluido el modo de creación, emisión y renovación. Esto también ayuda a los usuarios conectarse a recursos corporativos sin tener que solicitar e instalar certificados manualmente o mediante un proceso de seguridad no aprobado.</para><para>En cambio, el uso de certificados para este tipo de autenticación a menudo requiere requisitos de infraestructura locales adicionales. Esto puede incluir todos o algunos de los siguientes componentes de red, dependiendo del nivel de integración compatible con la solución de administración de dispositivos móviles:
 
 - **Servicios de directorio**: los servicios de directorio, como Microsoft Active Directory, son normalmente necesarios para conectarse y administrar todos los demás componentes de red de forma segura.
 - **Servidor de la entidad de certificación (CA)**: si está emitiendo certificados autofirmados para su organización, necesitará una entidad de certificación para crear, emitir, administrar y renovar certificados digitales.
 - **Servidor del Servicio de inscripción de dispositivos de red (NDES)**: este servidor permite que los dispositivos móviles y el software obtengan certificados basados en el Protocolo de inscripción de certificados simple (SCEP).
 - **Servidor proxy**: según la configuración de red local, puede que necesite un servidor proxy que permita que los dispositivos móviles reciban certificados mediante una conexión a Internet y sin necesidad de conectarse directamente a la red corporativa interna.
 
-### Preguntas de planeación de la administración de certificados
+### <a name="certificate-management-planning-questions"></a>Preguntas de planeación de la administración de certificados
 
 Responda a las siguientes preguntas de planificación de la administración de certificados:
 
@@ -112,6 +113,6 @@ Responda a las siguientes preguntas de planificación de la administración de c
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

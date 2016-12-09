@@ -3,78 +3,83 @@ title: Sus responsabilidades
 description: Responsabilidades del cliente al usar el beneficio del centro de FastTrack
 keywords: 
 author: staciebarker
+ms.author: stabar
 manager: angrobe
-ms.date: 10/02/2016
+ms.date: 11/07/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: ems
 ms.technology: 
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
-ms.openlocfilehash: 5cdb2a113e61ad70e5258909f48bfcad46321421
+ms.sourcegitcommit: 61241368440bea9a12bbac136466250da91da997
+ms.openlocfilehash: 847a6aa06ef34004f8de52c2e71f560112c8885a
 
 
 ---
 
-# Sus responsabilidades
+# <a name="your-responsibilities"></a>Sus responsabilidades
 
 Tiene las siguientes responsabilidades durante la incorporación.
 
-## Responsabilidades generales
+## <a name="general-responsibilities"></a>Responsabilidades generales
 
--   Mejoras e integraciones para su inquilino de EMS más allá de las opciones configurables enumeradas en este artículo.
+-   Proporcionar mejoras e integraciones para su inquilino de Enterprise Mobility + Security (EMS) más allá de las opciones configurables enumeradas aquí.
 
--   Administración general de sus recursos del programa y el proyecto.
+-   Proporcionar administración general de sus recursos del programa y el proyecto.
 
--   Administración de comunicaciones de usuario final, documentación, entrenamiento y cambios.
+-   Proporcionar administración de comunicaciones de usuario final, documentación, entrenamiento y cambios.
 
--   Documentación del departamento de soporte técnico y entrenamiento.
+-   Proporcionar documentación del departamento de soporte técnico y entrenamiento.
 
--   Elaboración de informes, presentaciones o actas de reunión específicas de su organización.
+-   Elaborar informes, presentaciones o actas de reunión específicas de su organización.
 
--   Creación de documentación arquitectónica y técnica específica de su organización.
+-   Crear documentación técnica y de arquitectura específica de su organización.
 
--   Diseño, obtención, instalación y configuración de hardware y redes.
+-   Diseñar, adquirir, instalar y configurar el hardware y las redes.
 
--   Obtención, instalación y configuración de software.
+-   Adquirir, instalar y configurar el software.
 
--   Administración, configuración y aplicación de directivas de seguridad más allá de las creadas para la funcionalidad y configuración de línea de base de los servicios de EMS.
+-   Administrar, configurar y aplicar directivas de seguridad más allá de las creadas para la funcionalidad y configuración de línea de base de los servicios de EMS.
 
--   Inscripción de cuentas de usuario distintas de las que se usan para probar la funcionalidad y la configuración de línea de base de servicios de Microsoft Azure AD EMS.
+-   Inscribir cuentas de usuario distintas de las que se usan para probar la funcionalidad y la configuración de línea de base de servicios de Microsoft Azure Active Directory.
 
--   Configuración de red, análisis, validación de ancho de banda, pruebas y supervisión.
+-   Administrar la configuración de red, el análisis, la validación del ancho de banda, las pruebas y la supervisión.
 
--   Administración de un proceso de aprobación de administración de cambios técnicos y creación de documentación complementaria.
+-   Administrar un proceso de aprobación de administración de cambios técnicos y crear documentación complementaria.
 
 -   Modificación del modelo operativo y los manuales de uso.
 
--   Configuración de la autenticación multifactor local.
+-   Establecer la autenticación multifactor local.
 
--   Retirada y eliminación de los entornos de origen y servicios usados previamente por el cliente.
+-   Retirar y eliminar los servicios y los entornos de origen usados anteriormente.
 
--   Construcción y mantenimiento del entorno de prueba.
+-   Construir y mantener el entorno de prueba.
 
--   Instalación de Service Packs y otras actualizaciones necesarias en los servidores de la infraestructura.
+-   Instalar los Service Pack y otras actualizaciones necesarias en los servidores de infraestructura.
 
--   Suministro y configuración de certificados SSL públicos.
+-   Proporcionar y configurar los certificados públicos de Capa de sockets seguros (SSL).
 
--   Redacción de las condiciones de uso (CDU) de la organización que se configurarán y mostrarán en los portales de empresa de Microsoft Intune a los que puedan tener acceso los usuarios finales.
+-   Configurar o actualizar Configuration Manager con los requisitos mínimos para la integración de Microsoft Intune con Configuration Manager.
 
-## Fase de inicio
+-   Si es necesario para la implementación de perfiles de VPN y Wi-Fi con Intune, proporcione y configure infraestructuras de VPN, Wi-Fi o entidades de certificación según sea necesario.
+
+-   Redactar las condiciones de uso (CDU) de la organización que se configurarán y mostrarán en el portal de empresa de Microsoft Intune al que tengan acceso los usuarios finales.
+
+## <a name="initiate-phase"></a>Fase de inicio
 
 -   Trabajar con el equipo de Microsoft para comenzar la incorporación de los servicios válidos.
 
 -   Participar en la reunión de puesta en marcha de contratación, administrar y dirigir a los participantes de su organización, además de confirmar las escalas de tiempo de corrección.
 
-## Fase de evaluación
+## <a name="assess-phase"></a>Fase de evaluación
 
 -   Identificar a las partes interesadas pertinentes (incluido un jefe de proyecto) para completar las actividades de evaluación necesarias.
 
--   Si lo desea, comparta la pantalla con Microsoft si necesita instrucciones al ejecutar herramientas de evaluación en su entorno, EMS o las suscripciones a los servicios en la nube individuales de esta solución.
+-   Si quiere, puede compartir la pantalla con Microsoft si necesita instrucciones al ejecutar herramientas de evaluación en su entorno, EMS o las suscripciones a los servicios en la nube individuales de esta solución.
 
 -   Participar en las reuniones para crear la lista de comprobación de correcciones y contribuir al plan general, incluidos los temas de infraestructura, red, administración, preparación de la sincronización de directorios, seguridad de red e identidad federada.
 
@@ -84,17 +89,15 @@ Tiene las siguientes responsabilidades durante la incorporación.
 
 -   Crear un plan de soporte técnico para preparar la migración.
 
-## Fase de corrección
+## <a name="remediate-phase"></a>Fase de corrección
 
 -   Realizar los pasos necesarios para completar las actividades de corrección identificadas en la fase de evaluación.
 
 -   Participar en reuniones de punto de comprobación.
 
-## Fase de habilitación
+## <a name="enable-phase"></a>Fase de habilitación
 
--   Si lo desea, comparta la pantalla con Microsoft si necesita instrucciones al realizar cambios en su entorno, EMS o las suscripciones a los servicios en la nube individuales de esta solución.
-
--   Administrar los recursos según sea necesario.
+-   Si quiere, puede compartir la pantalla con Microsoft si necesita instrucciones al ejecutar herramientas de evaluación en su entorno, EMS o las suscripciones a los servicios en la nube individuales de esta solución. Administrar recursos de almacenamiento según sea necesario.
 
 -   Configurar elementos relacionados con la red siguiendo las instrucciones de Microsoft.
 
@@ -108,11 +111,12 @@ Tiene las siguientes responsabilidades durante la incorporación.
 
 -   Habilitar varios servicios de acuerdo con las instrucciones de Microsoft.
 
-**¿Desea obtener más información?**
+**¿Quiere obtener más información?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-<!--HONumber=Oct16_HO3-->
+
+<!--HONumber=Nov16_HO4-->
 
 

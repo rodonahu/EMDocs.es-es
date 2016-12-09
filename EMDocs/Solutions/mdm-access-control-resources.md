@@ -1,10 +1,11 @@
 ---
 title: Control de acceso a los recursos
-description: "Consideraciones de diseño del control de acceso para la administración de dispositivos móviles."
+description: "En este artículo se proporciona un conjunto de consideraciones de diseño para el control de acceso que debe usarse en un escenario de administración de dispositivos móviles."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 80a435883f8df7ea7f6dde46e40f80e873ea617e
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 782f6dac4a366312ce0a6d04735262908df6fe72
 
 
 ---
 
-# Control de acceso a los recursos
+# <a name="access-control-to-resources"></a>Control de acceso a los recursos
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -31,7 +32,7 @@ Para administrar el control a recursos específicos, primero autentica y autoriz
 
 ![Flujo de autenticación](./media/MDM_Figure_13.png)
 
-## Flujo básico de autenticación y autorización
+## <a name="basic-authentication-and-authorization-flow"></a>Flujo básico de autenticación y autorización
 
 La lista de control de acceso (ACL) tradicional es muy limitada y no tiene en cuenta otros aspectos del estado del usuario, como el lugar en el que se encuentra cuando intenta obtener acceso a este recurso. Si su organización necesita incluir más variables antes de conceder acceso a un recurso, puede usar el [control de acceso dinámico](https://technet.microsoft.com/library/dn408191.aspx), que está disponible de forma nativa en Windows Server 2012. Windows 10 admite la característica de atestación de estado, lo que ayuda al departamento de TI a controlar el estado del dispositivo antes de proporcionar acceso a los datos. El servicio de atestación de estado remoto realiza una serie de comprobaciones en las medidas. Valida los puntos de datos relacionados con la seguridad, incluidos el estado de arranque (Arranque seguro, Modo de depuración etc.) y el estado de los componentes que administran la seguridad (BitLocker, Device Guard, etc.). Luego, transmite el estado del dispositivo enviando un blob cifrado de estado al dispositivo. Consulte [Control the health of Windows 10-based devices (Control del estado de dispositivos basados en Windows 10)](https://technet.microsoft.com/library/mt592023.aspx) para más información.
 
@@ -43,7 +44,7 @@ Un recurso puede ser también una aplicación, lo que significa que para impleme
 
 Utilice la tabla siguiente como referencia para ayudarle a elegir la opción de MDM que mejor se adapte a los requisitos de control de acceso de la organización.
 
-## Intune (independiente)
+## <a name="intune-standalone"></a>Intune (independiente)
 
 **Ventajas**
 
@@ -55,7 +56,7 @@ Utilice la tabla siguiente como referencia para ayudarle a elegir la opción de 
 - La falta de integración con la plataforma MDM local actual incorporará una interfaz de administración adicional que podrá usar
 - Puede que algunas directivas no estén disponibles para algunas plataformas móviles
  
-## MDM para Office 365
+## <a name="mdm-for-office-365"></a>MDM para Office 365
 
 **Ventajas**
 
@@ -67,7 +68,7 @@ Utilice la tabla siguiente como referencia para ayudarle a elegir la opción de 
 - La falta de integración con la plataforma MDM local actual incorporará una interfaz de administración adicional que podrá usar
 - Puede que algunas directivas no estén disponibles para algunas plataformas móviles
 
-## Híbridas (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Híbridas (Intune con Configuration Manager)
 
 **Ventajas**
 
@@ -78,7 +79,7 @@ Utilice la tabla siguiente como referencia para ayudarle a elegir la opción de 
 
 - El servicio en la nube de Azure AD no se incluye al adquirir una suscripción a Intune.
 
-## Enterprise Mobility + Security
+## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
 
 **Ventajas**
 
@@ -92,6 +93,6 @@ Utilice la tabla siguiente como referencia para ayudarle a elegir la opción de 
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

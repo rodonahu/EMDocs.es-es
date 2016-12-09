@@ -1,10 +1,11 @@
 ---
 title: "Guía de consideraciones de diseño para BYOD"
-description: "Introducción a la adopción de BYOD e información general del proceso de consideraciones de diseño."
+description: "En este artículo se proporciona una introducción a la adopción de Bring Your Own Device y la información general del proceso de consideraciones de diseño."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 836489f7601f6d82a2adb9f9aa989cdb163afbd0
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 78fad0e7714797962fc2ab3c8f8ec6c10d8019d0
 
 
 ---
 
-# Guía de consideraciones de diseño para BYOD
+# <a name="byod-design-considerations-guide"></a>Guía de consideraciones de diseño para BYOD
 
 Con la proliferación de dispositivos usados por los empleados, la mayoría de las empresas se enfrentan a un gran dilema: ¿cómo permitir a los usuarios utilizar sus propios dispositivos, a la par que proteger los datos corporativos que residen en dichos dispositivos? Las empresas están empezando a abandonar el modelo tradicional, en el que poseen y proporcionan dispositivos a sus empleados, a favor de un modelo en el que los empleados usan sus dispositivos personales para algunas de sus tareas. A menudo, este modelo se conoce como [Bring Your Own Device (BYOD)](https://technet.microsoft.com/library/dn645493.aspx). En este modelo, los empleados pueden utilizar sus dispositivos personales para algunas tareas de trabajo, pero solo si los empleados permiten que la empresa administre algunos aspectos de sus dispositivos para garantizar la seguridad de los datos corporativos. A menudo, esto significa que los usuarios permiten a la compañía aplicar directivas personalizadas, realizar la consolidación de la seguridad de los dispositivos o estandarizar el sistema operativo establecido por la directiva de la compañía. Los ejecutivos y los responsables de la toma de decisiones que leen el documento de [CIO considerations for workstyle transformation](http://download.microsoft.com/download/5/3/A/53A96632-02E3-416C-B209-D8725AA80AFE/CIO%20Considerations%20for%20Workstyle%20Transformation2.pdf) (Consideraciones de CIO para la transformación del estilo de trabajo) de Microsoft también pueden identificar las ventajas de adoptar un modelo en el que los usuarios puedan usar sus dispositivos para ser productivos en el trabajo.
 
@@ -34,11 +35,11 @@ Este análisis está determinado por los requisitos, capacidades y consideracion
 
 Esta guía proporciona al arquitecto de sistemas y al diseñador de sistemas un conjunto de indicaciones cruciales sobre el esquema que hay que considerar antes de diseñar una infraestructura BYOD (Bring Your Own Device), la cual permite a los empleados utilizar sus propios dispositivos y proteger los datos de la compañía.
 
-## Público al que está dirigido
+## <a name="intended-audience"></a>Público al que está dirigido
 
 Esta guía está dirigida principalmente a los arquitectos y diseñadores de sistemas interesados en comprender los problemas que deben tenerse en cuenta para implementar una infraestructura de BYOD. Otros usuarios interesados en esta guía pueden ser los implementadores de TI, los especialistas de seguridad de la empresa y los especialistas en administración de dispositivos.</para>
     
-## Finalidad
+## <a name="purpose"></a>Finalidad
   
 El objetivo de esta guía es:
 
@@ -62,7 +63,7 @@ Esta guía *no* tiene como finalidad:
 - Ofrecer procedimientos recomendados de desarrollo de aplicaciones para dispositivos móviles.
 - Proporcionar una guía y procedimientos recomendados para componentes de terceros.
 
-## Definición del problema
+## <a name="problem-definition"></a>Definición del problema
 
 Los siguientes problemas o dificultades son los que normalmente encuentran las compañías cuando intentan adoptar BYOD:
 
@@ -78,6 +79,6 @@ Las organizaciones con una gran infraestructura necesitan, por una parte, determ
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,10 +1,11 @@
 ---
 title: "Segregación de datos"
-description: "Consideraciones de diseño de la segregación de datos para un escenario de administración de dispositivos móviles."
+description: "En este artículo se proporciona un conjunto de consideraciones de diseño para la segregación de datos que debe usarse en un escenario de administración de dispositivos móviles."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 56e61eddf9ae62417d3e05082edbdf0560f6e00d
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 030d0c1dca506ac7757e8c26910ea4725a1b9c2c
 
 
 ---
 
-# Segregación de datos
+# <a name="data-segregation"></a>Segregación de datos
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -29,7 +30,7 @@ La segregación de datos es importante, no solo para su organización, sino tamb
 
 ![Segregación de datos](./media/MDM_Figure_10.png)
 
-## Los datos personales del usuario se aíslan de los datos de la empresa,
+## <a name="users-personal-data-is-isolated-from-companys-data"></a>Los datos personales del usuario se aíslan de los datos de la empresa,
 
 Mediante la separación de todas las aplicaciones, datos de la compañía y directivas implementadas por la solución MDM, puede quitarse del dispositivo si fuese necesario sin afectar a las aplicaciones y al contenido personal del usuario usando el borrado selectivo. 
 
@@ -52,7 +53,7 @@ Cuando un usuario instala e inicia sesión en una aplicación que admite varias 
 
 En la tabla siguiente se comparan las características de borrado selectivo disponibles con las diferentes soluciones MDM para ayudarle a elegir la solución MDM que mejor se adapte a los requisitos de segregación de datos de su organización.
 
-## Intune (independiente)
+## <a name="intune-standalone"></a>Intune (independiente)
 
 **Ventajas**
 
@@ -65,7 +66,7 @@ En la tabla siguiente se comparan las características de borrado selectivo disp
 - No incluye el cifrado nativo para el almacenamiento del dispositivo móvil
 - La falta de integración con la plataforma MDM local actual significa que debe usar una interfaz de administración adicional
 
-## Office 365 con MDM
+## <a name="office-365-with-mdm"></a>Office 365 con MDM
 
 **Ventajas**
 
@@ -76,7 +77,7 @@ En la tabla siguiente se comparan las características de borrado selectivo disp
 
 - La falta de integración con la plataforma MDM local actual significa que debe usar una interfaz de administración adicional
 
-## Híbridas (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Híbridas (Intune con Configuration Manager)
 
 **Ventajas**
 
@@ -93,6 +94,6 @@ Asegúrese de leer el artículo [Ayudar a proteger los datos con el borrado sele
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,8 +1,9 @@
 ---
 title: "Identificación de requisitos de SaaS"
-description: 
+description: "En este artículo se proporciona información sobre la identificación de los requisitos de software como servicio al planear y diseñar una administración de dispositivos móviles con Microsoft mediante soluciones de Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 15d875ed440891db61e014f5c475d3aac4830028
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 68a42159dfbf6b0d435b0543466d4cec26e55b67
 
 
 ---
 
-# Identificación de requisitos de SaaS
+# <a name="identify-saas-requirements"></a>Identificación de requisitos de SaaS
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -35,7 +36,7 @@ La mayoría de las soluciones de SaaS se basan en tres tipos de nube:
 
 Antes de tomar decisiones sobre cómo usará una solución de SaaS para administrar los dispositivos móviles, también necesitará examinar las diferencias entre estos tipos de arquitecturas de plataforma en la nube y elegir la que mejor se adapte a las necesidades generales de su organización. Las soluciones de SaaS individuales tienen distintos niveles de compatibilidad para áreas como la personalización, configuración de características, integración y funcionalidad de colaboración.
 
-## Tipos de nube
+## <a name="cloud-types"></a>Tipos de nube
 
 Las soluciones de SaaS *multiinquilino* son las que normalmente se denominan "infraestructuras de nube pública". Se aplican cuando la arquitectura de software del servicio se encuentra en una única instancia, pero ofrece servicio a varios inquilinos u organizaciones. La solución está diseñada para proporcionar a cada inquilino un recurso compartido reservado de sus servicios, como la compatibilidad de datos, configuración, administración de dispositivos o usuarios. Los servicios y cuentas de inquilinos están casi separados, con cada inquilino que obtiene acceso a la infraestructura de plataforma en instancias independientes. Las soluciones de SaaS multiinquilino también ofrece ahorros en costes que se obtienen a partir del uso compartido de la infraestructura y la distribución de los costes generales entre varios inquilinos. La mayoría de las plataformas de administración de dispositivos móviles se ofrecen en una infraestructura de plataforma de SaaS multiinquilino.
                 
@@ -43,7 +44,7 @@ Las soluciones de SaaS *multiinquilino* son las que normalmente se denominan "in
 
 Las soluciones de SaaS *híbridas* pueden ofrecer una combinación de infraestructuras en la nube privada y multiinquilino, o una combinación de infraestructuras en la nube locales y hospedadas (privada o multiinquilino). Una infraestructura híbrida también puede incluir el aprovechamiento de una solución de SaaS en la nube externa para ofrecer determinados tipos de servicios (como aplicaciones), pero aprovechando los recursos internos para otros tipos de servicios. La mayoría de soluciones de SaaS ofrecen la capacidad de admitir una configuración de nube híbrida, pero pueden variar considerablemente en la profundidad y la integridad de la integración con plataformas en la nube locales o con otras plataformas en la nube hospedadas.
 
-### Preguntas de la nube
+### <a name="cloud-questions"></a>Preguntas de la nube
 
 Como parte de la planificación del ciclo de vida de la administración de SaaS, querrá responder a las siguientes preguntas de planificación acerca de los tipos de nube:
 
@@ -60,11 +61,11 @@ Como parte de la planificación del ciclo de vida de la administración de SaaS,
  - ¿Es compatible sin la necesidad de recursos físicos locales adicionales?
 - ¿Los servicios basados en la nube, las aplicaciones y procesos para los dispositivos móviles requieren distintos niveles de seguridad, personalización, escalabilidad y resistencia?
 
-## Escalabilidad
+## <a name="scalability"></a>Escalabilidad
 
 La facilidad de escalabilidad es una de las razones principales para considerar o implementar una solución de SaaS para la administración de dispositivos móviles en su organización. Por definición, las soluciones de SaaS públicas normalmente ofrecen una capacidad prácticamente ilimitada para admitir cualquier cantidad de usuarios o dispositivos móviles. Las soluciones de SaaS privadas e híbridas pueden estar sujetas a límites de escalado en función de los recursos de la organización disponibles. El aumento o disminución del escalado para admitir un número mayor o menor de usuarios o dispositivos depende normalmente de un modelo de licencias específico o de un paquete de precios por usuario/dispositivo para nubes públicas.
 
-### Preguntas de escalabilidad
+### <a name="scalability-questions"></a>Preguntas de escalabilidad
 
 Como parte de la planificación del ciclo de vida de la administración de SaaS, querrá responder a las siguientes preguntas de planificación sobre de la escalabilidad en la nube:
 
@@ -74,11 +75,11 @@ Como parte de la planificación del ciclo de vida de la administración de SaaS,
 - ¿El número de dispositivos móviles que necesita una solución de SaaS admite el cambio en una frecuencia regular (como estacional)? ¿Cambia de acuerdo con el número de proyectos de la organización activos o inactivos?
 - ¿El rendimiento de la solución de SaaS cambia según la escala de los usuarios y dispositivos móviles compatibles? Si es así, ¿en qué áreas? (nodos, datos, procesamiento, etc.) ¿Cómo se mide, notifica y audita el rendimiento del escalado?
 
-## Accesibilidad
+## <a name="accessibility"></a>Accesibilidad
 
 El acceso sencillo a la solución de SaaS es otro componente clave de la arquitectura de SaaS. Puesto que la solución de SaaS se hospeda en una infraestructura basada en la nube, los administradores, usuarios y dispositivos pueden obtener acceso desde cualquier ubicación con acceso a Internet. La administración de dispositivos móviles se realiza a través de un explorador. Puesto que muchos proveedores de soluciones de SaaS operan en centros de datos diversos geográficamente, los usuarios y dispositivos pueden obtener acceso a la plataforma "localmente", por lo que se evita a menudo la latencia y los retrasos que pueden asociarse a la conexión a extremos distantes geográficamente. La accesibilidad también puede expandirse normalmente mediante la integración de la solución de SaaS con plataformas de administración de dispositivos locales.
 
-### Preguntas de accesibilidad
+### <a name="accessibility-questions"></a>Preguntas de accesibilidad
 
 Como parte de la planificación del ciclo de vida de la administración de SaaS, querrá responder a las siguientes preguntas de planificación acerca de la accesibilidad en la nube:
 
@@ -86,11 +87,11 @@ Como parte de la planificación del ciclo de vida de la administración de SaaS,
 - ¿Los usuarios de dispositivos móviles tienen algún requisito de accesibilidad especial para las aplicaciones o los servicios?
 - ¿La organización tiene que obtener acceso a la infraestructura de SaaS ubicada en la misma ubicación geográfica que los dispositivos de usuario o su infraestructura local? ¿Existen consecuencias legales si los datos del dispositivo móvil se almacenan o traspasan las fronteras internacionales?
 
-## Resistencia
+## <a name="resiliency"></a>Resistencia
 
 Puesto que la infraestructura de SaaS está basada en la nube y hospedada en varios centros de datos, la resistencia está normalmente sujeta a menos inestabilidad y cortes que los servicios hospedados locales tradicionales. Los hosts de servicio de múltiples ubicaciones ofrecen protección frente a las interrupciones de servicios y cortes geográficos mediante los procesos y la infraestructura de conmutación por error para replicar datos en los nodos de varios centros de datos. Dependiendo de la solución de SaaS, el acceso al servicio puede mantenerse o no en la zona geográfica original durante una conmutación por error.
 
-### Preguntas de resistencia
+### <a name="resiliency-questions"></a>Preguntas de resistencia
  
 Como parte de la planificación del ciclo de vida de la administración de SaaS, querrá responder a las siguientes preguntas de planificación sobre la resistencia en la nube:
 
@@ -100,11 +101,11 @@ Como parte de la planificación del ciclo de vida de la administración de SaaS,
 - ¿La solución de SaaS ha definido un contrato de nivel de servicio (SLA) que indique la compatibilidad de la administración de dispositivos móviles?
 
 
-## Servicios actualizados
+## <a name="up-to-date-services"></a>Servicios actualizados
 
 Las soluciones de SaaS también pueden mantener las aplicaciones y servicios actualizados con las correcciones de errores, actualizaciones de seguridad, características y versiones de la aplicación más recientes. Normalmente estas actualizaciones se publican muy rápidamente. A veces, incluso en un día. Según la solución de SaaS, las actualizaciones pueden estar disponibles de manera instantánea para todos los clientes o publicarse por fases para grupos reducidos de clientes. Una de las mayores ventajas es que cuando se soluciona un error para un cliente, la solución puede aplicarse fácilmente a todos los clientes que usan el servicio.
 
-### Preguntas sobre los servicios
+### <a name="services-questions"></a>Preguntas sobre los servicios
 
 Preguntas de servicios: como parte de la planificación del ciclo de vida de la administración de SaaS, querrá responder a las siguientes preguntas de planificación sobre los servicios en la nube:
 
@@ -119,6 +120,6 @@ Preguntas de servicios: como parte de la planificación del ciclo de vida de la 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

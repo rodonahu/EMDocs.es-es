@@ -1,8 +1,9 @@
 ---
 title: "Opciones de administración de conectividad de red"
-description: 
+description: "En este artículo se proporcionan instrucciones sobre las opciones de administración de conectividad de red a la hora de planear y diseñar una solución de administración de dispositivos móviles de Microsoft con Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 32b586bde6be834a5b0d16cb9b46e7da23beb216
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 856d2d2ba9968aa0f4a0da4f4afcbf452260e548
 
 
 ---
 
-# Opciones de administración de conectividad de red
+# <a name="network-connectivity-management-options"></a>Opciones de administración de conectividad de red
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -35,7 +36,7 @@ Las respuestas a las preguntas en Tarea 3 pueden ayudarle a determinar cómo des
 
 La lista siguiente enumera las ventajas y desventajas de la administración inalámbrica y las redes VPN con implementaciones independientes de Intune e híbridas de Intune con Configuration Manager.
 
-## Intune (independiente)
+## <a name="intune-standalone"></a>Intune (independiente)
 
 **Ventajas**
 
@@ -51,11 +52,11 @@ La lista siguiente enumera las ventajas y desventajas de la administración inal
 
 - Para admitir los perfiles de VPN, deberá implementar y mantener una infraestructura VPN local
 
-## MDM para Office 365
+## <a name="mdm-for-office-365"></a>MDM para Office 365
 
 Las directivas VPN y Wi-Fi no son compatibles con MDM para Office 365.
 
-## Híbridas (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Híbridas (Intune con Configuration Manager)
 
 **Ventajas**
 
@@ -74,6 +75,6 @@ Explore los detalles acerca de las opciones de administración de la configuraci
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

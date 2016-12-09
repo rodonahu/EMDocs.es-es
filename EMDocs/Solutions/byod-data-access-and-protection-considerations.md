@@ -1,10 +1,11 @@
 ---
 title: "Consideraciones sobre la protección de datos y el acceso a estos"
-description: "Consideraciones de diseño para el acceso a datos y la protección de datos en un escenario de BYOD."
+description: "En este artículo se proporciona un conjunto de consideraciones de diseño para el acceso a datos y la protección de estos en un escenario de Bring Your Own Device."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,18 +15,18 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: e7411890405267eaea2e32d686052472b88edad2
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
 
 
 ---
 
-# Consideraciones sobre la protección de datos y el acceso a estos
+# <a name="data-access-and-protection-considerations"></a>Consideraciones sobre la protección de datos y el acceso a estos
 
 La pérdida de datos confidenciales es un riesgo operativo para cualquier empresa, y con la llegada de BYOD, la información se almacena en más lugares que nunca. Esto se traduce en un panorama más amplio de amenazas y riesgos mayores que se deben mitigar correctamente. Dada la variedad de regulaciones legislativas, corporativas y sectoriales que rigen la protección de datos confidenciales, este proceso puede resultar complejo. Es importante tener en cuenta estos requisitos legales, las directivas corporativas internas y la normativa del sector.
 Como parte de la estrategia de la infraestructura de BYOD es fundamental que una vez que se hayan definido las directivas y las clasificaciones de datos, los datos se ubiquen físicamente, se archiven en los niveles adecuados de clasificación y se les aplique la configuración de seguridad apropiada. Los departamentos de TI necesitan una forma de validar las identidades de los usuarios y puede que quieran aplicar otras condiciones a los tipos de dispositivos que pueden tener acceso a la información y las aplicaciones de la empresa.
 
-## Almacenamiento
+## <a name="storage"></a>Almacenamiento
 
 La forma en que se almacenarán los datos en los dispositivos de los usuarios puede repercutir directamente en el método de gestión que haya elegido para el acceso y la protección de los datos para BYOD. Se debe tener en cuenta el cifrado de datos y es preciso que los dispositivos permitan a los departamentos de TI controlar cuándo se habilita el cifrado de datos y para qué tipos de datos. Las empresas deben revisar sus directivas y reglamentos para entender qué tipos de datos pueden abandonar el centro de datos y guardarse en el almacenamiento de los dispositivos remotos. Es crucial el cifrado de datos almacenados en el centro de datos. Si su empresa no lo hace aún, debe considerarse una parte integrante de la estrategia para una infraestructura de BYOD. Lo idóneo es que se cifren los datos en todo el proceso.
 
@@ -37,7 +38,7 @@ Si quiere usar una solución basada en la nube en su empresa para proteger los a
 
 También se pueden usar otras tecnologías de almacenamiento que se incluyen en el sistema operativo Windows para mejorar la protección general de los datos, como BitLocker para el cifrado de unidades y el [Sistema de cifrado de archivos (EFS)](https://technet.microsoft.com/library/cc700811.aspx) para el cifrado de estos. Use la siguiente tabla para ver las ventajas y los inconvenientes de la protección del almacenamiento. Tenga en cuenta que estas opciones no son mutuamente excluyentes. En otras palabras, la decisión que tome sobre el diseño podría conllevar la necesidad de usar todas estas opciones en la solución de infraestructura BYOD para la protección del almacenamiento.
 
-### Opciones de protección del almacenamiento: ventajas y desventajas
+### <a name="storage-protection-options-advantages-and-disadvantages"></a>Opciones de protección del almacenamiento: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las opciones de protección del almacenamiento:
 
@@ -85,7 +86,7 @@ Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las op
         - No restringe la copia de contenido mediante programas de captura de pantalla de terceros.
         - No impide la pérdida o daño de contenido a causa de virus informáticos.
 
-## Red
+## <a name="network"></a>Red
 
 Es esencial tener en cuenta los factores implicados en la habilitación de usuarios para utilizar sus dispositivos y para que los datos estén protegidos en la totalidad de la ruta de acceso entre centros de datos (local) o la nube y los dispositivos de los usuarios. Estos factores se ponen de relieve en la ilustración siguiente:
 
@@ -93,7 +94,7 @@ Es esencial tener en cuenta los factores implicados en la habilitación de usuar
 
 Este diagrama resalta las áreas cruciales donde la protección de datos debe tenerse en cuenta para las infraestructuras de BYOD. Estas áreas se describen de forma más detallada en la sección siguiente.
 
-### Protección de datos: ubicaciones y consideraciones
+### <a name="data-protection-locations-and-considerations"></a>Protección de datos: ubicaciones y consideraciones
     
 Mediante la siguiente lista, podrá conocer las consideraciones relacionadas con la protección de datos según la ubicación de estos. Los números de la lista se corresponden con el diagrama anterior:
 
@@ -121,7 +122,7 @@ Windows Server 2012 R2 permite el uso de [HTTPS](https://msdn.microsoft.com/libr
 
 Recurra a la siguiente sección para valorar qué opción de protección de red se adapta mejor a los requisitos de diseño relativos a la comunicación del servidor back-end.
 
-### Opciones de protección de red: ventajas y desventajas
+### <a name="network-protection-options-advantages-and-disadvantages"></a>Opciones de protección de red: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las opciones de protección de red:
 
@@ -150,13 +151,13 @@ Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las op
     - Desventaja
         - Solo funciona con Windows 8 y versiones posteriores de equipos cliente, así como con Windows Server 2012 y versiones posteriores de equipos de servidor.
 
-## Directorio
+## <a name="directory"></a>Directorio
 
 Los atributos de usuario se deben almacenar en el directorio, de forma que el departamento de TI podrá consultar fácilmente información de usuario como los roles y los grupos. También debe tener en cuenta cómo llevará el seguimiento de la relación entre usuarios y dispositivos. Todos los dispositivos desconocidos que lleguen al conocimiento del departamento de TI o que este administre también deben tener un registro en la base de datos de administración o en el directorio que permita a TI auditar el dispositivo.
 
 En entornos híbridos donde vaya a haber repositorios de autenticación diferentes, las empresas deben tener en cuenta cómo habilitar a los usuarios para que se autentiquen con las mismas credenciales independientemente de dónde se encuentren ellos y las aplicaciones. Plantéese usar los Servicios de federación de Active Directory (AD FS) si desea centralizar la autenticación en un entorno local en lugar de replicar el directorio con el proveedor de servicios en la nube. Recurra a la siguiente sección para evaluar las opciones de directorio para una infraestructura de BYOD.
 
-### Opciones de directorio: ventajas y desventajas
+### <a name="directory-options-advantages-and-disadvantages"></a>Opciones de directorio: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las opciones de protección de directorios:
 
@@ -204,7 +205,7 @@ Los entornos híbridos en los que los usuarios necesiten disponer de conectivida
 
 Cuando se usa el servicio de registro de dispositivos en Windows 8.1, se instala un certificado en el dispositivo del usuario y se crea un registro de este en AD DS con el número de huella digital del certificado. Este vínculo entre el dispositivo y el usuario permite al departamento de TI realizar un seguimiento de los dispositivos que registra cada usuario. Esta funcionalidad no requiere una PKI de empresa. El registro de dispositivos también está disponible en Azure AD para Windows 10. Lea [Introducción al Registro de dispositivos de Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-device-registration-overview/) para obtener más información sobre el registro de dispositivos con Azure AD y Windows 10.
 
-## Autenticación y autorización
+## <a name="authentication-and-authorization"></a>Autenticación y autorización
 
 La decisión de permitir a los usuarios tener acceso a aplicaciones y datos desde sus dispositivos debe garantizar que los usuarios se identifiquen mediante un proceso de autenticación de confianza y que los usuarios obtengan autorización para usar los recursos que se soliciten. Las empresas deben revisar las directivas vigentes de autenticación y autorización y tener en cuenta las siguientes preguntas:
 
@@ -221,13 +222,13 @@ Para aplicar la autorización por aplicación a los usuarios que tengan acceso a
 >[!NOTE] 
 > Si se encuentra en un escenario híbrido y necesita tener una experiencia perfecta de autenticación y autorización de usuarios, lea la guía [Consideraciones de diseño de identidad híbrida de Azure Active Directory](http://aka.ms/azhidcg).
 
-## Directiva y cumplimiento
+## <a name="policy-and-compliance"></a>Directiva y cumplimiento
 
 Las directivas y el cumplimiento de la normativa deberían ser una prioridad en cualquier estrategia donde se contemple BYOD. Es posible que algunas organizaciones tengan requisitos exigentes que no se pueden integrar en este modelo debido a la normativa empresarial. Las empresas que vayan a migrar a una estrategia centrada en las personas deben saber cómo son las directivas actuales y cómo se verán afectadas por la adopción de BYOD. Considere los requisitos relativos a la clasificación de datos y cómo el departamento de TI puede controlar esta clasificación de datos, incluso cuando estos se encuentren en el almacenamiento del dispositivo. En la clasificación de datos, es importante poder clasificar los datos mientras se están ejecutando ciertas operaciones (como la modificación de un archivo).
 
 Las directivas se deben aplicar desde una ubicación centralizada para que el departamento de TI pueda dar una respuesta rápida en caso de cambios ad hoc que afecten a todos los usuarios. Tenga también en cuenta las eficaces capacidades de auditoría para dispositivos móviles. Si se produce un incumplimiento, es fundamental que el departamento de TI pueda identificar la directiva que se ha infringido, quién lo hizo y cuándo.
     
-### Directiva y cumplimiento: funciones y consideraciones
+### <a name="policy-and-compliancecapabilities-and-considerations"></a>Directiva y cumplimiento: funciones y consideraciones
 
 Mediante la siguiente lista, podrá conocer las consideraciones acerca de funciones relativas al cumplimiento y a la observación de directivas:
 
@@ -251,6 +252,6 @@ El control de acceso dinámico, una función del rol de servidor de archivos, co
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

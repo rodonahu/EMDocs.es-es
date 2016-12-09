@@ -1,8 +1,9 @@
 ---
 title: "Recopilación de requisitos de supervisión"
-description: 
+description: "En este artículo se proporciona información sobre la identificación de las opciones de supervisión de la administración de dispositivos móviles a la hora de planear y diseñar una solución de administración de dispositivos móviles de Microsoft con Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: b1065b6f491c528807fd593b352026669287ae89
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 2a03416cf8255a29c0394746b3d5285057163d15
 
 
 ---
 
-# Recopilación de requisitos de supervisión
+# <a name="gather-monitoring-requirements"></a>Recopilación de requisitos de supervisión
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -36,7 +37,7 @@ En general, las soluciones de administración de dispositivos móviles dividen l
 - **Registro:** captura y almacenamiento de dispositivos móviles y de la información y del estado de la aplicación de dispositivos móviles.
 - **Informes:** visualización de informes o notificaciones, incluidos los informes estándar y personalizables que pueden crearse a petición, y resumen automático e informes de estado del panel.
 
-## Preguntas de planeación de supervisión
+## <a name="monitoring-planning-questions"></a>Preguntas de planeación de supervisión
 
 Responda a las siguientes preguntas de planificación sobre la supervisión de dispositivos:
 
@@ -60,6 +61,6 @@ Responda a las siguientes preguntas de planificación sobre la supervisión de d
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,10 +1,11 @@
 ---
 title: "Planeación para mejorar la protección de dispositivos móviles"
-description: "Consideraciones de diseño para proteger dispositivos móviles en un escenario de administración de dispositivos móviles."
+description: "En este artículo se proporcionan consideraciones de diseño para proteger dispositivos móviles en un escenario de administración de dispositivos móviles."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: fe00ace9c2a1fcdba26fd64c583f11f794ee8259
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: bbef17c4d072706a5704c871eee490fba5c9052c
 
 
 ---
 
-# Planeación para mejorar la protección de dispositivos móviles
+# <a name="plan-for-enhancing-mobile-devices-protection"></a>Planeación para mejorar la protección de dispositivos móviles
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -31,7 +32,7 @@ Sin embargo, hay algunos aspectos generales de seguridad de la administración d
 
 ![Funcionalidades de seguridad para la plataforma MDM](./media/MDM_Figure_08.png)
 
-## Funcionalidades de seguridad en una solución MDM
+## <a name="security-capabilities-in-a-mdm-solution"></a>Funcionalidades de seguridad en una solución MDM
 
 Este diagrama muestra las principales capacidades de seguridad necesarias en cualquier solución MDM. Las áreas clave a tener en cuenta son los siguientes:
 
@@ -58,7 +59,7 @@ Este diagrama muestra las principales capacidades de seguridad necesarias en cua
 
 Las tareas que se describen en las siguientes secciones pueden ayudarle a entender cómo las necesidades de seguridad específicas influirán en su decisión acerca de la mejor solución MDM para sus requisitos empresariales.
 
-## Acerca de este paso
+## <a name="about-this-step"></a>Acerca de este paso
 
 Esta sección de la guía contiene 12 pasos. El tiempo total para leer las secciones es de aproximadamente 36 minutos, aunque también puede avanzar a una sección concreta.
 
@@ -78,6 +79,6 @@ Esta sección de la guía contiene 12 pasos. El tiempo total para leer las secci
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

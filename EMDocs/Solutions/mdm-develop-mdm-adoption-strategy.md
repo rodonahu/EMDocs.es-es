@@ -1,10 +1,11 @@
 ---
 title: "Desarrollo de la estrategia de adopción de administración de dispositivos móviles"
-description: "Consideraciones de diseño para adoptar la administración de dispositivos móviles."
+description: "En este artículo se proporciona una serie de consideraciones de diseño para adoptar la administración de dispositivos móviles en su organización."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,24 +15,24 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 2ff57e80fd68a58a78d4a626036416f95966dab5
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
 
 
 ---
 
-# Desarrollo de la estrategia de adopción de administración de dispositivos móviles
+# <a name="develop-your-mobile-device-management-adoption-strategy"></a>Desarrollo de la estrategia de adopción de administración de dispositivos móviles
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 En esta tarea, desarrollará la estrategia de adopción de administración de dispositivos móviles que satisfará los requisitos empresariales identificados en las Tareas 1 y 2. 
 
-## Propiedad del dispositivo
+## <a name="device-ownership"></a>Propiedad del dispositivo
 
 Después de revisar la directiva actual y la estrategia de la organización para administrar dispositivos, debe tener una lista de escenarios que su organización tiene previsto implementar. La sección siguiente le ayudará a comprender las ventajas y desventajas de cada escenario:
 
-## El empleado posee el dispositivo (BYOD)
+## <a name="employee-owns-the-device-byod"></a>El empleado posee el dispositivo (BYOD)
 
 **Ventajas** 
 
@@ -45,7 +46,7 @@ Después de revisar la directiva actual y la estrategia de la organización para
 - Aumenta la probabilidad de pérdida de datos, especialmente cuando los controles de seguridad adecuados no están en su lugar
 - Capacidad de administración limitada debido a restricciones de privacidad
 
-## Dispositivo propiedad de la compañía
+## <a name="company-owned-device"></a>Dispositivo propiedad de la compañía
 
 **Ventajas** 
 
@@ -61,11 +62,11 @@ Después de revisar la directiva actual y la estrategia de la organización para
 
 En algunos escenarios, las organizaciones adoptarán ambos modelos: BYOD y dispositivos propiedad de la compañía. En ese caso, la plataforma de administración de dispositivos debe ser capaz de administrar múltiples plataformas mientras se integra con la infraestructura local actual. Si su organización se ajusta en este escenario, asegúrese también de que las directivas de seguridad puedan abarcar ambos modelos desde la perspectiva de cumplimiento. Pueden aplicarse requisitos diferentes en cada modelo y la solución de administración de dispositivos móviles tiene que poder controlar los dos modelos al mismo tiempo que permitir mantener el control del departamento de TI.
 
-## Plataformas de dispositivos móviles compatibles
+## <a name="supported-mobile-device-platforms"></a>Plataformas de dispositivos móviles compatibles
 
 La decisión adoptada con respecto a la propiedad del dispositivo le ayudará a identificar qué plataformas de dispositivos móviles serán compatibles. La solución de administración de dispositivos móviles que elija tendrá que dar cabida a esta decisión. En un escenario de plataforma de dispositivo móvil, la elección de plataforma no será tan relevante como en el escenario de multiplataforma. Utilice la siguiente sección para ayudarle a elegir la solución de administración de dispositivos móviles para un escenario multiplataforma:
 
-### Intune (independiente)
+### <a name="intune-standalone"></a>Intune (independiente)
 
 **Ventajas**
 
@@ -80,7 +81,7 @@ La decisión adoptada con respecto a la propiedad del dispositivo le ayudará a 
 - La falta de integración con la solución de administración de dispositivos actual con ubicación local incorporará una interfaz de administración adicional que puede usar
 - Las directivas creadas con la solución MDM local no se replican en el servicio en la nube
 
-### MDM para Office 365
+### <a name="mdm-for-office-365"></a>MDM para Office 365
 
 **Ventajas**
 
@@ -93,7 +94,7 @@ La decisión adoptada con respecto a la propiedad del dispositivo le ayudará a 
 - Conjunto de capacidades limitado (consulte la nota que sigue a esta tabla) para administrar dispositivos móviles
 - La falta de integración con la solución de administración de dispositivos actual con ubicación local incorporará una interfaz de administración adicional que puede usar
 
-### Híbridas (Intune con Configuration Manager)
+### <a name="hybrid-intune-with-configmgr"></a>Híbridas (Intune con Configuration Manager)
 
 **Ventajas**
 
@@ -107,12 +108,12 @@ La decisión adoptada con respecto a la propiedad del dispositivo le ayudará a 
 
 Si solo necesita administrar el acceso para trabajar con correos electrónicos, calendarios, contactos y tareas de los dispositivos móviles, consulte [Directivas de Exchange ActiveSync para administrar dispositivos en Office 365](https://technet.microsoft.com/library/dn792010.aspx#tasks).
 
-## Requisitos de aplicaciones
+## <a name="application-requirements"></a>Requisitos de aplicaciones
 
 En función de los requisitos que se definieron en Tarea 1, puede elegir qué solución de administración de dispositivos móviles se adapta mejor a su organización. Use la siguiente tabla para comparar las opciones de MDM, así como las ventajas y desventajas de cada opción.
 
 
-### Intune (independiente)
+### <a name="intune-standalone"></a>Intune (independiente)
 
 **Ventajas**
 
@@ -131,7 +132,7 @@ En función de los requisitos que se definieron en Tarea 1, puede elegir qué so
 - Las directivas creadas con la plataforma MDM local no se replican en el servicio en la nube, que requiere dos conjuntos de directivas de administración y cumplimiento (si tiene una solución MDM local).
 
 
-### MDM para Office 365
+### <a name="mdm-for-office-365"></a>MDM para Office 365
 
 **Ventajas**
 
@@ -144,7 +145,7 @@ En función de los requisitos que se definieron en Tarea 1, puede elegir qué so
 - No se pueden implementar aplicaciones y aplicar funcionalidades de administración de aplicaciones móviles.
 
 
-### Híbridas (Intune con Configuration Manager)
+### <a name="hybrid-intune-with-configmgr"></a>Híbridas (Intune con Configuration Manager)
 
 **Ventajas**
 
@@ -162,7 +163,7 @@ En función de los requisitos que se definieron en Tarea 1, puede elegir qué so
 - Sin integración con Intune, Configuration Manager tiene una solución de administración de dispositivos móviles limitada, basada en las plataformas de dispositivo móvil compatibles. Para obtener más información, consulte Determinar cómo administrar dispositivos móviles en Configuration Manager.
 
 
-## Seguimiento de los requisitos
+## <a name="track-requirements"></a>Seguimiento de los requisitos
 
 Comprender el comportamiento del usuario e identificar su ubicación son factores importantes que incluir en su estrategia de administración de dispositivos móviles. ¿Cómo variarán los dispositivos de los que se realiza el seguimiento según las necesidades y requisitos empresariales?  Existen capacidades de seguimiento diferentes en cada sistema operativo móvil, por lo que las plataformas de dispositivos móviles que elija para que sean compatibles afectarán a sus opciones. Por ejemplo, los requisitos de cumplimiento pueden influir en dar prioridad a la adopción de plataformas de dispositivos móviles que permiten realizar un seguimiento de la ubicación del usuario y usar el perímetro.
 
@@ -173,6 +174,6 @@ Comprender el comportamiento del usuario e identificar su ubicación son factore
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

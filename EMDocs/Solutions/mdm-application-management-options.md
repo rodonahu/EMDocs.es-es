@@ -1,8 +1,9 @@
 ---
 title: "Opciones de administración de aplicaciones"
-description: 
+description: "En este artículo se explican las capacidades de administración de aplicaciones móviles (MAM) en Intune independiente e híbrido, por lo que los clientes pueden proteger los datos corporativos en dispositivos de empresa y personales (BYOD)."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 2236a337c57c7fede4aed6830ab99d4ee7df3c9b
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 58270148fda3f3b3bb407055abff962ae86f1a14
 
 
 ---
 
-# Opciones de administración de aplicaciones
+# <a name="application-management-options"></a>Opciones de administración de aplicaciones
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -39,9 +40,7 @@ Para implementaciones híbridas con Configuration Manager e Intune, las directiv
 
 Según como haya respondido a las preguntas del paso 1, podrá determinar cómo quiere que sus aplicaciones se administren en la solución de administración de dispositivos móviles. En las siguientes listas se muestran las ventajas y desventajas de cada opción de administración de aplicaciones.
 
-## Intune (independiente)
-
-**Ventajas**
+## <a name="intune-standalone"></a>Intune (independiente)
 
 - Admite la administración de aplicaciones en dispositivos inscritos en Intune y en otras soluciones de administración, o bien en dispositivos no inscritos en cualquier solución de administración
 - Aísla los datos corporativos de los datos personales de consumidores en aplicaciones habilitadas para Intune. Entre ellas se encuentran las aplicaciones de Office Mobile, las aplicaciones de terceros que han adoptado el SDK de Intune o las aplicaciones de línea de negocio ajustadas con Intune.
@@ -49,17 +48,13 @@ Según como haya respondido a las preguntas del paso 1, podrá determinar cómo 
 - Directivas de prevención de pérdida de datos clave como PIN por aplicación, controles de "guardar como" y uso compartido de datos administrados entre aplicaciones.
 - Admite estas funcionalidades en Microsoft Word, Excel, PowerPoint, Outlook, OneNote y OneDrive para la Empresa.
 - Administración de aplicaciones de iOS adquiridas a través del Programa de Compras por Volumen de Apple para empresas.
-- Compatible con dispositivos iOS y Android.
+- Compatible con dispositivos Android, iOS y Windows 10 a través de su función integrada [Windows Information Protection](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
 
-**Desventajas**
-
-- No se admite en dispositivos Windows Phone.
-
-## MDM para Office 365
+## <a name="mdm-for-office-365"></a>MDM para Office 365
 
 - No se admite actualmente
 
-## Híbridas (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Híbridas (Intune con Configuration Manager)
 
 **Ventajas**
 
@@ -74,6 +69,6 @@ Obtenga información sobre las opciones de administración de aplicaciones móvi
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

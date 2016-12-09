@@ -1,8 +1,9 @@
 ---
 title: "Opciones de administración de correo electrónico"
-description: 
+description: "En este artículo se proporcionan instrucciones sobre las opciones existentes de administración de correo electrónico a la hora de planear y diseñar una solución de administración de dispositivos móviles de Microsoft con Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 919ce43f116714c7b08b8a17973c4955681b5a5a
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: ac2c64b54883204f0051250c23f7a6b085e67ebe
 
 
 ---
 
-# Opciones de administración de correo electrónico
+# <a name="email-management-options"></a>Opciones de administración de correo electrónico
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -37,7 +38,7 @@ En el escenario que se muestra a continuación en la ilustración 6, el usuario 
 
 Las respuestas a las preguntas del paso 1 pueden ayudarle a determinar cómo desea que los dispositivos se administren en la solución de administración de dispositivos móviles. La lista siguiente describe ventajas y desventajas de la administración de correo electrónico en cada solución MDM.
 
-## Intune (independiente)
+## <a name="intune-standalone"></a>Intune (independiente)
 
 **Ventajas**
 
@@ -51,7 +52,7 @@ Las respuestas a las preguntas del paso 1 pueden ayudarle a determinar cómo des
 
 - No se admiten los perfiles de correo electrónico para dispositivos móviles basados en Android
 
-## MDM para Office 365
+## <a name="mdm-for-office-365"></a>MDM para Office 365
 
 **Ventajas**
 
@@ -64,7 +65,7 @@ Las respuestas a las preguntas del paso 1 pueden ayudarle a determinar cómo des
 - No se admiten algunas opciones de administración de correo electrónico avanzadas 
 - La implementación de perfiles de correo electrónico no es compatible (excepto iOS)
 
-## Híbridas (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Híbridas (Intune con Configuration Manager)
 
 **Ventajas**
 
@@ -88,6 +89,6 @@ Explore los detalles acerca de las opciones de administración de la configuraci
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

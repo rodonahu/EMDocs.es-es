@@ -1,8 +1,9 @@
 ---
 title: "Identificación de los requisitos de conectividad de SaaS"
-description: 
+description: "En este artículo se proporciona información para identificar los requisitos de conectividad de software como servicio al planear la implementación de la administración de dispositivos móviles con soluciones de Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 5fecc1493f447e507324da3f6a201377e39aee4e
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 3cea66edad4cb791342cb193495629fa4ce27d0d
 
 
 ---
 
-# Identificación de los requisitos de conectividad de SaaS
+# <a name="identify-saas-connectivity-requirements"></a>Identificación de los requisitos de conectividad de SaaS
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -35,7 +36,7 @@ Como se muestra en la lista siguiente, la conexión con los servicios de directo
 
 Según como haya respondido a las preguntas de Tarea 2, podrá determinar la forma en la que la solución de SaaS necesita conectarse a la plataforma de administración de clientes local para la solución de administración de dispositivos móviles. Las listas siguientes le ayudarán a comprender las ventajas y desventajas de la conexión a la infraestructura local con la solución de SaaS.
 
-## Intune (independiente)
+## <a name="intune-standalone"></a>Intune (independiente)
 
 **Ventajas**
 
@@ -48,7 +49,7 @@ Según como haya respondido a las preguntas de Tarea 2, podrá determinar la for
 
 - Las funcionalidades y características de conectividad de servicios de directorios avanzada requieren una sincronización con Azure Active Directory Premium.
 
-## MDM para Office 365
+## <a name="mdm-for-office-365"></a>MDM para Office 365
 
 **Ventajas**
 
@@ -61,7 +62,7 @@ Según como haya respondido a las preguntas de Tarea 2, podrá determinar la for
 
 - No compatible con la integración de la administración de aplicaciones móviles con otras aplicaciones o soluciones de SaaS
 
-## Híbridas (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Híbridas (Intune con Configuration Manager)
 
 **Ventajas**
 
@@ -75,6 +76,6 @@ Según como haya respondido a las preguntas de Tarea 2, podrá determinar la for
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

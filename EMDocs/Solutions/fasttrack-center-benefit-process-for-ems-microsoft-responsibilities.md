@@ -3,34 +3,35 @@ title: Responsabilidades de Microsoft
 description: Responsabilidades de Microsoft cuando los clientes usan el beneficio del centro de FastTrack
 keywords: 
 author: staciebarker
+ms.author: stabar
 manager: angrobe
-ms.date: 10/02/2016
+ms.date: 11/07/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: ems
 ms.technology: 
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
-ms.openlocfilehash: 0a849261c116d77fc3dc8adbd296321b2c84ba4b
+ms.sourcegitcommit: 61241368440bea9a12bbac136466250da91da997
+ms.openlocfilehash: eef71bd1f1b731a1d4ba8f2823d271f6e632dd68
 
 
 ---
 
-# Responsabilidades de Microsoft
+# <a name="microsoft-responsibilities"></a>Responsabilidades de Microsoft
 
 Microsoft tiene las siguientes responsabilidades durante la incorporación.
 
-## General
+## <a name="general"></a>General
 
 -   Proporcionar asistencia remota para las actividades de configuración necesarias, como se explica en las descripciones detalladas de cada fase.
 
 -   Proporcionar la documentación y las herramientas de software, las consolas de administración y los scripts necesarios para ayudarle a reducir o eliminar las tareas de configuración.
 
-## Fase de inicio
+## <a name="initiate-phase"></a>Fase de inicio
 
 -   Ponerse en contacto con usted en un plazo de 30 días a partir de la compra de licencias aptas para un nuevo inquilino.
 
@@ -38,7 +39,7 @@ Microsoft tiene las siguientes responsabilidades durante la incorporación.
 
 -   Definir los servicios elegibles que desea incorporar.
 
-## Fase de evaluación
+## <a name="assess-phase"></a>Fase de evaluación
 
 -   Proporcionar una introducción administrativa.
 
@@ -56,13 +57,13 @@ Microsoft tiene las siguientes responsabilidades durante la incorporación.
 
 -   Proporcionar una lista de comprobación de correcciones.
 
-## Fase de corrección
+## <a name="remediate-phase"></a>Fase de corrección
 
 -   Celebrar teleconferencias con usted según la programación acordada para revisar el progreso de las actividades de corrección.
 
 -   Ayudar por medio de las herramientas en ejecución a identificar y corregir problemas, así como a interpretar los resultados.
 
-## Fase de habilitación
+## <a name="enable-phase"></a>Fase de habilitación
 Proporcionar instrucciones sobre:
 
 -   Activar el inquilino de Microsoft Online Services.
@@ -75,67 +76,72 @@ Proporcionar instrucciones sobre:
 
 -   Para un entorno de un bosque único:
 
-    -   Instalación de un servidor de sincronización de directorios entre los Servicios de dominio de Active Directory (AD DS) y los servicios de Microsoft Online Services elegibles, si es necesario.
+    -   Instalación de un servidor de sincronización de directorios entre Active Directory Domain Services (AD DS) y los servicios de Microsoft Online Services pertinentes, si es necesario.
 
     -   Configurar la sincronización de contraseña (hash de contraseña) para Microsoft Intune (Azure Active Directory) con la herramienta Azure Active Directory Connect.
 
         > [!NOTE]
         > El desarrollo y la implementación de extensiones de reglas personalizadas están fuera del ámbito.
 
--   Para un bosque único cuando el destino son identidades federadas: Instalar y configurar los Servicios de federación de Active Directory (AD FS) para la autenticación de dominio local con Microsoft Intune en una configuración de sitio único con tolerancia a errores, si es necesario.
+-   Para un bosque único cuando el destino son identidades federadas: Instalar y configurar los Servicios de federación de Active Directory (AD FS) para la autenticación de dominio local con Intune en una configuración de sitio único con tolerancia a errores, si es necesario.
 
     > [!NOTE]
     > Para todas las configuraciones de bosques múltiples, las implementaciones de AD FS están fuera del ámbito.
 
 -   Probar la función de inicio de sesión único (SSO) si está implementada.
 
-### Fase de habilitación: Azure Active Directory Premium
+### <a name="enable-phase---microsoft-azure-active-directory-premium"></a>Fase de habilitación: Microsoft Azure Active Directory Premium
 
 Proporcionar instrucciones sobre las acciones siguientes:
 
--   Activar el inquilino de Microsoft Azure Active Directory Premium.
+-   Activar el inquilino de Azure AD Premium.
 
 -   Configurar puertos de firewall.
 
 -   Configurar DNS para los servicios elegibles.
 
--   Validar la conectividad a servicios de Microsoft Azure Active Directory Premium.
+-   Validar la conectividad a servicios Azure AD Premium.
 
 -   Para un entorno de un bosque único:
 
-    -   Instalar una sincronización de directorios entre los Servicios de dominio de Active Directory (AD DS) y Azure Active Directory Connect, si es necesario.
+    -   Instalación de una sincronización de directorios entre los Servicios de dominio de Active Directory (AD DS) y Azure AD Connect, si es necesario.
 
-    -   Configuración de la sincronización de contraseñas con la herramienta Azure Active Directory Connect.
+    -   Configuración de la sincronización de contraseñas con la herramienta Azure AD Connect.
 
 -   Para entornos de varios bosques:
 
-    -   Instale la sincronización de Azure Active Directory Connect y configúrela para escenarios de bosques múltiples. Tenga en cuenta que la sincronización de hash de contraseña y la escritura diferida de contraseñas admiten varios bosques.  Sin embargo, no se admiten otros escenarios de escritura diferida.
+    -   Instalación de la sincronización de Azure AD Connect y configuración de escenarios con varios bosques.
 
-    -   Configure la sincronización entre bosques de Active Directory local y el directorio de Microsoft Azure Active Directory Premium (Azure Active Directory).
+        > [!NOTE]
+        > La sincronización de hash de contraseña y la escritura diferida de contraseñas admiten varios bosques, pero no se admiten otros escenarios de escritura diferida.
+
+    -   Configuración de la sincronización entre bosques de Active Directory local y el directorio de Microsoft Azure Active Directory Premium (Azure Active Directory).
 
         > [!NOTE]
         > El desarrollo y la implementación de extensiones de reglas personalizadas están fuera del ámbito.
 
--   Para un bosque único cuando el destino son identidades federadas: instalar y configurar los Servicios de federación de Active Directory (AD FS) para realizar la autenticación del dominio local con Microsoft Azure Active Directory Premium en una configuración de sitio único con tolerancia a errores, si es necesario.
+-   Para un bosque único cuando el destino son identidades federadas:
+
+    -   Instalación y configuración de AD FS para la autenticación de dominio local con Azure AD Premium en una configuración de sitio único con tolerancia a errores, si es necesario.
 
     > [!NOTE]
     > Para todas las configuraciones de bosques múltiples, las implementaciones de AD FS están fuera del ámbito.
 
--   Probar la función de inicio de sesión único (SSO) si está implementada.
+-   Probar la función de inicio de sesión único (SSO), si está implementada.
 
-### Fase de habilitación: Azure Active Directory Premium con Azure Active Directory Connect y los Servicios de federación de Active Directory (AD FS)
+### <a name="enable-phase---azure-ad-premium--with-azure-ad-connect-and-ad-fs"></a>Fase de activación: Azure AD Premium con Azure AD Connect y AD FS
 
 Proporcionar instrucciones sobre la configuración:
 
 -   Aprovisionamiento de usuarios, incluidas las licencias.
 
--   Sincronización de directorios de Azure Active Directory Connect (con escritura diferida de contraseñas y sincronización de hash de contraseña).
+-   Sincronización de directorios de Azure AD Connect (con escritura diferida de contraseñas y sincronización de hash de contraseña).
 
   - Restablecimiento de la contraseña de autoservicio (SSPR).
 
-  - Azure Multi-Factor Authentication (MFA).
+  - Azure Multi-Factor Authentication.
 
-  - Integración de aplicaciones de software como servicio (SaaS) con el inicio de sesión único (SSO) desde [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+  - Integración de aplicaciones de software como servicio (SaaS) con el inicio de sesión único desde [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
   - Pantalla de inicio de sesión personalizada, que incluye un logotipo, texto e imágenes.
 
@@ -143,7 +149,7 @@ Proporcionar instrucciones sobre la configuración:
 
   - Proxy de aplicación de Azure Active Directory.
 
-  - Azure Active Directory Connect Health.
+  - Azure AD Connect Health.
 
   - Identity Protection.
 
@@ -153,25 +159,23 @@ Proporcionar instrucciones sobre la configuración:
 
   - Alertas y notificaciones administrativas.
 
-### Fase de habilitación: Microsoft Intune
-Proporcionar instrucciones sobre:
+### <a name="enable-phase---intune"></a>Fase de habilitación: Intune
+Proporcionar instrucciones sobre las acciones siguientes:
 
--   Concesión de licencias a los usuarios finales. Cuando sea necesario, también proporcionaremos asistencia sobre cómo activar las licencias por volumen para su inquilino de servicio en la nube de Microsoft.
+-   Concesión de licencias a los usuarios finales.
 
--   Configurar identidades para su uso con Microsoft Intune mediante el aprovechamiento de las identidades de Active Directory local o en la nube.
+-   Configurar identidades para su uso con Intune mediante el aprovechamiento de las identidades de Active Directory local o en la nube.
 
--   Agregar usuarios a su suscripción de Microsoft Intune, definir roles de administrador de TI y crear grupos de usuarios y dispositivos.
+-   Agregar usuarios a su suscripción de Intune, definir roles de administrador de TI y crear grupos de usuarios y dispositivos.
 
--   Configuración de la entidad de administración de dispositivos móviles, según sus necesidades de administración:
+-   Configurar la entidad de administración de dispositivos móviles (MDM), según sus necesidades de administración, lo que incluye lo siguiente:
 
-    -   Establecer Microsoft Intune como entidad de MDM en los casos en que Microsoft Intune es la única solución de MDM o cuando se usa con la administración de dispositivos móviles para Office 365.
+    -   Establecer Intune como entidad de MDM en los casos en que Intune es la única solución de MDM o cuando se usa con la administración de dispositivos móviles para Office 365.
 
-    -   Si tiene una implementación existente de System Center Configuration Manager y quiere ampliar sus funcionalidades de administración con Microsoft Intune, establezca Configuration Manager como entidad de MDM.
+    -   Establecer System Center Configuration Manager como entidad de MDM si tiene una implementación existente de Configuration Manager y quiere ampliar sus funcionalidades de administración con Intune.
 
         > [!NOTE]
-        > Si solo quiere sacar partido de la administración de aplicaciones móviles en dispositivos de propiedad, en dispositivos compartidos o en dispositivos de tipo quiosco de sus usuarios finales, no es necesario configurar ninguna entidad de MDM.
-
--   Si la administración de dispositivos móviles está incluida, le ofreceremos instrucciones para lo siguiente:
+        > Si solo quiere sacar partido de MDM en dispositivos de propiedad, en dispositivos compartidos o en dispositivos de tipo quiosco de sus usuarios finales, no es necesario configurar ninguna entidad de MDM.
 
     -   Configurar grupos de prueba que se usarán para validar las directivas de administración de MDM.
 
@@ -181,15 +185,13 @@ Proporcionar instrucciones sobre:
 
         -   Directivas de acceso condicional.
 
-        -   Implementación de perfiles de correo electrónico.
+        -   Implementación de correo electrónico, redes inalámbricas y perfiles de VPN si tiene una infraestructura existente de VPN, Wi-Fi o entidad de certificación en su organización.
 
-        -   Configurar Microsoft Intune Exchange Connector, si corresponde.
+        -   Configuración de Microsoft Intune Exchange Connector, si corresponde.
 
-    -   Inscribir dispositivos de prueba de cada plataforma compatible en Microsoft Intune o Configuration Manager con el servicio de Microsoft Intune.
+    -   Inscribir dispositivos de cada plataforma compatible en Intune o Configuration Manager con el servicio de Microsoft Intune.
 
     -   Usar informes de inventario de software y hardware.
-
--   Si la administración de aplicaciones móviles (MAM) está incluida, o bien si lo que quiere es complementar su solución existente de MDM de terceros con directivas de MAM, le proporcionamos orientación con lo siguiente:
 
     -   Configurar directivas de MAM para cada plataforma compatible.
 
@@ -199,17 +201,16 @@ Proporcionar instrucciones sobre:
 
     -   Usar los informes de uso de las aplicaciones administradas.
 
--   Si la administración de equipos está incluida, le ofreceremos instrucciones para lo siguiente:
-
     -   Instalar el software de cliente de Intune, cuando sea necesario.
 
     -   Usar los informes de hardware y software disponibles en Intune.
 
-**¿Desea obtener más información?**
+**¿Quiere obtener más información?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-<!--HONumber=Oct16_HO3-->
+
+<!--HONumber=Nov16_HO4-->
 
 

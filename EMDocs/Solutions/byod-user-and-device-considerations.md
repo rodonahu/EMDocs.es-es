@@ -1,10 +1,11 @@
 ---
 title: Consideraciones sobre usuarios y dispositivos
-description: "Consideraciones de diseño para los usuarios que acceden a recursos de la empresa con sus dispositivos o con un dispositivo propiedad de la empresa en un escenario de BYOD."
+description: "En este artículo se proporciona un conjunto de consideraciones de diseño para los usuarios que tienen acceso a recursos de la empresa con sus dispositivos o con un dispositivo propiedad de la empresa en un escenario de Bring Your Own Device."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,19 +15,19 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 00cd28bc9b58d6386a1d74c67d63ccebb202370e
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
 
 
 ---
 
-# Consideraciones sobre usuarios y dispositivos
+# <a name="user-and-device-considerations"></a>Consideraciones sobre usuarios y dispositivos
 
 El primer problema relacionado con usuarios y dispositivos al que se enfrentará es cómo afectarán las tecnologías implantadas a la experiencia del usuario cuando este acceda de forma segura a recursos de la compañía. Encargarse de la experiencia del usuario en diferentes dispositivos puede ser un reto, no solo desde el punto de vista de la seguridad, sino también desde la perspectiva del desarrollo de aplicaciones. Deberá tener en cuenta el canal de comunicación entre los recursos de la compañía y el dispositivo, para aplicar el nivel adecuado de seguridad de red necesario y evitar así la pérdida de datos mientras están en tránsito.
 
 Las secciones siguientes se basan en los componentes del subdominio de usuarios y dispositivos que se muestran en la sección [Definición de los problemas de BYOD](byod-design-considerations-guide.md#problem-definition) de esta guía, que es el diagrama conceptual del dominio del problema de BYOD.
 
-## Profiles
+## <a name="profiles"></a>Profiles
 
 La comprensión de las necesidades y los requisitos de los usuarios para realizar sus tareas desde los dispositivos de su elección es fundamental para diseñar una solución de infraestructura BYOD. No todos los usuarios tendrán los mismos requisitos. Algunos usuarios siempre accederán a los datos desde la oficina, por lo que para ellos el cumplimiento de directivas puede ser diferente. Los trabajadores remotos accederán a datos de la compañía desde una variedad de ubicaciones y circunstancias. Debe tener en cuenta las opciones disponibles para satisfacer sus necesidades. Determine el perfil de cada usuario según sus necesidades:
 
@@ -56,7 +57,7 @@ Los perfiles de usuario propuestos en esta guía son:
 
 Necesitará determinar qué perfil de usuario es más adecuado para su solución de infraestructura BYOD. Considere la posibilidad de establecer los perfiles de varios usuarios según sus requisitos de trabajo. Lo ideal es que la tecnología que se utiliza para implementar la solución de infraestructura BYOD deba poder dar cabida a todos los perfiles de usuario, ya que los requisitos pueden variar según cada usuario. 
 
-## Dispositivos
+## <a name="devices"></a>Dispositivos
 
 El departamento de TI debe determinar si es necesario conocer los dispositivos. Por ejemplo, un escenario de BYOD es el de los empleados por horas que comprueban su ficha de horas o echan un vistazo a los avisos de la empresa o las redes sociales cuando están fuera de la oficina. En muchas organizaciones, estos requisitos eran tradicionalmente servicios solo de LAN, pero ahora puede abrirse a dispositivos personales. ¿Es necesaria la administración de dispositivos para alguien que comprueba su programación del día? Conocer la huella de los dispositivos ayudará al departamento de TI a:
 
@@ -70,7 +71,7 @@ Considere la opción de almacenar en una ubicación central el vínculo entre el
 - Enfoque 3 (1 y 2): registro e instalación de un agente de administración en el dispositivo de cada usuario
 
 
-### Opciones de dispositivos conocidos y desconocidos: ventajas y desventajas
+### <a name="unknown-to-known-device-options-advantages-and-disadvantages"></a>Opciones de dispositivos conocidos y desconocidos: ventajas y desventajas
 
 Utilice la siguiente lista para entender las ventajas y desventajas de las opciones de dispositivos conocidos y desconocidos:
 
@@ -111,13 +112,13 @@ En Windows Server 2012 R2, el nuevo concepto de [Unión al lugar de trabajo](htt
 
 Si quiere utilizar DRS, es preciso entender que esta característica no proporciona capacidades de administración. Si la compañía necesita más controles de seguridad para tener disponibles más opciones de control de los dispositivos de usuario, considere la opción de usar el DRS junto con una [inscripción de dispositivo móvil](https://technet.microsoft.com/library/jj733620.aspx) como solución de agente de administración. Sin embargo, si elige esta opción, debe tener una suscripción de Microsoft Intune. Para obtener más información sobre Microsoft Intune, consulte la [página de Microsoft Intune](/intune/understand-explore/introduction-to-microsoft-intune).
 
-## Red
+## <a name="network"></a>Red
 
 Debe abordarse el acceso a la red corporativa desde la perspectiva del usuario y del dispositivo. ¿Cómo accederán los usuarios a los datos de la compañía al utilizar sus propios dispositivos? La mayoría de soluciones de infraestructura BYOD solo se centran mínimamente en el acceso remoto desde dispositivos de usuarios. Sin embargo, si se adopta un enfoque centrado en las personas, debe tener en cuenta dónde se encuentran los usuarios. Debe centrarse no solo en el acceso remoto, sino también en cómo accederán los usuarios a los datos mientras se encuentran en las oficinas. Además, deberá tener en cuenta los problemas normativos específicos de la alineación geopolítica de su organización. Por ejemplo, ¿cómo pueden los usuarios que están ubicados físicamente en otro país o región tener un acceso personalizado a la red?
 
 Si su compañía tiene recursos en la nube pública que estarán disponibles mediante Internet desde dispositivos de los usuarios, debe tener en cuenta cómo se controlará el tráfico. Considere el uso de cifrado mientras los datos están en tránsito desde dispositivos de los usuarios al proveedor de nube. Cuando los usuarios accedan a los recursos internos, también debe utilizar el cifrado de datos.
 
-### Opciones de conectividad de red: ventajas y desventajas
+### <a name="network-connectivity-options-advantages-and-disadvantages"></a>Opciones de conectividad de red: ventajas y desventajas
 
 Utilice la siguiente lista para entender las ventajas y desventajas de las opciones de conectividad:
 
@@ -174,7 +175,7 @@ También puede segmentar los dispositivos que se conectarán a la red Wi-Fi seg�
 Puede elegir una segmentación física en el punto de acceso inalámbrico y los componentes de red (conmutadores y enrutadores) para aislar a los usuarios que se conectan mediante el uso de sus propios dispositivos. También puede implementar este tipo de red con [perfiles Wi-Fi en Configuration Manager](https://technet.microsoft.com/library/dn261221.aspx). Puede elegir entre una amplia gama de perfiles de seguridad, como certificados para la autenticación de clientes y la validación del servidor que se hayan aprovisionado con [perfiles de certificados de Configuration Manager](https://technet.microsoft.com/library/dn270540.aspx).
 
 
-### Opciones de segmentación de la red Wi-Fi: ventajas y desventajas
+### <a name="wi-fi-network-segmentation-options---advantages-and-disadvantages"></a>Opciones de segmentación de la red Wi-Fi: ventajas y desventajas
 
 Utilice la siguiente lista para entender las ventajas y desventajas de las opciones de segmentación de la red Wi-Fi:
 
@@ -211,6 +212,6 @@ La ubicación de la red tiene un rol importante en las consideraciones sobre los
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

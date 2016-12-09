@@ -1,10 +1,11 @@
 ---
 title: "Requisitos de acceso a datos y protección de datos"
-description: "Requisitos comunes para el acceso a datos y la protección de datos en un escenario de BYOD."
+description: "En este artículo se proporciona un conjunto de requisitos comunes para el acceso a datos y la protección de estos que debe usarse en un escenario de Bring Your Own Device."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: be15d3cdc06579702f8b8f72697868110add30b7
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 9aafb6a87f629f61d04596830ae0cc5cee944696
 
 
 ---
 
-# Requisitos de acceso a datos y protección de datos
+# <a name="data-access-and-protection-requirements"></a>Requisitos de acceso a datos y protección de datos
 
 Uno de los elementos más importantes al permitir que los usuarios accedan a los recursos de la compañía desde sus propios dispositivos es el de conservar los datos de la compañía y proteger esa información. Puede que su organización tenga que aplicar diversos requisitos de cumplimiento normativo para proteger los datos, estén donde estén. La ilustración siguiente muestra las interacciones que se producen entre los usuarios y los dispositivos al acceder a los datos, y los componentes que se deben tener en cuenta en este subdominio.
 
@@ -28,7 +29,7 @@ Uno de los elementos más importantes al permitir que los usuarios accedan a los
 
 En la sección siguiente, se incluyen preguntas sobre el acceso a datos y la protección de estos. Deberá responder a ellas para formular los requisitos del diseño de la solución.
 
-## Preguntas
+## <a name="questions-to-ask"></a>Preguntas
 
 Las preguntas relativas a los requisitos en cuanto al acceso a datos y a la protección de estos se clasifican en seis áreas:
 
@@ -38,7 +39,7 @@ Las preguntas relativas a los requisitos en cuanto al acceso a datos y a la prot
 - Autorización
 - Directiva y cumplimiento
 
-### Almacenamiento
+### <a name="storage"></a>Almacenamiento
 
 - Mientras los datos están almacenados en el centro de datos, ¿tiene habilitado el cifrado?
 - ¿La compañía proporcionará acceso sin conexión a los datos que se encuentran en el almacenamiento del centro de datos? (Es decir, ¿sincronizará datos con los dispositivos de los usuarios?)
@@ -50,7 +51,7 @@ Las preguntas relativas a los requisitos en cuanto al acceso a datos y a la prot
 - ¿La directiva de la compañía permite que los usuarios utilicen almacenamiento basado en la nube desde los equipos corporativos?
     - Si no, ¿tiene pensado ampliar esta directiva a los usuarios que accedan a los datos desde sus propios dispositivos?
 
-### Red
+### <a name="network"></a>Red
 
 - ¿Tiene algún tipo de cifrado de red local?
     - Si lo tiene, ¿está limitado a las comunicaciones entre servidores o toda la red está cifrada?
@@ -61,14 +62,14 @@ Las preguntas relativas a los requisitos en cuanto al acceso a datos y a la prot
 - ¿La compañía utiliza algún mecanismo de inspección de redes?
     - Si es así, ¿tiene pensado ampliar esta funcionalidad para los usuarios que traerán sus propios dispositivos y se conectarán a la red corporativa?
 
-### Directorio
+### <a name="directory"></a>Directorio
 
 - ¿La compañía utiliza un solo directorio de usuarios o tiene varios proveedores?
 - ¿El directorio de la compañía se encuentra en una ubicación local, en la nube o en ambas ubicaciones (híbrido)?
 - Cuando los usuarios vayan a acceder a las aplicaciones desde sus dispositivos, ¿con qué directorio se autenticarán?
 - ¿La compañía tiene pensado federar la autenticación entre los servicios locales y en la nube?
 
-### Autenticación
+### <a name="authentication"></a>Autenticación
 
 - ¿Qué tipo de autenticación se usa actualmente en su entorno?
 - ¿Tiene previsto conservar este método de autenticación o quiere mejorarlo antes de permitir que los usuarios usen sus propios dispositivos para acceder a los recursos de la compañía?
@@ -77,14 +78,14 @@ Las preguntas relativas a los requisitos en cuanto al acceso a datos y a la prot
 - ¿Tiene pensado habilitar el inicio de sesión único para las aplicaciones a las que se accede desde los dispositivos de los usuarios?
 - ¿Tiene pensado aprovechar los recursos de la nube para proporcionar un nivel adicional de autenticación a los usuarios remotos?
 
-### Autorización
+### <a name="authorization"></a>Autorización
 
 - En el entorno actual, una vez autenticados los usuarios, ¿tiene implementado algún otro control que permita comprobar si los usuarios tienen autorización para acceder a la información que solicitan?
 - ¿Tiene pensado proporcionar acceso condicional a partir de un conjunto de reglas predefinidas para los usuarios remotos?
 - ¿La compañía exige autorización para acceder a los datos locales o ubicados en la nube?
 - ¿La compañía emplea el [principio de divulgación de información según sea necesaria](http://en.wikipedia.org/wiki/Need_to_know) para autorizar el acceso a los datos?
 
-### Directiva y cumplimiento
+### <a name="policy-and-compliance"></a>Directiva y cumplimiento
 
 - ¿La compañía aplica directivas para definir cómo se clasifica el acceso a los datos?
 - ¿La compañía tiene que cumplir alguna norma de tratamiento y privacidad de datos?
@@ -94,6 +95,6 @@ Las preguntas relativas a los requisitos en cuanto al acceso a datos y a la prot
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

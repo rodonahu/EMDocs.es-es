@@ -1,10 +1,11 @@
 ---
 title: "Clasificación de datos"
-description: "Consideraciones de diseño de la clasificación de datos para un escenario de administración de dispositivos móviles."
+description: "En este artículo se proporciona un conjunto de consideraciones de diseño para la clasificación de datos que debe usarse en un escenario de administración de dispositivos móviles."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 3e877ecf720e0932209abcfd954e94a7c551bfb4
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 94c02152e553bdeba1bd1568c409d816ac078e9a
 
 
 ---
 
-# Clasificación de datos
+# <a name="data-classification"></a>Clasificación de datos
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -35,7 +36,7 @@ Intune permite al departamento de TI cumplir las directivas mediante directivas 
 
 Utilice la siguiente tabla como referencia para ayudarle a elegir la opción de MDM que mejor se adapte a los requisitos de *clasificación de datos* de su organización.
 
-## Intune (independiente)
+## <a name="intune-standalone"></a>Intune (independiente)
 
 **Ventajas**
 
@@ -45,7 +46,7 @@ Utilice la siguiente tabla como referencia para ayudarle a elegir la opción de 
 
 - No disponible
 
-## MDM para Office 365
+## <a name="mdm-for-office-365"></a>MDM para Office 365
 
 **Ventajas**
 
@@ -56,7 +57,7 @@ Utilice la siguiente tabla como referencia para ayudarle a elegir la opción de 
 
 - La clasificación de datos no se realiza con el propio archivo. Una vez que el archivo se encuentra en el dispositivo móvil, se puede utilizar sin restricciones
 
-## Híbridas (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Híbridas (Intune con Configuration Manager)
 
 **Ventajas**
 
@@ -66,7 +67,7 @@ Utilice la siguiente tabla como referencia para ayudarle a elegir la opción de 
 
 - No disponible
 
-## Enterprise Mobility + Security
+## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
 
 **Ventajas**
 
@@ -82,6 +83,6 @@ Utilice la siguiente tabla como referencia para ayudarle a elegir la opción de 
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 
