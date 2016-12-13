@@ -1,27 +1,27 @@
 ---
 title: Consideraciones sobre las aplicaciones
-description: "Consideraciones de diseño para las aplicaciones en un escenario de BYOD."
+description: "En este artículo se proporciona un conjunto de consideraciones de diseño para aplicaciones que debe usarse en un escenario de Bring Your Own Device."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 09044a31ace0ea1409599abcc70dba857e45a8af
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 2e00204f4be8183fdb8502e13b1ef06d1b7df084
 
 
 ---
 
 
-# Consideraciones sobre las aplicaciones
+# <a name="app-considerations"></a>Consideraciones sobre las aplicaciones
 
 Las consideraciones sobre las aplicaciones para BYOD pueden variar según los recursos, las restricciones y los objetivos de la compañía. Las empresas deben evaluar sus aplicaciones actuales, las tecnologías empleadas para desarrollar las aplicaciones, los requisitos para que las aplicaciones se ejecuten en cualquier dispositivo y las aplicaciones esenciales para que los usuarios puedan acceder desde cualquier ubicación. Aunque los recursos consumidos en el aprovisionamiento y la implementación de aplicaciones modernas son inferiores a los de las aplicaciones basadas en Windows, sigue habiendo un costo asociado a su desarrollo y mantenimiento.
 
@@ -34,14 +34,14 @@ Hay patrones para las aplicaciones desarrolladas específicamente para los escen
 
 Para obtener más información sobre consideraciones generales a la hora de crear aplicaciones móviles, lea [10 considerations when creating mobile apps for business](https://www.microsoft.com/en-gb/developers/articles/week01jan14/10-considerations-when-creating-mobile-apps-for-business) (Diez consideraciones sobre la creación de aplicaciones móviles para empresas).
 
-## Experiencia
+## <a name="experience"></a>Experiencia
 
 Para mejorar la experiencia de usuario según la plataforma en la que se ejecutarán las aplicaciones y la estrategia de implementación, la empresa debe identificar qué aplicaciones se publicarán y cómo lo hará. Si se identifica que hay un entorno heterogéneo y que algunos dispositivos serán compatibles en la empresa, una estrategia podría consistir en publicar las aplicaciones a través del Portal de la empresa. En última instancia, las decisiones empresariales dirigirían las consideraciones de la experiencia del usuario. ¿Está dispuesta la empresa a desarrollar aplicaciones que proporcionarán la misma experiencia independientemente de la plataforma? De lo contrario, ¿la empresa ofrecerá cursos a los usuarios para aprender a usar estas aplicaciones en distintas plataformas sin tener la misma experiencia?
 Tenga en cuenta el costo y el rendimiento de la inversión de cada caso mencionado en el párrafo anterior. Puede ser factible consolidar todas las aplicaciones en una página de portal web principal que proporcione la misma experiencia, pero las aplicaciones se comportarían de forma diferente según la plataforma.
 
 Tendrá que limitar las opciones a las aplicaciones basadas en web y las aplicaciones modernas, dado que las aplicaciones para los usuarios remotos deben ejecutarse en más de una plataforma, deben ser lo más ligeras posible y deben requerir un acceso mínimo a los dispositivos de los usuarios. La sección siguiente lo ayudará a determinar la experiencia de aplicación que se debe utilizar para la solución.
 
-### Opciones de experiencias de aplicación: ventajas y desventajas
+### <a name="app-experience-options-advantages-and-disadvantages"></a>Opciones de experiencias de aplicación: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las opciones de experiencias de aplicación:
 
@@ -70,7 +70,7 @@ Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las op
         - Es posible que los desarrolladores deban optimizar sus conocimientos para desarrollar aplicaciones mediante este formato nuevo.
 
 
-### Requisitos de las aplicaciones: consideraciones
+### <a name="app-requirements-considerations"></a>Requisitos de las aplicaciones: consideraciones
 
 Evalúe las aplicaciones que se ajustarán para que las usen los usuarios remotos desde sus dispositivos, y asegúrese de que se presenten estos requisitos a los usuarios. A continuación, encontrará una lista con requisitos de las aplicaciones y consideraciones relativas a cada uno de ellos:
 
@@ -92,13 +92,13 @@ Evalúe las aplicaciones que se ajustarán para que las usen los usuarios remoto
 
 Para mejorar la experiencia del usuario también debe clasificar todas las aplicaciones en función de los estándares de su equipo de desarrollo para evitar que los usuarios deban desplazarse por centenares de aplicaciones.
 
-## Plataforma
+## <a name="platform"></a>Plataforma
 
 Al tratar con la experiencia del usuario, es normal que se evalúen distintas plataformas y se determine a qué está dispuesta la empresa a dar soporte. Muchas veces, el hecho de permitir que los usuarios usen sus propios dispositivos significa tener un ecosistema heterogéneo, y es posible que TI no esté preparado para admitir dicho ecosistema.
 
 Cada plataforma tiene distintos requisitos para registrar y publicar aplicaciones, lo que afecta directamente a los recursos de TI porque TI necesita evaluar todo el ciclo de vida de las aplicaciones que se ejecutan en una plataforma específica. También debe acceder a los requisitos de la plataforma de las aplicaciones para las soluciones de infraestructura BYOD. En la siguiente sección, se incluyen consideraciones clave sobre los requisitos de la plataforma de aplicaciones.
 
-### Requisitos de la plataforma de aplicaciones: consideraciones
+### <a name="app-platform-requirements-considerations"></a>Requisitos de la plataforma de aplicaciones: consideraciones
 
 A continuación, encontrará una lista con requisitos de las plataformas de las aplicaciones y consideraciones relativas a cada uno de ellos:
 
@@ -127,11 +127,11 @@ Las aplicaciones de vínculo profundo pueden reducir la sobrecarga administrativ
 
 Las respuestas variarán en función del estado actual de la estrategia de implementación de la compañía y de cómo se desarrollarán estas necesidades si elige usar la Tienda Windows. Tenga en cuenta que la Tienda Windows es un sistema de distribución digital y la plataforma de distribución principal de las aplicaciones actuales de Windows 10, Windows 8.1, Windows 8 y Windows RT. Sin embargo, se puede usar la Tienda Windows para enumerar aplicaciones de escritorio certificadas para que se ejecuten en dispositivos basados en Windows 8. Para obtener más información acerca de las aplicaciones transferidas localmente, consulte [Pruébelo: Carga de prueba de aplicaciones de la Tienda Windows](https://technet.microsoft.com/windows/jj874388.aspx).
 
-## Implementación
+## <a name="deployment"></a>Implementación
 
 Para tratar las consideraciones sobre las aplicaciones que se implementarán en los usuarios debe comprender los requisitos relativos al acceso a la empresa. Los escenarios de implementación incluyen las aplicaciones que siempre deben estar conectadas a los recursos de la empresa, aunque los usuarios no necesiten acceder a otros recursos corporativos o no necesiten acceso completo a todos los recursos corporativos mientras se encuentren dentro de la red corporativa. Compruebe las opciones de implementación de cada aplicación y determine qué método es el más adecuado para su empresa. En la siguiente sección, se incluyen las opciones de implementación más comunes que puede usar como punto de referencia para tomar una decisión.
 
-### Opciones de implementación: ventajas y desventajas
+### <a name="deployment-options-advantages-and-disadvantages"></a>Opciones de implementación: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las opciones de implementación:
 
@@ -163,7 +163,7 @@ Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las op
         - Normalmente requiere una suscripción a un servicio de nube.
         - La integración con la solución de implementación local puede variar según el servicio de nube.
 
-### Requisitos de implementación de aplicaciones: consideraciones
+### <a name="app-deployment-requirements-considerations"></a>Requisitos de implementación de aplicaciones: consideraciones
 
 También debe acceder a los requisitos de implementación de las aplicaciones para las soluciones de infraestructura BYOD. En la siguiente lista, se incluyen algunas consideraciones clave relativas a la implementación de aplicaciones:
 
@@ -185,7 +185,7 @@ Se pueden usar las [VPN desencadenadas automáticamente en Windows 10](http://bl
 
 Si su empresa va a adoptar Windows Phone y quiere que los usuarios puedan usar las aplicaciones LOB para esta plataforma, en primer lugar debe conocer el proceso de inscripción de la aplicación. Las empresas deben seguir algunos pasos para establecer una cuenta de empresa, inscribir dispositivos y distribuir aplicaciones en los dispositivos inscritos. Para obtener más información sobre la implementación de aplicaciones de Windows Phone, consulte [Company app distribution for Windows Phone](https://msdn.microsoft.com/library/windowsphone/develop/jj206943(v=vs.105).aspx) (Distribución de aplicaciones de empresa para Windows Phone).
 
-## Almacenamiento y red
+## <a name="storage-and-network"></a>Almacenamiento y red
 
 Las consideraciones de almacenamiento y de aplicaciones de red pueden afectar a los servidores y a los dispositivos de las aplicaciones. Surgirán las siguientes preguntas cuando se plantee estos dos componentes principales para las aplicaciones:
 
@@ -196,7 +196,7 @@ Las consideraciones de almacenamiento y de aplicaciones de red pueden afectar a 
 
 En la siguiente sección, se incluyen consideraciones clave sobre los requisitos de almacenamiento y red de las aplicaciones.
 
-### Requisitos de almacenamiento y red de las aplicaciones: consideraciones
+### <a name="app-storage-and-network-requirementsconsiderations"></a>Requisitos de almacenamiento y red de las aplicaciones: consideraciones
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de los requisitos y consideraciones en cuanto a almacenamiento y red de las aplicaciones:
 
@@ -231,7 +231,7 @@ Para obtener más información sobre VDI en Windows Server 2012 R2, consulte [No
 
 La decisión de elegir la implementación de aplicación y la experiencia que se usarán para el diseño de la infraestructura BYOD debe equilibrarse con el costo total de propiedad (TCO). Para comprender mejor el TCO de la adopción de VDI, se recomienda leer [VDI TCO Analysis for Office Worker Environments (Análisis del TCO de VDI para entornos de trabajo de Office)](http://www.intel.in/content/www/in/en/data-center-efficiency/data-center-efficiency-vdi-tco-analysis-for-office-worker-environments-report.html).
 
-## Seguridad
+## <a name="security"></a>Seguridad
 
 Plantéese usar un ciclo de vida de desarrollo de seguridad para todas las aplicaciones que utilizarán los usuarios que usen sus propios dispositivos. La seguridad debe incluirse en todas las fases del proceso de desarrollo y deben tenerse en cuenta todas las amenazas potenciales. [STRIDE](https://msdn.microsoft.com/magazine/cc163519.aspx) y otras estrategias de seguridad se pueden incorporar al ciclo de vida de desarrollo mediante el [ciclo de vida de desarrollo de seguridad (SDL) de Microsoft](https://www.microsoft.com/security/sdl/process/requirements.aspx). Es un aspecto importante la manera en que se integrará la infraestructura actual con la estrategia de seguridad global para BYOD. ¿Es capaz de proporcionar el entorno actual una base segura para las aplicaciones? ¿Necesita adquirir la empresa soluciones seguras de terceros para mitigar cualquier vulnerabilidad potencial que cree esta nueva adopción?
 
@@ -239,6 +239,6 @@ Las consideraciones de seguridad son importantes para las aplicaciones que usar�
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

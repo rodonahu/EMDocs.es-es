@@ -1,26 +1,26 @@
 ---
 title: "Opciones de supervisión de dispositivos"
-description: 
+description: "En este artículo se proporcionan instrucciones sobre las opciones existentes de supervisión de dispositivos a la hora de planear y diseñar una solución de administración de dispositivos móviles de Microsoft con Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 23cfc12a-fa96-4fb3-8de1-af4569e8cb71
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: c34d0000d723594ab46917ae9baedc3e56ebbb48
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: fb4062531b8b202fb22ffcb0fbba390879be89cd
 
 
 ---
 
-# Opciones de supervisión de dispositivos
+# <a name="device-monitoring-options"></a>Opciones de supervisión de dispositivos
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -43,7 +43,7 @@ Dependiendo de cómo esté configurada su infraestructura, es posible que pueda 
 
 Las respuestas que dio a las preguntas en Tarea 2 pueden ayudarle a determinar las necesidades de informes y supervisión para los dispositivos móviles. La tabla siguiente muestra las ventajas y desventajas de las características de supervisión e informes en cada solución MDM.
 
-## Intune (independiente)
+## <a name="intune-standalone"></a>Intune (independiente)
 
 **Ventajas**
 
@@ -67,7 +67,7 @@ Las respuestas que dio a las preguntas en Tarea 2 pueden ayudarle a determinar l
 
 - Solo alertas de correo electrónico, no alertas de voz ni basadas en texto
 
-## MDM para Office 365
+## <a name="mdm-for-office-365"></a>MDM para Office 365
 
 **Ventajas**
 
@@ -81,7 +81,7 @@ Las respuestas que dio a las preguntas en Tarea 2 pueden ayudarle a determinar l
 
 - Solo informes de estado de conformidad de dispositivos móviles
 
-## Híbridas (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Híbridas (Intune con Configuration Manager)
 
 **Ventajas**
 
@@ -102,6 +102,6 @@ Explore los detalles acerca de las opciones de supervisión de dispositivos móv
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 
