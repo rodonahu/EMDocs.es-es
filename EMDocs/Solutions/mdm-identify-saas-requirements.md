@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5380e56c-9c48-459e-aea5-95ad90dbb7d1
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 68a42159dfbf6b0d435b0543466d4cec26e55b67
@@ -39,7 +38,7 @@ Antes de tomar decisiones sobre cómo usará una solución de SaaS para administ
 ## <a name="cloud-types"></a>Tipos de nube
 
 Las soluciones de SaaS *multiinquilino* son las que normalmente se denominan "infraestructuras de nube pública". Se aplican cuando la arquitectura de software del servicio se encuentra en una única instancia, pero ofrece servicio a varios inquilinos u organizaciones. La solución está diseñada para proporcionar a cada inquilino un recurso compartido reservado de sus servicios, como la compatibilidad de datos, configuración, administración de dispositivos o usuarios. Los servicios y cuentas de inquilinos están casi separados, con cada inquilino que obtiene acceso a la infraestructura de plataforma en instancias independientes. Las soluciones de SaaS multiinquilino también ofrece ahorros en costes que se obtienen a partir del uso compartido de la infraestructura y la distribución de los costes generales entre varios inquilinos. La mayoría de las plataformas de administración de dispositivos móviles se ofrecen en una infraestructura de plataforma de SaaS multiinquilino.
-                
+
 *Privada*, o los servicios en la nube dedicados son instancias de soluciones de SaaS que operan para un inquilino o una organización únicos. Pueden ser servicios en la nube privada hospedados por la organización o los servicios en la nube privada hospedados por un proveedor de terceros. Las soluciones en la nube privada también ofrecen normalmente más oportunidades de personalización, tanto en las áreas de seguridad como de servicios. Algunas soluciones de SaaS dedicadas ofrecen servicios de administración de dispositivos móviles como parte de las opciones de inquilino de nube privada más grandes.
 
 Las soluciones de SaaS *híbridas* pueden ofrecer una combinación de infraestructuras en la nube privada y multiinquilino, o una combinación de infraestructuras en la nube locales y hospedadas (privada o multiinquilino). Una infraestructura híbrida también puede incluir el aprovechamiento de una solución de SaaS en la nube externa para ofrecer determinados tipos de servicios (como aplicaciones), pero aprovechando los recursos internos para otros tipos de servicios. La mayoría de soluciones de SaaS ofrecen la capacidad de admitir una configuración de nube híbrida, pero pueden variar considerablemente en la profundidad y la integridad de la integración con plataformas en la nube locales o con otras plataformas en la nube hospedadas.
@@ -92,7 +91,7 @@ Como parte de la planificación del ciclo de vida de la administración de SaaS,
 Puesto que la infraestructura de SaaS está basada en la nube y hospedada en varios centros de datos, la resistencia está normalmente sujeta a menos inestabilidad y cortes que los servicios hospedados locales tradicionales. Los hosts de servicio de múltiples ubicaciones ofrecen protección frente a las interrupciones de servicios y cortes geográficos mediante los procesos y la infraestructura de conmutación por error para replicar datos en los nodos de varios centros de datos. Dependiendo de la solución de SaaS, el acceso al servicio puede mantenerse o no en la zona geográfica original durante una conmutación por error.
 
 ### <a name="resiliency-questions"></a>Preguntas de resistencia
- 
+
 Como parte de la planificación del ciclo de vida de la administración de SaaS, querrá responder a las siguientes preguntas de planificación sobre la resistencia en la nube:
 
 - En el caso de una conmutación por error de la solución de SaaS principal, ¿cómo afectará a los servicios de administración de dispositivos móviles?

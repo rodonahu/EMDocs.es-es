@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bc7cdb8f-3485-45ae-9493-f840ad9ed3ea
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 856d2d2ba9968aa0f4a0da4f4afcbf452260e548
@@ -40,7 +39,7 @@ La lista siguiente enumera las ventajas y desventajas de la administración inal
 
 **Ventajas**
 
-- Admite los perfiles de VPN e inalámbricos para todos los sistemas operativos de dispositivos móviles principales (Android, iOS, Windows 10, Windows 8.x y Windows Phone) 
+- Admite los perfiles de VPN e inalámbricos para todos los sistemas operativos de dispositivos móviles principales (Android, iOS, Windows 10, Windows 8.x y Windows Phone)
 - Admite los tipos de conexión VPN líderes del sector, incluidos Cisco, Juniper, Dell SonicWall y Checkpoint entre otros
 - Los perfiles de VPN e inalámbricos pueden integrarse con perfiles de certificados SCEP para disponer de una mayor seguridad
 - Admite la configuración de perfiles de VPN e inalámbricos personalizados para diferentes tipos de usuarios, dispositivos, sistemas operativos de dispositivos, o grupos de usuarios y roles
@@ -65,7 +64,7 @@ Las directivas VPN y Wi-Fi no son compatibles con MDM para Office 365.
 
 **Desventajas**
 
-- Para admitir los perfiles de VPN, deberá implementar y mantener una infraestructura VPN local 
+- Para admitir los perfiles de VPN, deberá implementar y mantener una infraestructura VPN local
 - Para administrar [perfiles de Wi-Fi](https://technet.microsoft.com/library/dn408646.aspx) y [perfiles VPN](https://technet.microsoft.com/library/dn408643.aspx) en Configuration Manager, se deben conceder determinados permisos de seguridad.
 
 Explore los detalles acerca de las opciones de administración de la configuración de correo electrónico de dispositivos móviles revisando lo siguiente:

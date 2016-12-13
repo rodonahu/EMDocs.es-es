@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 77e7cab9-2fae-4857-be5d-2b6f57e981be
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
@@ -56,7 +55,7 @@ Las mayoría de las soluciones de administración de dispositivos móviles propo
 - Cuando es necesario desconectar un dispositivo móvil de su sistema de correo electrónico, ¿cómo se eliminarán los datos de correo electrónico del dispositivo móvil?
 - ¿Los administradores y usuarios necesitarán la capacidad de eliminar datos de correo electrónico o la conexión con el sistema de correo electrónico?
 - ¿Cómo se comprobará o ratificará la confirmación de la eliminación de datos de correo electrónico?
-- Si utiliza un sistema de correo electrónico basado en la nube y local, ¿cómo se integran con la solución de administración de dispositivos móviles? 
+- Si utiliza un sistema de correo electrónico basado en la nube y local, ¿cómo se integran con la solución de administración de dispositivos móviles?
 - ¿Los perfiles de correo electrónico o las directivas de acceso administrado se administran de igual o diferente forma desde la perspectiva de TI? ¿Es la experiencia de conexión de correo electrónico del usuario la misma o diferente en el lugar en el que se hospeda la bandeja de correo?
 
 ## <a name="network-connectivity-management"></a>Administración de la conectividad de red
@@ -72,7 +71,7 @@ Los dispositivos móviles se suelen conectar a recursos y redes corporativas med
 ### <a name="network-connectivity-management-planning-questions"></a>Preguntas de planeación de la administración de conectividad de red
 
 Responda a las siguientes preguntas de planeación de la administración de la conectividad de red:
- 
+
 - ¿Qué tipo de plataforma de VPN ha implementado en su red local?
 - ¿La plataforma de VPN es compatible o puede integrarse con la solución de administración de dispositivos móviles?
 - Si la plataforma de VPN ya está integrada o si es compatible con una solución de administración de dispositivos que no son móviles existente, ¿la solución de administración de dispositivos móviles se integra con ambos sistemas?

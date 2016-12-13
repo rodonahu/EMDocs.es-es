@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 3df9be3ef643303f4205aa1b6daf18fdf53762d8
@@ -52,7 +51,7 @@ Según como haya respondido a las preguntas del paso 1, podrá determinar cómo 
 **Desventajas**
 
 - Interfaz de administración adicional para el aprovisionamiento de dispositivos móviles (solo) si se usa una plataforma de administración local para dispositivos que no son móviles
-- Directivas de seguridad y cumplimiento de dispositivo independiente para la plataforma de administración local y de servicio basado en la nube 
+- Directivas de seguridad y cumplimiento de dispositivo independiente para la plataforma de administración local y de servicio basado en la nube
 
 ## <a name="mdm-for-office-365"></a>MDM para Office 365
 

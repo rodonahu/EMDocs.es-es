@@ -2,16 +2,15 @@
 title: Expectativas del entorno de origen
 description: Requisitos del entorno de origen para el uso del beneficio del centro de FastTrack
 keywords: 
-author: staciebarker
-ms.author: stabar
+author: NathBarn
+ms.author: NathBarn
 manager: angrobe
 ms.date: 11/07/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9048f3e5-cc28-4744-bb5e-36f974abb261
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation

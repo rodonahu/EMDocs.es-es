@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 050d92824ad2616440d9d4b972a812be0ab5a14a
@@ -26,7 +25,7 @@ ms.openlocfilehash: 050d92824ad2616440d9d4b972a812be0ab5a14a
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Cuando cree una referencia de configuración para dispositivos móviles para proteger sus capacidades de acuerdo con sus necesidades empresariales, asegúrese de que equilibra la facilidad de uso con la seguridad. Una plantilla de protección muy estricta puede provocar facilidad de uso y problemas de acceso para los empleados, por lo que fracasará en el propósito de ayudar a los usuarios ser productivos mediante el acceso a recursos de la compañía con sus dispositivos. 
+Cuando cree una referencia de configuración para dispositivos móviles para proteger sus capacidades de acuerdo con sus necesidades empresariales, asegúrese de que equilibra la facilidad de uso con la seguridad. Una plantilla de protección muy estricta puede provocar facilidad de uso y problemas de acceso para los empleados, por lo que fracasará en el propósito de ayudar a los usuarios ser productivos mediante el acceso a recursos de la compañía con sus dispositivos.
 
 Además, tenga en cuenta que no todas las directivas de seguridad están disponibles para todas las plataformas de dispositivos móviles. Puede que necesite equilibrar las prioridades para permitir las plataformas de dispositivos móviles en su organización con los requisitos de cumplimiento de seguridad para la protección de dispositivos.
 Una manera de enfocar la protección de los dispositivos móviles es tener diferentes niveles de seguridad. Los valores de configuración que están disponibles para cada nivel también pueden variar, según la solución MDM. La siguiente figura muestra un ejemplo de cómo se puede configurar este enfoque por niveles.
@@ -91,8 +90,8 @@ La protección de la plataforma de dispositivos móviles desempeña un rol impor
 
 - Si la compañía no dispone de una infraestructura de Configuration Manager local en estos momentos, habrá que planificar, instalar y configurar esta plataforma antes de la integración.
 
->[!TIP] 
-> Obtenga más información sobre la configuración de administración de dispositivos móviles que se puede realizar en una directiva de seguridad de dispositivos móviles de Microsoft Intune en [Administrar la configuración y las características de los dispositivos con directivas de Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
+>[!TIP]
+> Obtenga más información sobre la configuración de administración de dispositivos móviles que se puede realizar en una directiva de seguridad de dispositivos móviles de Microsoft Intune en [Administrar la configuración y las características de los dispositivos con directivas de Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx).
 
 
 

@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
@@ -26,7 +25,7 @@ ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-En esta tarea, desarrollará la estrategia de adopción de administración de dispositivos móviles que satisfará los requisitos empresariales identificados en las Tareas 1 y 2. 
+En esta tarea, desarrollará la estrategia de adopción de administración de dispositivos móviles que satisfará los requisitos empresariales identificados en las Tareas 1 y 2.
 
 ## <a name="device-ownership"></a>Propiedad del dispositivo
 
@@ -34,7 +33,7 @@ Después de revisar la directiva actual y la estrategia de la organización para
 
 ## <a name="employee-owns-the-device-byod"></a>El empleado posee el dispositivo (BYOD)
 
-**Ventajas** 
+**Ventajas**
 
 - La compañía no necesita comprar dispositivos móviles para los empleados
 - Por lo general, permite que los empleados sean más productivos, ya que van a usar el dispositivo móvil que elijan
@@ -48,7 +47,7 @@ Después de revisar la directiva actual y la estrategia de la organización para
 
 ## <a name="company-owned-device"></a>Dispositivo propiedad de la compañía
 
-**Ventajas** 
+**Ventajas**
 
 - Capacidad de administración completa, incluidos los controles de seguridad y refuerzo de dispositivo
 - Más control de los dispositivos móviles
@@ -101,7 +100,7 @@ La decisión adoptada con respecto a la propiedad del dispositivo le ayudará a 
 - Integración nativa entre Intune y Configuration Manager.
 - Le permite usar una consola centralizada para implementar directivas y administrar PC locales, servidores y dispositivos móviles
 
-**Desventajas** 
+**Desventajas**
 
 - Requiere realizar más pasos de configuración para conectar Intune y Configuration Manager.
 - Si la organización no dispone de una infraestructura de Configuration Manager local en estos momentos, habrá que planificar, instalar y configurar esta plataforma antes de la integración.
@@ -128,7 +127,7 @@ En función de los requisitos que se definieron en Tarea 1, puede elegir qué so
 
 **Desventajas**
 
-- Falta de integración con soluciones de administración de dispositivos locales, que incluye una interfaz de administración adicional que puede usar cuando administre dispositivos móviles si dispone de una solución local. 
+- Falta de integración con soluciones de administración de dispositivos locales, que incluye una interfaz de administración adicional que puede usar cuando administre dispositivos móviles si dispone de una solución local.
 - Las directivas creadas con la plataforma MDM local no se replican en el servicio en la nube, que requiere dos conjuntos de directivas de administración y cumplimiento (si tiene una solución MDM local).
 
 
@@ -167,10 +166,8 @@ En función de los requisitos que se definieron en Tarea 1, puede elegir qué so
 
 Comprender el comportamiento del usuario e identificar su ubicación son factores importantes que incluir en su estrategia de administración de dispositivos móviles. ¿Cómo variarán los dispositivos de los que se realiza el seguimiento según las necesidades y requisitos empresariales?  Existen capacidades de seguimiento diferentes en cada sistema operativo móvil, por lo que las plataformas de dispositivos móviles que elija para que sean compatibles afectarán a sus opciones. Por ejemplo, los requisitos de cumplimiento pueden influir en dar prioridad a la adopción de plataformas de dispositivos móviles que permiten realizar un seguimiento de la ubicación del usuario y usar el perímetro.
 
->[!TIP] 
-> El perímetro le permite supervisar una ubicación geográfica del dispositivo móvil y habilitar o deshabilitar recursos de red y del dispositivo según la ubicación. Por ejemplo, Windows 8.1 permite que una aplicación defina una región geográfica y que el sistema alerte a la aplicación cuando el dispositivo se ejecute en esa área o entre o salga de ella. Para obtener más información acerca de esta característica en Windows 8.1, consulte [Geovalla, de principio a fin (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx). 
-
-
+>[!TIP]
+> El perímetro le permite supervisar una ubicación geográfica del dispositivo móvil y habilitar o deshabilitar recursos de red y del dispositivo según la ubicación. Por ejemplo, Windows 8.1 permite que una aplicación defina una región geográfica y que el sistema alerte a la aplicación cuando el dispositivo se ejecute en esa área o entre o salga de ella. Para obtener más información acerca de esta característica en Windows 8.1, consulte [Geovalla, de principio a fin (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx).
 
 
 

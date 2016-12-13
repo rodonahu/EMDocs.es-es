@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: eb38d461-bfb0-407c-a5e6-94fa728a86d6
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 5c917ca88c5c33e4274b0437fbd57eb07865866f
@@ -28,14 +27,14 @@ ms.openlocfilehash: 5c917ca88c5c33e4274b0437fbd57eb07865866f
 
 Ahora que ha completado la definición de los requisitos y el examen de todas las opciones para la solución de administración de dispositivos móviles, está listo para realizar los pasos para implementar la infraestructura de soporte correcta para usted y su organización.
 
-## <a name="mobile-device-management-solutions"></a>Soluciones de administración de dispositivos móviles 
+## <a name="mobile-device-management-solutions"></a>Soluciones de administración de dispositivos móviles
 
-Aprovechar los escenarios de soluciones específicos que se adaptan a sus necesidades es una buena forma de revisar y planificar los detalles de la implementación de una infraestructura de administración de dispositivos móviles. Las siguientes soluciones describen algunos de los escenarios más comunes de la administración de dispositivos móviles: 
+Aprovechar los escenarios de soluciones específicos que se adaptan a sus necesidades es una buena forma de revisar y planificar los detalles de la implementación de una infraestructura de administración de dispositivos móviles. Las siguientes soluciones describen algunos de los escenarios más comunes de la administración de dispositivos móviles:
 
-- Esta solución de [administración de los dispositivos móviles y PC en entornos empresariales](https://technet.microsoft.com/library/dn582037.aspx) ayuda a administrar dispositivos móviles mediante la extensión de la infraestructura de System Center 2012 R2 Configuration Manager local en la nube con Microsoft Intune. Esta infraestructura híbrida ayuda a las compañías medianas y grandes a habilitar BYOD y el acceso remoto, a la vez que reducen la complejidad administrativa. 
+- Esta solución de [administración de los dispositivos móviles y PC en entornos empresariales](https://technet.microsoft.com/library/dn582037.aspx) ayuda a administrar dispositivos móviles mediante la extensión de la infraestructura de System Center 2012 R2 Configuration Manager local en la nube con Microsoft Intune. Esta infraestructura híbrida ayuda a las compañías medianas y grandes a habilitar BYOD y el acceso remoto, a la vez que reducen la complejidad administrativa.
 - La solución de [administración de dispositivos móviles para Configuration Manager 2007](https://technet.microsoft.com/library/dn508400.aspx) ayuda a administrar dispositivos móviles cuando la infraestructura se basa en System Center Configuration Manager 2007. Esta solución muestra cómo configurar un único servidor que ejecuta System Center 2012 R2 Configuration Manager para que pueda ejecutar Microsoft Intune y aprovechar las ventajas de su funcionalidad MDM.
 - La solución de [administración de dispositivos móviles en entornos pequeños](https://technet.microsoft.com/library/dn715906.aspx) está pensada para pequeñas empresas que necesitan admitir MDM. En ella se explica cómo usar Microsoft Intune para ampliar la infraestructura actual y admitir la administración de dispositivos móviles y BYOD. En esta solución se describe el escenario más sencillo compatible con el uso de Microsoft Intune en una configuración solo de nube independiente sin servidores locales.
-        
+
 ## <a name="mobile-device-management-documentation"></a>Documentación de administración de dispositivos móviles
 
 El contenido de administración, implementación y planificación de procedimientos y conceptual es útil cuando se implementa la solución de administración de dispositivos móviles.

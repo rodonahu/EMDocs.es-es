@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
@@ -55,7 +54,7 @@ Los perfiles de usuario propuestos en esta guía son:
     - Acceso a equipos con el Escritorio remoto
     - Acceso a otros equipos locales
 
-Necesitará determinar qué perfil de usuario es más adecuado para su solución de infraestructura BYOD. Considere la posibilidad de establecer los perfiles de varios usuarios según sus requisitos de trabajo. Lo ideal es que la tecnología que se utiliza para implementar la solución de infraestructura BYOD deba poder dar cabida a todos los perfiles de usuario, ya que los requisitos pueden variar según cada usuario. 
+Necesitará determinar qué perfil de usuario es más adecuado para su solución de infraestructura BYOD. Considere la posibilidad de establecer los perfiles de varios usuarios según sus requisitos de trabajo. Lo ideal es que la tecnología que se utiliza para implementar la solución de infraestructura BYOD deba poder dar cabida a todos los perfiles de usuario, ya que los requisitos pueden variar según cada usuario.
 
 ## <a name="devices"></a>Dispositivos
 
@@ -204,11 +203,10 @@ Utilice la siguiente lista para entender las ventajas y desventajas de las opcio
     - Desventajas
         - Requiere IPsec para la implementación con [Protección de acceso a redes (NAP)](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx) de Microsoft, lo que puede ser un problema en un escenario de BYOD en el que se necesite compatibilidad para "todos los dispositivos".
 
-> [!NOTE] 
+> [!NOTE]
 > Para más información sobre los perfiles de Wi-Fi en Configuration Manager, consulte [Introducción a perfiles de Wi-Fi en Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 La ubicación de la red tiene un rol importante en las consideraciones sobre los usuarios y los dispositivos. Puede aprovechar el control de acceso multifactor en AD FS para habilitar las directivas de autorización por aplicación, con las que puede permitir o denegar el acceso en función del usuario, el dispositivo y la ubicación de red. Consulte [Guía de tutorial: Administración de riesgos con control de acceso condicional](https://technet.microsoft.com/library/dn280936.aspx) para obtener más información sobre cómo configurar un entorno para validar esta funcionalidad.
-
 
 
 

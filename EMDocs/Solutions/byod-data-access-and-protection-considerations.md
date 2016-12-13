@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
@@ -34,7 +33,7 @@ Con Windows Server 2012 R2, puede cifrar los datos en reposo en los dispositivos
 
 Si su concepto de almacenamiento es un contenedor de contenidos, la protección del consumo de ese contenido aportará gran valor. Se puede evitar la fuga de datos si se aplican directivas para regular la forma en que el usuario final va a usar el contenido almacenado. Se puede usar [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/library/hh831554.aspx) para intensificar la estrategia de seguridad de la empresa mediante la protección de los documentos que utilicen Information Rights Management (IRM). AD RMS permite a usuarios y administradores establecer permisos de acceso a documentos, libros y presentaciones a través de las directivas de IRM. Esto ayuda a impedir que personas no autorizadas impriman, reenvíen o copien la información confidencial. Una vez que se haya restringido el permiso para un archivo mediante IRM, se aplican las restricciones de acceso y uso independientemente de dónde se encuentre la información, ya que el permiso para un archivo se almacena en el propio archivo.
 
-Si quiere usar una solución basada en la nube en su empresa para proteger los archivos, también puede recurrir a [Azure Information Protection](/information-protection/understand-explore/what-is-information-protection). Azure Information Protection puede proteger la información confidencial de la empresa mediante directivas de cifrado, identidad y autorización para ayudar a garantizar la seguridad de los archivos y el correo electrónico. Además, funciona en varios dispositivos: teléfonos, tabletas y equipos PC. La información se mantendrá segura tanto dentro como fuera de la organización, ya que se conserva la protección de los datos, incluso cuando el usuario se sale de los límites de la empresa. 
+Si quiere usar una solución basada en la nube en su empresa para proteger los archivos, también puede recurrir a [Azure Information Protection](/information-protection/understand-explore/what-is-information-protection). Azure Information Protection puede proteger la información confidencial de la empresa mediante directivas de cifrado, identidad y autorización para ayudar a garantizar la seguridad de los archivos y el correo electrónico. Además, funciona en varios dispositivos: teléfonos, tabletas y equipos PC. La información se mantendrá segura tanto dentro como fuera de la organización, ya que se conserva la protección de los datos, incluso cuando el usuario se sale de los límites de la empresa.
 
 También se pueden usar otras tecnologías de almacenamiento que se incluyen en el sistema operativo Windows para mejorar la protección general de los datos, como BitLocker para el cifrado de unidades y el [Sistema de cifrado de archivos (EFS)](https://technet.microsoft.com/library/cc700811.aspx) para el cifrado de estos. Use la siguiente tabla para ver las ventajas y los inconvenientes de la protección del almacenamiento. Tenga en cuenta que estas opciones no son mutuamente excluyentes. En otras palabras, la decisión que tome sobre el diseño podría conllevar la necesidad de usar todas estas opciones en la solución de infraestructura BYOD para la protección del almacenamiento.
 
@@ -95,7 +94,7 @@ Es esencial tener en cuenta los factores implicados en la habilitación de usuar
 Este diagrama resalta las áreas cruciales donde la protección de datos debe tenerse en cuenta para las infraestructuras de BYOD. Estas áreas se describen de forma más detallada en la sección siguiente.
 
 ### <a name="data-protection-locations-and-considerations"></a>Protección de datos: ubicaciones y consideraciones
-    
+
 Mediante la siguiente lista, podrá conocer las consideraciones relacionadas con la protección de datos según la ubicación de estos. Los números de la lista se corresponden con el diagrama anterior:
 
 - (1) Datos en reposo en el centro de datos
@@ -219,7 +218,7 @@ Para aplicar Multi-Factor Authentication, las empresas pueden usar las capacidad
 
 Para aplicar la autorización por aplicación a los usuarios que tengan acceso a las aplicaciones desde una red interna o externa, el departamento de TI puede usar el Proxy de aplicación web. Con el Proxy de aplicación web, el departamento de TI puede crear reglas específicas para aplicar la autenticación y autorización junto con AD FS. La publicación del Proxy de aplicación web funciona en cualquier dispositivo de usuario; los usuarios pueden usar sus equipos portátiles, tabletas o smartphones personales. Además, no será necesario que los usuarios instalen ningún software adicional en sus dispositivos para tener acceso a las aplicaciones publicadas. El Proxy de aplicación web se usa como un proxy inverso para las aplicaciones publicadas a través de él y, como tal, la experiencia del usuario es la misma que si los dispositivos de los usuarios estuvieran directamente conectados a las aplicaciones. Para obtener más información sobre el Proxy de aplicación web, consulte la [Guía de tutorial de proxy de aplicación web](https://technet.microsoft.com/library/dn280944.aspx).
 
->[!NOTE] 
+>[!NOTE]
 > Si se encuentra en un escenario híbrido y necesita tener una experiencia perfecta de autenticación y autorización de usuarios, lea la guía [Consideraciones de diseño de identidad híbrida de Azure Active Directory](http://aka.ms/azhidcg).
 
 ## <a name="policy-and-compliance"></a>Directiva y cumplimiento
@@ -227,7 +226,7 @@ Para aplicar la autorización por aplicación a los usuarios que tengan acceso a
 Las directivas y el cumplimiento de la normativa deberían ser una prioridad en cualquier estrategia donde se contemple BYOD. Es posible que algunas organizaciones tengan requisitos exigentes que no se pueden integrar en este modelo debido a la normativa empresarial. Las empresas que vayan a migrar a una estrategia centrada en las personas deben saber cómo son las directivas actuales y cómo se verán afectadas por la adopción de BYOD. Considere los requisitos relativos a la clasificación de datos y cómo el departamento de TI puede controlar esta clasificación de datos, incluso cuando estos se encuentren en el almacenamiento del dispositivo. En la clasificación de datos, es importante poder clasificar los datos mientras se están ejecutando ciertas operaciones (como la modificación de un archivo).
 
 Las directivas se deben aplicar desde una ubicación centralizada para que el departamento de TI pueda dar una respuesta rápida en caso de cambios ad hoc que afecten a todos los usuarios. Tenga también en cuenta las eficaces capacidades de auditoría para dispositivos móviles. Si se produce un incumplimiento, es fundamental que el departamento de TI pueda identificar la directiva que se ha infringido, quién lo hizo y cuándo.
-    
+
 ### <a name="policy-and-compliancecapabilities-and-considerations"></a>Directiva y cumplimiento: funciones y consideraciones
 
 Mediante la siguiente lista, podrá conocer las consideraciones acerca de funciones relativas al cumplimiento y a la observación de directivas:

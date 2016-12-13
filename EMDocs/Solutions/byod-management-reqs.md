@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bf0d4210-5edc-4ad7-bcb5-372099049630
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 9347d0ff642a3ea4a337962b5ec10a0c4c6cdc66
@@ -98,7 +97,6 @@ Las preguntas sobre los requisitos de administración se clasifican en siete ár
 - ¿Es el departamento de TI quien registra los dispositivos personales con la compañía, o se registran personalmente?
 - ¿Se pondrá en práctica algún plan para permitir que los usuarios aprovisionen servicios con sus propios dispositivos?
     - Si es así, ¿el sistema de administración permite de forma nativa que los usuarios realicen esta operación desde sus dispositivos?
-
 
 
 

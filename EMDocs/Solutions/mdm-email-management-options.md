@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9b89da63-039f-4831-b204-28c0681478fe
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: ac2c64b54883204f0051250c23f7a6b085e67ebe
@@ -30,7 +29,7 @@ La razón principal para implementar una solución de administración de disposi
 
 Siga un proceso similar para configurar las opciones de administración de correo electrónico en Intune y las implementaciones híbridas de Intune y Configuration Manager. La principal diferencia es que puede implementar opciones más avanzadas de administración de correo electrónico en comparación con MDM para Office 365. Por ejemplo, mediante Intune independiente, puede configurar el acceso de correo electrónico condicional para permitir el acceso a los buzones alojados en Exchange Online y Exchange local, y configurar perfiles de correo electrónico personalizados. Intune habilita estas características mediante el uso de directivas de cumplimiento y configuración.  Las implementaciones híbridas de Intune y Configuration Manager también admiten el acceso de correo electrónico condicional, pero solo para buzones alojados en Exchange Online.
 
-En el escenario que se muestra a continuación en la ilustración 6, el usuario se ha inscrito el dispositivo en Intune y ahora está tratando de obtener acceso a su correo electrónico corporativo con Office 365 o Exchange local. Según la configuración definida por el administrador de TI en su empresa, Intune ejecuta un proceso de comprobación de la directiva. En este escenario, se concede el acceso del usuario si el dispositivo está cifrado, se establece un código de acceso y no se ha aplicado el descifrado o el descodificado al dispositivo. Si un usuario obtener acceso a correo electrónico corporativo y su dispositivo no está inscrito, o no es conforme según la configuración definida por el administrador de TI, el usuario recibirá un correo electrónico que explicará el motivo por el que se ha bloqueado su acceso junto con los pasos para resolver el problema. 
+En el escenario que se muestra a continuación en la ilustración 6, el usuario se ha inscrito el dispositivo en Intune y ahora está tratando de obtener acceso a su correo electrónico corporativo con Office 365 o Exchange local. Según la configuración definida por el administrador de TI en su empresa, Intune ejecuta un proceso de comprobación de la directiva. En este escenario, se concede el acceso del usuario si el dispositivo está cifrado, se establece un código de acceso y no se ha aplicado el descifrado o el descodificado al dispositivo. Si un usuario obtener acceso a correo electrónico corporativo y su dispositivo no está inscrito, o no es conforme según la configuración definida por el administrador de TI, el usuario recibirá un correo electrónico que explicará el motivo por el que se ha bloqueado su acceso junto con los pasos para resolver el problema.
 
 ![Acceso condicional](./media/MDM_Figure_06.png)
 
@@ -62,7 +61,7 @@ Las respuestas a las preguntas del paso 1 pueden ayudarle a determinar cómo des
 
 **Desventajas**
 
-- No se admiten algunas opciones de administración de correo electrónico avanzadas 
+- No se admiten algunas opciones de administración de correo electrónico avanzadas
 - La implementación de perfiles de correo electrónico no es compatible (excepto iOS)
 
 ## <a name="hybrid-intune-with-configmgr"></a>Híbridas (Intune con Configuration Manager)

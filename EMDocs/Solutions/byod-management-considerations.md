@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
@@ -110,7 +109,7 @@ Para obtener más información sobre las opciones de creación de informes de Co
 
 Después de desarrollar nuevas aplicaciones y de que los usuarios tengan acceso remoto a ellas a través de sus propios dispositivos, el rendimiento de la aplicación puede verse afectado si la solución no se han planeado correctamente. Aunque las indicaciones en esta guía de diseño no pretenden dar detalles minuciosos respecto al rendimiento, se debe dar respuesta a las preguntas sobre la infraestructura de administración:
 
-- La solución de administración actual que usa la empresa ¿puede administrar los recursos de almacenamiento y cálculo para la plataforma que contiene las aplicaciones a las que se tiene acceso desde los dispositivos de los usuarios? 
+- La solución de administración actual que usa la empresa ¿puede administrar los recursos de almacenamiento y cálculo para la plataforma que contiene las aplicaciones a las que se tiene acceso desde los dispositivos de los usuarios?
 - La solución de administración actual que usa la empresa ¿tiene la capacidad de aumentar los recursos de cálculo y almacenamiento para la plataforma que admite el acceso a las aplicaciones desde los dispositivos según un conjunto de reglas preestablecidas?
 Si la solución de administración actualmente implementada no es capaz de abordar estos dos requisitos, piense en usar una solución de administración que pueda administrar el cálculo y el almacenamiento mediante la aplicación de los dos requisitos principales que se muestran en la siguiente tabla.
 
@@ -137,7 +136,7 @@ Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las fu
 
 System Center 2012 R2 tiene la capacidad de usar la agrupación de recursos y la elasticidad para administrar el almacenamiento y el cálculo. System Center 2012 R2 también integra un almacenamiento con optimización de discos para reducir los requisitos de almacenamiento, ya que permite compartir un gran porcentaje de los datos del disco entre varios discos virtuales, lo que optimiza los costos de almacenamiento. Los servidores que se virtualizan mediante System Center 2012 R2 y que usarán las aplicaciones que utilizan los usuarios remotos pueden aprovechar esta tecnología.
 
-Para obtener más información sobre las funciones de almacenamiento de System Center 2012 R2, consulte [Novedades de VMM en System Center 2012 R2](https://technet.microsoft.com/library/dn246490.aspx). 
+Para obtener más información sobre las funciones de almacenamiento de System Center 2012 R2, consulte [Novedades de VMM en System Center 2012 R2](https://technet.microsoft.com/library/dn246490.aspx).
 
 ## <a name="automation"></a>Automatización
 
@@ -182,10 +181,10 @@ En este sentido, se presenta la dificultad de poder administrar plataformas dife
 
 Para la administración centralizada local, puede usar Configuration Manager. Con esta opción, el equipo de TI podrá aprovechar la funcionalidad de inscripción Enterprise para inscribir dispositivos con el servidor de Configuration Manager de la empresa. Para obtener más información sobre cómo administrar dispositivos con Configuration Manager, consulte [Administrar dispositivos móviles con Configuration Manager y Microsoft Intune](https://technet.microsoft.com/library/jj884158.aspx).
 
-Para administrar otras plataformas que no sean dispositivos basados en Windows, puede aprovechar el servicio en la nube Microsoft Intune. Se puede usar el portal de empresa de Microsoft Intune para inscribir, administrar e instalar aplicaciones con licencia. Los usuarios pueden obtener acceso fácilmente a las aplicaciones e instalarlas en sus dispositivos. 
+Para administrar otras plataformas que no sean dispositivos basados en Windows, puede aprovechar el servicio en la nube Microsoft Intune. Se puede usar el portal de empresa de Microsoft Intune para inscribir, administrar e instalar aplicaciones con licencia. Los usuarios pueden obtener acceso fácilmente a las aplicaciones e instalarlas en sus dispositivos.
 
->[!TIP] 
->Para obtener más información sobre Microsoft Intune, consulte la [página de Microsoft Intune](/intune/understand-explore/introduction-to-microsoft-intune). 
+>[!TIP]
+>Para obtener más información sobre Microsoft Intune, consulte la [página de Microsoft Intune](/intune/understand-explore/introduction-to-microsoft-intune).
 
 Pese a que se trata de dos opciones diferentes, puede integrar ambas para llevar a cabo la implementación y el aprovisionamiento de aplicaciones desde una sola ubicación. Use la siguiente tabla para identificar qué opciones se adaptan a su diseño BYOD.
 
@@ -195,7 +194,6 @@ Pese a que se trata de dos opciones diferentes, puede integrar ambas para llevar
 | Implemente y aprovisione aplicaciones en dispositivos ubicados solo exteriormente.   | Microsoft Intune                                       |
 | Implemente y aprovisione aplicaciones en dispositivos que no son de Windows.                   | Microsoft Intune                                       |
 | Implemente y aprovisione aplicaciones en dispositivos ubicados solo en el entorno local, que se encuentren fuera de la empresa o que no sean de Windows.       | Integración de Microsoft Intune en Configuration Manager
-                                                                    
 
 
 

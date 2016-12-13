@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 901b52bf-2340-4847-aaff-c94fec9ee925
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: bca54803722814769b45cd30244b68121d72a114
@@ -39,7 +38,7 @@ La inscripción de dispositivos móviles en soluciones de administración de dis
 
 - Inscripción por administrador
 - Autoinscripción por usuario/propietario
- 
+
 La inscripción controlada por un administrador ofrece una experiencia administrada centralmente. Normalmente, es una operación masiva con varios dispositivos donde se usa una cuenta de directorio único. Esto resulta útil si necesita inscribir muchos dispositivos propiedad de la compañía en la solución de administración de dispositivos móviles.
 
 Con la autoinscripción, el propietario/usuario del dispositivo inscribe su dispositivo en la solución de administración de dispositivos móviles. Se utiliza normalmente en escenarios "Bring Your Own Device" (BYOD), aunque se puede usar en escenarios en los que el dispositivo es propiedad de la compañía. Este tipo de inscripción normalmente usa un modelo de inscripción de "inserción", donde los dispositivos se activan automáticamente para inscribirse en la solución de administración de dispositivos móviles cuando el usuario intenta conectarse a la red corporativa o al recurso de red desde el dispositivo. Los usuarios a veces también pueden elegir inscribir sus dispositivos antes de conectarse a recursos o a la red de la organización.

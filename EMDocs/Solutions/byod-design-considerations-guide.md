@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 78fad0e7714797962fc2ab3c8f8ec6c10d8019d0
@@ -38,26 +37,26 @@ Esta guía proporciona al arquitecto de sistemas y al diseñador de sistemas un 
 ## <a name="intended-audience"></a>Público al que está dirigido
 
 Esta guía está dirigida principalmente a los arquitectos y diseñadores de sistemas interesados en comprender los problemas que deben tenerse en cuenta para implementar una infraestructura de BYOD. Otros usuarios interesados en esta guía pueden ser los implementadores de TI, los especialistas de seguridad de la empresa y los especialistas en administración de dispositivos.</para>
-    
+
 ## <a name="purpose"></a>Finalidad
-  
+
 El objetivo de esta guía es:
 
 1. Proporcionar al arquitecto o al diseñador de sistemas una serie de problemas y preguntas a los que debe responder. Las respuestas a dichas preguntas pueden actuar como requisitos para un diseño de infraestructura BYOD.
-2. Proporcionar al arquitecto o al diseñador de sistemas una serie de opciones de diseño que se pueden evaluar y elegir en función de requisitos identificados. 
+2. Proporcionar al arquitecto o al diseñador de sistemas una serie de opciones de diseño que se pueden evaluar y elegir en función de requisitos identificados.
 
 Aunque puede formular las preguntas a cualquier proveedor, los ejemplos de las opciones disponibles se centrarán en las funciones de Windows Server 2012 R2, System Center 2012 R2 y Windows Intune.
 
 Además, esta guía incluye:
 
-- Consideraciones de diseño independientes de los proveedores para adaptar una infraestructura para habilitar el modelo BYOD. 
+- Consideraciones de diseño independientes de los proveedores para adaptar una infraestructura para habilitar el modelo BYOD.
 - Consideraciones de diseño para usuarios, dispositivos, plataformas de administración, aplicaciones y acceso a datos y su protección.
 
 Antes de embarcarse en un modelo BYOD en un entorno de producción, deben tenerse en cuenta los problemas de seguridad, la disponibilidad, el rendimiento y la escalabilidad en las áreas de identidad, cálculo, almacenamiento y redes. Existe la tendencia a adoptar BYOD antes de realizar un análisis concreto del entorno actual y establecer qué debe hacerse para habilitar con seguridad a los usuarios para que trabajen desde cualquier dispositivo en cualquier parte.
 
 Esta guía *no* tiene como finalidad:
 
-- Proporcionar una línea base de rendimiento para los componentes de la infraestructura de un modelo de BYOD. 
+- Proporcionar una línea base de rendimiento para los componentes de la infraestructura de un modelo de BYOD.
 - Proporcionar un ajuste de rendimiento y procedimientos recomendados para los componentes de la infraestructura de BYOD.
 - Proporcionar una guía de desarrollo de aplicaciones para dispositivos móviles.
 - Ofrecer procedimientos recomendados de desarrollo de aplicaciones para dispositivos móviles.
@@ -75,7 +74,6 @@ Los siguientes problemas o dificultades son los que normalmente encuentran las c
 Las organizaciones con una gran infraestructura necesitan, por una parte, determinar los requisitos antes de pasar de administrar ellos mismos los dispositivos, lo que supone que el departamento de TI tiene un control total sobre los dispositivos, a un modelo en el que dicho departamento debe asumir que tiene menos control sobre los dispositivos. Por otra parte, también deben abordar las necesidades de los usuarios de acceder a los datos corporativos. Esto se considera a menudo como un cambio desde una situación de centralización en torno al dispositivo a una situación de TI centrado en las personas. Los mismos requisitos y consideraciones deben también planificarse cuidadosamente para las aplicaciones nuevas y existentes, o para mover las aplicaciones existentes a un entorno de nube. La figura 1 incluye un diagrama conceptual del dominio del problema BYOD y las áreas que se tratarán en esta guía.
 
 ![Dominio del problema](./media/BYOD_Figure1.png)
-
 
 
 

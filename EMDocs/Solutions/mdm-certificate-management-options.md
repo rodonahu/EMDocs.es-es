@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 2f0d445b35c6a7aea29684a0488decd92784c2ab
@@ -44,7 +43,7 @@ En la siguiente ilustración se muestra cómo Intune y Configuration Manager uti
 6. NDES envía una solicitud de emisión de certificados a la CA y envía el certificado al rol NDES.
 7. El rol NDES envía el certificado al dispositivo.
 
-Según como haya respondido a las preguntas de Tarea 3, podrá determinar cómo quiere que sus certificados se administren en la solución de administración de dispositivos móviles. Actualmente, MDM para Office 365 no es compatible con los perfiles de certificado de administración de dispositivos móviles. 
+Según como haya respondido a las preguntas de Tarea 3, podrá determinar cómo quiere que sus certificados se administren en la solución de administración de dispositivos móviles. Actualmente, MDM para Office 365 no es compatible con los perfiles de certificado de administración de dispositivos móviles.
 
 La lista siguiente le ayudará a comprender las ventajas y desventajas de la administración de perfiles de certificado para el escenario de implementaciones de Intune e híbridas de Intune con Configuration Manager:
 
@@ -77,7 +76,7 @@ La lista siguiente le ayudará a comprender las ventajas y desventajas de la adm
 
 **Desventajas**
 
-- Para utilizar perfiles de certificado, la infraestructura local existente debe estar en su lugar. 
+- Para utilizar perfiles de certificado, la infraestructura local existente debe estar en su lugar.
 - Debe integrar la siguiente infraestructura local con Intune:
  - Un servidor que ejecute el Servicio de inscripción de dispositivos de red
  - Una entidad de certificación empresarial

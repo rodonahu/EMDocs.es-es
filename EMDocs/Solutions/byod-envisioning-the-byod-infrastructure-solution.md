@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ecb6271f-8f38-42bd-aae7-10ba5e17a5f1
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 7dbb0c9b1b2b3b29eb54ad8cdeee527d9d7f078f
@@ -27,7 +26,7 @@ Después de definir claramente el problema de BYOD que está tratando de resolve
 
 ## <a name="solution-definition"></a>Definición de la solución
 
-Para solucionar los problemas que identificamos antes y para ayudar a las organizaciones a que animen a los usuarios a traer sus propios dispositivos al trabajo y acceder a los datos corporativos con sus dispositivos, la compañía debe pasar de un enfoque de TI centrado en los dispositivos a uno centrado en las personas. A la hora de definir su propia solución de infraestructura BYOD, puede usar los conceptos de diseño incluidos en esta guía para: 
+Para solucionar los problemas que identificamos antes y para ayudar a las organizaciones a que animen a los usuarios a traer sus propios dispositivos al trabajo y acceder a los datos corporativos con sus dispositivos, la compañía debe pasar de un enfoque de TI centrado en los dispositivos a uno centrado en las personas. A la hora de definir su propia solución de infraestructura BYOD, puede usar los conceptos de diseño incluidos en esta guía para:
 
 - Proporcionar a los usuarios la flexibilidad necesaria para que accedan a los datos y las aplicaciones empresariales con sus propios dispositivos.
 - Administrar los dispositivos que acceden a los recursos corporativos de forma local y desde la nube.
@@ -51,7 +50,6 @@ Los aspectos relacionados con el dominio del problema de BYOD que se presenta en
 - [Requisitos de acceso a datos y protección de datos](byod-data-access-protection-reqs.md)
 - [Requisitos de administración](byod-management-reqs.md)
 - [Requisitos de aplicaciones](byod-app-reqs.md)
-
 
 
 
