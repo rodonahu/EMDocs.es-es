@@ -1,33 +1,34 @@
 ---
 title: Desarrollo de los requisitos de respuesta a incidentes
-description: "Requisitos comunes para desarrollar un proceso de respuesta a incidentes para un escenario de administración de dispositivos móviles."
+description: "En este artículo se proporciona un conjunto de requisitos comunes para desarrollar un proceso de respuesta a incidentes para un escenario de administración de dispositivos móviles."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 6f9fd9b3-492b-48e1-871c-e5abefe1293a
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 91aee40cd8ec7aa38142da3a5617e3c7cb64b7d0
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: a9bb76fdff02b8ded31fe3e1811678138ffd5504
 
 
 ---
 
-# Desarrollo de los requisitos de respuesta a incidentes
+# <a name="develop-your-incident-response-requirements"></a>Desarrollo de los requisitos de respuesta a incidentes
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Aunque muchas organizaciones ya han implantado un plan de respuesta a incidentes (IR), debe asegurarse de que el plan incluya dispositivos móviles y comprobar los pasos que hay que realizar en caso de que se notifique un incidente en esos dispositivos. Si su compañía está adoptando justo ahora una solución de movilidad, es probable que el plan de IR actual no abarque os dispositivos móviles. Si su organización no tiene un plan de IR, es importante trabajar muy de cerca con su equipo de seguridad para conocer los requisitos a medida que se desarrollan; de este modo, sabrá cuáles son las preguntas adecuadas que plantear y elegir la mejor solución MDM en función de sus necesidades. 
- 
->[!TIP] 
+Aunque muchas organizaciones ya han implantado un plan de respuesta a incidentes (IR), debe asegurarse de que el plan incluya dispositivos móviles y comprobar los pasos que hay que realizar en caso de que se notifique un incidente en esos dispositivos. Si su compañía está adoptando justo ahora una solución de movilidad, es probable que el plan de IR actual no abarque os dispositivos móviles.
+Si su organización no tiene un plan de IR, es importante trabajar muy de cerca con su equipo de seguridad para conocer los requisitos a medida que se desarrollan; de este modo, sabrá cuáles son las preguntas adecuadas que plantear y elegir la mejor solución MDM en función de sus necesidades.
+
+>[!TIP]
 > Consulte [Respuesta a incidentes de seguridad de TI](https://technet.microsoft.com/library/cc700825.aspx) para comprender mejor los requisitos mínimos de un plan de IR.
 
 Cuando diseñe la solución MDM, asegúrese de que formula las preguntas siguientes para asegurarse de que se pueden administrar dispositivos móviles si se produce un incidente.
@@ -35,7 +36,7 @@ Cuando diseñe la solución MDM, asegúrese de que formula las preguntas siguien
 - ¿Su organización tiene un plan de respuesta a incidentes existente?
     - Si es así, ¿incluye los procesos y los procedimientos para controlar los dispositivos móviles que se han puesto en peligro?
 - ¿La directiva de respuesta a incidentes cubre los escenarios en los que un usuario final informa de que ha perdido su dispositivo móvil?
-    - ¿Está permitido borrar todo el dispositivo para evitar la pérdida de datos? 
+    - ¿Está permitido borrar todo el dispositivo para evitar la pérdida de datos?
         - Si es así, ¿su compañía tiene la directiva de copia de seguridad en su lugar para los datos que residen en dispositivos móviles?
 - ¿Su organización tiene diferentes procedimientos para dispositivos propiedad de la compañía y personales en caso de que se pierdan?
     - Si es así, ¿cuáles son los procedimientos?
@@ -47,7 +48,6 @@ Cuando diseñe la solución MDM, asegúrese de que formula las preguntas siguien
 
 
 
-
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

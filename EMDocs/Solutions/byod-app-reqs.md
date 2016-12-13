@@ -1,26 +1,26 @@
 ---
 title: Requisitos de las aplicaciones
-description: Requisitos comunes al implementar aplicaciones en un escenario de BYOD.
+description: "En este artículo se proporciona un conjunto de requisitos comunes para la implementación de aplicaciones que debe usarse en un escenario de Bring Your Own Device."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0c1313b9-361f-4732-a92c-23d0dac07733
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: afca333ad60c623e0355e4a6423238c72287c950
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: d5297dbb3d22feda4189bc120b2bb4537fa5f590
 
 
 ---
 
-# Requisitos de las aplicaciones
+# <a name="app-requirements"></a>Requisitos de las aplicaciones
 
 Cada organización utiliza diversas funcionalidades técnicas para permitir que sus recursos lleven a cabo sus tareas de forma optimizada. En la mayoría de los casos, la herramienta principal para lograrlo es una aplicación. Estas funcionalidades se pueden combinar en un enfoque multiplataforma en el que se usen diferentes tecnologías para alcanzar un determinado objetivo, o se puede crear una aplicación personalizada capaz de realizar una tarea o automatizar ciertos procesos. Es importante tener en cuenta las aplicaciones a la hora de diseñar la estrategia de BYOD. Los usuarios utilizarán diversos factores de forma para consumir las aplicaciones. Por eso, debe tener en cuenta la variedad de funcionalidades que deben admitir las aplicaciones. En la figura siguiente se muestra cómo los usuarios y los dispositivos usan aplicaciones para consumir datos, así como los aspectos que se deben tener en cuenta para cada componente del subdominio Aplicaciones.
 
@@ -28,7 +28,7 @@ Cada organización utiliza diversas funcionalidades técnicas para permitir que 
 
 En la sección siguiente, se incluyen preguntas sobre los requisitos de las aplicaciones. Deberá responder a ellas para formular los requisitos del diseño de la solución.
 
-## Preguntas
+## <a name="questions-to-ask"></a>Preguntas
 
 Los requisitos de las aplicaciones se clasifican en seis áreas:
 
@@ -40,7 +40,7 @@ Los requisitos de las aplicaciones se clasifican en seis áreas:
 - Seguridad
 
 
-### Experiencia
+### <a name="experience"></a>Experiencia
 
 - ¿Tiene pensado conservar la misma experiencia del usuario, sean cuales sean los dispositivos en los que se ejecutarán las aplicaciones?
 - ¿Las aplicaciones requieren que se acceda a Internet desde los dispositivos de los usuarios?
@@ -55,7 +55,7 @@ Los requisitos de las aplicaciones se clasifican en seis áreas:
 - ¿Las aplicaciones tienen algún tipo de integración con redes sociales?
 
 
-### Plataforma
+### <a name="platform"></a>Plataforma
 
 - ¿Qué tipo de plataforma back-end es necesaria para que se ejecuten estas aplicaciones?
 - ¿Prevé que, al adoptar BYOD, se producirá algún aumento en la actividad que requiera la actualización de la plataforma back-end para las aplicaciones que piensa permitir que utilicen los usuarios remotos?
@@ -63,7 +63,7 @@ Los requisitos de las aplicaciones se clasifican en seis áreas:
 - ¿La plataforma que admitirá estas aplicaciones es totalmente local o tiene también servidores ubicados en la nube?
 
 
-### Implementación
+### <a name="deployment"></a>Implementación
 
 - ¿Sabe qué aplicaciones estarán disponibles para los usuarios de BYOD?
 - ¿Cómo tiene pensado implementar estas aplicaciones en los dispositivos de los usuarios?
@@ -75,7 +75,7 @@ Los requisitos de las aplicaciones se clasifican en seis áreas:
     - Si lo hacen, ¿qué entidad de certificación se usará (privada o pública)?
 - ¿Los usuarios tienen que estar conectados físicamente a la red corporativa para realizar la instalación o pueden instalar la aplicación por Internet?
 
-### Almacenamiento
+### <a name="storage"></a>Almacenamiento
 
 - ¿Cuánto espacio es necesario tener en el dispositivo de destino para instalar cada aplicación?
 - ¿Las aplicaciones cifran los datos ubicados en el almacenamiento de los dispositivos?
@@ -85,7 +85,7 @@ Los requisitos de las aplicaciones se clasifican en seis áreas:
 - ¿Los datos los consumen aplicaciones ubicadas en el almacenamiento local, en la nube o en ambas ubicaciones?
 - ¿Los datos los consumen aplicaciones cifradas en el almacenamiento del centro de datos o en la nube?
 
-### Red
+### <a name="network"></a>Red
 
 - ¿Qué requisitos de red tienen las aplicaciones que piensa implementar para los usuarios de BYOD?
 - ¿Las aplicaciones cifran los datos antes de transmitirlos por la red desde los dispositivos de los usuarios hasta el servidor de aplicaciones del back-end?
@@ -95,7 +95,7 @@ Los requisitos de las aplicaciones se clasifican en seis áreas:
 - ¿Las aplicaciones funcionan en redes de latencia baja?
 - ¿Las aplicaciones se pueden desinstalar de forma remota a través de la red o es necesario desinstalarlas con las consolas de los dispositivos?
 
-### Seguridad
+### <a name="security"></a>Seguridad
 
 - ¿Las aplicaciones se desarrollaron con algún método de desarrollo de seguridad?
 - ¿Las aplicaciones proporcionan funcionalidades de autenticación?
@@ -120,7 +120,6 @@ Los requisitos de las aplicaciones se clasifican en seis áreas:
 
 
 
-
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

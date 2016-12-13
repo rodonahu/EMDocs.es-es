@@ -1,26 +1,26 @@
 ---
 title: Opciones de aprovisionamiento de dispositivos
-description: 
+description: "En este artículo se proporcionan instrucciones sobre las opciones de aprovisionamiento de dispositivos a la hora de planear y diseñar una solución de administración de dispositivos móviles de Microsoft con Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 9a92d3822f8791d2095f434cdf3e67582e329cae
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 3df9be3ef643303f4205aa1b6daf18fdf53762d8
 
 
 ---
 
-# Opciones de aprovisionamiento de dispositivos
+# <a name="device-provisioning-options"></a>Opciones de aprovisionamiento de dispositivos
 
 >[!NOTE]
 >Este tema forma parte de una guía de consideraciones de diseño más extensa. Si desea comenzar por el principio de la guía, consulte el [tema principal](mdm-design-considerations-guide.md). Para obtener una copia descargable de toda esta guía, visite la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -29,7 +29,7 @@ Cuando un usuario puede usar e inscribir su propio dispositivo, esto aumenta los
 
 ![Información general del proceso de inscripción para dispositivos móviles Configuration Manager e Intune híbrido](./media/MDM_Figure_04.png)
 
-**Información general del proceso de inscripción para dispositivos móviles Configuration Manager e Intune híbrido**
+**Información general del proceso de inscripción para dispositivos móviles con Configuration Manager e Intune híbrido**
 
 1. Con <token>Windows Server 2012 R2, se ha presentado un nuevo concepto conocido como registro de dispositivos.  Los usuarios pueden registrar sus dispositivos para el inicio de sesión único y obtener acceso a datos corporativos mediante la unión al área de trabajo.  Como parte de este proceso de registro, se instala un certificado en el dispositivo. A cambio de registrar su dispositivo y hacer que la solución de administración de dispositivos lo conozca, el usuario obtiene acceso a los recursos corporativos que antes no estaban disponibles fuera de sus PC unidos al dominio.
 2. Los usuarios pueden inscribir dispositivos, con lo que estos se configuran para la administración con Intune [mediante el portal de empresa](/Intune/deploy-use/enroll-devices-in-microsoft-intune), y luego usar el portal de empresa de Microsoft Intune para facilitar el acceso a las aplicaciones corporativas y los datos y para poder administrar los propios dispositivos y realizar tareas como el borrado remoto de estos en caso de pérdida, robo o reemplazo.
@@ -39,7 +39,7 @@ Cuando un usuario puede usar e inscribir su propio dispositivo, esto aumenta los
 
 Según como haya respondido a las preguntas del paso 1, podrá determinar cómo quiere que sus dispositivos se administren en la solución de administración de dispositivos móviles. La lista siguiente muestra a continuación las ventajas y desventajas de cada opción de aprovisionamiento.
 
-## Intune (independiente)
+## <a name="intune-standalone"></a>Intune (independiente)
 
 **Ventajas**
 
@@ -51,9 +51,9 @@ Según como haya respondido a las preguntas del paso 1, podrá determinar cómo 
 **Desventajas**
 
 - Interfaz de administración adicional para el aprovisionamiento de dispositivos móviles (solo) si se usa una plataforma de administración local para dispositivos que no son móviles
-- Directivas de seguridad y cumplimiento de dispositivo independiente para la plataforma de administración local y de servicio basado en la nube 
+- Directivas de seguridad y cumplimiento de dispositivo independiente para la plataforma de administración local y de servicio basado en la nube
 
-## MDM para Office 365
+## <a name="mdm-for-office-365"></a>MDM para Office 365
 
 **Ventajas**
 
@@ -67,7 +67,7 @@ Según como haya respondido a las preguntas del paso 1, podrá determinar cómo 
 - Directivas de seguridad y cumplimiento de dispositivo independiente para la plataforma de administración local y de servicio basado en la nube
 - Opciones de aprovisionamiento de dispositivos menos avanzadas
 
-## Híbridas (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Híbridas (Intune con Configuration Manager)
 
 **Ventajas**
 
@@ -84,6 +84,6 @@ Para más información sobre las opciones de aprovisionamiento e inscripción de
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 
