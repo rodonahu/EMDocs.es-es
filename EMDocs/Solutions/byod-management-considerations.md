@@ -30,7 +30,7 @@ Uno de los roles del dominio de administración es supervisar la configuración 
 
 El nivel de administración en los dispositivos de los usuarios variará según la directiva de la empresa y la infraestructura de BYOD que esta adopte. Si la empresa establece que es necesario proporcionar capacidad de borrado íntegro para tener acceso a sus recursos, el departamento de TI debe aplicar esta configuración en todos los dispositivos supervisados. Asimismo, el departamento de TI necesita capacidad para restablecer los dispositivos según los valores predeterminados del fabricante, eliminar toda la configuración personal y los datos si fuera necesario. Mediante la siguiente sección, podrá determinar las opciones de supervisión necesarias para la infraestructura de BYOD.
 
-### <a name="monitoring-options-advantages-and-disadvantages"></a>Opciones de supervisión: ventajas y desventajas
+### <a name="monitoring-options--advantages-and-disadvantages"></a>Opciones de supervisión: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las opciones de supervisión:
 
@@ -70,7 +70,7 @@ Para poder controlar los dispositivos conocidos, es fundamental que el departame
 
 Piense en usar una solución de administración que pueda proporcionar un inventario de los dispositivos e informes personalizables. Si elige esta opción, el departamento de TI podrá aplicar un enfoque más flexible cuando necesite detectar más información sobre los dispositivos de los usuarios. Es preciso que el departamento de TI pueda disponer de informes sobre todos los dispositivos que se hubieran registrado localmente y en la nube. La funcionalidad de elaboración de informes para el sistema de administración puede ubicarse localmente o en la nube, o bien puede ser una combinación de ambas, lo cual se denomina una solución híbrida. Use la siguiente tabla para determinar qué opción de elaboración de informes es la adecuada para su empresa.
 
-### <a name="reporting-options-advantages-and-disadvantages"></a>Opciones de creación de informes: ventajas y desventajas
+### <a name="reporting-options--advantages-and-disadvantages"></a>Opciones de creación de informes: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las opciones relativas a la creación de informes:
 
@@ -113,7 +113,7 @@ Después de desarrollar nuevas aplicaciones y de que los usuarios tengan acceso 
 - La solución de administración actual que usa la empresa ¿tiene la capacidad de aumentar los recursos de cálculo y almacenamiento para la plataforma que admite el acceso a las aplicaciones desde los dispositivos según un conjunto de reglas preestablecidas?
 Si la solución de administración actualmente implementada no es capaz de abordar estos dos requisitos, piense en usar una solución de administración que pueda administrar el cálculo y el almacenamiento mediante la aplicación de los dos requisitos principales que se muestran en la siguiente tabla.
 
-### <a name="compute-and-storage-management-capabilities-advantages-and-disadvantages"></a>Funciones de administración del cálculo y el almacenamiento: ventajas y desventajas
+### <a name="compute-and-storage-management-capabilities--advantages-and-disadvantages"></a>Funciones de administración del cálculo y el almacenamiento: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las funciones de administración del almacenamiento:
 
@@ -145,7 +145,7 @@ Se puede aplicar la automatización para modificar los dispositivos que no cumpl
 Pese a que comprobará que todos los subdominios de BYOD presentados pueden beneficiarse de la automatización, la responsabilidad de automatizar los recursos recae sobre el subdominio de administración. La automatización se puede integrar en el sistema operativo; sin embargo, la solución de administración que adopte la empresa es responsable de extender estas capacidades y aportar métodos para facilitar las tareas diarias del departamento de TI a la vez que supervisa los resultados de la automatización y genera informes al respecto.
 La opción de automatización más eficaz en System Center 2012 R2 es Windows PowerShell. Para obtener más información sobre la automatización de System Center 2012 R2, consulte [Automatización de System Center con Windows PowerShell](https://technet.microsoft.com/library/dn507037(v=sc.20).aspx). Sin embargo, hay otra opción que proporciona una forma más sencilla, pero no muy fiable de automatizar tareas: la secuencia de tareas. Use la siguiente tabla para evaluar las ventajas y desventajas de cada opción.
 
-### <a name="automation-options-advantages-and-disadvantages"></a>Opciones de automatización: ventajas y desventajas
+### <a name="automation-options--advantages-and-disadvantages"></a>Opciones de automatización: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las opciones de automatización:
 

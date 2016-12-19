@@ -37,7 +37,7 @@ Si quiere usar una solución basada en la nube en su empresa para proteger los a
 
 También se pueden usar otras tecnologías de almacenamiento que se incluyen en el sistema operativo Windows para mejorar la protección general de los datos, como BitLocker para el cifrado de unidades y el [Sistema de cifrado de archivos (EFS)](https://technet.microsoft.com/library/cc700811.aspx) para el cifrado de estos. Use la siguiente tabla para ver las ventajas y los inconvenientes de la protección del almacenamiento. Tenga en cuenta que estas opciones no son mutuamente excluyentes. En otras palabras, la decisión que tome sobre el diseño podría conllevar la necesidad de usar todas estas opciones en la solución de infraestructura BYOD para la protección del almacenamiento.
 
-### <a name="storage-protection-options-advantages-and-disadvantages"></a>Opciones de protección del almacenamiento: ventajas y desventajas
+### <a name="storage-protection-options--advantages-and-disadvantages"></a>Opciones de protección del almacenamiento: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las opciones de protección del almacenamiento:
 
@@ -93,7 +93,7 @@ Es esencial tener en cuenta los factores implicados en la habilitación de usuar
 
 Este diagrama resalta las áreas cruciales donde la protección de datos debe tenerse en cuenta para las infraestructuras de BYOD. Estas áreas se describen de forma más detallada en la sección siguiente.
 
-### <a name="data-protection-locations-and-considerations"></a>Protección de datos: ubicaciones y consideraciones
+### <a name="data-protection--locations-and-considerations"></a>Protección de datos: ubicaciones y consideraciones
 
 Mediante la siguiente lista, podrá conocer las consideraciones relacionadas con la protección de datos según la ubicación de estos. Los números de la lista se corresponden con el diagrama anterior:
 
@@ -121,7 +121,7 @@ Windows Server 2012 R2 permite el uso de [HTTPS](https://msdn.microsoft.com/libr
 
 Recurra a la siguiente sección para valorar qué opción de protección de red se adapta mejor a los requisitos de diseño relativos a la comunicación del servidor back-end.
 
-### <a name="network-protection-options-advantages-and-disadvantages"></a>Opciones de protección de red: ventajas y desventajas
+### <a name="network-protection-options--advantages-and-disadvantages"></a>Opciones de protección de red: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las opciones de protección de red:
 
@@ -156,7 +156,7 @@ Los atributos de usuario se deben almacenar en el directorio, de forma que el de
 
 En entornos híbridos donde vaya a haber repositorios de autenticación diferentes, las empresas deben tener en cuenta cómo habilitar a los usuarios para que se autentiquen con las mismas credenciales independientemente de dónde se encuentren ellos y las aplicaciones. Plantéese usar los Servicios de federación de Active Directory (AD FS) si desea centralizar la autenticación en un entorno local en lugar de replicar el directorio con el proveedor de servicios en la nube. Recurra a la siguiente sección para evaluar las opciones de directorio para una infraestructura de BYOD.
 
-### <a name="directory-options-advantages-and-disadvantages"></a>Opciones de directorio: ventajas y desventajas
+### <a name="directory-options--advantages-and-disadvantages"></a>Opciones de directorio: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las opciones de protección de directorios:
 

@@ -41,7 +41,7 @@ Tenga en cuenta el costo y el rendimiento de la inversión de cada caso menciona
 
 Tendrá que limitar las opciones a las aplicaciones basadas en web y las aplicaciones modernas, dado que las aplicaciones para los usuarios remotos deben ejecutarse en más de una plataforma, deben ser lo más ligeras posible y deben requerir un acceso mínimo a los dispositivos de los usuarios. La sección siguiente lo ayudará a determinar la experiencia de aplicación que se debe utilizar para la solución.
 
-### <a name="app-experience-options-advantages-and-disadvantages"></a>Opciones de experiencias de aplicación: ventajas y desventajas
+### <a name="app-experience-options--advantages-and-disadvantages"></a>Opciones de experiencias de aplicación: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las opciones de experiencias de aplicación:
 
@@ -70,7 +70,7 @@ Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las op
         - Es posible que los desarrolladores deban optimizar sus conocimientos para desarrollar aplicaciones mediante este formato nuevo.
 
 
-### <a name="app-requirements-considerations"></a>Requisitos de las aplicaciones: consideraciones
+### <a name="app-requirements--considerations"></a>Requisitos de las aplicaciones: consideraciones
 
 Evalúe las aplicaciones que se ajustarán para que las usen los usuarios remotos desde sus dispositivos, y asegúrese de que se presenten estos requisitos a los usuarios. A continuación, encontrará una lista con requisitos de las aplicaciones y consideraciones relativas a cada uno de ellos:
 
@@ -98,7 +98,7 @@ Al tratar con la experiencia del usuario, es normal que se evalúen distintas pl
 
 Cada plataforma tiene distintos requisitos para registrar y publicar aplicaciones, lo que afecta directamente a los recursos de TI porque TI necesita evaluar todo el ciclo de vida de las aplicaciones que se ejecutan en una plataforma específica. También debe acceder a los requisitos de la plataforma de las aplicaciones para las soluciones de infraestructura BYOD. En la siguiente sección, se incluyen consideraciones clave sobre los requisitos de la plataforma de aplicaciones.
 
-### <a name="app-platform-requirements-considerations"></a>Requisitos de la plataforma de aplicaciones: consideraciones
+### <a name="app-platform-requirements--considerations"></a>Requisitos de la plataforma de aplicaciones: consideraciones
 
 A continuación, encontrará una lista con requisitos de las plataformas de las aplicaciones y consideraciones relativas a cada uno de ellos:
 
@@ -131,7 +131,7 @@ Las respuestas variarán en función del estado actual de la estrategia de imple
 
 Para tratar las consideraciones sobre las aplicaciones que se implementarán en los usuarios debe comprender los requisitos relativos al acceso a la empresa. Los escenarios de implementación incluyen las aplicaciones que siempre deben estar conectadas a los recursos de la empresa, aunque los usuarios no necesiten acceder a otros recursos corporativos o no necesiten acceso completo a todos los recursos corporativos mientras se encuentren dentro de la red corporativa. Compruebe las opciones de implementación de cada aplicación y determine qué método es el más adecuado para su empresa. En la siguiente sección, se incluyen las opciones de implementación más comunes que puede usar como punto de referencia para tomar una decisión.
 
-### <a name="deployment-options-advantages-and-disadvantages"></a>Opciones de implementación: ventajas y desventajas
+### <a name="deployment-options--advantages-and-disadvantages"></a>Opciones de implementación: ventajas y desventajas
 
 Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las opciones de implementación:
 
@@ -163,7 +163,7 @@ Mediante la siguiente lista, podrá conocer las ventajas y desventajas de las op
         - Normalmente requiere una suscripción a un servicio de nube.
         - La integración con la solución de implementación local puede variar según el servicio de nube.
 
-### <a name="app-deployment-requirements-considerations"></a>Requisitos de implementación de aplicaciones: consideraciones
+### <a name="app-deployment-requirements--considerations"></a>Requisitos de implementación de aplicaciones: consideraciones
 
 También debe acceder a los requisitos de implementación de las aplicaciones para las soluciones de infraestructura BYOD. En la siguiente lista, se incluyen algunas consideraciones clave relativas a la implementación de aplicaciones:
 
