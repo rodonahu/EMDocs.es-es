@@ -3,6 +3,7 @@ title: "Guía de arquitectura para proteger los documentos y correos electrónic
 description: Proteja los datos de su empresa a la vez que garantiza que la experiencia del usuario final sea sencilla y que no afecte a la productividad.
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
-ms.openlocfilehash: c50f47066794b411e272b74828cd6f707b96caec
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: 66732b444e6a449256a7929324d7b26e3e814f15
 
 
 ---
@@ -99,6 +100,6 @@ Además, si quiere obtener más información sobre EMS y Azure Active Directory,
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

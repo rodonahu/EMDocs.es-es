@@ -3,18 +3,19 @@ title: "Protección de documentos y del correo electrónico corporativos"
 description: "Permita que solo los dispositivos que cumplan las especificaciones tengan acceso al correo electrónico de la empresa y protejan el contenido del correo electrónico y los datos adjuntos."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
-ms.openlocfilehash: b3a0ce1b7a7465ca29888b4d332ede6b5a604fd6
+ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
+ms.openlocfilehash: d71c2e0f31d7db2d3219ab9a947cce83e8070831
 
 
 ---
@@ -122,6 +123,6 @@ Ahora que sabe cómo proteger los documentos y el correo electrónico corporativ
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 
