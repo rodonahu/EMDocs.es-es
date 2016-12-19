@@ -19,7 +19,7 @@ ms.openlocfilehash: 9f97e64ec3be78e17b05484d27b903e30c340ecf
 
 
 ---
-# <a name="learn-about-enterprise-mobility-security"></a>Información sobre Enterprise Mobility + Security
+# <a name="learn-about-enterprise-mobility--security"></a>Información sobre Enterprise Mobility + Security
 
  La protección de los datos empresariales, la colaboración y la productividad es crucial ahora que las organizaciones se están transformando digitalmente. Por eso, Microsoft se compromete a ofrecer un nuevo enfoque para proteger esta transición. [Secure Productive Enterprise (SPE)](https://www.microsoft.com/secure-productive-enterprise/default.aspx) de Microsoft es la forma más productiva, segura y confiable de trabajar. Combina lo mejor de Office 365, Enterprise Mobility + Security y Windows 10 Enterprise para capacitar a los empleados y dirigir la organización a lo largo de su transformación digital, con un énfasis especial en las áreas siguientes:
 

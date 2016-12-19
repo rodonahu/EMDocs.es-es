@@ -21,7 +21,7 @@ ms.openlocfilehash: 78b0119b52ca1459fd644d093bf7f364b80e8ce1
 
 
 ---
-# <a name="start-using-enterprise-mobility-security"></a>Introducción al uso de Enterprise Mobility + Security
+# <a name="start-using-enterprise-mobility--security"></a>Introducción al uso de Enterprise Mobility + Security
 
 Las organizaciones que pasan por una transformación digital deben protegerse frente a nuevas amenazas y retos, y el departamento de TI se ve obligado continuamente a impulsar la eficiencia y hacer más con menos. Además, en un mundo que da prioridad a los dispositivos móviles y la nube, los usuarios esperan ser productivos desde cualquier lugar y en cualquier dispositivo. Con EMS, obtendrá soluciones globales que le ayudarán a:
 

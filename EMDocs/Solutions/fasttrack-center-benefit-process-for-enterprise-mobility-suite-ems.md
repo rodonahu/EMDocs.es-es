@@ -20,7 +20,7 @@ ms.openlocfilehash: c8183efa009da5215149afdb9b94d4166b1c8030
 
 ---
 
-# <a name="fasttrack-center-benefit-process-for-enterprise-mobility-security-ems"></a>Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility + Security (EMS)
+# <a name="fasttrack-center-benefit-process-for-enterprise-mobility--security-ems"></a>Proceso del programa Beneficio de incorporación y migración a Microsoft FastTrack para Enterprise Mobility + Security (EMS)
 Si su organización puede disfrutar del beneficio del centro de FastTrack para EMS, puede trabajar de forma remota con los especialistas de Microsoft con el fin de preparar Microsoft Azure Active Directory Premium y Microsoft Intune para su uso. También puede solicitar ayuda mediante el [sitio de FastTrack](http://fasttrack.microsoft.com/ems) para Azure Information Protection, Microsoft Cloud App Security y Microsoft Advanced Threat Analytics. Para saber si su organización es apta, vea [Planes y servicios aptos del beneficio del centro de FastTrack](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
 

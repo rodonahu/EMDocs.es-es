@@ -26,7 +26,7 @@ Azure Active Directory (Azure AD) hace que los usuarios sean más productivos pr
 
 Azure AD se integra con muchas de las aplicaciones SaaS populares de hoy en día como Box, Twitter, ServiceNow, DocuSign, Workday y muchas más. Admite solo autenticación de inicio de sesión único (SSO) e identidad y protege la administración de acceso para aplicaciones desde cualquier dispositivo de forma segura y confiable.
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>¿Cómo puede ayudarle Enterprise Mobility + Security?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>¿Cómo puede ayudarle Enterprise Mobility + Security?
 Enterprise Mobility + Security (EMS) es la única solución en la nube integral que protege de forma nativa los datos corporativos en el propio dispositivo y más allá con cuatro niveles de protección en las identidades, los dispositivos, las aplicaciones y los datos. EMS le ayuda a resolver uno de los desafíos clave en un mundo que da prioridad a los dispositivos móviles y la nube: proporcione una identidad única que funciona a través de las aplicaciones basadas en web en el sector:
 - Experiencia de autenticación directa conectada a la nube
 - Inicio de sesión único para 1000 aplicaciones integradas previamente o sus propias aplicaciones
