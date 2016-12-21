@@ -70,7 +70,7 @@ Considere la opción de almacenar en una ubicación central el vínculo entre el
 - Enfoque 3 (1 y 2): registro e instalación de un agente de administración en el dispositivo de cada usuario
 
 
-### <a name="unknown-to-known-device-options-advantages-and-disadvantages"></a>Opciones de dispositivos conocidos y desconocidos: ventajas y desventajas
+### <a name="unknown-to-known-device-options--advantages-and-disadvantages"></a>Opciones de dispositivos conocidos y desconocidos: ventajas y desventajas
 
 Utilice la siguiente lista para entender las ventajas y desventajas de las opciones de dispositivos conocidos y desconocidos:
 
@@ -117,7 +117,7 @@ Debe abordarse el acceso a la red corporativa desde la perspectiva del usuario y
 
 Si su compañía tiene recursos en la nube pública que estarán disponibles mediante Internet desde dispositivos de los usuarios, debe tener en cuenta cómo se controlará el tráfico. Considere el uso de cifrado mientras los datos están en tránsito desde dispositivos de los usuarios al proveedor de nube. Cuando los usuarios accedan a los recursos internos, también debe utilizar el cifrado de datos.
 
-### <a name="network-connectivity-options-advantages-and-disadvantages"></a>Opciones de conectividad de red: ventajas y desventajas
+### <a name="network-connectivity-options--advantages-and-disadvantages"></a>Opciones de conectividad de red: ventajas y desventajas
 
 Utilice la siguiente lista para entender las ventajas y desventajas de las opciones de conectividad:
 
