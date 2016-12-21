@@ -80,7 +80,7 @@ Utilice la tabla siguiente como referencia para ayudarle a elegir la opción de 
 
 - El servicio en la nube de Azure AD no se incluye al adquirir una suscripción a Intune.
 
-## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
+## <a name="enterprise-mobility--security"></a>Enterprise Mobility + Security
 
 **Ventajas**
 

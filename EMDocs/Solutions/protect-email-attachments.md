@@ -3,18 +3,19 @@ title: "Protección de los datos adjuntos de correo electrónico de la empresa"
 description: "Proteja el contenido del correo electrónico y los datos adjuntos de este mediante las directivas de administración de aplicaciones móviles (MAM)."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
-ms.openlocfilehash: f00fa25e5e0b03c098f78e4d5f1be0957cdea24f
+ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
+ms.openlocfilehash: d293494570b08098468927fb9857c10a0e7d03ca
 
 
 ---
@@ -71,6 +72,6 @@ Ahora que sabe cómo [proteger documentos y correo electrónico corporativos](pr
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

@@ -26,7 +26,7 @@ Una posición de seguridad sólida necesita disponer de un sistema de detección
 Un sistema de detección sólido debe revelar cualquier actividad sospechosa y amenazas de punto de anclaje con una visibilidad profunda y un análisis de comportamiento en curso. Esto permite que TI adopte acciones inmediatas contra los ataques detectados y optimice la recuperación con un soporte sólido.
 
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>¿Cómo puede ayudarle Enterprise Mobility + Security?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>¿Cómo puede ayudarle Enterprise Mobility + Security?
 Microsoft Enterprise Mobility + Security permite que TI identifique a los atacantes de su organización con un análisis de comportamiento innovador y tecnologías de detección de anomalías, en un entorno local y en la nube.  Ayudará a TI a detectar los ataques malintencionados conocidos y las vulnerabilidades de seguridad conocidas en sus sistemas.
 
 ## <a name="recommended-solution"></a>Solución recomendada

@@ -3,6 +3,7 @@ title: 'Acceso condicional: Exchange local, Intune, Configuration Manager'
 description: "Use Configuration Manager, Exchange Server local e Intune para administrar el acceso al correo electrónico y proteger los datos del correo electrónico en dispositivos móviles."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 1fbda5ec4bf589dc888d4b63a6b5da659e8d1c17
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: 446078327ee3fe309dc6dea33db315b79fa38cae
 
 
 ---
@@ -186,6 +187,6 @@ Cuando haya implementado una solución para proteger el correo electrónico corp
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 
