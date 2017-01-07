@@ -2,9 +2,9 @@
 title: Experiencia de acceso condicional del usuario final en Windows Phone
 description: La experiencia del usuario final al inscribir un dispositivo Windows Phone.
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: swadhwa
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -14,17 +14,17 @@ ms.assetid: 906566e0-f05e-4af5-b4d5-0efb083dca76
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 501a38f97d2ed63fbf0d654d8c4156a0888f0094
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: e498fd2a1efea2ef6416185c5ce63223004805c6
 
 
 ---
 
-# Windows Phone
+# <a name="windows-phone"></a>Windows Phone
 
 El proceso de inscripción y las pantallas que ve el usuario pueden variar ligeramente en función de la versión del sistema operativo que se ejecuta en el dispositivo del usuario final.  En este tema se describe la experiencia del usuario final al inscribir dispositivos Windows Phone.
 
-## Inscripción
+## <a name="enrolling"></a>Inscripción
 
 1.  Si un usuario ya está inscrito en Intune y es compatible, no verá ninguna diferencia en los dispositivos Windows; seguirá pudiendo obtener acceso al correo electrónico. Los usuarios que aún no se hayan inscrito en Intune recibirán un correo electrónico de cuarentena parecido al de este ejemplo:
 
@@ -82,7 +82,7 @@ Si el usuario sigue estos pasos para inscribirse y comprobar el cumplimiento, pe
 
 -   Llame al departamento de soporte técnico.
 
-## Problemas y soluciones
+## <a name="issues-and-solutions"></a>Problemas y soluciones
 Cada 8 horas, de forma predeterminada, se comprueban los dispositivos para garantizar que siguen cumpliendo las normas. Si un dispositivo que cumplía las normas pasa a considerarse no conforme (por ejemplo, si se agrega o se modifica una directiva de cumplimiento), el usuario puede seguir estos pasos para volver al cumplimiento:
 
 1.  El usuario recibe la notificación, en el correo electrónico o en el dispositivo, que indica que el dispositivo no cumple las normas. En este momento, el dispositivo se pone en cuarentena en Exchange.
@@ -97,11 +97,11 @@ Cada 8 horas, de forma predeterminada, se comprueban los dispositivos para garan
 
 5.  Si el problema está solucionado, el usuario hace clic en **Continuar** para completar el proceso. El correo electrónico debería estar disponible de nuevo tras unos minutos.
 
-### Próximos pasos
+### <a name="where-to-go-from-here"></a>Próximos pasos
 La experiencia del usuario final es ligeramente diferente en otros dispositivos móviles. Puede obtener más información sobre la experiencia del usuario final de [Android](end-user-experience-conditional-access-android.md) e [iOS](end-user-experience-conditional-access-ios.md).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

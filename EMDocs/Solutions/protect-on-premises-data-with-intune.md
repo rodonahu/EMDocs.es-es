@@ -14,8 +14,8 @@ ms.reviewer: vlpetros
 ms.suite: ems
 ms.custom: active-directory
 translationtype: Human Translation
-ms.sourcegitcommit: 168d6d559aa17bbe0b8e912a53cbd384a3dc48a3
-ms.openlocfilehash: b0dd2c797fb6b33e10ef62fa74bb4c646e89bede
+ms.sourcegitcommit: b5acf1041ff91a68443464a9fe196b179c6668a6
+ms.openlocfilehash: 8b2c453c18f1569ac1fe94bb7c1e3e8c568d28ec
 
 
 ---
@@ -133,12 +133,9 @@ Puede crear e implementar un perfil de certificado **PKCS #12 (.PFX)** o de **pr
 -   iOS 8.0 (y versiones posteriores)
 -   Mac OS X 10.9 (y versiones posteriores)
 -   Android 4.0 (y versiones posteriores y Android for Work)
--   Windows 10 para escritorios y Windows 10 Mobile y versiones posteriores
-
-Solo puede usar un **perfil de certificado SCEP** para dispositivos que se ejecutan en estas plataformas:
-
 -   Windows 8.1 (y versiones posteriores)
 -   Windows Phone 8.1 (y versiones posteriores)
+-   Windows 10 para escritorios y Windows 10 Mobile y versiones posteriores
 
 Aunque necesita una entidad de certificación empresarial (CA) para realizar cualquier autenticación basada en certificados para su empresa, hay otros requisitos previos que se deben cumplir antes de usar cualquier certificado SCEP o .PFX para proteger el acceso a los recursos de la empresa.
 
@@ -158,6 +155,6 @@ Al [implementar perfiles de certificado](https://docs.microsoft.com/intune/deplo
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
