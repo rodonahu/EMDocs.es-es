@@ -2,28 +2,27 @@
 title: "Cómo usar aplicaciones móviles administradas por la organización"
 description: "Cómo usar aplicaciones móviles administradas por la organización"
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 174348f0-dbc6-4204-8626-3c6f38b7bbde
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
-ms.openlocfilehash: f9464790624d94d89c43aae3db35f58ffae6da01
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: c426653ebb7848a86fdb7a884cd88d01bd8601ee
 
 
 ---
 
-# Cómo usar aplicaciones móviles administradas por la organización
+# <a name="how-to-use-mobile-apps-managed-by-your-organization"></a>Cómo usar aplicaciones móviles administradas por la organización
 
-## Acceso a OneDrive en un dispositivo iOS
+## <a name="accessing-onedrive-on-an-ios-device"></a>Acceso a OneDrive en un dispositivo iOS
 
 En esta sección se usa OneDrive para la Empresa como ejemplo para demostrar la manera en que la experiencia del usuario puede cambiar ligeramente en una aplicación administrada por Intune.
 
@@ -51,7 +50,7 @@ En esta sección se usa OneDrive para la Empresa como ejemplo para demostrar la 
 > [!NOTE]
 > Al cambiar una directiva implementada, los cambios se aplicarán la próxima vez que abra la aplicación.
 
-## Acceso a OneDrive en un dispositivo Android
+## <a name="accessing-onedrive-on-an-android-device"></a>Acceso a OneDrive en un dispositivo Android
 En esta sección se usa OneDrive para la Empresa como ejemplo para demostrar la manera en que la experiencia del usuario puede cambiar ligeramente en una aplicación administrada por Intune.
 1.  Inicie la aplicación **OneDrive para la Empresa** para abrir la página de inicio de sesión.
 > [!NOTE]
@@ -69,7 +68,7 @@ En esta sección se usa OneDrive para la Empresa como ejemplo para demostrar la 
   ![Captura de pantalla en la cual se solicita al usuario de Android que se dirija a Google Play Store para descargar la aplicación Portal de empresa de Intune.](./media/ft-useMngdApps-7-installPortal.png)
 
  La aplicación de Portal de empresa ayuda a proteger los datos.
-![Captura de pantalla en la cual se solicita al usuario de Android que instale la aplicación Portal de empresa de Intune.](./media/ft-useMngdApps-8-intunePortal.png)
+![Captura de pantalla en la que se solicita al usuario de Android que instale la aplicación Portal de empresa de Intune](./media/ft-useMngdApps-8-intunePortal.png)
 5.  Una vez haya completado la instalación, elija **Aceptar** para aceptar los términos.
 6.  La aplicación **OneDrive para la Empresa** se iniciará automáticamente.
 7.  La próxima vez que abra OneDrive para la Empresa verá el aviso para establecer un **PIN**, siempre y cuando la configuración de las directivas esté establecida para solicitar un PIN para acceder a la aplicación **OneDrive para la Empresa**.
@@ -77,11 +76,11 @@ En esta sección se usa OneDrive para la Empresa como ejemplo para demostrar la 
   ![Captura de pantalla en la cual se solicita al usuario de Android que defina un PIN para la aplicación.](./media/ft-useMngdApps-9-setNewPIN.png)
 8.  Una vez que establezca y confirme el PIN, podrá seguir usando **OneDrive para la Empresa**, que ahora estará administrado por directivas de aplicaciones.
 
-### ¿Desea obtener más información?
+### <a name="want-to-learn-more"></a>¿Desea obtener más información?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Jan17_HO1-->
 
 

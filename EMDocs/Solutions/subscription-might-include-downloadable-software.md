@@ -8,16 +8,16 @@ manager: jeffgilb
 ms.date: 06/08/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: ems
 ms.technology: 
 ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: a95670d089a8aa3cb05c4d2ff421b0af9c9c0b79
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: d78ac8d2d569b95b32650266fa64a0232bdeacbd
 
 ---
 
-# Su suscripción de pago a Microsoft Intune o Enterprise Mobility podría incluir una licencia para usar determinado software descargable
+# <a name="your-paid-microsoft-intune-or-enterprise-mobility-subscription-might-include-a-license-to-use-certain-downloadable-software"></a>Su suscripción de pago a Microsoft Intune o Enterprise Mobility podría incluir una licencia para usar determinado software descargable
 
 El siguiente software podría incluirse en su suscripción de pago a Microsoft Online Services.  Puede confirmar de qué software tiene licencia al revisar los términos del acuerdo.
 
@@ -40,6 +40,6 @@ Si se ha registrado para una evaluación, puede obtener las versiones de evaluac
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
