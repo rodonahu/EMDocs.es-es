@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 05/12/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 6c7088a9-ca88-4ff2-97a6-f842691fd3c7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
-ms.openlocfilehash: dcf178146e9145f7526368763a8c1452327d939a
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 88625a3bc5ac5f1a877650f73185721674e0f28d
 
 
 ---
 
-# Proteger los datos de la empresa en dispositivos móviles mediante directivas de administración de aplicaciones
+# <a name="protect-company-data-on-mobile-devices-through-app-management-policies"></a>Proteger los datos de la empresa en dispositivos móviles mediante directivas de administración de aplicaciones
 Proteger los datos de su empresa es de vital importancia y supone un desafío que no deja de aumentar en complejidad, ya que cada vez más empleados usan sus dispositivos móviles para obtener acceso a recursos de la empresa como el correo electrónico y sus datos adjuntos. Como administrador de TI, debe asegurarse de que los datos de la empresa están protegidos incluso cuando los dispositivos móviles no están dentro de la ubicación física de la empresa.
 
 Esta guía se centrará en la habilitación de aplicaciones administradas tal como se aplica a dos implementaciones de MDM de Intune:
@@ -35,7 +35,7 @@ Este documento se centra en la creación de estas directivas basadas en MAM cuan
 > [!TIP]
 > Obtenga una copia descargable de este tema completo de la [Galería de TechNet](https://gallery.technet.microsoft.com/Protect-Company-Data-on-d972f4f4/file/154240/1/Protect%20Company%20Data%20on%20Mobile%20Devices%20through%20Application%20Management%20Policies.pdf).
 
-## Introducción
+## <a name="introduction"></a>Introducción
 Las aplicaciones administradas son aplicaciones que tienen directivas de MAM que las hacen compatibles con los requisitos de seguridad de su empresa. Tiene dos opciones para administrar aplicaciones móviles:
 - **La funcionalidad predeterminada**, como Apple Managed Open In, que protege los datos corporativos mediante el control de las aplicaciones que pueden abrir determinados documentos y datos adjuntos de correo electrónico
 - **El SDK para aplicaciones de Intune**, que permite limitar la funcionalidad y restringir el uso compartido de datos en las aplicaciones que tienen habilitado el SDK para aplicaciones de Intune. Algunas de las principales características del SDK para aplicaciones de Intune es que permite:
@@ -46,7 +46,7 @@ Las aplicaciones administradas son aplicaciones que tienen directivas de MAM que
 
   Consulte [Información general del SDK para aplicaciones de Intune](https://docs.microsoft.com/intune/develop/intune-app-sdk) para obtener una descripción de todas las características del SDK.
 
-## Antes de comenzar
+## <a name="before-you-begin"></a>Antes de comenzar
 - **Más información sobre la implementación de aplicaciones con Microsoft Intune:** [conozca los aspectos básicos](https://docs.microsoft.com/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune) sobre la implementación de aplicaciones de Intune.
 
 - **Evalúe la implementación deseada:** con todas las distintas opciones de diseño y configuración que existen para administrar dispositivos móviles, es difícil determinar cuál es la combinación que mejor se adapta a las necesidades de la empresa. La [Guía de consideraciones de diseño de administración de dispositivos móviles](https://docs.microsoft.com/enterprise-mobility/Solutions/mdm-design-considerations-guide) le ayudará a comprender los requisitos de diseño de la administración de dispositivos móviles y le proporcionará detalles para seguir una serie de pasos y tareas que le ayudarán a diseñar la solución que mejor se adapte a las necesidades tecnológicas y de negocio de su empresa.
@@ -70,11 +70,11 @@ Las aplicaciones administradas son aplicaciones que tienen directivas de MAM que
   - Si ya se implementó una directiva para el dispositivo, la configuración de directiva existente no se sobrescribe.
   - Si todavía no se implementó ninguna directiva para el dispositivo y se implementan dos configuraciones en conflicto, se usa la configuración predeterminada integrada en el dispositivo.
 
-## Próximos pasos
+## <a name="where-to-go-from-here"></a>Próximos pasos
 Ahora que está familiarizado con el proceso general de MAM, está listo para [usar directivas de administración de aplicaciones móviles en Intune](mam-intune.md) o [usar directivas de administración de aplicaciones móviles en Configuration Manager](mam-configmgr.md). También puede leer sobre la [experiencia del usuario final de directivas MAM](end-user-experience-mam.md).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 
