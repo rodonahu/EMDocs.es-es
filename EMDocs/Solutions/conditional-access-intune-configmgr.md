@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,22 +14,22 @@ ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: c80c3b4aedd25c573b3f0fd9b78bd511981cec0f
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: eae78f8e5a4c5a1a0e44cf17fa320175ac622ac1
 
 
 ---
 
-# Usar acceso condicional con Intune y Configuration Manager
+# <a name="use-conditional-access-with-intune-and-configuration-manager"></a>Usar acceso condicional con Intune y Configuration Manager
 En este tema se da por hecho que ya usa System Center Configuration Manager y Microsoft Exchange Server (local, Exchange Online o una implementación híbrida de ambos) en su empresa para administrar el acceso al correo electrónico. Esta solución combina su entorno existente de Configuration Manager con Intune para administrar el acceso al correo electrónico en todos los tipos de dispositivos, independientemente de su ubicación, de forma segura.
 
 > [!TIP]
 > Obtenga una copia descargable de este tema completo en la [Galería de TechNet](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404).
 
-## Antes de comenzar
+## <a name="before-you-begin"></a>Antes de comenzar
 Antes de empezar a utilizar el acceso condicional, asegúrese de que tiene los requisitos adecuados en su lugar:
 
-## En el caso de Exchange Online
+## <a name="for-exchange-online"></a>En el caso de Exchange Online
 El acceso condicional a Exchange Online admite dispositivos que ejecutan:
 
 -   Windows 8.1 y versiones posteriores (cuando están inscritos en Intune)
@@ -57,7 +57,7 @@ AAD DRS se activará automáticamente para los clientes de Intune y Office 365.
 
     Ahora ya puede obtener información sobre cómo [implementar Exchange Online con Intune](conditional-access-intune-exchange-online.md).
 
-## Para Exchange Server local
+## <a name="for-exchange-server-on-premises"></a>Para Exchange Server local
 El acceso condicional a Exchange Server local admite los siguientes sistemas operativos:
 
 -   Windows 8 y versiones posteriores (cuando están inscritos en Intune)
@@ -88,6 +88,6 @@ Si su entorno incluye Exchange Online y Exchange Server local, puede obtener inf
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

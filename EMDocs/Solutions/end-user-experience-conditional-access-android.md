@@ -2,9 +2,9 @@
 title: Experiencia del usuario final de acceso condicional en dispositivos Android
 description: La experiencia del usuario final al inscribir un dispositivo Android.
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: swadhwa
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -14,17 +14,17 @@ ms.assetid: 0b5e4330-6fa5-445c-b73e-86ce5b9c7964
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 637290ea42346fa231a67fec393cbea2a4a38629
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: fc06debb97cdbd3be1a241a711f36f6c530d65cf
 
 
 ---
 
-# Android
+# <a name="android"></a>Android
 
 El proceso de inscripción y las pantallas que ve el usuario pueden variar ligeramente en función de la versión del sistema operativo que se ejecuta en el dispositivo del usuario final. En este tema se describe la experiencia del usuario final al inscribir dispositivos Android.
 
-## Inscripción
+## <a name="enrolling"></a>Inscripción
 
 1.  Al intentar obtener acceso al correo electrónico, el usuario recibe por primera vez un correo electrónico de cuarentena parecido al de este ejemplo:
 
@@ -86,7 +86,7 @@ Si el usuario sigue estos pasos para inscribirse y comprobar el cumplimiento, pe
 
 3.  Llame al departamento de soporte técnico.
 
-## Problemas y soluciones
+## <a name="issues-and-solutions"></a>Problemas y soluciones
 Cada 8 horas, de forma predeterminada, se comprueban los dispositivos para garantizar que siguen cumpliendo las normas. Si un dispositivo que cumplía las normas pasa a considerarse no conforme (por ejemplo, si se agrega o se modifica una directiva de cumplimiento), el usuario puede seguir estos pasos para volver al cumplimiento:
 
 1.  El usuario recibe la notificación, en el correo electrónico o en el dispositivo, que indica que el dispositivo no cumple las normas. En este momento, el dispositivo se pone en cuarentena en Exchange.
@@ -103,11 +103,11 @@ Cada 8 horas, de forma predeterminada, se comprueban los dispositivos para garan
 
 5.  Si el problema está solucionado, el usuario hace clic en **Continuar** para completar el proceso. El correo electrónico debería estar disponible de nuevo tras unos minutos.
 
-### Próximos pasos
+### <a name="where-to-go-from-here"></a>Próximos pasos
 La experiencia del usuario final es ligeramente diferente en otros dispositivos móviles. Puede obtener más información sobre la experiencia del usuario final para [iOS](end-user-experience-conditional-access-ios.md) y [Windows Phone](end-user-experience-conditional-access-winphone.md).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
