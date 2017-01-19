@@ -1,176 +1,384 @@
----
-asset_id: 961350ed-a3f1-44f1-b239-b46345b8f620
+--- 
 layout: HubPage
 title: "Documentación de Enterprise Mobility + Security | Documentos de Microsoft"
 description: "Documentación técnica de Microsoft Enterprise Mobility + Security"
-keywords: "documentos de Microsoft, documentación de Enterprise Mobility, obtener información de Enterprise Mobility, guía de Enterprise Mobility, documentación técnica de Enterprise Mobility"
-author: msswadhwa
-manager: swadhwa
-ms.date: 10/03/2016
-ms.topic: hubpage
-ms.suite: ems
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
 translationtype: Human Translation
-ms.sourcegitcommit: 2c3da9606e96e98246b097055f5e144faa2ae0a5
-ms.openlocfilehash: d194bb4a17d5bd97f9f47d56d35f4d5578c48ea4
-
+ms.sourcegitcommit: 43bf23ec5a695e83da7d559153ae7ba0bd342f85
+ms.openlocfilehash: c4f92867a5d31a0b8b8c5f7c498e3805a80c8ed9
 
 ---
-# Documentación de Enterprise Mobility + Security  
-<article id="main">
-    <section id="hero-content" class="graph">
+<div id="main" class="v2">
+    <div class="container">
         <h1>Documentación de Enterprise Mobility + Security</h1>
-        <h2>Bienvenido a la documentación técnica de Microsoft Enterprise Mobility + Security. Estos artículos le ayudarán a entender y explorar las soluciones y los productos de Enterprise Mobility + Security, a obtener una introducción de los servicios y a planear la implementación. También encontrará contenido técnico avanzado para ayudarle a implementar y usar los servicios, desarrollar aplicaciones y solucionar problemas.</h2>
-        <h3>¿Es la primera vez que usa Enterprise Mobility + Security? <a href="http://go.microsoft.com/fwlink/?LinkId=816837" target="_blank">Visitar la página de Microsoft Enterprise Mobility + Security &rarr;</a></h3>
-    </section>
-    <aside class="alert section-border">
-        <p>Registrarse para obtener una prueba de 30 días en Enterprise Mobility + Security</p>
-        <ol class="action-list">
-        <li><a href="http://go.microsoft.com/fwlink/?LinkId=816834" target="_blank" class="button-bordered button-translucent">Prueba gratuita</a></li>
-        </ol>
-    </aside>
-    <section id="featured" class="container">
-        <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> Contenido destacado</h2>
-        <div class="features row">
-            <ul class="column-half">
-                <li><mark><b>NUEVO</b></mark> <a href="/information-protection/">Disponibilidad General: Azure Information Protection</a></li>
-                <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">Beneficio de FastTrack para EMS</a></li>
-                <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">¿Qué es Microsoft Intune?</a></li>
-                <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">¿Qué es Advanced Threat Analytics?</a></li>
-            </ul>
-            <ul class="column-half">
-                <li><a href="/active-directory/active-directory-whatis">¿Qué es Azure Active Directory?</a></li>
-                <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">¿Qué es Microsoft Identity Manager?</a></li>
-                <li><a href="/information-protection/understand-explore/what-is-information-protection">¿Qué es Azure Information Protection?</a></li>
-                <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Administración de dispositivos móviles de Microsoft</a></li>
-            </ul>
-        </div>
-    </section>
-    <div id="journeys">
-        <section class="container">
-            <h2 class="section-heading"><span class="icon icon-inheritance"></span> Soluciones y productos</h2>
-            <ul class="journeys-list">
-                <li class="journey-step">
-                    <header class="journey-step-header row">
-                            <div class="title column-third">
-                                <span class="icon icon-connect"></span>
-                                <p>Administración de acceso e identidad</p>
-                            </div>
-                            <p class="description column-two-thirds">Administración de identidad y acceso empresarial para casi cualquier aplicación o dispositivo, ya sea en la nube o en el entorno local. Ofrece inicio de sesión único, autenticación multifactor y contraseñas de autoservicio entre otros.
-                            </p>
-                    </header>
-                    <section class="journey-step-elements content">
-                        <ul class="row">
-                            <li class="column column-third">
-                                <a href="/active-directory/">
-                                <h3>Azure Active Directory</h3>
-                                <p>Sincronización de directorios locales y habilitación del inicio de sesión único.</p>
+        <ul class="pivots">
+            <li>
+                <a href="#products">Productos y servicios</a>
+                <ul id="products">
+                    <li>
+                        <a  data-default="true" href="#all">Todos</a>
+                        <ul id="all" class="cardsW">
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h3>Administración de identidad y acceso</h3>
+                                                <p>
+                                                    <a href="/azure/active-directory/index">Azure Active Directory</a>
+                                                </p>
+                                                <p>
+                                                    <a href="/azure/multi-factor-authentication/index"> Multi-Factor Authentication </a>
+                                                </p>
+                                                <p>
+                                                    <a href="/microsoft-identity-manager/"> Microsoft Identity Manager </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h3>Administración de dispositivos y aplicaciones</h3>
+                                                <p>
+                                                    <a href="/intune/"> Microsoft Intune </a>
+                                                </p>
+                                                <p>
+                                                    <a href="/sccm/"> System Center Configuration Manager </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h3>Seguridad y protección de la información</h3>
+                                                <p>
+                                                    <a href="/information-protection/"> Azure Information Protection </a>
+                                                </p>
+                                                <p>
+                                                    <a href="/advanced-threat-analytics/"> Advanced Threat Analytics </a>
+                                                </p>
+                                                <p>
+                                                    <a href="/cloud-app-security/"> Cloud App Security </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#identity">Administración de identidad y acceso</a>
+                        <ul id="identity" class="cardsC">
+                            <li>
+                                <a href="/azure/active-directory/index">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_identity-access-mgmt-1.svg" alt="Azure Active Directory" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Azure Active Directory</h3>
+                                                    <p>Sincronización de directorios locales y habilitación del inicio de sesión único</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </a>
                             </li>
-                            <li class="column column-third">
-                                <a href="/multi-factor-authentication/">
-                                <h3>Multi-Factor Authentication,</h3>
-                                <p>Protección del acceso a los datos y aplicaciones con un nivel adicional de autenticación.</p>
+                            <li>
+                                <a href="/azure/multi-factor-authentication/index">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_identity-access-mgmt-2.svg" alt="Multi-factor Authentication" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Multi-Factor Authentication,</h3>
+                                                    <p>Protección del acceso a los datos y aplicaciones con un nivel adicional de autenticación</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </a>
                             </li>
-                            <li class="column column-third">
+                            <li>
                                 <a href="/microsoft-identity-manager/">
-                                <h3>Microsoft Identity Manager</h3>
-                                <p>Configuración de una administración de accesos e identidades segura, flexible y adecuada para la nube.</p>
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_identity-access-mgmt-3.svg" alt="Microsoft Identity Manager" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Identity Manager</h3>
+                                                    <p>Administración de identidades con flujos de trabajo automatizados, autoservicios y mucho más</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </a>
                             </li>
                         </ul>
-                    </section>
-                </li>
-                <li class="journey-step">
-                    <header class="journey-step-header row">
-                            <div class="title column-third">
-                                <span class="icon icon-mobile"></span>
-                                <p>Administración de aplicaciones y dispositivos móviles</p>
-                            </div>
-                            <p class="description column-two-thirds">Administración de la movilidad empresarial basada en la nube que permite controlar el acceso de los empleados a aplicaciones y datos corporativos en casi cualquier dispositivo.
-                            </p>
-                    </header>
-                    <section class="journey-step-elements content">
-                        <ul class="row">
-                            <li class="column column-third">
+                    </li>
+                    <li>
+                        <a href="#management">Administración de dispositivos y aplicaciones</a>
+                        <ul id="management" class="cardsC">
+                            <li>
                                 <a href="/intune/">
-                                <h3>Intune</h3>
-                                <p>Administre y proteja datos y aplicaciones corporativas en todos los dispositivos con las capacidades MAM y MDM de Intune.</p>
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_device-app-mgmt-1.svg" alt="Microsoft Intune" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Intune</h3>
+                                                    <p>Administración de dispositivos móviles, aplicaciones y equipos desde la nube</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </a>
                             </li>
-                            <li class="column column-third">
+                            <li>
                                 <a href="/sccm/">
-                                <h3>System Center Configuration Manager</h3>
-                                <p>Administración y protección de equipos corporativos, servidores y dispositivos con la infraestructura local de Configuration Manager.</p>
-                                </a>
-                            </li>
-                          </ul>
-                    </section>
-                </li>
-                <li class="journey-step">
-                    <header class="journey-step-header row">
-                            <div class="title column-third">
-                                <span class="icon icon-shield"></span>
-                                <p>Seguridad y protección de la información</p>
-                            </div>
-                            <p class="description column-two-thirds">Protección de datos corporativos mediante un acceso más seguro a los recursos de la empresa, así como mediante el uso compartido de información confidencial dentro y fuera de la organización.
-                            </p>
-                    </header>
-                    <section class="journey-step-elements content">
-                        <ul class="row">
-                            <li class="column column-third">
-                                <a href="/information-protection/">
-                                <h3>Azure Information Protection</h3>
-                                <p>Clasificación, etiquetado y aplicación de protección al correo electrónico y a otros datos confidenciales.</p>
-                                </a>
-                            </li>
-                            <li class="column column-third">
-                                <a href="/advanced-threat-analytics/">
-                                <h3>Advanced Threat Analytics</h3>
-                                <p>Identificación de brechas y amenazas mediante los análisis del comportamiento y la creación de informes en una escala de tiempo de ataques.</p>
-                                </a>
-                            </li>
-                            <li class="column column-third">
-                                <a href="/cloud-app-security/">
-                                <h3>Cloud App Security</h3>
-                                <p>Proporcione la seguridad de sus sistemas locales a sus aplicaciones en la nube para una mayor visibilidad, controles exhaustivos y protección mejorada.</p>
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_device-app-mgmt-2.svg" alt="System Center Configuration Manager" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>System Center Configuration Manager</h3>
+                                                    <p>Administración de PCs, Macs y servidores UNIX/Linux junto con dispositivos basados en la nube</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </a>
                             </li>
                         </ul>
-                    </section>
-                </li>
-            </ul>
-        </section>
+                    </li>
+                    <li>
+                        <a href="#security">Seguridad y protección de la información</a>
+                        <ul id="security" class="cardsC">
+                            <li>
+                                <a href="/information-protection/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_info-protection-security-1.svg" alt="Azure Information Protection" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Azure Information Protection</h3>
+                                                    <p>Clasificación de los datos en el momento de crearlos o actualizarlos según el origen, el contexto y el contenido</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/advanced-threat-analytics/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_info-protection-security-2.svg" alt="Advanced Threat Analytics" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Advanced Threat Analytics</h3>
+                                                    <p>Identificación de brechas y amenazas mediante los análisis del comportamiento y la creación de informes en una escala de tiempo de ataques</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/cloud-app-security/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_info-protection-security-3.svg" alt="Cloud App Security" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Cloud App Security</h3>
+                                                    <p>Obtención de una visibilidad profunda, controles integrales y una seguridad de SaaS mejorada</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#solutions">Soluciones</a>
+                <ul id="solutions">
+                    <li>
+                        <a href="#SolutionsPanel1"></a>
+                        <ul id="SolutionsPanel1" class="cardsC">
+                            <li>
+                                <div class="container">
+                                    <p>Escenarios de ejemplo que le ayudarán a entender qué sé incluye en Enterprise Mobility + Security (EMS) y cómo utilizarlo para resolver problemas comerciales. También puede encontrar información sobre el beneficio de servicio del centro FastTrack para EMS y obtener respuestas a preguntas frecuentes de soporte técnico de EMS.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="/enterprise-mobility-security/solutions/learn-about-ems">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_solutions-1.svg" alt="Learn about EMS" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Más información acerca de EMS</h3>
+                                                    <p>Descubra cómo EMS proporciona soluciones de movilidad y seguridad completas y flexibles que permiten la transición a la nube y la movilidad.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/enterprise-mobility-security/solutions/ems-get-started">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_solutions-2.svg" alt="Start using EMS" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Empezar a utilizar EMS</h3>
+                                                    <p>Empiece a utilizar EMS y escenarios basados en identidades, que ayudan a garantizar la seguridad y la productividad de los usuarios en sus aplicaciones y dispositivos favoritos.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/enterprise-mobility-security/solutions/enterprise-mobility-fasttrack-program">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_solutions-3.svg" alt="Get on the FastTrack" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Solución FastTrack</h3>
+                                                    <p>Si ha comprado al menos 150 licencias de EMS, puede trabajar con los especialistas de Microsoft para empezar a utilizar EMS rápidamente.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/enterprise-mobility-security/solutions/byod-design-considerations-guide">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_solutions-4.svg" alt="Design and Architecture Guides" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Guías de diseño y arquitectura</h3>
+                                                    <p>Reciba consejos de expertos sobre qué preguntas debe plantear y los pasos que debe seguir para toda la implementación, desde las funcionalidades BYOD hasta la protección de los datos de una compañía.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://channel9.msdn.com/Tags/emm">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_solutions-6.svg" alt="EMS Support FAQ" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Ver vídeos en Channel 9</h3>
+                                                    <p>Vea los vídeos más recientes publicados online.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/enterprise-mobility-security/solutions/ems-support-faq">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img data-scaleimage="images/ems_solutions-6.svg" alt="EMS Support FAQ" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Preguntas frecuentes de soporte técnico de EMS</h3>
+                                                    <p>Reciba respuestas rápidas sobre preventas, facturación, suscripciones y soporte técnico de EMS.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div>
-    <div class="section-border">
-        <section class="resources container">
-            <h2 class="section-heading"><span class="icon icon-note"></span> Escenarios y soluciones</h2>
-            <div class="resource-list row">
-              <ul class="column-half">
-                  <li><a href="/enterprise-mobility-security/solutions/ems-get-started">Escenarios técnicos de EMS</a></li>
-                  <li><a href="/enterprise-mobility-security/solutions/architecture-guidance-for-protecting-company-email-and-documents">Protección de documentos y del correo electrónico corporativos</a></li>
-                  <li><a href="https://support.office.com/en-us/article/Plan-for-Office-365-security-and-information-protection-capabilities-3d4ac4a1-3920-4ff9-918f-011f3ce60408?ui=en-US&rs=en-US&ad=US">Funcionalidades de seguridad y protección de Office 365</a></li>
-              </ul>
-              <ul class="column-half">
-                  <li><a href="https://docs.microsoft.com/active-directory/active-directory-hybrid-identity-design-considerations-overview">Guía de consideraciones de diseño de identidades híbridas</a></li>
-                  <li><a href="/enterprise-mobility-security/solutions/byod-design-considerations-guide">Guía de consideraciones de diseño para BYOD</a></li>
-                  <li><a href="/enterprise-mobility-security/solutions/mdm-design-considerations-guide">Guía de las consideraciones de diseño de administración de dispositivos móviles</a></li>
-            </ul>
-            </div>            
-        </section>
-    </div>
-    <aside class="alert alert-social">
-        <p>Mantenerse al día con las últimas noticias</p>
-        <ol class="action-list">
-            <li><a href="https://blogs.technet.microsoft.com/enterprisemobility/" target="_blank" class="button-bordered button-translucent">Blog de Enterprise Mobility + Security</a></li>
-            <li><a href="https://blogs.technet.microsoft.com/in_the_cloud/" target="_blank" class="button-bordered button-translucent">Blog In The Cloud</a></li>
-        </ol>
-    </aside>
-</article>
 
 
-
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

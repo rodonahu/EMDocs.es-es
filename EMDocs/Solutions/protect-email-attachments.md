@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
-ms.openlocfilehash: d293494570b08098468927fb9857c10a0e7d03ca
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: a124d56eaa6cbca44551a7c3ea42166479523f9f
 
 
 ---
 
-# Impedir el filtrado de datos de correo electrónico y datos adjuntos
+# <a name="protect-email-and-attachments-from-data-leakage"></a>Impedir el filtrado de datos de correo electrónico y datos adjuntos
 En [Protección de documentos y del correo electrónico corporativos](protect-corporate-email-documents.md), se describe cómo puede asegurarse de que solo los dispositivos admitidos puedan acceder al correo electrónico corporativo. Sin embargo, el contenido del correo electrónico y los datos adjuntos no está protegido al proteger el acceso. El contenido se puede copiar, mover, guardar en una ubicación diferente o compartir con otro usuario. EMS soluciona este problema mediante directivas de administración de aplicaciones móviles.
 
 Las aplicaciones administradas son aplicaciones que implementa el Administrador de TI que cumplen los requisitos de seguridad de las empresas. Con estas aplicaciones, el departamento de TI tiene control directo sobre la implementación, la administración continua, como el inventario o las actualizaciones, y la eliminación selectiva de las aplicaciones y los datos asociados. Asimismo, a través de un conjunto de directivas de administración de aplicaciones móviles (MAM), Intune permite modificar la funcionalidad de las aplicaciones y restringir los datos que se comparten. Ofrece la posibilidad de realizar, por ejemplo, lo siguiente:
@@ -49,7 +49,7 @@ Con [Azure Information Protection](https://docs.microsoft.com/information-protec
 
     -   Detectar contenido confidencial y avisar al remitente para que aplique las reglas de protección antes de enviar el correo electrónico.
 
-## Componentes de aplicaciones administradas
+## <a name="managed-app-components"></a>Componentes de aplicaciones administradas
 
 -   **Microsoft Intune** es el lugar en el que se configuran las directivas, se asocian con la aplicación o se usa la herramienta de ajuste de aplicaciones para permitir que una aplicación interna use directivas de administración de aplicaciones móviles.
 
@@ -57,21 +57,21 @@ Con [Azure Information Protection](https://docs.microsoft.com/information-protec
 
 ![Gráfico que muestra cómo se gestionan las directivas dirigidas a aplicaciones administradas a través del portal de empresa y Microsoft Intune](./media/ProtectEmail/CADataSheet-Diagram-Apps.png)
 
-## La experiencia de administración de TI:
+## <a name="the-it-admin-experience"></a>La experiencia de administración de TI:
 El Administrador de TI crea las directivas de administración de aplicaciones móviles, asocia la directiva a la aplicación y distribuye a los usuarios o dispositivos. Cuando la aplicación administrada se instala en el dispositivo, se aplican las restricciones de la aplicación. Crear e implementar aplicaciones administradas supone poco o ningún esfuerzo adicional:
 
 -   Hay aplicaciones existentes que ya tienen el SDK de aplicación que permite aplicar restricciones a la aplicación. No requieren ningún otro procesamiento: basta con agregar un vínculo a una tienda de aplicaciones, como iTunes o Google Play. Lea [este artículo](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners) para ver la lista de aplicaciones administradas.
 
 -   Si quiere administrar las aplicaciones creadas internamente, puede volver a empaquetar las aplicaciones con la herramienta de ajuste de aplicaciones de Microsoft Intune. La herramienta vuelve a empaquetar la aplicación, lo que le permite aplicar restricciones a la aplicación.
 
-## Experiencia del usuario final
+## <a name="the-end-user-experience"></a>Experiencia del usuario final
 Los usuarios finales pueden instalar aplicaciones administradas y usarlas para hacer su trabajo. Sólo podrán mover o compartir datos entre aplicaciones administradas. Se bloqueará cualquier intento de mover datos fuera del ecosistema de aplicaciones administradas.
 
-## Próximos pasos
+## <a name="where-to-go-from-here"></a>Próximos pasos
 Ahora que sabe cómo [proteger documentos y correo electrónico corporativos](protect-corporate-email-documents.md), así como datos adjuntos de correo, puede conocer cómo [implementar una solución para proteger el correo electrónico empresarial](implement-solution.md).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

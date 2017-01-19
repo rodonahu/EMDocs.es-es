@@ -2,9 +2,9 @@
 title: Experiencia de acceso condicional del usuario final en dispositivos iOS
 description: La experiencia del usuario final al inscribir un dispositivo iOS.
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: swadhwa
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -14,17 +14,17 @@ ms.assetid: 3c641ea8-2c0e-490e-b1de-831336f46d19
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 400c1dc2af8d38c4ac61402691131aaf724e1499
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: f06e68a00fd97cb48aee21f6ed749f520d157e9b
 
 
 ---
 
-# iOS
+# <a name="ios"></a>iOS
 
 El proceso de inscripción y las pantallas que ve el usuario pueden variar ligeramente en función de la versión del sistema operativo que se ejecuta en el dispositivo del usuario final. En este tema se describe la experiencia del usuario final al inscribir dispositivos iOS.
 
-## Inscripción
+## <a name="enrolling"></a>Inscripción
 
 1.  Si un usuario ya está inscrito en Intune y cumple las normas, no verá ninguna diferencia en los dispositivos iOS; seguirá pudiendo obtener acceso al correo electrónico. Si el usuario todavía no está inscrito, verá un mensaje de cuarentena similar al siguiente al iniciar la aplicación de correo electrónico:
 
@@ -70,7 +70,7 @@ Si el usuario sigue estos pasos para inscribirse y comprobar el cumplimiento, pe
 
 -   Llame al departamento de soporte técnico.
 
-## Problemas y soluciones
+## <a name="issues-and-solutions"></a>Problemas y soluciones
 Cada 8 horas, de forma predeterminada, se comprueban los dispositivos para garantizar que siguen cumpliendo las normas. Si un dispositivo que cumplía las normas pasa a considerarse no conforme (por ejemplo, si se agrega o se modifica una directiva de cumplimiento), el usuario puede seguir estos pasos para volver al cumplimiento:
 
 1.  El usuario recibe la notificación, en el correo electrónico o en el dispositivo, que indica que el dispositivo no cumple las normas. En este momento, el dispositivo se pone en cuarentena en Exchange.
@@ -91,11 +91,11 @@ Cada 8 horas, de forma predeterminada, se comprueban los dispositivos para garan
 
     El correo electrónico debería estar disponible de nuevo tras unos minutos.
 
-### Próximos pasos
+### <a name="where-to-go-from-here"></a>Próximos pasos
 La experiencia del usuario final es ligeramente diferente en otros dispositivos móviles. Puede obtener más información sobre la experiencia del usuario final en [Android](end-user-experience-conditional-access-android.md) y [Windows Phone](end-user-experience-conditional-access-winphone.md).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

@@ -2,26 +2,25 @@
 title: "Cómo inscribirse en la autenticación multifactor"
 description: "Cómo configurar el método preferido para la comprobación de seguridad adicional"
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: NathBarn
+ms.author: NathBarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 06e21ca9-ed6a-4f6e-a7e2-5445aaeb3552
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
-ms.openlocfilehash: 4c8f2d3dbe72a4bf3d948f074b55b6ba4b936522
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: b7164b33bf9d4bdb7584de9cbb78711e922a10c4
 
 
 ---
 
-# Cómo configurar el método preferido para la comprobación de seguridad adicional
+# <a name="how-to-set-up-your-preferred-method-for-additional-security-verification"></a>Cómo configurar el método preferido para la comprobación de seguridad adicional
 
 
 
@@ -41,14 +40,14 @@ Mediante el proceso de inscripción, podrá especificar su método preferido de 
 |[Llamada al teléfono del trabajo](#office-phone-call)|Establece una llamada de voz automática al usuario. El usuario responde a la llamada y pulsa la # del teclado del teléfono para autenticarse.|
 |[Aplicación móvil](#mobile-application)|Inserta una notificación en la aplicación móvil de Azure Authenticator en el smartphone o la tableta del usuario. El usuario pulsa "Comprobar" en la aplicación para autenticarse. Como alternativa, también se puede usar la aplicación como un token OTP para proceder a la autenticación sin conexión. El usuario escribe el token en la pantalla de inicio de sesión para autenticarse.|
 
-_La aplicación de Azure Authenticator puede operar en dos modos diferentes para proporcionar la seguridad adicional que un servicio de autenticación multifactor puede proporcionar. Son los siguientes:_
+_La aplicación Azure Authenticator puede operar en dos modos diferentes para proporcionar la seguridad adicional que un servicio de autenticación multifactor puede proporcionar. Son los siguientes:_
 
 - **Notificación**: en este modo, la aplicación Azure Authenticator evita el acceso no autorizado a las cuentas y detiene las transacciones fraudulentas. Este proceso se lleva a cabo mediante una notificación de inserción en su teléfono o en el dispositivo que tengas registrado. Lo único que tiene que hacer es consultar la notificación y, si es legítima, seleccione **Autenticar**. De lo contrario, puede elegir **Denegar** o bien denegar e informar sobre la notificación fraudulenta. Para más información sobre generar informes de notificaciones fraudulentas, consulte Cómo usar la función Denegar e Informar de fraudes para autenticación multifactor.
 - **Contraseña de un solo uso**: en este modo, la aplicación Azure Authenticator se puede usar como token de software para generar un código de comprobación OATH. Después, este código de comprobación se puede escribir junto con el nombre de usuario y la contraseña a fin de proporcionar una segunda forma de autenticación.
 
 La aplicación Azure Authenticator está disponible para [Windows Phone](http://www.windowsphone.com/en-us/store/app/azure-authenticator/03a5b2bf-6066-418f-b569-e8aecbc06e50), [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) e [iOS](https://itunes.apple.com/us/app/azure-authenticator/id983156458).
 
-## Teléfono móvil (mensaje de texto o llamada)
+## <a name="mobile-phone-text-or-call"></a>Teléfono móvil (mensaje de texto o llamada)
 Si quiere usar el teléfono móvil como método de contacto principal, lleve a cabo los pasos siguientes. Le indicarán cómo configurar la autenticación multifactor para usar el teléfono móvil como método de contacto, ya sea mediante una llamada o un mensaje de texto.
 
 1. En **Step 1: How should we contact you?** (Paso 1: ¿Cómo debemos ponernos en contacto con usted?) seleccione **Teléfono de autenticación**.
@@ -74,7 +73,7 @@ Se permiten los espacios, pero no los caracteres de puntuación. Por ejemplo, pu
 10. Pega la contraseña que copiaste al portapapeles en tu aplicación sin explorador.
 11. Haga clic en **Listo**.
 
-## Llamada al teléfono del trabajo
+## <a name="office-phone-call"></a>Llamada al teléfono del trabajo
 En esta sección del documento se le mostrará cómo configurar Azure Multi-Factor Authentication para usar el teléfono del trabajo como método de contacto principal.
 1. Seleccione Teléfono del trabajo en la lista desplegable.
 
@@ -89,7 +88,7 @@ En esta sección del documento se le mostrará cómo configurar Azure Multi-Fact
   ![Captura de pantalla en la que se le pide al usuario que escriba la contraseña de aplicación.](./media/ft-enrollMFA-7-pastePW.png)
 9.  Haga clic en **Listo**.
 
-## Aplicación móvil
+## <a name="mobile-application"></a>Aplicación móvil
 En esta sección del artículo se le mostrará cómo configurar Azure Multi-Factor Authentication para usar la aplicación móvil como método de contacto principal.
 
 La aplicación Azure Authenticator está disponible para Windows Phone, Android e iOS.
@@ -117,11 +116,11 @@ La aplicación Azure Authenticator está disponible para Windows Phone, Android 
   ![Captura de pantalla en la que se le pide al usuario que escriba la contraseña de aplicación.](./media/ft-enrollMFA-11-securityVerification.png)
 12. Haga clic en **Listo**.
 
-### ¿Desea obtener más información?
+### <a name="want-to-learn-more"></a>¿Desea obtener más información?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Jan17_HO1-->
 
 

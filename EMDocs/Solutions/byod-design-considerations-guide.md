@@ -5,7 +5,7 @@ keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 11/28/2016
+ms.date: 01/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,15 @@ ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 78fad0e7714797962fc2ab3c8f8ec6c10d8019d0
+ms.sourcegitcommit: 242b1a6468bfc9524acdb3c497078128dd26864b
+ms.openlocfilehash: 0744ef860fb1fd06507c9e24af9c676551c54f12
 
 
 ---
 
 # <a name="byod-design-considerations-guide"></a>Guía de consideraciones de diseño para BYOD
 
-Con la proliferación de dispositivos usados por los empleados, la mayoría de las empresas se enfrentan a un gran dilema: ¿cómo permitir a los usuarios utilizar sus propios dispositivos, a la par que proteger los datos corporativos que residen en dichos dispositivos? Las empresas están empezando a abandonar el modelo tradicional, en el que poseen y proporcionan dispositivos a sus empleados, a favor de un modelo en el que los empleados usan sus dispositivos personales para algunas de sus tareas. A menudo, este modelo se conoce como [Bring Your Own Device (BYOD)](https://technet.microsoft.com/library/dn645493.aspx). En este modelo, los empleados pueden utilizar sus dispositivos personales para algunas tareas de trabajo, pero solo si los empleados permiten que la empresa administre algunos aspectos de sus dispositivos para garantizar la seguridad de los datos corporativos. A menudo, esto significa que los usuarios permiten a la compañía aplicar directivas personalizadas, realizar la consolidación de la seguridad de los dispositivos o estandarizar el sistema operativo establecido por la directiva de la compañía. Los ejecutivos y los responsables de la toma de decisiones que leen el documento de [CIO considerations for workstyle transformation](http://download.microsoft.com/download/5/3/A/53A96632-02E3-416C-B209-D8725AA80AFE/CIO%20Considerations%20for%20Workstyle%20Transformation2.pdf) (Consideraciones de CIO para la transformación del estilo de trabajo) de Microsoft también pueden identificar las ventajas de adoptar un modelo en el que los usuarios puedan usar sus dispositivos para ser productivos en el trabajo.
+Con la proliferación de dispositivos usados por los empleados, la mayoría de las empresas se enfrentan a un gran dilema: ¿cómo permitir a los usuarios utilizar sus propios dispositivos, a la par que proteger los datos corporativos que residen en dichos dispositivos? Las empresas están empezando a abandonar el modelo tradicional, en el que poseen y proporcionan dispositivos a sus empleados, a favor de un modelo en el que los empleados usan sus dispositivos personales para algunas de sus tareas. A menudo, este modelo se conoce como [Bring Your Own Device (BYOD)](https://technet.microsoft.com/library/dn645493.aspx). En este modelo, los empleados pueden utilizar sus dispositivos personales para algunas tareas de trabajo, pero solo si los empleados permiten que la empresa administre algunos aspectos de sus dispositivos para garantizar la seguridad de los datos corporativos. A menudo, esto significa que los usuarios permiten a la compañía aplicar directivas personalizadas, realizar la consolidación de la seguridad de los dispositivos o estandarizar el sistema operativo establecido por la directiva de la compañía. Los ejecutivos y los responsables de la toma de decisiones que leen el documento de [CIO considerations for workstyle transformation](http://download.microsoft.com/documents/uk/enterprise/it-trends/Considerations_for_a_Workstyle_Transformation.pdf) (Consideraciones de CIO para la transformación del estilo de trabajo) de Microsoft también pueden identificar las ventajas de adoptar un modelo en el que los usuarios puedan usar sus dispositivos para ser productivos en el trabajo.
 
 Aunque la protección de los datos y el acceso a estos es uno de los desafíos principales de BYOD, otros desafíos requieren resolver el problema con un enfoque más amplio:
 
@@ -77,6 +77,6 @@ Las organizaciones con una gran infraestructura necesitan, por una parte, determ
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Jan17_HO1-->
 
 

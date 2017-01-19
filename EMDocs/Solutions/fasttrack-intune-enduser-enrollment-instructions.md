@@ -2,26 +2,25 @@
 title: "Instrucciones de inscripción de Intune de usuario final para los administradores de TI"
 description: "Instrucciones de inscripción de Intune de usuario final para los administradores de TI"
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
-ms.openlocfilehash: 9c01c3c380edfa02d4055a84d59588552f092ea8
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: 698af6701d756beac696648addbef11d709764fa
 
 
 ---
 
-# Instrucciones de inscripción de Intune de usuario final para los administradores de TI
+# <a name="end-user-intune-enrollment-instructions-for-it-administrators"></a>Instrucciones de inscripción de Intune de usuario final para los administradores de TI
 
 Este documento contiene instrucciones de inscripción que puede personalizar y entregar a los usuarios para ayudarles a inscribir sus dispositivos iOS y Android en Microsoft Intune™ (en el caso de dispositivos Windows, consulte Usar un dispositivo Windows con Intune). Le recomendamos que copie las secciones de este documento que considere más apropiadas para los usuarios. Por ejemplo, puede que le interese crear un documento único para cada plataforma de dispositivo o agregar más capturas de pantalla.
 
@@ -30,12 +29,12 @@ A parte de estas instrucciones escritas, puede incluir hipervínculos a los víd
 > [!NOTE]
 > Microsoft, Intune y Office 365 son marcas comerciales de Microsoft Corporation. iPhone, Mac y Apple son marcas comerciales de Apple, Inc. Android es una marca comercial de Google Inc. Samsung KNOX es una marca comercial de Samsung Electronics Co., Ltd.
 
-## ¿Por qué inscribirse en Intune?
+## <a name="why-enroll-in-intune"></a>¿Por qué inscribirse en Intune?
 A la hora de inscribirse, puede usar su dispositivo móvil para acceder a archivos y datos profesionales o educativos. Además, permite al departamento de TI administrar esos recursos profesionales o educativos y mantenerlos protegidos, al mismo tiempo que usted puede usar su dispositivo preferido para realizar su trabajo.
 
 Para usar el dispositivo en el trabajo, inscríbalo en Intune mediante el portal de empresa. Después podrá encontrar fácilmente aplicaciones de empresa para instalar, ver otros dispositivos agregados y encontrar los datos de contacto del administrador de TI. Además, le proporciona al administrador de TI permiso para administrar el dispositivo, a fin de ayudar a proteger la información de la empresa en el dispositivo. Antes de iniciar la inscripción, asegúrese de que tiene una buena conexión Wi-Fi o móvil a Internet.
 
-## Inscribir un dispositivo Android en Intune mediante la aplicación de portal de empresa de Intune
+## <a name="enroll-your-android-device-in-intune-using-the-intune-company-portal-app"></a>Inscribir un dispositivo Android en Intune mediante la aplicación de portal de empresa de Intune
 
 Estos pasos de inscripción son adecuados para dispositivos Android de Samsung Knox y dispositivos Android "nativos" (distintos de Samsung Knox). Para saber si tiene un dispositivo Samsung Knox, vaya a **Ajustes > Acerca del teléfono**. Si no ve la palabra "Knox" en la lista, significa que el suyo es un dispositivo Android nativo. Las pantallas que se muestran en el dispositivo pueden parecer ligeramente diferentes de las de esta sección.
 
@@ -57,10 +56,10 @@ Antes o después de la inscripción, se le pedirá que elija una categoría que 
 
   - Si ve el mensaje **Allow Company Portal to access your contacts?** (¿Permitir que el portal de empresa tenga acceso a los contactos?), pulse **PERMITIR**. Pulsar PERMITIR no entraña riesgos, puesto que Microsoft nunca accede a sus contactos. Google controla el texto del mensaje, por lo que Microsoft no puede cambiarlo. Al permitir el acceso, lo único que ocurre es que la aplicación de portal de empresa puede tener acceso a los registros de datos para ayudar a solucionar problemas con el dispositivo.
 
-        ![Screenshot asking user to allow portal to access contacts on an Android device](./media/ft-userEnrollAndroid-3-accessContacts.png)
+        ![Captura de pantalla donde se solicita al usuario que permita al portal el acceso a los contactos en un dispositivo Android](./media/ft-userEnrollAndroid-3-accessContacts.png)
   - Si ve el mensaje **Allow Company Portal to access your contacts?** (¿Permitir que el portal de empresa realice y administre llamadas telefónicas?), pulse **PERMITIR**. Pulsar PERMITIR no entraña riesgos, puesto que Microsoft nunca realiza ni controla sus llamadas de teléfono. Google controla el texto del mensaje, por lo que Microsoft no puede cambiarlo. Cuando se permite el acceso, lo único que se permite es que la aplicación de portal de empresa vea el número de teléfono y un identificador denominado IMEI.
 
-        ![Screenshot asking user to allow portal to manage phone calls on an Android device](./media/ft-userEnrollAndroid-4-manageCalls.png)
+        ![Captura de pantalla donde se solicita al usuario que permita al portal administrar las llamadas telefónicas en un dispositivo Android](./media/ft-userEnrollAndroid-4-manageCalls.png)
 
   Si pulsa **RECHAZAR**, los mensajes aparecerán de nuevo la próxima vez que inicie sesión en la aplicación de portal de empresa, pero puede desactivar los mensajes futuros si pulsa la casilla **No volver a preguntar**. Si más adelante decide permitir el acceso, vaya a **Ajustes > Aplicaciones > Portal de empresa > Permisos > Teléfono** y active el permiso.
 6.  Inicie sesión en la aplicación de portal de empresa con su cuenta profesional o educativa y contraseña correspondiente y, luego, pulse en **Iniciar sesión**.
@@ -104,7 +103,7 @@ Antes o después de la inscripción, se le pedirá que elija una categoría que 
 16. El dispositivo ya está inscrito en Intune. Se le dirigirá de nuevo a la aplicación de portal de empresa.
 17. Antes de intentar instalar aplicaciones de empresa, vaya a **Ajustes > Seguridad** y active **Fuentes desconocidas**. Si no activa esta opción antes de intentar instalar aplicaciones, verá el mensaje "Instalación bloqueada. Por motivos de seguridad, el teléfono está configurado para bloquear las instalaciones de aplicaciones procedentes de orígenes desconocidos.". Puede pulsar **Configuración** en el cuadro de diálogo del error para ir a la opción **Orígenes desconocidos**.
 
-## Inscriba el dispositivo iOS en Intune
+## <a name="enroll-your-ios-device-in-intune"></a>Inscriba el dispositivo iOS en Intune
 Siga estas instrucciones para inscribir el dispositivo iOS en Intune. Para obtener más información sobre la inscripción, consulte [¿Qué ocurre si instala la aplicación de Portal de empresa e inscribe el dispositivo iOS o Mac OS X en Intune?](https://technet.microsoft.com/library/mt598622(TechNet.10).aspx#BKMK_ios_what_happ_enroll). Si recibe un error al intentar inscribir el dispositivo en Intune, consulte [Enviar errores de inscripción al administrador de TI](https://technet.microsoft.com/library/mt598622(TechNet.10).aspx#BKMK_ios_error_enrolling_tbl).
 
 Antes o después de la inscripción, se le pedirá que elija una categoría que describa de la mejor forma posible cómo usar el dispositivo. El administrador de TI usa esta categoría para ayudar a determinar a qué aplicaciones tiene acceso.
@@ -153,7 +152,7 @@ Antes o después de la inscripción, se le pedirá que elija una categoría que 
 
 El dispositivo ya está inscrito en Intune. Se le dirigirá de nuevo a la aplicación de portal de empresa.
 
-## Inscribir el dispositivo Mac OS X en Intune
+## <a name="enroll-your-mac-os-x-device-in-intune"></a>Inscribir el dispositivo Mac OS X en Intune
 1.  Con un explorador Safari, abra el [Sitio web del Portal de empresa](https://portal.manage.microsoft.com/) y pulse en la barra de notificación.
 2.  Pulse en **Este dispositivo no está inscrito o el Portal de empresa no lo identifica**.
 
@@ -169,11 +168,11 @@ Cuando termine la inscripción, verá una página de perfil de administración e
 
   ![Captura de pantalla en la que se muestra que se ha comprobado el perfil de administración en un dispositivo Mac OS X.](./media/ft-userEnrollMacOSx-4-profileVerified.png)
 
-### ¿Desea obtener más información?
+### <a name="want-to-learn-more"></a>¿Desea obtener más información?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Jan17_HO1-->
 
 

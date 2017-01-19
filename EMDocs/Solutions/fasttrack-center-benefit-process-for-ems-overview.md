@@ -14,8 +14,8 @@ ms.assetid: e60e3714-5120-41e2-9878-83ac75107967
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 52bdc7e5b67f9aeae2142d2b8bb2f8ed474dcc8d
-ms.openlocfilehash: d4cc34daa08f3db2508c08b51ca70651cf832015
+ms.sourcegitcommit: 59e06bc9534edf816618e2644d5870f549f32742
+ms.openlocfilehash: aece953566d06fa2b8d97cdb82866ab02df97f13
 
 
 ---
@@ -37,7 +37,7 @@ En el siguiente diagrama se describen las fases de incorporación de alto nivel 
 
 Aquí se muestra cómo funciona el proceso:
 
-- Microsoft intenta ponerse en contacto con usted para ofrecerle asistencia de incorporación una vez que adquiera licencias de servicios aptos. También puede solicitar asistencia desde el [Centro de FastTrack](http://fasttrack.microsoft.com/) si está listo para implementar estos servicios para su organización. Para solicitar asistencia, inicie sesión en el [Centro de FastTrack](http://fasttrack.microsoft.com/) con su cuenta profesional o educativa, vaya al panel, expanda **¿Necesita ayuda?** a la izquierda de la pantalla y, después, siga las indicaciones para completar la solicitud. Cuando empiece el soporte técnico de incorporación, configuraremos una programación de reuniones en línea.
+- Microsoft intenta ponerse en contacto con usted para ofrecerle asistencia de incorporación una vez que adquiera licencias de servicios aptos. También puede solicitar asistencia desde el [Centro de FastTrack](http://fasttrack.microsoft.com/) si está listo para implementar estos servicios para su organización. Para solicitar asistencia, inicie sesión en el [Centro de FastTrack](http://fasttrack.microsoft.com/) con su cuenta profesional o educativa, vaya al panel, expanda el vínculo **¿Necesita ayuda?** de la parte inferior derecha de la página y, después, siga las indicaciones para completar la solicitud. Cuando empiece el soporte técnico de incorporación, configuraremos una programación de reuniones en línea.
 
 -   El equipo de incorporación de Microsoft le ayuda primero con las funcionalidades principales (comunes a todos los servicios de Microsoft Online Services) y, después, con la incorporación de cada uno de los servicios aptos.
 
@@ -57,6 +57,6 @@ Todo el soporte técnico de incorporación lo proporciona de forma remota el per
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

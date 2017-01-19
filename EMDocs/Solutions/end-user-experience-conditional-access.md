@@ -2,9 +2,9 @@
 title: Experiencia de acceso condicional del usuario final
 description: La experiencia del usuario final al inscribir un dispositivo o solucionar problemas de cumplimiento.
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: swadhwa
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -14,13 +14,13 @@ ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: f8304ee6da77189f3d28c6d8f40175b8e58009a6
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: 580d2e909813390fbc86d3ca8edaf88f0f19a6d7
 
 
 ---
 
-# Experiencia de acceso condicional del usuario final
+# <a name="end-user-experience-of-conditional-access"></a>Experiencia de acceso condicional del usuario final
 Cuando el usuario intenta tener acceso al correo electrónico en el dispositivo por primera vez o sincronizar posteriormente, se comprueba el estado de cumplimiento de normas y la inscripción del dispositivo. El proceso de inscripción o corrección de problemas de cumplimiento de normas es una experiencia guiada. Se muestran al usuario final los pasos necesarios para inscribir su dispositivo y que esté conforme con las normas sin necesidad de llamar al servicio de asistencia de TI:
 
 -   **Si el dispositivo no está inscrito**, aparecerá un mensaje de acceso denegado en la página de inicio de sesión y se solicitará la inscripción. En la inscripción, el dispositivo se registra automáticamente en Azure Active Directory. Intune comprueba el cumplimiento de normas del dispositivo y proporciona los pasos de corrección para solucionar los problemas de incumplimiento. Una vez que el dispositivo cumple las normas, Intune establece el estado de cumplimiento del dispositivo con Azure Active Directory.
@@ -29,20 +29,20 @@ Cuando el usuario intenta tener acceso al correo electrónico en el dispositivo 
 
 Una vez que el dispositivo se evalúa como inscrito y conforme a las normas, la sincronización de correo electrónico debe realizarse en pocos minutos.
 
-## Android
+## <a name="android"></a>Android
 
 En [este tema](end-user-experience-conditional-access-android.md) se describe la experiencia de inscripción después de que se habilite el acceso condicional y de que un usuario final trate de acceder al correo electrónico en su dispositivo móvil Android.
 
-## iOS
+## <a name="ios"></a>iOS
 
 En [este tema](end-user-experience-conditional-access-ios.md) se describe la experiencia del usuario después de que se habilite el acceso condicional y de que un usuario final trate de acceder al correo electrónico en su dispositivo móvil iOS.
 
-## Windows Phone
+## <a name="windows-phone"></a>Windows Phone
 
 En [este tema](end-user-experience-conditional-access-winphone.md) se describe la experiencia del usuario final después de que se habilite el acceso condicional y de que un usuario final trate de acceder al correo electrónico en su dispositivo móvil Windows Phone.
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 05/12/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 2efaf8b6298cabd640f141675b5cefe3f77aaae7
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 418aa02b98040a8a74313513f05b231a20ea472a
 
 
 ---
 
-# Usar directivas de administración de aplicaciones móviles en Intune
+# <a name="use-mobile-app-management-policies-in-intune"></a>Usar directivas de administración de aplicaciones móviles en Intune
 Uno de los principales motivos de que muchas empresas usen Microsoft Intune es para implementar las aplicaciones que los usuarios necesitan para realizar su trabajo. Antes de implementar las aplicaciones, tendrá que [administrar los dispositivos](https://docs.microsoft.com/intune/deploy-use/enroll-devices-in-microsoft-intune).
 
 Por ejemplo, si la empresa usa Microsoft Word, hay versiones disponibles para Windows, iOS, Android y otros. El desafío al que se enfrenta como administrador de TI consiste en administrar la gran cantidad de aplicaciones disponibles en muchos dispositivos diferentes y plataformas informáticas, de forma que los usuarios puedan hacer su trabajo y a la vez se garantice la seguridad de los datos de la empresa.
@@ -43,7 +43,7 @@ Para aplicar restricciones a una aplicación, esta debe incorporar el Kit de des
   - [Preparar aplicaciones iOS para la administración de aplicaciones móviles con la herramienta de ajuste de aplicaciones de Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
   - [Preparar aplicaciones Android para la administración de aplicaciones móviles con la Herramienta de ajuste de aplicaciones de Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
 
-Algunas aplicaciones administradas, como la aplicación Outlook para iOS y Android, admiten **varias identidades**. Esto significa que Intune solo aplica la configuración de administración a las cuentas corporativas o los datos de la aplicación.
+Algunas aplicaciones administradas, como la aplicación Outlook para iOS y Android admiten **identidades múltiples**. Esto significa que Intune solo aplica la configuración de administración a las cuentas corporativas o los datos de la aplicación.
 
 Por ejemplo, mediante la aplicación de Outlook:
 - Si el usuario configura una cuenta de correo electrónico de trabajo y otra personal, Intune solo aplica la configuración de administración a la cuenta de trabajo y no administra la cuenta personal.
@@ -52,7 +52,7 @@ Por ejemplo, mediante la aplicación de Outlook:
 
 Word, Excel y PowerPoint también admiten varias identidades, aunque las restricciones de directivas solo se aplican al administrar y editar datos de identificación de empresa desde un servicio como OneDrive o SharePoint.
 
-## Crear e implementar una aplicación en Intune con una directiva de administración de aplicaciones móviles
+## <a name="create-and-deploy-an-app-in-intune-with-a-mobile-app-management-policy"></a>Crear e implementar una aplicación en Intune con una directiva de administración de aplicaciones móviles
 
 - Paso 1: obtenga el vínculo a una aplicación administrada por directivas o cree una aplicación ajustada.
 - Paso 2: publique la aplicación en el espacio de almacenamiento en la nube.
@@ -60,17 +60,17 @@ Word, Excel y PowerPoint también admiten varias identidades, aunque las restric
 - Paso 4: implemente la aplicación (seleccione la opción para asociar la aplicación a una directiva de administración de aplicaciones móviles).
 - Paso 5: supervise la implementación de la aplicación.
 
-### Paso 1: obtenga el vínculo a una aplicación administrada por directivas o cree una aplicación ajustada
+### <a name="step-1-obtain-the-link-to-a-policy-managed-app-or-create-a-wrapped-app"></a>Paso 1: obtenga el vínculo a una aplicación administrada por directivas o cree una aplicación ajustada
 - **Para obtener un vínculo a una aplicación administrada por directiva**: desde la tienda de aplicaciones, busque y anote la dirección URL de la aplicación administrada por directiva que quiere implementar.
 Por ejemplo, la dirección URL de la aplicación Microsoft Word para iPad es [https://itunes.apple.com/es/app/microsoft-word-for-ipad/id586447913?mt=8](https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8)
 - **Para crear una aplicación ajustada:** use la información de los temas [Preparar aplicaciones iOS para la administración de aplicaciones móviles con la Herramienta de ajuste de aplicaciones de Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) y [Preparar aplicaciones Android para la administración de aplicaciones móviles con la Herramienta de ajuste de aplicaciones de Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) para crear una aplicación ajustada. La herramienta crea una aplicación procesada que se usará al publicar la aplicación en su espacio de almacenamiento en nube.
 
-### Paso 2: publique la aplicación en el espacio de almacenamiento en la nube.
+### <a name="step-2-upload-the-app-to-your-cloud-storage-space"></a>Paso 2: publique la aplicación en el espacio de almacenamiento en la nube.
 Cuando se publica una aplicación administrada, los procedimientos difieren en función de si se publica una aplicación administrada por directiva o una aplicación que se procesó mediante la Microsoft Intune App Wrapping Tool para iOS.
 
 Consulte [Agregar aplicaciones para dispositivos móviles en Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune#add-the-app) para ver todos los pasos necesarios para cargar una aplicación en el espacio de almacenamiento en la nube.
 
-### Paso 3: cree una directiva de administración de aplicaciones móviles.
+### <a name="step-3-create-a-mobile-app-management-policy"></a>Paso 3: cree una directiva de administración de aplicaciones móviles.
 El portal de Azure es la consola de administración recomendada para crear directivas MAM. El portal de Azure admite los siguientes escenarios de MAM:
 - Dispositivos inscritos en Intune
 - Dispositivos administrados por una solución de MDM de terceros
@@ -81,14 +81,14 @@ Consulte [Crear e implementar directivas de administración de aplicaciones móv
 Si actualmente usa la consola de administración de Intune para administrar los dispositivos, puede crear una directiva MAM que admita aplicaciones para los dispositivos inscritos en Intune mediante la [consola de administración de Intune](https://docs.microsoft.com/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console#-step-3-create-a-mobile-application-management-policy).
 
 
-### Paso 4: implemente la aplicación seleccionando la opción para asociar la aplicación a una directiva de administración de aplicaciones móviles
+### <a name="step-4-deploy-the-app-selecting-the-option-to-associate-the-app-with-a-mobile-application-management-policy"></a>Paso 4: implemente la aplicación seleccionando la opción para asociar la aplicación a una directiva de administración de aplicaciones móviles
 Si usa el portal de Azure, [implemente la directiva MAM para los usuarios](https://docs.microsoft.com/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune#deploy-a-policy-to-users).
 
 Si usa el portal de Intune, [implemente la aplicación](https://docs.microsoft.com/intune/deploy-use/deploy-apps-in-microsoft-intune#deploy-an-app), asegurándose de seleccionar la directiva de administración de aplicaciones móviles en la página Administración de aplicaciones móviles para asociar la directiva a la aplicación.
 
 Si se anula la inscripción del dispositivo en Intune, no se eliminan las directivas de las aplicaciones; las aplicaciones que tenían directivas aplicadas conservarán la configuración de las directivas, aunque la aplicación se desinstale y reinstale.
 
-#### Qué hacer cuando ya se ha implementado una aplicación en dispositivos
+#### <a name="what-to-do-when-an-app-is-already-deployed-on-devices"></a>Qué hacer cuando ya se ha implementado una aplicación en dispositivos
 
 Puede haber situaciones en que implemente una aplicación y uno de los usuarios o dispositivos de destino ya tenga una versión no administrada de la aplicación instalada, por ejemplo, si el usuario ha instalado Microsoft Word desde la tienda de aplicaciones.
 
@@ -97,7 +97,7 @@ En este caso, debe pedir al usuario que desinstale manualmente la versión no ad
 En cambio, en el caso de los dispositivos que ejecutan iOS 9 y versiones posteriores, Intune pedirá automáticamente al usuario permiso para ocuparse de la administración de la aplicación existente. Si acepta, Intune administrará la aplicación y también se aplicarán las directivas de MAM que ha asociado a la aplicación.
 
 
-### Paso 5: supervise la implementación de la aplicación con la directiva MAM
+### <a name="step-5-monitor-the-app-deployment-with-mam-policy"></a>Paso 5: supervise la implementación de la aplicación con la directiva MAM
 Use los procedimientos siguientes para supervisar la implementación de la aplicación a través de la consola de Intune y para resolver cualquier conflicto entre directivas.
 
 1. En la [consola de administración de Microsoft Intune](https://manage.microsoft.com/), haga clic en **Grupos**.
@@ -112,12 +112,12 @@ Use los procedimientos siguientes para supervisar la implementación de la aplic
 > [!NOTE]
 > Puede obtener más información general sobre la supervisión de aplicaciones a través del [portal de Azure](https://docs.microsoft.com/intune/deploy-use/monitor-mobile-app-management-policies-with-microsoft-intune) o mediante la [consola de Intune](https://docs.microsoft.com/intune/deploy-use/monitor-apps-in-microsoft-intune).
 
-## Próximos pasos
+## <a name="where-to-go-from-here"></a>Próximos pasos
 
 Después de haber creado e implementado una aplicación asociada a una directiva MAM, puede obtener más información sobre la [experiencia del usuario final de MAM](end-user-experience-mam.md). Esto le ayudará a prepararse para los problemas que pudieran surgir.
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

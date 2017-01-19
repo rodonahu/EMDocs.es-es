@@ -17,6 +17,7 @@
 ## [Productividad móvil administrada](protect-office365-data-with-intune.md)
 ### [Proteger los datos de la empresa de Office 365 con Intune](protect-office365-data-with-intune.md)
 ### [Proteger los datos empresariales locales con Intune](protect-on-premises-data-with-intune.md)
+### [Proteger los datos empresariales sin necesidad de administrar dispositivos con Intune](protect-company-data-without-managing-devices.md)
 ## [Guías de diseño y arquitectura](byod-design-considerations-guide.md)
 ### [Guía de diseño de BYOD](byod-design-considerations-guide.md)
 #### [Previsión de la solución de infraestructura](byod-envisioning-the-byod-infrastructure-solution.md)
@@ -93,16 +94,11 @@
 #### [Fases de migración e incorporación](fasttrack-center-benefit-process-for-ems-phases.md)
 #### [Responsabilidades de Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
 #### [Sus responsabilidades](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
-### [Cómo configurar el método preferido para la comprobación de seguridad adicional](fasttrack-how-to-enroll-in-mfa.md)
-### [Cómo administrar su propia contraseña](fasttrack-how-to-manage-your-password.md)
-### [Instrucciones de inscripción de Intune de usuario final para los administradores de TI](fasttrack-intune-enduser-enrollment-instructions.md)
-### [Cómo usar aplicaciones con compatibilidad con varias identidades](fasttrack-how-to-use-apps-with-multi-identity-support.md)
-### [Cómo usar aplicaciones móviles administradas por la organización](fasttrack-how-to-work-with-managed-apps.md)
 
 ## [Licencias de software descargables incluidas en EMS](subscription-might-include-downloadable-software.md)
 ## [Preguntas más frecuentes de soporte técnico sobre EMS](ems-support-faq.md)
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
