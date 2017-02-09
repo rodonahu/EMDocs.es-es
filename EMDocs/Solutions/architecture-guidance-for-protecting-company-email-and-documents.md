@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 66732b444e6a449256a7929324d7b26e3e814f15
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 43594d947f3fa081a777eee6081c83b35621a9bf
 
 
 ---
 
-# Guía de arquitectura para proteger los documentos y correos electrónicos de la empresa
+# <a name="architecture-guidance-for-protecting-company-email-and-documents"></a>Guía de arquitectura para proteger los documentos y correos electrónicos de la empresa
 Este tema comienza con una visión general de cómo puede proteger los datos de su empresa y garantizar que la experiencia del usuario final sea sencilla y que no afecte a la productividad. Después, nos centraremos específicamente en cómo puede proporcionar un acceso seguro al correo electrónico de su empresa y en cómo proteger los datos de la empresa que aparezcan en correos electrónicos y en archivos adjuntos mediante la solución de Microsoft Enterprise Mobility + Security.
 
 En esta sección se trata la arquitectura para proteger los documentos y correos electrónicos de la empresa. Consulte [Learn more about how to deploy a solution for protecting company email and documents](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) (Aprenda a implementar una solución para proteger los documentos y correos electrónicos de su empresa) para obtener instrucciones sobre cómo implementar una solución.
@@ -46,7 +46,7 @@ Considere lo siguiente:
 
 Puesto que los usuarios finales quieren trabajar con sus propios dispositivos personales y el correo electrónico es la aplicación que más se utiliza, el primer paso para el departamento de TI es asegurarse de que los usuarios finales puedan acceder al correo electrónico corporativo en sus dispositivos y asegurarse de que los datos confidenciales del correo electrónico no se vean comprometidos.
 
-## Información general
+## <a name="overview"></a>Información general
 Microsoft ofrece Enterprise Mobility + Security (EMS), una solución completa para la administración de identidades, dispositivos móviles y aplicaciones, así como para la protección de datos. EMS proporciona un modelo de seguridad por capas que permite al departamento de TI administrar el acceso al correo electrónico, datos y aplicaciones corporativas desde casi cualquier dispositivo.
 
 EMS se compone de los siguientes servicios en la nube:
@@ -65,7 +65,7 @@ Las aplicaciones administradas de Intune incluyen las aplicaciones móviles de O
 
 Cuando los empleados mueven o cambian trabajos o pierden su dispositivo, EMS proporciona la opción de borrar los datos corporativos del dispositivo de forma selectiva y remota. Puede hacerlo el usuario final o el administrador de TI.
 
-## Cómo puede ayudar a proteger los datos EMS
+## <a name="how-ems-can-help-protect-your-data"></a>Cómo puede ayudar a proteger los datos EMS
 El modelo de seguridad de 4 niveles de identidad, dispositivos, aplicaciones y datos consiste en asegurarse de que solo accede a los recursos de la empresa el usuario designado, desde un dispositivo que cumpla un conjunto de directivas de cumplimiento configuradas por el usuario y dentro de los límites de las aplicaciones administradas.
 
 ![Gráfico que muestra el modelo de seguridad de cuatro niveles para identidades, dispositivos, aplicaciones y datos](./media/ProtectEmail/Protecting_your_data.png)
@@ -78,7 +78,7 @@ La tercera capa es la de **administración de aplicaciones**, con el ecosistema 
 
 *Azure Information Protection (anteriormente Azure RMS)* completa el modelo de seguridad al proteger los datos en el nivel de archivo. Las directivas de seguridad que se aplican a los datos viajan con los datos, ayudan a proteger los datos en tránsito y en dispositivos, independientemente del dispositivo que se use para acceder a ellos. Esta es la **capa de datos** del modelo de seguridad.
 
-## Próximos pasos
+## <a name="where-to-go-from-here"></a>Próximos pasos
 - [Mire](https://www.youtube.com/watch?v=ltcZvm4VOFU) este vídeo para obtener información sobre cómo registrarse para obtener una cuenta de prueba y comenzar.
 
 - Consulte la [Guía de consideraciones de diseño de administración de dispositivos móviles](mdm-design-considerations-guide.md) para comprender mejor los requisitos de diseño de la administración de dispositivos móviles.
@@ -88,7 +88,7 @@ La tercera capa es la de **administración de aplicaciones**, con el ecosistema 
 Además, si quiere obtener más información sobre EMS y Azure Active Directory, puede obtener más información de cualquiera de estos artículos:
 - [Arquitectura de EMS](https://azure.microsoft.com/documentation/infographics/enterprise-mobility/)
 
-- [Qué es Azure Active Directory](/active-directory/active-directory-whatis)
+- [¿Qué es Azure Active Directory?](/active-directory/active-directory-whatis)
 
 - [¿Cómo admite Azure Active Directory Office 365, Microsoft Intune y otros servicios de Microsoft?](/active-directory/active-directory-administer#what-is-an-azure-ad-tenant)
 
@@ -100,6 +100,6 @@ Además, si quiere obtener más información sobre EMS y Azure Active Directory,
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 
