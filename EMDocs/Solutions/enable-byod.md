@@ -13,8 +13,8 @@ ms.assetid: 6d31eebe-81d2-4c6b-bfec-fbd536096dda
 ms.reviewer: vlpetros
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 371bf70d4f3389e61ff46f3eab48d19db77610b5
-ms.openlocfilehash: 27080ccb165917e7b32a1a74ff5a8d5a77ed0205
+ms.sourcegitcommit: b4edb16e4ef00b7376af800ab542f42c0e530197
+ms.openlocfilehash: 9defe28a74bc3e53f6ae5dc33b33396e47247265
 
 
 ---
@@ -37,7 +37,7 @@ Con EMS puede proporcionar funcionalidades y experiencias para crear un área de
 
 ### <a name="recommended-solution"></a>Solución recomendada
 
-Con Intune, puede proporcionar fácilmente a los empleados acceso a las aplicaciones, los datos y los recursos de la empresa desde prácticamente cualquier lugar en cualquier dispositivo, al mismo tiempo que ayuda a proteger la información corporativa. La integración directa con Office 365 permite increíbles experiencias de usuario final y proporciona las funcionalidades de prevención de pérdida de datos más completas para aplicaciones móviles de Office y control de acceso a Office 365. Cuando un dispositivo se pierde, lo roban o simplemente ya no lo necesita para el trabajo, Intune permite borrar de forma selectiva solo los datos de la empresa en los dispositivos BYOD.
+Con Intune, puede proporcionar fácilmente a los empleados acceso a las aplicaciones, los datos y los recursos de la empresa desde prácticamente cualquier lugar en cualquier dispositivo, al mismo tiempo que ayuda a proteger la información corporativa. La integración directa con Office 365 permite increíbles experiencias de usuario final y proporciona las funcionalidades de prevención de pérdida de datos más completas para aplicaciones móviles de Office y control de acceso a Office 365. Cuando un dispositivo se pierde, lo roban o ya no es necesario para el trabajo, Intune permite borrar de forma selectiva solo los datos de la empresa en los dispositivos BYOD.
 
 Este es un breve vídeo donde usuarios reales y de profesionales de TI comentan sus necesidades y desafíos al equilibrar la productividad y la protección en un mundo principalmente móvil y en la nube:
 <iframe width="675" height="480" src="https://www.youtube.com/embed/pgAmKnluwVw" frameborder="0" allowfullscreen></iframe>
