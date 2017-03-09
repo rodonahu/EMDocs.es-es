@@ -20,6 +20,7 @@
 ### [Proteger los datos empresariales locales con Intune](protect-on-premises-data-with-intune.md)
 ### [Proteger los datos empresariales sin necesidad de administrar dispositivos con Intune](protect-company-data-without-managing-devices.md)
 ### [Habilitar BYOD con Intune](enable-byod.md)
+### [Administrar los dispositivos propiedad de la empresa con Intune](issue-corp-devices.md)
 ## [Guías de diseño y arquitectura]()
 ### [Guía de diseño de BYOD](byod-design-considerations-guide.md)
 #### [Previsión de la solución de infraestructura](byod-envisioning-the-byod-infrastructure-solution.md)
