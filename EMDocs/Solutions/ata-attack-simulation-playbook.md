@@ -12,9 +12,10 @@ ms.technology: techgroup-identity
 ms.assetid: da5eda7c-29bb-429f-9366-72495667c010
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: cff5b87f6c5d0b9aa987631fefe5bf74e3a43862
 ms.openlocfilehash: 41672ccdbd2c868add70e423b7dbc8048713259b
+ms.contentlocale: es-es
 ms.lasthandoff: 03/14/2017
 
 
@@ -236,7 +237,7 @@ En la siguiente imagen se muestra un ejemplo del resultado de este comando:
 Ahora el atacante tiene todos los usuarios y todos los grupos y sabe qué usuarios pertenecen al grupo con privilegios elevados *Admins. del dominio*. En un escenario real, la probabilidad de que el ataque siga avanzando y trate de obtener los administradores de empresa es muy alta, ya que no hay ningún límite de seguridad entre *Administradores de empresas* y *Admins. del dominio*.
 
 > [!IMPORTANT]
-> Para obtener más información sobre los límites de seguridad entre bosques y dominios, entre los grupos Administradores de empresas y Admins. del dominio y otros privilegios de "nivel&0;", vea [Protección del material de referencia de acceso con privilegios](http://www.aka.ms/tier0).
+> Para obtener más información sobre los límites de seguridad entre bosques y dominios, entre los grupos Administradores de empresas y Admins. del dominio y otros privilegios de "nivel 0", vea [Protección del material de referencia de acceso con privilegios](http://www.aka.ms/tier0).
 
 Para obtener la lista de miembros del grupo *Administradores de empresas* en este laboratorio, ejecute el siguiente comando en *Victim-PC*:
 
@@ -330,7 +331,7 @@ El atacante ha pensado aquí de manera [gráfica](https://blogs.technet.microsof
 
 Ahora es el momento de usar a *RonHD* para realizar un movimiento lateral por medio de un ataque [overpass-the-hash](). Si el atacante se encuentra en un entorno en el que no se deshabilitó WDigest, ya está todo perdido, puesto que tendrá la contraseña de texto sin formato.  Pero en este laboratorio vamos a suponer que desconocemos la contraseña de texto sin formato ni tenemos acceso a ella.
 
-Con una técnica denominada overpass-the-hash, se puede obtener el hash NTLM y usarlo para conseguir un vale de concesión de vales (TGT) a través de Kerberos\Active Directory.  Con un TGT, se puede hacer pasar por Ron**HD y acceder a los recursos del dominio a los que*RonHD* tenga acceso.  
+Con una técnica denominada overpass-the-hash, se puede obtener el hash NTLM y usarlo para conseguir un vale de concesión de vales (TGT) a través de Kerberos\Active Directory.  Con un TGT, se puede hacer pasar por Ron**HD y acceder a los recursos del dominio a los que* RonHD* tenga acceso.  
 
 Copie el hash NTLM de *RonHD* del archivo victim-pc.txt recopilado anteriormente (al realizar el volcado de credenciales desde Victim-PC). Luego, vaya a *Victim-PC*, acceda a la ubicación donde *mimikatz* esté almacenado en el sistema de archivos y ejecute los siguientes comandos:
 
