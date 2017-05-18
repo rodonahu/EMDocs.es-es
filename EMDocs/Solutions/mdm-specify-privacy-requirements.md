@@ -4,8 +4,8 @@ description: "En este artículo se proporciona un conjunto de requisitos de priv
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 14f3c9958c2c959df8c6537728e8237a1f226760
+ms.contentlocale: es-es
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -53,9 +55,4 @@ Antes de elegir una solución de administración de dispositivos móviles, tenga
         - En caso afirmativo, asegúrese de que enumere estos requisitos antes de seleccionar la plataforma de administración de dispositivos móviles.
 
 Lea la [Declaración de privacidad de Microsoft Online Services](http://www.microsoft.com/server-cloud/products/intune-trust-center/privacy.aspx) para entender mejor cómo los servicios en la nube de Microsoft, incluido Intune, mantendrán la privacidad del usuario.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

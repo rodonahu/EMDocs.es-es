@@ -4,8 +4,8 @@ description: "En este artículo se proporciona un conjunto de consideraciones de
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 2e00204f4be8183fdb8502e13b1ef06d1b7df084
+ms.contentlocale: es-es
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -236,9 +238,4 @@ La decisión de elegir la implementación de aplicación y la experiencia que se
 Plantéese usar un ciclo de vida de desarrollo de seguridad para todas las aplicaciones que utilizarán los usuarios que usen sus propios dispositivos. La seguridad debe incluirse en todas las fases del proceso de desarrollo y deben tenerse en cuenta todas las amenazas potenciales. [STRIDE](https://msdn.microsoft.com/magazine/cc163519.aspx) y otras estrategias de seguridad se pueden incorporar al ciclo de vida de desarrollo mediante el [ciclo de vida de desarrollo de seguridad (SDL) de Microsoft](https://www.microsoft.com/security/sdl/process/requirements.aspx). Es un aspecto importante la manera en que se integrará la infraestructura actual con la estrategia de seguridad global para BYOD. ¿Es capaz de proporcionar el entorno actual una base segura para las aplicaciones? ¿Necesita adquirir la empresa soluciones seguras de terceros para mitigar cualquier vulnerabilidad potencial que cree esta nueva adopción?
 
 Las consideraciones de seguridad son importantes para las aplicaciones que usarán los usuarios con sus propios dispositivos. Se recomienda que use colecciones personalizadas en función de los grupos de seguridad de Active Directory para limitar los usuarios de destino para algunas aplicaciones con requisitos de acceso específicos, limitando los usuarios que pueden instalarlas. También se puede aprovechar la seguridad para mejorar la experiencia de los usuarios permitiéndoles acceder a los recursos corporativos con el mismo nombre de usuario y contraseña, algo que se puede conseguir mediante AD FS. La seguridad también es importante al diseñar la implementación para estas aplicaciones. Debe adquirir e implementar certificados y claves de instalación de prueba para poder habilitar la inscripción del usuario. Trabaje conjuntamente con otros equipos para optimizar el proceso de certificación de aplicaciones.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

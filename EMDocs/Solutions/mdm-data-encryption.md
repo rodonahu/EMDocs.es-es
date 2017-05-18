@@ -4,8 +4,8 @@ description: "En este tema se incluyen el cifrado de datos de las consideracione
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 10/3/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 1072858e-dc0a-44ad-a512-d938f20310b6
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
 ms.openlocfilehash: a7382ec71d94d0b08cc4c89e8dbe90bcd1a4c1d7
+ms.contentlocale: es-es
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -80,9 +82,4 @@ La mayoría de soluciones MDM utilizan SSL para proteger los datos en tránsito,
 - Si la organización no dispone de una infraestructura de Configuration Manager local en estos momentos, habrá que planificar, instalar y configurar esta plataforma antes de la integración.
 
 Para obtener más información sobre cómo combinar funcionalidades de Intune y Configuration Manager para mejorar la protección de datos y configurar el cifrado, lea [Managing Encryption on Mobile Devices with Configuration Manager and Intune](http://blogs.technet.com/b/pauljones/archive/2014/08/04/managing-encryption-on-mobile-devices-with-configuration-manager-and-intune.aspx) (Administración del cifrado en dispositivos móviles con Configuration Manager e Intune).
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

@@ -4,8 +4,8 @@ description: "En este artículo se proporciona un conjunto de requisitos comunes
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/21/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 9aafb6a87f629f61d04596830ae0cc5cee944696
+ms.contentlocale: es-es
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -91,9 +93,4 @@ Las preguntas relativas a los requisitos en cuanto al acceso a datos y a la prot
     - Si es así, ¿cómo determinan estas normas las directivas de acceso a datos actuales que se aplican a los recursos locales?
 - ¿La empresa aplica alguna directiva de [Administración de dispositivos móviles (MDM)](mdm-design-considerations-guide.md) y de [Administración de aplicaciones móviles (MAM)](https://blogs.technet.microsoft.com/cbernier/2016/01/05/microsoft-intune-mobile-application-management-mam-standalone/)?
 - ¿La compañía aplica alguna directiva para la confiscación de dispositivos en caso de juicio o investigación de delitos?
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

@@ -4,8 +4,8 @@ description: "En este artículo se proporcionan instrucciones sobre la identific
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 85783069-14fb-4ead-a159-657d694eb1a7
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 35c9101de6df041b906660743654a8b137d4a542
+ms.contentlocale: es-es
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -80,9 +82,4 @@ Durante esta tarea, también debe evaluar si la empresa tiene directivas de cump
 
 >[!TIP]
 > Asegúrese de que toma las notas de cada respuesta y de que comprende la lógica subyacente en la respuesta. La siguiente sección tratará las opciones disponibles, así como las ventajas y desventajas de cada opción.  Con las respuestas a estas preguntas, podrá seleccionar qué solución se adapta mejor a sus necesidades empresariales.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

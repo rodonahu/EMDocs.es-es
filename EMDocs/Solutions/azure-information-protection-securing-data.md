@@ -4,7 +4,7 @@ description: "En este artículo se describe el rol de Azure Information Protecti
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
-ms.date: 02/23/2017
+ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -12,9 +12,11 @@ ms.technology: techgroup-identity
 ms.assetid: 2f906e2e-3d99-40e6-b5cc-8d903fcda444
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: bf2418b68e40b60508447fc5400f4acfc5c6b1b3
 ms.openlocfilehash: 17f2a0b6991d05af2a6f000af48e9fc085221a4d
+ms.contentlocale: es-es
+ms.lasthandoff: 02/14/2017
 
 
 ---
@@ -122,9 +124,4 @@ Los escenarios siguientes contienen más detalles sobre la manera en que Azure I
 - [Proteger los datos mediante la clasificación, el etiquetado y la protección](infoprotect-secure-classify-scenario.md)
 - [Uso compartido de datos confidenciales interna y externamente](share-sensitive-data.md)
 - [Realizar un seguimiento del uso de datos compartidos y responder ante un abuso de datos](infoprotect-track-usage-scenario.md)
-
-
-
-<!--HONumber=Feb17_HO2-->
-
 

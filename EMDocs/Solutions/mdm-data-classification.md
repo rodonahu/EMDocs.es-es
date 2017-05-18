@@ -4,8 +4,8 @@ description: "En este artículo se proporciona un conjunto de consideraciones de
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: f3486381-66d5-469a-93a3-013eaaa17c07
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 94c02152e553bdeba1bd1568c409d816ac078e9a
+ms.contentlocale: es-es
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -79,9 +81,4 @@ Utilice la siguiente tabla como referencia para ayudarle a elegir la opción de 
 **Desventajas**
 
 - No está disponible para los clientes que no estén adoptando soluciones basadas en la nube
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 
