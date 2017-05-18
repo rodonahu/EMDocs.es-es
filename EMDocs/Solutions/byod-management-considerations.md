@@ -4,8 +4,8 @@ description: "En este artículo se proporciona un conjunto de consideraciones de
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
+ms.contentlocale: es-es
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -194,9 +196,4 @@ Pese a que se trata de dos opciones diferentes, puede integrar ambas para llevar
 | Implemente y aprovisione aplicaciones en dispositivos ubicados solo exteriormente.   | Microsoft Intune                                       |
 | Implemente y aprovisione aplicaciones en dispositivos que no son de Windows.                   | Microsoft Intune                                       |
 | Implemente y aprovisione aplicaciones en dispositivos ubicados solo en el entorno local, que se encuentren fuera de la empresa o que no sean de Windows.       | Integración de Microsoft Intune en Configuration Manager
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

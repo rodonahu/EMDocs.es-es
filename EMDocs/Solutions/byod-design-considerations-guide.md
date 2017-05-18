@@ -4,8 +4,8 @@ description: "En este artículo se proporciona una introducción a la adopción 
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 01/04/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 242b1a6468bfc9524acdb3c497078128dd26864b
 ms.openlocfilehash: 0744ef860fb1fd06507c9e24af9c676551c54f12
+ms.contentlocale: es-es
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -74,9 +76,4 @@ Los siguientes problemas o dificultades son los que normalmente encuentran las c
 Las organizaciones con una gran infraestructura necesitan, por una parte, determinar los requisitos antes de pasar de administrar ellos mismos los dispositivos, lo que supone que el departamento de TI tiene un control total sobre los dispositivos, a un modelo en el que dicho departamento debe asumir que tiene menos control sobre los dispositivos. Por otra parte, también deben abordar las necesidades de los usuarios de acceder a los datos corporativos. Esto se considera a menudo como un cambio desde una situación de centralización en torno al dispositivo a una situación de TI centrado en las personas. Los mismos requisitos y consideraciones deben también planificarse cuidadosamente para las aplicaciones nuevas y existentes, o para mover las aplicaciones existentes a un entorno de nube. La figura 1 incluye un diagrama conceptual del dominio del problema BYOD y las áreas que se tratarán en esta guía.
 
 ![Dominio del problema](./media/BYOD_Figure1.png)
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

@@ -4,7 +4,7 @@ description: "Esta guía sirve para que los clientes conozcan los ataques de rob
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
-ms.date: 03/13/2017
+ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: 
 ms.service: advanced-threat-analytics

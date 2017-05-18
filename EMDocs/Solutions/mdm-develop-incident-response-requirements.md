@@ -4,8 +4,8 @@ description: "En este artículo se proporciona un conjunto de requisitos comunes
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 6f9fd9b3-492b-48e1-871c-e5abefe1293a
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: a9bb76fdff02b8ded31fe3e1811678138ffd5504
+ms.contentlocale: es-es
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -45,9 +47,4 @@ Cuando diseñe la solución MDM, asegúrese de que formula las preguntas siguien
 - Cuando un dispositivo móvil está en peligro y necesita impedir que ese dispositivo distribuya aplicaciones malintencionadas en la red corporativa, ¿la solución MDM le permite aplicar directivas que puedan contener rápidamente al dispositivo en peligro?
 - ¿La solución MDM le permite planificar ataques potenciales para emprender acciones proactivas para solucionar los problemas?
 - ¿La solución MDM le permite identificar cuándo un archivo está infectado con malware mediante una consola de administración?
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

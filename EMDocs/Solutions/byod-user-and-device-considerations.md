@@ -4,8 +4,8 @@ description: "En este artículo se proporciona un conjunto de consideraciones de
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
+ms.contentlocale: es-es
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -207,9 +209,4 @@ Utilice la siguiente lista para entender las ventajas y desventajas de las opcio
 > Para más información sobre los perfiles de Wi-Fi en Configuration Manager, consulte [Introducción a perfiles de Wi-Fi en Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 La ubicación de la red tiene un rol importante en las consideraciones sobre los usuarios y los dispositivos. Puede aprovechar el control de acceso multifactor en AD FS para habilitar las directivas de autorización por aplicación, con las que puede permitir o denegar el acceso en función del usuario, el dispositivo y la ubicación de red. Consulte [Guía de tutorial: Administración de riesgos con control de acceso condicional](https://technet.microsoft.com/library/dn280936.aspx) para obtener más información sobre cómo configurar un entorno para validar esta funcionalidad.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 
