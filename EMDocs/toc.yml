@@ -1,199 +1,198 @@
-- name: "Documentos"
+- name: Documentos
   href: /
   homepage: /
   items:
-  - name: "Enterprise Mobility + Security"
+  - name: Enterprise Mobility + Security
     href: /enterprise-mobility-security/
     homepage: /enterprise-mobility-security
     items:
-    - name: "Soluciones"
+    - name: Soluciones
       href: /enterprise-mobility-security/solutions/
       homepage: /enterprise-mobility/solutions/byod-design-considerations-guide
-    - name: "Azure RemoteApp"
+    - name: Azure RemoteApp
       href: /azure/remoteapp/
       homepage: /azure/remoteapp/remoteapp-whatis
-    - name: "Azure Active Directory"
+    - name: Azure Active Directory
       href: /azure/active-directory/
       homepage: /azure/active-directory
       items:
-        - name: "Actual"
+        - name: Actual
           href: /active-directory/adal/
           homepage: /active-directory/adal/microsoft.identitymodel.clients.activedirectory
-        - name: "ADAL v3"
+        - name: ADAL v3
           href: /active-directory/adal/v3/
           homepage: /active-directory/adal/v3/microsoft.identitymodel.clients.activedirectory
-        - name: "ADAL v2"
+        - name: ADAL v2
           href: /active-directory/adal/v2/
           homepage: /active-directory/adal/v2/microsoft.identitymodel.clients.activedirectory
-        - name: "API de gráficos de AD"
+        - name: API de gráficos de AD
           href: /azure-ad-graph-api/api/
           homepage: /azure-ad-graph-api/api/api-catalog
-    - name: "Multi-Factor Authentication,"
+    - name: 'Multi-Factor Authentication,'
       href: /azure/multi-factor-authentication/
       homepage: /azure/multi-factor-authentication
-    - name: "Cloud App Security"
+    - name: Cloud App Security
       href: /cloud-app-security/
       homepage: /cloud-app-security
-    - name: "Advanced Threat Analytics"
+    - name: Advanced Threat Analytics
       href: /advanced-threat-analytics/
       homepage: /advanced-threat-analytics
       items:
-        - name: "Conceptos básicos y exploración"
+        - name: Conceptos básicos y exploración
           href: /advanced-threat-analytics/understand-explore/
           homepage: /advanced-threat-analytics/understand/ata-understand-and-explore
-        - name: "Planificación y diseño"
+        - name: Planificación y diseño
           href: /advanced-threat-analytics/plan-design/
           homepage: /advanced-threat-analytics/plandesign/ata-plan-and-design
-        - name: "Implementación y uso"
+        - name: Implementación y uso
           href: /advanced-threat-analytics/deploy-use/
           homepage: /advanced-threat-analytics/deployuse/configure-port-mirroring
-        - name: "Solución de problemas"
+        - name: Solución de problemas
           href: /advanced-threat-analytics/troubleshoot/
           homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
 
-    - name: "Versión preliminar de Azure de Intune"
-      href: /intune-azure/
-      homepage: /intune-azure
-
-    - name: "Intune"
+    - name: Intune
       href: /intune/
       homepage: /intune
       items:
-        - name: "Conceptos básicos y exploración"
-          href: /intune/understand-explore/
-          homepage: /intune/understand-explore/introduction-to-microsoft-intune
-        - name: "Planificación y diseño"
-          href: /intune/plan-design/
-          homepage: /intune/plan-design/
-        - name: "Implementación y uso"
-          href: /intune/deploy-use/
-          homepage: /intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
-        - name: "Solución de problemas"
-          href: /intune/troubleshoot/
-          homepage: /intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
-        - name: "Introducción"
-          href: /intune/get-started/
-          homepage: /intune/get-started/get-started
-        - name: "Desarrollo y personalización de aplicaciones"
-          href: /intune/develop/
-          homepage: /intune/develop/intune-app-sdk
-        - name: "Novedades"
-          href: /intune/whats-new/
-          homepage: /intune/whats-new/whats-new-in-microsoft-intune
-
-        - name: "Intune para educación"
+        - name: Intune para educación
           href: /intune-education/
           homepage: /intune-education
 
+    - name: 'Intune: consola clásica'
+      href: /intune-classic/
+      homepage: /intune-classic
+      items:
+        - name: Conceptos básicos y exploración
+          href: /intune-classic/understand-explore/
+          homepage: /intune-classic/understand-explore/introduction-to-microsoft-intune
+        - name: Planificación y diseño
+          href: /intune-classic/plan-design/
+          homepage: /intune-classic/plan-design/
+        - name: Implementación y uso
+          href: /intune-classic/deploy-use/
+          homepage: /intune-classic/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
+        - name: Solución de problemas
+          href: /intune-classic/troubleshoot/
+          homepage: /intune-classic/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
+        - name: Introducción
+          href: /intune-classic/get-started/
+          homepage: /intune-classic/get-started/get-started
+        - name: Desarrollo y personalización de aplicaciones
+          href: /intune-classic/develop/
+          homepage: /intune-classic/develop/intune-app-sdk
+        - name: Novedades
+          href: /intune-classic/whats-new/
+          homepage: /intune-classic/whats-new/whats-new-in-microsoft-intune
 
-    - name: "Azure Information Protection"
+    - name: Azure Information Protection
       href: /information-protection/
       homepage: /information-protection
       items:
-        - name: "Conceptos básicos y exploración"
+        - name: Conceptos básicos y exploración
           href: /information-protection/understand-explore/
           homepage: /information-protection/understand-explore/what-is-azure-rights-management
-        - name: "Introducción"
+        - name: Introducción
           href: /information-protection/get-started/
           homepage: /information-protection/get-started/requirements-for-azure-rights-management
-        - name: "Planificación y diseño"
+        - name: Planificación y diseño
           href: /information-protection/plan-design/
           homepage: /information-protection/plan-design/azure-rights-management-deployment-roadmap
-        - name: "Implementación y uso del servicio"
+        - name: Implementación y uso del servicio
           href: /information-protection/deploy-use/
           homepage: /information-protection/deploy-use/activating-azure-rights-management
-        - name: "Implementación y uso del cliente"
+        - name: Implementación y uso del cliente
           href: /information-protection/rms-client/
           homepage: /information-protection/rms-client/rights-management-rms-client
-        - name: "Desarrollo y personalización de aplicaciones"
+        - name: Desarrollo y personalización de aplicaciones
           href: /information-protection/develop/
           homepage: /information-protection/develop/developers-guide
           items:
-          - name: "SDK 4.2"
+          - name: SDK 4.2
             href: /information-protection/sdk/4.2/api/
             homepage: /information-protection/develop/api-reference-4-2
             items:
-            - name: "Android"
+            - name: Android
               href: /information-protection/sdk/4.2/api/android/
               homepage: /information-protection/develop/android-namespaces
-            - name: "iOS"
+            - name: iOS
               href: /information-protection/sdk/4.2/api/iOS/
               homepage: /information-protection/sdk/4.2/api/iOS/iOS
-            - name: "WinRT"
+            - name: WinRT
               href: /information-protection/sdk/4.2/api/winrt/
               homepage: /information-protection/sdk/4.2/api/winrt/Microsoft.RightsManagement
-          - name: "SDK 2.1"
+          - name: SDK 2.1
             href: /information-protection/sdk/2.1/api/
             homepage: /information-protection/develop/api-reference-2-1
             items:
-            - name: "Win"
+            - name: Win
               href: /information-protection/sdk/2.1/api/win/
               homepage: /information-protection/develop/api-reference-2-1
               items:
-              - name: "Constantes"
+              - name: Constantes
                 href: /information-protection/sdk/2.1/api/win/constants/
                 homepage: /information-protection/sdk/2.1/api/win/constants
-              - name: "Tipos de datos"
+              - name: Tipos de datos
                 href: /information-protection/sdk/2.1/api/win/data%20types/
                 homepage: /information-protection/sdk/2.1/api/win/data%20types
-              - name: "Funciones"
+              - name: Funciones
                 href: /information-protection/sdk/2.1/api/win/functions/
                 homepage: /information-protection/sdk/2.1/api/win/functions
-              - name: "Estructuras"
+              - name: Estructuras
                 href: /information-protection/sdk/2.1/api/win/structures/
                 homepage: /information-protection/sdk/2.1/api/win/structures
-    - name: "Microsoft Identity Manager"
+    - name: Microsoft Identity Manager
       href: /microsoft-identity-manager/
       homepage: /microsoft-identity-manager
       items:
-        - name: "Conceptos básicos y exploración"
+        - name: Conceptos básicos y exploración
           href: /microsoft-identity-manager/understand-explore/
           homepage: /microsoft-identity-manager/understand-explore/journey-understand-evaluate
-        - name: "Planificación y diseño"
+        - name: Planificación y diseño
           href: /microsoft-identity-manager/plan-design/
           homepage: /microsoft-identity-manager/plan-design/journey-plan-design
-        - name: "Implementación y uso"
+        - name: Implementación y uso
           href: /microsoft-identity-manager/deploy-use/
           homepage: /microsoft-identity-manager/deploy-use/journey-deploy-use-html
-        - name: "Referencia"
+        - name: Referencia
           href: /microsoft-identity-manager/reference/
           homepage: /microsoft-identity-manager/reference/journey-develop-applications
-        - name: "Introducción"
+        - name: Introducción
           href: /microsoft-identity-manager/get-started/
           homepage: /microsoft-identity-manager/get-started/journey-get-started
-        - name: "PAM"
+        - name: PAM
           href: /microsoft-identity-manager/pam/
           homepage: https://docs.microsoft.com/en-us/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services
 
-    - name: "Configuration Manager"
+    - name: Configuration Manager
       href: /sccm/
       homepage: /sccm
       items:
-        - name: "Infraestructura básica"
+        - name: Infraestructura básica
           href: /sccm/core/
           homepage: /sccm/core/understand/introduction
-        - name: "Administración de aplicaciones"
+        - name: Administración de aplicaciones
           href: /sccm/apps/
           homepage: /sccm/apps/understand/get-started-with-application-management
-        - name: "Cumplimiento de dispositivos"
+        - name: Cumplimiento de dispositivos
           href: /sccm/compliance/
           homepage: /sccm/compliance/understand/ensure-device-compliance
-        - name: "Administración de dispositivos móviles"
+        - name: Administración de dispositivos móviles
           href: /sccm/mdm/
           homepage: /sccm/mdm/understand/whats-new-in-hybrid-mobile-device-management
-        - name: "Implementación de sistema operativo"
+        - name: Implementación de sistema operativo
           href: /sccm/osd/
           homepage: /sccm/osd/understand/introduction-to-operating-system-deployment
-        - name: "Proteger los datos y la infraestructura"
+        - name: Proteger los datos y la infraestructura
           href: /sccm/protect/
           homepage: /sccm/protect/understand/protect-data-and-site-infrastructure
-        - name: "Administración de actualizaciones de software"
+        - name: Administración de actualizaciones de software
           href: /sccm/sum/
           homepage: /sccm/sum/understand/software-updates-introduction
-        - name: "Desarrollo"
+        - name: Desarrollo
           href: /sccm/develop/
           homepage: /sccm/develop/core/misc/system-center-configuration-manager-sdk
           items:
-            - name: "Referencia"
+            - name: Referencia
               href: /sccm/develop/reference
               homepage: /sccm/develop/reference/configuration-manager-reference
