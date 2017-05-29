@@ -1,10 +1,10 @@
 ---
-title: Proteger el acceso principal | Azure Active Directory Identity Protection
+title: Proteger el acceso principal | Microsoft Docs
 description: "Escenario en el que se describe cómo se puede usar Enterprise Mobility + Security para proteger la identidad para el acceso seguro a los recursos de la empresa mediante el aprovechamiento de las funciones de Microsoft Azure Active Directory Identity Protection y de Azure Active Directory Privileged Identity Management."
 author: yuridio
 ms.author: yurid
-manager: swadhwa
-ms.date: 12/07/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: 
 ms.service: active-directory
@@ -13,9 +13,11 @@ ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: microsoft-identity-manager
-translationtype: Human Translation
-ms.sourcegitcommit: 02b0e611805ad2214b1b108b8c466590aad7999a
-ms.openlocfilehash: c61f68b5922373ffe5509ddb80a158d6a9757ff1
+ms.translationtype: Human Translation
+ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
+ms.openlocfilehash: 851a99829280b85d632e79400d53c357692b74ef
+ms.contentlocale: es-es
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -127,9 +129,4 @@ Ahora que ha instalado y configurado Azure AD Privileged Identity Management, pu
 ![Roles con privilegios](./media/protect-front-door/protect-front-door-fig10.png)
 
 En este panel verá la actividad actual, como las [alertas de seguridad](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-configure-security-alerts/) y la [revisión de acceso](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-start-security-review/). También puede usar el panel para [agregar](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/) o [quitar](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/#remove-another-users-access-rights-for-managing-pim) el acceso de uno o más usuarios a Azure AD Privileged Identity Management.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

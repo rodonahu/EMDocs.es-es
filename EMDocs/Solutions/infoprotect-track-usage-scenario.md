@@ -1,9 +1,9 @@
 ---
-title: Realizar un seguimiento del uso de datos compartidos y responder ante un abuso de datos | Azure Rights Management
+title: Realizar un seguimiento del uso de datos compartidos y responder ante un abuso de datos | Microsoft Docs
 description: Escenario que describe la manera en que se puede usar Enterprise Mobility + Security para realizar un seguimiento del uso de datos compartidos y responder ante un abuso de datos mediante las funciones de Azure Rights Management.
 author: yuridio
-manager: swadhwa
-ms.date: 12/7/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -11,9 +11,11 @@ ms.technology: techgroup-identity
 ms.assetid: c7e6e01a-5796-4bd7-a0c5-847ecfc08a1e
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 02b0e611805ad2214b1b108b8c466590aad7999a
-ms.openlocfilehash: c2004b77928386ed46d947b96b69c1cb85d2e6fb
+ms.translationtype: Human Translation
+ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
+ms.openlocfilehash: 81e6b6479dcca1a82b37cfc4c832f36e33ac1b7b
+ms.contentlocale: es-es
+ms.lasthandoff: 05/29/2017
 
 
 
@@ -72,9 +74,4 @@ En otros escenarios, tendrá que responder a un incidente de seguridad. Por ejem
 ![Gráfico en el que se muestra el formulario Revocar acceso, que permite revocar el acceso a un documento.](./media/infoprotect-track-usage-scenario/infoprotect-track-usage-scenario-fig5.png)
 
 Puede habilitar la opción para notificar a los destinatarios que se ha revocado el acceso a este documento. Además, puede incluir un mensaje con los motivos por los que se ha revocado.
-
-
-
-<!--HONumber=Dec16_HO2-->
-
 

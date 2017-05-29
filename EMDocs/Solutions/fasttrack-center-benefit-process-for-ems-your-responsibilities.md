@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 61241368440bea9a12bbac136466250da91da997
-ms.openlocfilehash: 847a6aa06ef34004f8de52c2e71f560112c8885a
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
+ms.openlocfilehash: ecd83c311deca5050599a4eb55d45d0094d656f1
+ms.contentlocale: es-es
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -62,9 +64,9 @@ Tiene las siguientes responsabilidades durante la incorporación.
 
 -   Proporcionar y configurar los certificados públicos de Capa de sockets seguros (SSL).
 
--   Configurar o actualizar Configuration Manager con los requisitos mínimos para la integración de Microsoft Intune con Configuration Manager.
+-     Configurar o actualizar Configuration Manager con los requisitos mínimos para la integración de Microsoft Intune con Configuration Manager.
 
--   Si es necesario para la implementación de perfiles de VPN y Wi-Fi con Intune, proporcione y configure infraestructuras de VPN, Wi-Fi o entidades de certificación según sea necesario.
+-     Si es necesario para la implementación de perfiles de VPN y Wi-Fi con Intune, proporcione y configure infraestructuras de VPN, Wi-Fi o entidades de certificación según sea necesario.
 
 -   Redactar las condiciones de uso (CDU) de la organización que se configurarán y mostrarán en el portal de empresa de Microsoft Intune al que tengan acceso los usuarios finales.
 
@@ -113,9 +115,4 @@ Tiene las siguientes responsabilidades durante la incorporación.
 **¿Quiere obtener más información?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 
