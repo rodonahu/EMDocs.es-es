@@ -1,10 +1,10 @@
 ---
-title: Proteger los datos locales de la empresa con Microsoft Intune | Microsoft Docs
+title: Proteger datos locales con Microsoft Intune | Microsoft Docs
 description: "Con Enterprise Mobility + Security (EMS) podrá mantener la productividad de sus empleados con sus aplicaciones y dispositivos favoritos, al mismo tiempo que protege los datos locales de la empresa."
 keywords: 
 author: jeffgilb
-manager: swadhwa
-ms.date: 12/7/2016
+manager: angrobe
+ms.date: 02/03/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.assetid: ebf7be63-4ac2-4158-9772-58f15416ccb7
 ms.reviewer: vlpetros
 ms.suite: ems
 ms.custom: active-directory
-translationtype: Human Translation
-ms.sourcegitcommit: b5acf1041ff91a68443464a9fe196b179c6668a6
-ms.openlocfilehash: 8b2c453c18f1569ac1fe94bb7c1e3e8c568d28ec
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5ea7cc0c6c7b8286077c0bbc4251a22d138ed8e2
+ms.openlocfilehash: 98acda761b353eacb2ce861dcef2f39385691021
+ms.contentlocale: es-es
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -66,6 +68,7 @@ Puede [configurar fácilmente la aplicación de correo electrónico nativa](http
 -   Windows 10 para escritorios y Windows 10 Mobile
 -   iOS 8.0 (y versiones posteriores)
 -   Android (Samsung Knox Standard 4.0 y versiones posteriores o Android for Work)
+
 > [!NOTE]
 > Intune admite la configuración de perfil de correo electrónico de Android for Work para las aplicaciones de correo electrónico Gmail y Nine Work que se encuentran en Google Play Store.
 
@@ -152,9 +155,4 @@ Al [implementar perfiles de certificado](https://docs.microsoft.com/intune/deplo
 [Introducción al uso de Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 446078327ee3fe309dc6dea33db315b79fa38cae
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 9778ccfc6a2c7583e0659c76e7ada91711517243
+ms.contentlocale: es-es
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -184,9 +186,4 @@ Un dispositivo se bloquea en cuanto lo detecta el conector de Exchange. La laten
 
 ## <a name="where-to-go-from-here"></a>Próximos pasos
 Cuando haya implementado una solución para proteger el correo electrónico corporativo y los datos de correo electrónico de los dispositivos móviles, puede obtener más información sobre la [experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md). Esto le ayudará a prepararse para problemas que podrían surgir al inscribir sus dispositivos específicos.
-
-
-
-<!--HONumber=Dec16_HO4-->
-
 

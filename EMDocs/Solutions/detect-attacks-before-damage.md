@@ -1,10 +1,10 @@
 ---
-title: "Detectar ataques antes de que produzcan daños | Azure Active Directory Information Protection"
+title: "Detectar ataques antes de que produzcan daños | Microsoft Docs"
 description: "Escenario que describe cómo Enterprise Mobility + Security puede usarse para proteger los datos corporativos de ataques antes de que produzcan daños aprovechándose de Advanced Threats Analytics, Cloud App Security y Azure Active Directory Premium."
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/7/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: active-directory
@@ -13,9 +13,11 @@ ms.assetid: de0a7e70-008b-45c1-bba8-f033b1f62194
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: advanced-threat-analytics, cloud-app-security
-translationtype: Human Translation
-ms.sourcegitcommit: 0fd6f5b47ecd3aacbd0fd0c9cf76b90dcd68eaf4
-ms.openlocfilehash: 449df764d3979f8030f8d35d8f6920dedb64b239
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 420df3bfcc0fca07bf4f7b068f4d49015ace048f
+ms.contentlocale: es-es
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -105,9 +107,4 @@ Aunque el ejemplo anterior se basaba en una infracción de directiva, Cloud App 
 ![Captura de pantalla que muestra anomalías que se han detectado mediante Cloud App Security.](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig8.png)
 
 En esta página, puede ver qué usuario ha desencadenado la alerta, la dirección IP, la pertenencia a grupos del usuario y más información sobre el comportamiento sospechoso. Puede ver más detalles sobre esta actividad, que incluye los intentos de inicio de sesión con errores, la ubicación dónde se ha originado el inicio de sesión y la aplicación que se ha usado para realizar el intento de inicio de sesión.
-
-
-
-<!--HONumber=Dec16_HO1-->
-
 

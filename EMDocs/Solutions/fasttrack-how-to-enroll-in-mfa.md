@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 09/28/2016
+ms.date: 02/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 06e21ca9-ed6a-4f6e-a7e2-5445aaeb3552
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
-ms.openlocfilehash: b7164b33bf9d4bdb7584de9cbb78711e922a10c4
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 66be84d00e73f98217abfb2537bb52ebac94727a
+ms.openlocfilehash: 7120b4ce41e0f9560bdecb3a98da0bd02171fabb
+ms.contentlocale: es-es
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -35,8 +37,8 @@ Mediante el proceso de inscripción, podrá especificar su método preferido de 
 
 |Método|Descripción|
 |------------|----------------------------------|
-|[Llamada de teléfono móvil](#mobile-phone-(text-or-call))|Realiza una llamada de voz automatizada al número de teléfono de autenticación. El usuario responde a la llamada y pulsa la # del teclado del teléfono para autenticarse. Este número de teléfono no se sincronizará con Active Directory local.|
-|[Mensaje de texto en el teléfono móvil](#mobile-phone-(text-or-call))|Envía al usuario un mensaje de texto que contiene un código de comprobación. Se le pide al usuario o bien que responda al mensaje de texto con el código de comprobación o bien que lo escriba en la interfaz de inicio de sesión.|
+|[Llamada de teléfono móvil](#mobile-phone)|Realiza una llamada de voz automatizada al número de teléfono de autenticación. El usuario responde a la llamada y pulsa la # del teclado del teléfono para autenticarse. Este número de teléfono no se sincronizará con Active Directory local.|
+|[Mensaje de texto en el teléfono móvil](#mobile-phone)|Envía al usuario un mensaje de texto que contiene un código de comprobación. Se le pide al usuario o bien que responda al mensaje de texto con el código de comprobación o bien que lo escriba en la interfaz de inicio de sesión.|
 |[Llamada al teléfono del trabajo](#office-phone-call)|Establece una llamada de voz automática al usuario. El usuario responde a la llamada y pulsa la # del teclado del teléfono para autenticarse.|
 |[Aplicación móvil](#mobile-application)|Inserta una notificación en la aplicación móvil de Azure Authenticator en el smartphone o la tableta del usuario. El usuario pulsa "Comprobar" en la aplicación para autenticarse. Como alternativa, también se puede usar la aplicación como un token OTP para proceder a la autenticación sin conexión. El usuario escribe el token en la pantalla de inicio de sesión para autenticarse.|
 
@@ -47,18 +49,18 @@ _La aplicación Azure Authenticator puede operar en dos modos diferentes para pr
 
 La aplicación Azure Authenticator está disponible para [Windows Phone](http://www.windowsphone.com/en-us/store/app/azure-authenticator/03a5b2bf-6066-418f-b569-e8aecbc06e50), [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) e [iOS](https://itunes.apple.com/us/app/azure-authenticator/id983156458).
 
-## <a name="mobile-phone-text-or-call"></a>Teléfono móvil (mensaje de texto o llamada)
-Si quiere usar el teléfono móvil como método de contacto principal, lleve a cabo los pasos siguientes. Le indicarán cómo configurar la autenticación multifactor para usar el teléfono móvil como método de contacto, ya sea mediante una llamada o un mensaje de texto.
+## <a name="mobile-phone"></a>Teléfono móvil
+Si quiere usar el teléfono móvil (mensaje de texto o llamada) como método de contacto principal, lleve a cabo los pasos siguientes. Le indicarán cómo configurar la autenticación multifactor para usar el teléfono móvil como método de contacto, ya sea mediante una llamada o un mensaje de texto.
 
 1. En **Step 1: How should we contact you?** (Paso 1: ¿Cómo debemos ponernos en contacto con usted?) seleccione **Teléfono de autenticación**.
 
   ![Captura de pantalla en la que se muestra que el usuario quiere ser contactado por teléfono.](./media/ft-enrollMFA-2-securityVerification.png)
-2.  En el cuadro **País o región**, seleccione un valor de la lista desplegable. Es posible que ya se muestre un valor predeterminado.
-3.  En el cuadro situado junto a **País o región**, escriba su número de teléfono móvil. Incluya el código de área.
+2.    En el cuadro **País o región**, seleccione un valor de la lista desplegable. Es posible que ya se muestre un valor predeterminado.
+3.    En el cuadro situado junto a **País o región**, escriba su número de teléfono móvil. Incluya el código de área.
 Se permiten los espacios, pero no los caracteres de puntuación. Por ejemplo, puede escribir 5554445555 y 555 444 5555, pero no 555-444-5555 ni (555) 444 5555.
-4.  Seleccione el modo que prefiera usar con su teléfono móvil: mensaje de texto o llamada.
-5.  Haga clic en **Siguiente**.
-6.  Haga clic en el botón **Comprobar ahora**. De este modo, se establecerá una llamada o se enviará un mensaje de texto a su teléfono móvil. Asegúrese de que tiene a mano el teléfono. En función del modo que haya seleccionado (mensaje de texto o llamada), la respuesta será diferente.
+4.    Seleccione el modo que prefiera usar con su teléfono móvil: mensaje de texto o llamada.
+5.    Haga clic en **Siguiente**.
+6.    Haga clic en el botón **Comprobar ahora**. De este modo, se establecerá una llamada o se enviará un mensaje de texto a su teléfono móvil. Asegúrese de que tiene a mano el teléfono. En función del modo que haya seleccionado (mensaje de texto o llamada), la respuesta será diferente.
  - Si ha seleccionado el modo de mensaje de texto, se le enviará un código de 6 dígitos. Escribe este código en el cuadro que aparecerá en el explorador.
 
         ![Screenshot asking user to enter the code that was texted to them](./media/ft-enrollMFA-3-textCode.png)
@@ -66,27 +68,27 @@ Se permiten los espacios, pero no los caracteres de puntuación. Por ejemplo, pu
 
         ![Screenshot prompting user to answer their phone to continue enrollment process](./media/ft-enrollMFA-4-phoneCode.png)
 7. Haga clic en **Siguiente**.
-8.  Llegado a este punto, ya ha configurado el método de contacto. Ahora es el momento de configurar las contraseñas de aplicación para aplicaciones sin explorador, como Outlook 2010 o versiones anteriores. Si no usa estas aplicaciones, haga clic en **Listo**. En caso contrario, **continúe** con el siguiente paso.
+8.    Llegado a este punto, ya ha configurado el método de contacto. Ahora es el momento de configurar las contraseñas de aplicación para aplicaciones sin explorador, como Outlook 2010 o versiones anteriores. Si no usa estas aplicaciones, haga clic en **Listo**. En caso contrario, **continúe** con el siguiente paso.
 9. Si usa estas aplicaciones, **copie** la contraseña de aplicación proporcionada.
 
   ![Captura de pantalla en la que se le pide al usuario que escriba la contraseña de aplicación.](./media/ft-enrollMFA-5-copyPW.png)
-10. Pega la contraseña que copiaste al portapapeles en tu aplicación sin explorador.
-11. Haga clic en **Listo**.
+10.    Pega la contraseña que copiaste al portapapeles en tu aplicación sin explorador.
+11.    Haga clic en **Listo**.
 
 ## <a name="office-phone-call"></a>Llamada al teléfono del trabajo
 En esta sección del documento se le mostrará cómo configurar Azure Multi-Factor Authentication para usar el teléfono del trabajo como método de contacto principal.
 1. Seleccione Teléfono del trabajo en la lista desplegable.
 
   ![Captura de pantalla en la que se muestra que el usuario quiere ser contactado a través del teléfono del trabajo.](./media/ft-enrollMFA-6-officePhone.png)
-2.  Especifique el país en la lista desplegable y escriba el número del teléfono del trabajo.
-3.  Haga clic en **Ponerse en contacto conmigo**. De este modo se establecerá una llamada a tu teléfono del trabajo. Asegúrese de que se encuentra cerca del teléfono.
-4.  Haga clic en **Siguiente**.
-5.  Llegado a este punto, ya ha configurado el método de contacto. Ahora es el momento de configurar las contraseñas de aplicación para aplicaciones sin explorador, como Outlook 2010 o versiones anteriores. Si no usa estas aplicaciones, haga clic en **Listo**. En caso contrario, **continúe** con el siguiente paso.
-7.  Si usa estas aplicaciones, copie la contraseña de aplicación proporcionada.
-8.  Pega la contraseña que copiaste al portapapeles en tu aplicación sin explorador.
+2.    Especifique el país en la lista desplegable y escriba el número del teléfono del trabajo.
+3.    Haga clic en **Ponerse en contacto conmigo**. De este modo se establecerá una llamada a tu teléfono del trabajo. Asegúrese de que se encuentra cerca del teléfono.
+4.    Haga clic en **Siguiente**.
+5.    Llegado a este punto, ya ha configurado el método de contacto. Ahora es el momento de configurar las contraseñas de aplicación para aplicaciones sin explorador, como Outlook 2010 o versiones anteriores. Si no usa estas aplicaciones, haga clic en **Listo**. En caso contrario, **continúe** con el siguiente paso.
+7.    Si usa estas aplicaciones, copie la contraseña de aplicación proporcionada.
+8.    Pega la contraseña que copiaste al portapapeles en tu aplicación sin explorador.
 
   ![Captura de pantalla en la que se le pide al usuario que escriba la contraseña de aplicación.](./media/ft-enrollMFA-7-pastePW.png)
-9.  Haga clic en **Listo**.
+9.    Haga clic en **Listo**.
 
 ## <a name="mobile-application"></a>Aplicación móvil
 En esta sección del artículo se le mostrará cómo configurar Azure Multi-Factor Authentication para usar la aplicación móvil como método de contacto principal.
@@ -96,31 +98,26 @@ La aplicación Azure Authenticator está disponible para Windows Phone, Android 
 1. Seleccione **Aplicación móvil** en la lista desplegable.
 
   ![Captura de pantalla en la que se muestra que el usuario quiere ser contactado a través de una aplicación móvil.](./media/ft-enrollMFA-8-mobileApp.png)
-2.  Seleccione Notificación o Contraseña de un solo uso y haga clic en **Configurar**.
-3.  En el teléfono que tenga instalada la aplicación Azure Authenticator, inicie la aplicación y haga clic en **Digitalizar código de barras**.
+2.    Seleccione Notificación o Contraseña de un solo uso y haga clic en **Configurar**.
+3.    En el teléfono que tenga instalada la aplicación Azure Authenticator, inicie la aplicación y haga clic en **Digitalizar código de barras**.
 
   ![Captura de pantalla en la que se le pide al usuario que seleccione la opción Digitalizar código de barras.](./media/ft-enrollMFA-9-scanBarcode.png)
-4.  Escanea la imagen de código de barras que ha aparecido con la pantalla para configurar aplicación móvil. Haga clic en **Listo** para cerrar la pantalla del código de barras. Si no puede digitalizar el código de barras, puede escribir la información manualmente.
+4.    Escanea la imagen de código de barras que ha aparecido con la pantalla para configurar aplicación móvil. Haga clic en **Listo** para cerrar la pantalla del código de barras. Si no puede digitalizar el código de barras, puede escribir la información manualmente.
 
   ![Captura de pantalla en la que se le pide al usuario que digitalice el código de barras que apareció en la aplicación móvil.](./media/ft-enrollMFA-9-scanBarcode2.png)
-5.  En el teléfono, comenzará a activarse. Una vez que se haya completado, haga clic en **Ponerse en contacto conmigo**. Se enviará una notificación o un código de comprobación a su teléfono. Haga clic en **Comprobar**.
+5.    En el teléfono, comenzará a activarse. Una vez que se haya completado, haga clic en **Ponerse en contacto conmigo**. Se enviará una notificación o un código de comprobación a su teléfono. Haga clic en **Comprobar**.
 
   ![Captura de pantalla en la que se pide al usuario que compruebe el código enviado a su teléfono.](./media/ft-enrollMFA-10-verifyActivation.png)
-6.  Haga clic en **Cerrar**. En este punto, la comprobación se debe haber realizado correctamente.
-7.  Se recomienda que escriba ahora su número de teléfono móvil por si pierde el acceso a la aplicación móvil.
-8.  Especifique el país en la lista desplegable y escriba su número de teléfono móvil en el cuadro situado junto al país. Haga clic en **Siguiente**.
-9.  Llegado a este punto, ya ha configurado el método de contacto. Ahora es el momento de configurar las contraseñas de aplicación para aplicaciones sin explorador, como Outlook 2010 o versiones anteriores. Si no usa estas aplicaciones, haga clic en **Listo**. En caso contrario, **continúe** con el siguiente paso.
-10. Si usa estas aplicaciones, copie la contraseña de aplicación proporcionada.
-11. Pega la contraseña que copiaste al portapapeles en tu aplicación sin explorador.
+6.    Haga clic en **Cerrar**. En este punto, la comprobación se debe haber realizado correctamente.
+7.    Se recomienda que escriba ahora su número de teléfono móvil por si pierde el acceso a la aplicación móvil.
+8.    Especifique el país en la lista desplegable y escriba su número de teléfono móvil en el cuadro situado junto al país. Haga clic en **Siguiente**.
+9.    Llegado a este punto, ya ha configurado el método de contacto. Ahora es el momento de configurar las contraseñas de aplicación para aplicaciones sin explorador, como Outlook 2010 o versiones anteriores. Si no usa estas aplicaciones, haga clic en **Listo**. En caso contrario, **continúe** con el siguiente paso.
+10.    Si usa estas aplicaciones, copie la contraseña de aplicación proporcionada.
+11.    Pega la contraseña que copiaste al portapapeles en tu aplicación sin explorador.
 
   ![Captura de pantalla en la que se le pide al usuario que escriba la contraseña de aplicación.](./media/ft-enrollMFA-11-securityVerification.png)
-12. Haga clic en **Listo**.
+12.    Haga clic en **Listo**.
 
 ### <a name="want-to-learn-more"></a>¿Desea obtener más información?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 
