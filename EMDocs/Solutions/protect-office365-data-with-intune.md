@@ -4,7 +4,7 @@ description: "Juntos, EMS y Office 365 ofrecen una solución completa de product
 keywords: 
 author: jeffgilb
 manager: swadhwa
-ms.date: 1/23/2017
+ms.date: 6/7/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
@@ -84,9 +84,9 @@ Una vez que haya configurado directivas de acceso condicional para acceder a Exc
 Intune también puede [proteger fácilmente el acceso a archivos de SharePoint Online](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-sharepoint-online-with-microsoft-intune) con el acceso condicional. Al igual que al proteger el acceso al correo electrónico, debe configurar dos directivas que es necesario cumplir para permitir el acceso: una directiva de cumplimiento de dispositivos para asegurarse de que las directivas de empresa se siguen en el dispositivo y una directiva de acceso condicional que defina las condiciones que deben cumplirse para acceder al servicio.
 
 Cuando un usuario intenta usar un dispositivo no administrado para conectarse al servicio de SharePoint Online protegido mediante directivas de acceso condicional de Intune, sucede lo siguiente:
-1.    Se le deniega el acceso al usuario a los recursos de SharePoint Online y se le muestra un mensaje en el que se le indica que debe reforzar la seguridad y se le proporcionan vínculos para inscribir sus dispositivos en la administración de Intune.
-2.    Mediante los vínculos proporcionados en el mensaje de acceso denegado, el usuario inscribe el dispositivo.
-3.    Una vez que se haya inscrito el dispositivo y se haya evaluado como compatible con las directivas de empresa, se restaurará el acceso total a los datos de SharePoint Online de la empresa.
+1.  Se le deniega el acceso al usuario a los recursos de SharePoint Online y se le muestra un mensaje en el que se le indica que debe reforzar la seguridad y se le proporcionan vínculos para inscribir sus dispositivos en la administración de Intune.
+2.  Mediante los vínculos proporcionados en el mensaje de acceso denegado, el usuario inscribe el dispositivo.
+3.  Una vez que se haya inscrito el dispositivo y se haya evaluado como compatible con las directivas de empresa, se restaurará el acceso total a los datos de SharePoint Online de la empresa.
 
 ![Imágenes en las que se muestra el funcionamiento del acceso condicional con SharePoint Online.](..\Solutions\media\protect-office365-data-with-intune\protect-office365-data-with-intune-fig2.png)
 
@@ -105,9 +105,9 @@ Como administrador, debe [configurar las opciones de la directiva de aplicación
 
 En la captura de pantalla siguiente se muestran algunas maneras de proteger una aplicación mediante directivas de MAM de Intune. En este ejemplo, se requiere un PIN para acceder a la aplicación (configuración de acceso) y, para proteger los datos de la empresa, se deniega la función de pegar la información de la empresa en aplicaciones no administradas (configuración de reubicación de datos):
 
-1.    La primera vez que se inicia la aplicación administrada (en este ejemplo, Yammer para iOS), se le pide al usuario que cree un PIN para acceder a la aplicación. Después, tendrá que especificar el PIN cada vez que inicie la aplicación.
-2.    El usuario puede copiar datos de la empresa, como conversaciones de Yammer, y pegarlos en otras aplicaciones administradas.
-3.    Pero cuando el usuario intenta pegar ese contenido en un mensaje de texto (o en otra aplicación no administrada), la función de pegar no estará disponible.  
+1.  La primera vez que se inicia la aplicación administrada (en este ejemplo, Yammer para iOS), se le pide al usuario que cree un PIN para acceder a la aplicación. Después, tendrá que especificar el PIN cada vez que inicie la aplicación.
+2.  El usuario puede copiar datos de la empresa, como conversaciones de Yammer, y pegarlos en otras aplicaciones administradas.
+3.  Pero cuando el usuario intenta pegar ese contenido en un mensaje de texto (o en otra aplicación no administrada), la función de pegar no estará disponible.  
 
 ![Imágenes en las que se muestra el funcionamiento de las directivas de MAM.](..\Solutions\media\protect-office365-data-with-intune\protect-office365-data-with-intune-fig3.png)
 
@@ -123,9 +123,9 @@ Así es como funciona: los datos de la empresa se cifran automáticamente despu�
 Las [opciones de las directivas de configuración de WIP](https://docs.microsoft.com/intune/deploy-use/microsoft-intune-policy-reference#windows-configuration-policies) permiten establecer distintos niveles de control y auditoría desde la consola de administrador de Intune. Los niveles de protección de datos van desde **Silencio** (solo se registra la actividad de WIP) hasta **Bloquear** (se impide que los usuarios compartan contenido de aplicaciones protegidas). **Reemplazar** es un valor intermedio que permite que los usuarios compartan datos de la empresa con aplicaciones no protegidas con una advertencia, pero también registra estas acciones para su posterior revisión.
 
 A continuación se indica la manera en que las directivas de WIP de Intune pueden ayudar a proteger los datos de la empresa en dispositivos con Windows 10 administrados:
-1.    Se crea una directiva de WIP y se implementa en los usuarios desde la consola de administrador de Intune.
-2.    En este ejemplo, se usa la información de AppLocker para Microsoft Word para agregar Word 2016 a la lista de aplicaciones permitidas, se establece el nivel de restricción de directiva en Reemplazar y se implementa la directiva en los usuarios.
-3.    Un usuario intenta pegar datos de la compañía, copiados de un documento de Word 2016 protegido, en una instancia nueva y sin proteger del Bloc de notas. Se le pide de inmediato que confirme si este cambio en la clasificación (de profesional a personal) es planeado y se le informa de que se realizará un seguimiento de la acción.
+1.  Se crea una directiva de WIP y se implementa en los usuarios desde la consola de administrador de Intune.
+2.  En este ejemplo, se usa la información de AppLocker para Microsoft Word para agregar Word 2016 a la lista de aplicaciones permitidas, se establece el nivel de restricción de directiva en Reemplazar y se implementa la directiva en los usuarios.
+3.  Un usuario intenta pegar datos de la compañía, copiados de un documento de Word 2016 protegido, en una instancia nueva y sin proteger del Bloc de notas. Se le pide de inmediato que confirme si este cambio en la clasificación (de profesional a personal) es planeado y se le informa de que se realizará un seguimiento de la acción.
 
 ![Imágenes en las que se muestra el funcionamiento de las directivas de WIP.](..\Solutions\media\protect-office365-data-with-intune\protect-office365-data-with-intune-fig5.png)
 
