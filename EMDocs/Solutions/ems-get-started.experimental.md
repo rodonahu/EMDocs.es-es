@@ -13,10 +13,11 @@ ms.assetid: 9938ab0e-19b8-49a2-91b5-61d69eb3dc01
 ms.reviewer: mhamerof
 ms.suite: ems
 ms.custom: advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
-experiment_id: jeffgilb-length-20161110
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
 ms.openlocfilehash: 7f82e8b0644765fc8cc14024cd65ef99733f1ecb
+ms.contentlocale: es-es
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -144,9 +145,4 @@ Cloud App Security proporciona una gran visibilidad de la actividad del usuario 
 [Información sobre Enterprise Mobility + Security](learn-about-ems.md)
 
 [Pruebe EMS de forma gratuita](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial)
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 43594d947f3fa081a777eee6081c83b35621a9bf
+ms.contentlocale: es-es
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -97,9 +99,4 @@ Además, si quiere obtener más información sobre EMS y Azure Active Directory,
 - [¿Qué es Azure Information Protection?](/information-protection/understand-explore/what-is-azure-rms)
 
 - [Cómo admiten las aplicaciones Azure Information Protection](/information-protection/understand-explore/applications-support)
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 
