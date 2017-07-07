@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 74288276-84d3-4d24-8307-7875491be9c9
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: d0bc5fb61b481256d816df7c898ade798379aa19
+ms.contentlocale: es-es
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -81,9 +83,4 @@ Para obtener información general sobre la supervisión de aplicaciones, consult
 ## <a name="where-to-go-from-here"></a>Próximos pasos
 
 Después de haber creado e implementado una aplicación asociada a una directiva MAM, puede obtener más información sobre la [experiencia del usuario final de MAM](end-user-experience-mam.md). Esto le ayudará a prepararse para los problemas que pudieran surgir.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

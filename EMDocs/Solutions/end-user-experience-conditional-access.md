@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
 ms.openlocfilehash: 580d2e909813390fbc86d3ca8edaf88f0f19a6d7
+ms.contentlocale: es-es
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -40,9 +42,4 @@ En [este tema](end-user-experience-conditional-access-ios.md) se describe la exp
 ## <a name="windows-phone"></a>Windows Phone
 
 En [este tema](end-user-experience-conditional-access-winphone.md) se describe la experiencia del usuario final después de que se habilite el acceso condicional y de que un usuario final trate de acceder al correo electrónico en su dispositivo móvil Windows Phone.
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

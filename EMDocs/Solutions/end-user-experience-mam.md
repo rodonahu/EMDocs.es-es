@@ -17,7 +17,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 001a2de2d35f218258180fff31b7923ee5c79acd
 ms.contentlocale: es-es
-ms.lasthandoff: 05/29/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -47,7 +47,7 @@ Para más información sobre otras experiencias específicas de usuarios finales
   Una vez que Azure AD ha autenticado correctamente las credenciales, se aplican las directivas MAM.
 3. Se pide al usuario que establezca un **PIN** para la aplicación (si configuró la directiva para esto).
 
-4.    Una vez el PIN está establecido y confirmado, el usuario puede obtener acceso a los archivos de **OneDrive para la Empresa**.
+4.  Una vez el PIN está establecido y confirmado, el usuario puede obtener acceso a los archivos de **OneDrive para la Empresa**.
 > [!NOTE]
 > Cuando se modifica una directiva implementada, los cambios se aplican la siguiente vez que se abre la aplicación.
 
@@ -56,13 +56,13 @@ Para más información sobre otras experiencias específicas de usuarios finales
 > [!NOTE]
 > En un dispositivo personal, normalmente el usuario final descargaría la aplicación. Si el dispositivo está administrado por una solución MDM, puede implementar la aplicación en el dispositivo.
 
-2.    El usuario escribe el nombre de usuario de la cuenta de trabajo y se le redirige a la página de **autenticación de O365** para que especifique las credenciales de trabajo.
+2.  El usuario escribe el nombre de usuario de la cuenta de trabajo y se le redirige a la página de **autenticación de O365** para que especifique las credenciales de trabajo.
 
   Una vez que Azure AD ha autenticado correctamente las credenciales, se aplican las directivas MAM.
 
-3.    La aplicación **OneDrive** se inicia automáticamente y se pide al usuario que establezca un **PIN**, siempre que la configuración de las directivas esté establecida para solicitar un **PIN** para acceder a la aplicación **OneDrive**.
+3.  La aplicación **OneDrive** se inicia automáticamente y se pide al usuario que establezca un **PIN**, siempre que la configuración de las directivas esté establecida para solicitar un **PIN** para acceder a la aplicación **OneDrive**.
 
-4.    Una vez que el PIN está establecido y confirmado, puede seguir usando **OneDrive**, que ahora estará administrado por directivas de aplicaciones.
+4.  Una vez que el PIN está establecido y confirmado, puede seguir usando **OneDrive**, que ahora estará administrado por directivas de aplicaciones.
 
 ## <a name="where-to-go-from-here"></a>Próximos pasos
 Hay otras experiencias de usuario final sobre las que puede obtener más información, como [Uso de aplicaciones con compatibilidad con varias identidades](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support), [Administración de cuentas de usuario](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts) y [Ver archivos multimedia con la aplicación Rights Management sharing](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app).

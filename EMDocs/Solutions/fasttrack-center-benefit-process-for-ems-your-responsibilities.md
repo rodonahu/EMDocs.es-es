@@ -17,7 +17,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: ecd83c311deca5050599a4eb55d45d0094d656f1
 ms.contentlocale: es-es
-ms.lasthandoff: 05/29/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -64,9 +64,9 @@ Tiene las siguientes responsabilidades durante la incorporación.
 
 -   Proporcionar y configurar los certificados públicos de Capa de sockets seguros (SSL).
 
--     Configurar o actualizar Configuration Manager con los requisitos mínimos para la integración de Microsoft Intune con Configuration Manager.
+-   Configurar o actualizar Configuration Manager con los requisitos mínimos para la integración de Microsoft Intune con Configuration Manager.
 
--     Si es necesario para la implementación de perfiles de VPN y Wi-Fi con Intune, proporcione y configure infraestructuras de VPN, Wi-Fi o entidades de certificación según sea necesario.
+-   Si es necesario para la implementación de perfiles de VPN y Wi-Fi con Intune, proporcione y configure infraestructuras de VPN, Wi-Fi o entidades de certificación según sea necesario.
 
 -   Redactar las condiciones de uso (CDU) de la organización que se configurarán y mostrarán en el portal de empresa de Microsoft Intune al que tengan acceso los usuarios finales.
 

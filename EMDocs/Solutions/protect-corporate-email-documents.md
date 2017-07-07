@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: f209973d304e1a54393dc994e7c3785e4f751a88
+ms.contentlocale: es-es
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -120,9 +122,4 @@ Una vez que el dispositivo se evalúa como inscrito y conforme a las normas, la 
 
 ## <a name="where-to-go-from-here"></a>Próximos pasos
 Ahora que sabe cómo proteger los documentos y el correo electrónico corporativos, puede consultar cómo [proteger los datos adjuntos del correo](protect-email-attachments.md). O, si ya cuenta con los conocimientos necesarios, puede obtener más información sobre la [implementación de una solución para proteger el correo corporativo](implement-solution.md).
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 
