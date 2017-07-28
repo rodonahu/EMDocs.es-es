@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 14f3c9958c2c959df8c6537728e8237a1f226760
-ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: c24cfb3798aaa1c82263c25a025cd9dc4ef654d4
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="specify-your-privacy-requirements"></a>Especificación de los requisitos de privacidad
 
 >[!NOTE]
@@ -55,4 +52,3 @@ Antes de elegir una solución de administración de dispositivos móviles, tenga
         - En caso afirmativo, asegúrese de que enumere estos requisitos antes de seleccionar la plataforma de administración de dispositivos móviles.
 
 Lea la [Declaración de privacidad de Microsoft Online Services](http://www.microsoft.com/server-cloud/products/intune-trust-center/privacy.aspx) para entender mejor cómo los servicios en la nube de Microsoft, incluido Intune, mantendrán la privacidad del usuario.
-

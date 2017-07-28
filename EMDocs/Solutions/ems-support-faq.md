@@ -13,21 +13,16 @@ ms.technology:
 ms.assetid: 7bfee675-ec69-479c-bda2-f807bbb55712
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: abcb3e7df267e81b43c81ed9c94d955602a67dc6
 ms.openlocfilehash: 2b11d1d3118ce7a2414513b56cf6cfce1b2877ce
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
-<a id="enterprise-mobility--security-support-faqs" class="xliff"></a>
-# Preguntas más frecuentes de soporte técnico de Enterprise Mobility + Security
+# <a name="enterprise-mobility--security-support-faqs"></a>Preguntas más frecuentes de soporte técnico de Enterprise Mobility + Security
 Microsoft proporciona preventas globales, facturación, suscripción y soporte técnico para Enterprise Mobility + Security (EMS). Los administradores pueden solicitar soporte técnico mediante el [Portal de Office 365](https://portal.office.com/Default.aspx?SkipSspr=true) o poniéndose en contacto con el [Soporte de Office 365](https://support.office.com/article/Contact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=c1f4c670-18b3-41ec-81c9-e8d383caa6ad).
 
-<a id="answers-to-common-ems-support-questions" class="xliff"></a>
-## Respuestas a las preguntas comunes de soporte técnico de EMS
+## <a name="answers-to-common-ems-support-questions"></a>Respuestas a las preguntas comunes de soporte técnico de EMS
 
 **¿Es necesario adquirir un plan de soporte técnico de Azure para cursar una solicitud de soporte técnico de Enterprise Mobility + Security?**
 
@@ -65,11 +60,9 @@ Vaya a Azure Portal para la asignación de licencias. Siga las instrucciones de 
 
 Vaya a Azure Portal para la asignación de licencias. Siga las instrucciones de su correo electrónico de bienvenida para administrar sus nuevas licencias de Enterprise Mobility + Security.
 
-<a id="additional-help-for-other-questions" class="xliff"></a>
-## Ayuda adicional para otras preguntas
+## <a name="additional-help-for-other-questions"></a>Ayuda adicional para otras preguntas
 [Foro de soporte técnico de Azure Active Directory](https://social.msdn.microsoft.com/forums/home?forum=windowsazuread)
 
 [Foro de soporte técnico de Azure Information Protection](http://www.yammer.com/AskIPTeam)
 
 [Foro de soporte técnico de Intune](https://social.technet.microsoft.com/forums/windows/home?category=microsoftintune)
-

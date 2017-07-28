@@ -12,15 +12,12 @@ ms.technology: techgroup-identity
 ms.assetid: 2f906e2e-3d99-40e6-b5cc-8d903fcda444
 ms.reviewer: v-craic
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: bf2418b68e40b60508447fc5400f4acfc5c6b1b3
-ms.openlocfilehash: 17f2a0b6991d05af2a6f000af48e9fc085221a4d
-ms.contentlocale: es-es
-ms.lasthandoff: 02/14/2017
-
-
+ms.openlocfilehash: 267a69648014d53307d255533f64ee579f4141fa
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="the-role-of-azure-information-protection-in-securing-data"></a>Rol de Azure Information Protection en la protección de datos
 
 [Azure Information Protection (AIP)](/information-protection/understand-explore/what-is-information-protection) ofrece a los clientes la capacidad de clasificar sus datos, etiquetarlos y protegerlos mediante cifrado. Azure Information Protection permite a los administradores de TI hacer lo siguiente:
@@ -124,4 +121,3 @@ Los escenarios siguientes contienen más detalles sobre la manera en que Azure I
 - [Proteger los datos mediante la clasificación, el etiquetado y la protección](infoprotect-secure-classify-scenario.md)
 - [Uso compartido de datos confidenciales interna y externamente](share-sensitive-data.md)
 - [Realizar un seguimiento del uso de datos compartidos y responder ante un abuso de datos](infoprotect-track-usage-scenario.md)
-

@@ -13,13 +13,11 @@ ms.assetid: 1df56825-c0d1-48ac-a294-5ebd1667bc38
 ms.reviewer: mhamerof
 ms.suite: ems
 ms.custom: advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
-ms.translationtype: Human Translation
-ms.sourcegitcommit: ed952bd866758978ed4348c70da826eb519b4733
-ms.openlocfilehash: 78b0119b52ca1459fd644d093bf7f364b80e8ce1
-ms.contentlocale: es-es
-ms.lasthandoff: 12/08/2016
-
-
+ms.openlocfilehash: a0252f0ea933bdc6398de47ff5bf49d9a2ea69d4
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
 # <a name="start-using-enterprise-mobility--security"></a>Introducción al uso de Enterprise Mobility + Security
 
@@ -91,4 +89,3 @@ EMS integra sin problemas la protección de datos de empresa avanzada en su ruti
 [Información sobre Enterprise Mobility + Security](learn-about-ems.md)
 
 [Pruebe EMS de forma gratuita](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security-trial)
-

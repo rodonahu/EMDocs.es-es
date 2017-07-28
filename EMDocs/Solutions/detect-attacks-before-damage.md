@@ -13,15 +13,12 @@ ms.assetid: de0a7e70-008b-45c1-bba8-f033b1f62194
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: advanced-threat-analytics, cloud-app-security
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 420df3bfcc0fca07bf4f7b068f4d49015ace048f
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="detect-attacks-before-they-cause-damage"></a>Detectar ataques antes de que produzcan daños
 Una posición de seguridad sólida necesita disponer de un sistema de detección avanzada para poder identificar amenazas antes de que provoquen daños importantes. Las organizaciones pueden aprovechar perfectamente la inteligencia de seguridad de Microsoft para detectar actividades sospechosas locales y en la nube.
 
@@ -107,4 +104,3 @@ Aunque el ejemplo anterior se basaba en una infracción de directiva, Cloud App 
 ![Captura de pantalla que muestra anomalías que se han detectado mediante Cloud App Security.](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig8.png)
 
 En esta página, puede ver qué usuario ha desencadenado la alerta, la dirección IP, la pertenencia a grupos del usuario y más información sobre el comportamiento sospechoso. Puede ver más detalles sobre esta actividad, que incluye los intentos de inicio de sesión con errores, la ubicación dónde se ha originado el inicio de sesión y la aplicación que se ha usado para realizar el intento de inicio de sesión.
-

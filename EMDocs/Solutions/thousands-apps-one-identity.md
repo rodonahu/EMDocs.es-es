@@ -14,13 +14,12 @@ ms.assetid: dd879a14-919e-431b-89b9-c035c83a6899
 ROBOTS: 
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: fdb0852611551daaa2aad7d3839a3431abd8b445
 ms.openlocfilehash: 27f71a706990997908a13b34477a1aa87ba698ab
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="thousands-of-apps-one-identity"></a>Miles de aplicaciones, una identidad
 Azure Active Directory (Azure AD) hace que los usuarios sean más productivos proporcionando una identidad común para los usuarios de aplicaciones de software como un servicio (SaaS) que obtienen acceso a los recursos locales y en la nube.
 
@@ -116,9 +115,3 @@ Los pasos siguientes describen cómo implementar cada capacidad de Azure AD trat
   - https://aadappgallery.azurewebsites.net/M
 - **Tutoriales de aplicaciones SaaS**
   - https://azure.microsoft.com/documentation/articles/active-directory-saas-tutorial-list/
-
-
-
-<!--HONumber=Dec16_HO2-->
-
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
-ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 99b39ded38f8980103c57b0359ab5f3c3ee4ef53
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="user-and-device-considerations"></a>Consideraciones sobre usuarios y dispositivos
 
 El primer problema relacionado con usuarios y dispositivos al que se enfrentará es cómo afectarán las tecnologías implantadas a la experiencia del usuario cuando este acceda de forma segura a recursos de la compañía. Encargarse de la experiencia del usuario en diferentes dispositivos puede ser un reto, no solo desde el punto de vista de la seguridad, sino también desde la perspectiva del desarrollo de aplicaciones. Deberá tener en cuenta el canal de comunicación entre los recursos de la compañía y el dispositivo, para aplicar el nivel adecuado de seguridad de red necesario y evitar así la pérdida de datos mientras están en tránsito.
@@ -209,4 +206,3 @@ Utilice la siguiente lista para entender las ventajas y desventajas de las opcio
 > Para más información sobre los perfiles de Wi-Fi en Configuration Manager, consulte [Introducción a perfiles de Wi-Fi en Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 La ubicación de la red tiene un rol importante en las consideraciones sobre los usuarios y los dispositivos. Puede aprovechar el control de acceso multifactor en AD FS para habilitar las directivas de autorización por aplicación, con las que puede permitir o denegar el acceso en función del usuario, el dispositivo y la ubicación de red. Consulte [Guía de tutorial: Administración de riesgos con control de acceso condicional](https://technet.microsoft.com/library/dn280936.aspx) para obtener más información sobre cómo configurar un entorno para validar esta funcionalidad.
-

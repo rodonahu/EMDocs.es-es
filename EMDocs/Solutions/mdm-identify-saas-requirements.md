@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 5380e56c-9c48-459e-aea5-95ad90dbb7d1
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 68a42159dfbf6b0d435b0543466d4cec26e55b67
-
-
+ms.openlocfilehash: b80bc794df43effc05656e7ec0b39cbf476b151e
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="identify-saas-requirements"></a>Identificación de requisitos de SaaS
 
 >[!NOTE]
@@ -116,9 +115,3 @@ Preguntas de servicios: como parte de la planificación del ciclo de vida de la 
 
 >[!TIP]
 >Asegúrese de que toma las notas de cada respuesta y de que comprende la lógica subyacente en la respuesta. Más adelante, las tareas tratarán las opciones disponibles, y las ventajas y desventajas de cada opción.  Responder a estas preguntas le ayudará a seleccionar la opción que mejor se adapte a sus necesidades empresariales.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

@@ -13,14 +13,12 @@ ms.technology:
 ms.assetid: 54082b94-1d21-44d5-9fba-af6e04397def
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 04a5fa735c75dd7abe2caecdb69a60598c7aec8e
-
-
+ms.openlocfilehash: d53e761566189c5c775b129746bb8e5bf9cb59d6
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
-
 # <a name="device-enrollment-options"></a>Opciones de inscripción de dispositivos
 
 >[!NOTE]
@@ -44,9 +42,3 @@ Las respuestas a las preguntas del paso 1 le ayudarán a decidir cómo desea que
 | Seguridad | Si se admite una estrategia BYOD, existe una mayor probabilidad de que los administradores puedan ver o exponer información personal de información confidencial del usuario si no se colocan los controles de seguridad apropiados en su lugar. | Los usuarios de dispositivos móviles modernos pueden considerar que esta centralización es engorrosa y supone un inconveniente, lo que provoca soluciones alternativas definidas por el usuario que pueden poner en peligro los procesos de seguridad y cumplimiento de la inscripción |
 
 Puede que su organización desee permitir estos escenarios de inscripción adoptando un enfoque flexible para permitir diferentes métodos para distintos departamentos o situaciones. Si es así, la solución de administración de dispositivos móviles debe poder admitir ambos escenarios.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

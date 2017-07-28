@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 26b15471-b496-4404-934d-67e621655bca
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: c21b0a8c413c4e7299e8026f55a3e43e7f825f82
-
-
+ms.openlocfilehash: 8732046974da72071690123def19d707865fc5d8
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="identify-saas-solution-infrastructure-integration-needs"></a>Identificación de necesidades de integración de infraestructura de soluciones de SaaS
 
 >[!NOTE]
@@ -77,9 +76,3 @@ Como parte de la planificación del ciclo de vida de administración de SaaS, qu
 
 >[!TIP]
 >Asegúrese de que toma las notas de cada respuesta y de que comprende la lógica subyacente en la respuesta. Más adelante, las tareas tratarán las opciones disponibles, y las ventajas y desventajas de cada opción.  Responder a estas preguntas le ayudará a seleccionar la opción que mejor se adapte a sus necesidades empresariales.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 901b52bf-2340-4847-aaff-c94fec9ee925
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: bca54803722814769b45cd30244b68121d72a114
-
-
+ms.openlocfilehash: 24cd67176f90baaf5fd1b7d2dc0174a058fbad2f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="understand-the-mdm-lifecycle"></a>El ciclo de vida de MDM
 
 >[!NOTE]
@@ -138,9 +137,3 @@ Responda a las siguientes preguntas de planeación sobre la cancelación de insc
 
 >[!TIP]
 >Asegúrese de que toma las notas de cada respuesta y de que comprende la lógica subyacente en la respuesta. Más adelante, las tareas tratarán las opciones disponibles, y las ventajas y desventajas de cada opción.  Responder a estas preguntas le ayudará a seleccionar la opción que mejor se adapte a sus necesidades empresariales.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

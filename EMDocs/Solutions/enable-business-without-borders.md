@@ -14,13 +14,12 @@ ms.assetid: 38e9802b-d8c0-4f5c-b89d-8ce1e04f7387
 ROBOTS: 
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: fdb0852611551daaa2aad7d3839a3431abd8b445
 ms.openlocfilehash: 8f79e391813c7a15e522f07ff27a2f6abd8536cc
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="enable-business-without-borders"></a>Consecución de un negocio sin fronteras
 No es bueno disponer de identidad: es el núcleo de un personal eficaz. Las organizaciones necesitan capacitar a sus empleados para tener acceso a todos sus datos y aplicaciones desde todos los dispositivos y todas las ubicaciones. Los usuarios necesitan colaborar entre sí y con los partners y conectarse con los clientes. Las herramientas que usan no se encuentran ya en un entorno protegido y controlado; se pueden encontrar en cualquier nube pública.
 
@@ -60,9 +59,3 @@ La colaboración B2B de Azure AD se basa en un modelo de invitación y canje, qu
 En los pasos siguientes se describe cómo implementar cada tipo de colaboración B2B de Azure AD indicado anteriormente. Cada vínculo representa un conjunto diferente de artículos con una serie diferente de instrucciones/pasos que se va a implementar en su organización:
 - Obtenga información sobre [cómo usar la colaboración B2B de Azure AD](https://azure.microsoft.com/documentation/articles/active-directory-b2b-detailed-walkthrough/).
 - Obtenga información acerca de [cómo utilizar el archivo CSV para especificar información de usuario de partner](https://azure.microsoft.com/en-us/documentation/articles/active-directory-b2b-references-csv-file-format/).
-
-
-
-<!--HONumber=Dec16_HO2-->
-
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
-ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 3c933645b8cb7018f486925a16ee8d78cd1f0b7a
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="management-considerations"></a>Consideraciones para la administración
 
 Es imprescindible contar con un dominio de administración en una infraestructura que admita un modelo de BYOD. Para satisfacer por completo las exigencias de BYOD, es preciso que el dominio de administración permita al departamento de TI supervisar los recursos, proporcionar funcionalidades para la generación de informes, administrar los recursos de cálculo y almacenamiento, habilitar la configuración de dispositivos y la automatización, y administrar la implementación de aplicaciones y el aprovisionamiento.
@@ -196,4 +193,3 @@ Pese a que se trata de dos opciones diferentes, puede integrar ambas para llevar
 | Implemente y aprovisione aplicaciones en dispositivos ubicados solo exteriormente.   | Microsoft Intune                                       |
 | Implemente y aprovisione aplicaciones en dispositivos que no son de Windows.                   | Microsoft Intune                                       |
 | Implemente y aprovisione aplicaciones en dispositivos ubicados solo en el entorno local, que se encuentren fuera de la empresa o que no sean de Windows.       | Integración de Microsoft Intune en Configuration Manager
-

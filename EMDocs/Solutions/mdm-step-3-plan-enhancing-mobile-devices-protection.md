@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: a4504456-a241-4380-ab92-3bc14c91347c
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: bbef17c4d072706a5704c871eee490fba5c9052c
-
-
+ms.openlocfilehash: afa421532e14d68794dcdbd96a2f69cbddd7142a
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="plan-for-enhancing-mobile-devices-protection"></a>Planeación para mejorar la protección de dispositivos móviles
 
 >[!NOTE]
@@ -73,9 +72,3 @@ Esta sección de la guía contiene 12 pasos. El tiempo total para leer las secci
 - [Clasificación de datos](mdm-data-classification.md)
 - [Autenticación y autorización](mdm-authentication-authorization.md)
 - [Control de acceso a los recursos](mdm-access-control-resources.md)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

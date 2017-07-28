@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: c8824726-082e-417a-8522-183a69328ae4
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: cf9b0a04e00ddf991e0f068144a1993f9fb88527
-
-
+ms.openlocfilehash: d5e7d0231795558aadc96786741e710a3352d097
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="specify-your-mobile-device-management-location-requirements"></a>Especificación de los requisitos de ubicación de la administración de dispositivos móviles
 
 >[!NOTE]
@@ -39,9 +38,3 @@ Los requisitos de ubicación son uno de los numerosos factores que debe tener en
 
 >[!TIP]
 > Asegúrese de que toma las notas de cada respuesta y de que comprende la lógica subyacente en la respuesta. La siguiente sección tratará las opciones disponibles, así como las ventajas y desventajas de cada opción.  Con las respuestas a estas preguntas, podrá seleccionar qué solución se adapta mejor a sus necesidades empresariales.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

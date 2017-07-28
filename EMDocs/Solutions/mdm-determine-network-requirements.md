@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 77e7cab9-2fae-4857-be5d-2b6f57e981be
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
-
-
+ms.openlocfilehash: 67f2fb5648d64a53517ae6eaa3d4661570dd39a9
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="determine-network-requirements"></a>Determinación de los requisitos de red
 
 >[!NOTE]
@@ -109,9 +108,3 @@ Responda a las siguientes preguntas de planificación de la administración de c
 
 >[!TIP]
 >Asegúrese de que toma las notas de cada respuesta y de que comprende la lógica subyacente en la respuesta. Más adelante, las tareas tratarán las opciones disponibles, y las ventajas y desventajas de cada opción.  Responder a estas preguntas le ayudará a seleccionar la opción que mejor se adapte a sus necesidades empresariales.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 0b5e4330-6fa5-445c-b73e-86ce5b9c7964
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
-ms.openlocfilehash: fc06debb97cdbd3be1a241a711f36f6c530d65cf
-ms.contentlocale: es-es
-ms.lasthandoff: 01/05/2017
-
-
+ms.openlocfilehash: 9a6d883e2c803ead2dd74094ef4ab81194dc61d7
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="android"></a>Android
 
 El proceso de inscripción y las pantallas que ve el usuario pueden variar ligeramente en función de la versión del sistema operativo que se ejecuta en el dispositivo del usuario final. En este tema se describe la experiencia del usuario final al inscribir dispositivos Android.
@@ -107,4 +104,3 @@ Cada 8 horas, de forma predeterminada, se comprueban los dispositivos para garan
 
 ### <a name="where-to-go-from-here"></a>Próximos pasos
 La experiencia del usuario final es ligeramente diferente en otros dispositivos móviles. Puede obtener más información sobre la experiencia del usuario final para [iOS](end-user-experience-conditional-access-ios.md) y [Windows Phone](end-user-experience-conditional-access-winphone.md).
-

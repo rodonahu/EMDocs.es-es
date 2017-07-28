@@ -12,15 +12,12 @@ ms.technology: techgroup-identity
 ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 ms.reviewer: v-craic
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 34d04195000f7cdb5a9efdfa31788a12cc8d8d5b
-ms.openlocfilehash: a2fc2e045c413707ad9d53e738b1eec6457c3a95
-ms.contentlocale: es-es
-ms.lasthandoff: 02/22/2017
-
-
+ms.openlocfilehash: 98bedbc50843cb7cfc284f5f29d40ca8b298f11a
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="secure-data-using-classification-labeling-and-protection"></a>Proteger los datos mediante la clasificación, el etiquetado y la protección
 
 En la actualidad se produce un uso compartido de la información desde varios dispositivos y entre distintas organizaciones.  Es imprescindible garantizar que los datos corporativos fundamentales no corran peligro en este proceso, al mismo tiempo que se permite a los usuarios compartir de forma segura lo que es importante para la realización de sus tareas. Debido a tendencias actuales como la contratación de recursos externos, es posible que deba compartir los datos confidenciales de la empresa con contratistas y proveedores. Dado que no todo el contenido necesita la misma protección, las empresas se enfrentan al desafío de identificar qué datos necesitan protección y cuáles no.
@@ -110,4 +107,3 @@ Los administradores de TI pueden establecer directivas para aplicar automáticam
 - Número de cuenta bancaria internacional (IBAN)
 
 Consulte [Information about the built-in conditions](/information-protection/deploy-use/configure-policy-classification#information-about-the-built-in-conditions) (Información sobre las condiciones integradas) para obtener más detalles sobre este tipo de implementación.
-

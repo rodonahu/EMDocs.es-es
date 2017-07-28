@@ -12,13 +12,11 @@ ms.technology:
 ms.assetid: d78e2b94-8ad3-4703-b7f0-db070288a20b
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d4362764cad9264c513ca745c45b96590b18928f
-ms.openlocfilehash: 98efafde6981fa8cb0c49c4b22729c64c8386754
-ms.contentlocale: es-es
-ms.lasthandoff: 03/24/2017
-
-
+ms.openlocfilehash: 66586ce378ab3faff29286bd032ac4099647494b
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
 # <a name="enable-a-limited-use-shared-device-solution-with-intune"></a>Habilitar una solución de dispositivos compartidos de uso limitado con Intune
 A veces, los empleados necesitan compartir dispositivos para acceder a aplicaciones y datos de la empresa con el fin de completar el trabajo de tarea básica en el que solo se requieren opciones de configuración y aplicaciones específicas. Esto suele suceder en los sectores de comercio al por menor, fabricación y transporte. Otras veces, no son los empleados, sino los clientes quienes necesitan acceder interactivamente a recursos mediante dispositivos de acceso público en ubicaciones tales como conferencias, hoteles, escuelas o bibliotecas. En algún caso, puede que solo tenga que mostrar una presentación autoejecutable u ofrecer información estática a transeúntes.
@@ -132,4 +130,3 @@ Una vez creada la directiva, impleméntela en un grupo de dispositivos Windows q
 [Introducción al uso de Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

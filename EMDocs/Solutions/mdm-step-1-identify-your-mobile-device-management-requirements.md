@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 32ef7e4e-41b6-4e40-b9d9-6d2bfb464a99
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 85a05de72b2ba0dd52c9ebe1da274a5783fba34f
-
-
+ms.openlocfilehash: 9501b4f9a2a584e6a54571019a2a3726523cfc5f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="step-1---identify-your-mobile-device-management-requirements"></a>Paso 1: Identificación de los requisitos de administración de dispositivos móviles
 
 >[!NOTE]
@@ -34,9 +33,3 @@ Esta sección de la guía contiene 3 pasos. El tiempo total para leer las seccio
 - [Identificación de las necesidades empresariales](mdm-identify-business-needs.md)
 - [Especificación de los requisitos de ubicación](mdm-specify-mdm-location-requirements.md)
 - [Desarrollo de una estrategia de adopción](mdm-develop-mdm-adoption-strategy.md)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

@@ -13,15 +13,12 @@ ms.assetid: 0af3894c-7b0e-4c0c-8874-31e041d81300
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: information-protection
-ms.translationtype: Human Translation
-ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
 ms.openlocfilehash: 4c6c81cd9d59f402c1ce458e54063e2986324c5b
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-data-against-user-mistakes"></a>Protección de datos frente a errores de los usuarios
 
 Mientras que la transición a la nube y la movilidad aumentó sustancialmente la productividad de los empleados, la interacción compleja entre los usuarios, dispositivos, aplicaciones y datos locales, y en la nube, han generado nuevos puntos ciegos para los equipos de TI. Aunque las organizaciones pueden no adoptar esta transición, ya son empleados. Como las interacciones entre estos componentes y la sofisticación de aumenta de vectores de ataque aumenta, la seguridad sigue siendo un desafío para las empresas. El personal de TI lucha por mantener la visibilidad, control y protección de datos corporativos.

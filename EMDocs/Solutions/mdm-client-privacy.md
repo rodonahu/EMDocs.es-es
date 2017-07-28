@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: c799a6c4-fe0a-4148-8e75-29e6ffdb7e6e
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 916404d1aaad5b4db01dff84c544e3364b7ec6ee
-ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: a6bec4e31a346d5b489d9a4fe40ee1b16d1742f9
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 #<a name="client-privacy"></a>Privacidad de clientes
 
 >[!NOTE]
@@ -35,7 +32,7 @@ También puede publicar los términos y condiciones que los usuarios verán al u
 
 La misma funcionalidad para exigir la aceptación de los términos y condiciones también está disponible si dispone de un entorno híbrido con Configuration Manager conectado con Intune. Además, Configuration Manager puede utilizar la configuración de cumplimiento para determinar si los dispositivos cumplen con los elementos de configuración implementados utilizando líneas base de configuración. Algunas configuraciones pueden solucionarse automáticamente si están fuera del cumplimiento de las normas.
 
-El punto de administración envía información de compatibilidad al servidor del sitio y la almacena en la base de datos del sitio. La información se cifra cuando los dispositivos la envían al punto de administración, pero no se almacena en formato cifrado en la base de datos del sitio. La información se guarda en la base de datos hasta que la tarea de mantenimiento del sitio *Eliminar datos antiguos de administración de configuración* la elimina cada 90 días.  También tiene la capacidad de configurar el intervalo de eliminación. Esta información de compatibilidad no se envía a Microsoft.
+El punto de administración envía información de compatibilidad al servidor del sitio y la almacena en la base de datos del sitio. La información se cifra cuando los dispositivos la envían al punto de administración, pero no se almacena en formato cifrado en la base de datos del sitio. La información se guarda en la base de datos hasta que la tarea de mantenimiento del sitio  *Eliminar datos antiguos de administración de configuración* la elimina cada 90 días.  También tiene la capacidad de configurar el intervalo de eliminación. Esta información de compatibilidad no se envía a Microsoft.
 
 Puesto que Intune y Office 365 son servicios basados en la nube, es posible que los usuarios también deseen saber cómo Microsoft se ocupa de la privacidad del usuario en estos servicios. Puede proporcionar punteros a la información de privacidad de estos servicios, como los siguientes:
 
@@ -74,4 +71,3 @@ La privacidad es importante para los usuarios y su organización, y la solución
 **Desventajas**
 
 - Si la organización no dispone de una infraestructura de Configuration Manager local en estos momentos, habrá que planificar, instalar y configurar esta plataforma antes de la integración.
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 31b98333-5a3d-49ba-a25e-66447df68035
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: ff3b086f2ad076776e7cff918ef4bb26161427fd
-ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 29baf40311d0be0fac589ae2e50136d1012d647e
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="authentication-and-authorization"></a>Autenticación y autorización
 
 >[!NOTE]
@@ -95,4 +92,3 @@ Utilice la tabla siguiente como referencia para ayudarle a elegir la opción de 
 **Desventajas**
 
 - No está disponible para los clientes que no estén adoptando soluciones basadas en la nube.
-

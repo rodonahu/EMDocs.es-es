@@ -13,15 +13,12 @@ ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: microsoft-identity-manager
-ms.translationtype: Human Translation
-ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
 ms.openlocfilehash: 851a99829280b85d632e79400d53c357692b74ef
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-at-the-front-door"></a>Proteger el acceso principal
 
 Las soluciones de seguridad tradicionales solían ser suficientes para proteger una empresa. Pero esto era así antes de que el sector de la movilidad creciese y generase un panorama de ataque más grande, y antes de que la transición a la nube hiciese más complejas las interacciones de los empleados con otros usuarios, dispositivos, aplicaciones y datos. Ahora, para proteger realmente la empresa, debe adoptar un enfoque más innovador e integral para la seguridad, que pueda proteger, detectar y responder a amenazas de todo tipo localmente y en la nube.
@@ -129,4 +126,3 @@ Ahora que ha instalado y configurado Azure AD Privileged Identity Management, pu
 ![Roles con privilegios](./media/protect-front-door/protect-front-door-fig10.png)
 
 En este panel verá la actividad actual, como las [alertas de seguridad](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-configure-security-alerts/) y la [revisión de acceso](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-start-security-review/). También puede usar el panel para [agregar](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/) o [quitar](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/#remove-another-users-access-rights-for-managing-pim) el acceso de uno o más usuarios a Azure AD Privileged Identity Management.
-

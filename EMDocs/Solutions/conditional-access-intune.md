@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 28662db2-faea-425f-ada9-04cf1d976fc2
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 033720647c8c284a415bd79cbc58b65e41d3e177
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="use-conditional-access-with-microsoft-intune"></a>Uso del acceso condicional con Microsoft Intune
 Esta solución permite usar el acceso condicional en Intune para ayudar a proteger el correo electrónico y otros servicios en función de las condiciones que especifique.
 
@@ -99,4 +96,3 @@ Además:
 > Asegúrese de que está usando la versión más reciente de Exchange Connector local. El conector de Exchange local que tiene disponible en la consola de Intune es específico para su inquilino de Intune y no puede usarlo con otro inquilino. Asimismo, también debe asegurarse de que el conector de Exchange de su inquilino está instalado en un solo equipo y no en varios.
 
   Ahora ya puede obtener más información sobre cómo [implementar Exchange Server local con Intune](conditional-access-intune-exchange.md).
-

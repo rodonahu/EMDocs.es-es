@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 9aafb6a87f629f61d04596830ae0cc5cee944696
-ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: f90989708013339a0bf31157075678739e3197b5
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="data-access-and-protection-requirements"></a>Requisitos de acceso a datos y protección de datos
 
 Uno de los elementos más importantes al permitir que los usuarios accedan a los recursos de la compañía desde sus propios dispositivos es el de conservar los datos de la compañía y proteger esa información. Puede que su organización tenga que aplicar diversos requisitos de cumplimiento normativo para proteger los datos, estén donde estén. La ilustración siguiente muestra las interacciones que se producen entre los usuarios y los dispositivos al acceder a los datos, y los componentes que se deben tener en cuenta en este subdominio.
@@ -93,4 +90,3 @@ Las preguntas relativas a los requisitos en cuanto al acceso a datos y a la prot
     - Si es así, ¿cómo determinan estas normas las directivas de acceso a datos actuales que se aplican a los recursos locales?
 - ¿La empresa aplica alguna directiva de [Administración de dispositivos móviles (MDM)](mdm-design-considerations-guide.md) y de [Administración de aplicaciones móviles (MAM)](https://blogs.technet.microsoft.com/cbernier/2016/01/05/microsoft-intune-mobile-application-management-mam-standalone/)?
 - ¿La compañía aplica alguna directiva para la confiscación de dispositivos en caso de juicio o investigación de delitos?
-

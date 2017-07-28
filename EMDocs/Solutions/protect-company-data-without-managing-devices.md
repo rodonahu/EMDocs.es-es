@@ -12,15 +12,12 @@ ms.technology:
 ms.assetid: b46877f3-cf32-4919-ba63-4df55cd2af32
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
-ms.openlocfilehash: 5a0eef972374efefff886ab9dbf7b6a7e4f7aab7
-ms.contentlocale: es-es
-ms.lasthandoff: 05/29/2017
-
-
+ms.openlocfilehash: b17952c8b7b5e0ab6d02d647740c33a5a54484ea
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-company-data-without-managing-devices-with-intune"></a>Proteger los datos empresariales sin necesidad de administrar dispositivos con Intune
 Vivimos en un mundo móvil donde los empleados necesitan en el acceso a datos corporativos y herramientas de productividad en sus propios dispositivos móviles allá donde vayan. Debido a su popularidad e importancia, muchas organizaciones buscan una mayor protección de los datos de Office 365 para evitar la pérdida de datos de aplicaciones móviles de Office, a la vez que conservan una experiencia de usuario final excepcional. El departamento de TI necesita proteger el acceso a Office 365 y evitar la pérdida de datos empresariales por parte de los dispositivos y aplicaciones móviles que no pertenecen a la empresa o que esta no administra. El problema es que, mientras que el departamento de TI necesita mantener los datos empresariales, a muchos empleados les preocupa su privacidad cuando el departamento de TI toma control sobre sus dispositivos personales.
 
@@ -95,4 +92,3 @@ Cuando el usuario final seleccione el vínculo *Empezar ahora* del correo electr
 [Introducción al uso de Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

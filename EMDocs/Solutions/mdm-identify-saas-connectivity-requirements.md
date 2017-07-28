@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 6afbce4c-7500-4387-a19c-dff52c152097
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 3cea66edad4cb791342cb193495629fa4ce27d0d
-
-
+ms.openlocfilehash: 9cc654fadde9494e364d3bc1513bc5bf3c78f6a2
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="identify-saas-connectivity-requirements"></a>Identificación de los requisitos de conectividad de SaaS
 
 >[!NOTE]
@@ -72,9 +71,3 @@ Según como haya respondido a las preguntas de Tarea 2, podrá determinar la for
 
 - Para las organizaciones que no tienen una infraestructura de Configuration Manager en estos momentos, habrá que planificarla, instalarla y configurarla antes de su integración con Intune.
 - Requiere los requisitos de implementación locales y cambios de configuración para las organizaciones con Configuration Manager.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

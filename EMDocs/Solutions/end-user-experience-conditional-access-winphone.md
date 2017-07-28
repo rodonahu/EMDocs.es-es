@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 906566e0-f05e-4af5-b4d5-0efb083dca76
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
-ms.openlocfilehash: e498fd2a1efea2ef6416185c5ce63223004805c6
-ms.contentlocale: es-es
-ms.lasthandoff: 01/05/2017
-
-
+ms.openlocfilehash: 46c8690074703d4e7de667cea115ca6db7818984
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="windows-phone"></a>Windows Phone
 
 El proceso de inscripción y las pantallas que ve el usuario pueden variar ligeramente en función de la versión del sistema operativo que se ejecuta en el dispositivo del usuario final.  En este tema se describe la experiencia del usuario final al inscribir dispositivos Windows Phone.
@@ -101,4 +98,3 @@ Cada 8 horas, de forma predeterminada, se comprueban los dispositivos para garan
 
 ### <a name="where-to-go-from-here"></a>Próximos pasos
 La experiencia del usuario final es ligeramente diferente en otros dispositivos móviles. Puede obtener más información sobre la experiencia del usuario final de [Android](end-user-experience-conditional-access-android.md) e [iOS](end-user-experience-conditional-access-ios.md).
-

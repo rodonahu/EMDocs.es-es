@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: b3cefcc5-b045-48f9-91f5-6d282a4428f3
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 735874e0f5c30628fbc4bdcdce18e6db3a2ec735
-
-
+ms.openlocfilehash: 9e23ce7f0b20e05c2216addcbbe4e719e64bc7f6
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="develop-saas-mobile-device-management-strategy"></a>Desarrollo de una estrategia de administración de dispositivos móviles de SaaS
 
 >[!NOTE]
@@ -75,9 +74,3 @@ Según como haya respondido a las preguntas de Tarea 1, podrá determinar qué n
 Asegúrese de leer el artículo **[Ayude a proteger sus datos mediante la eliminación remota, el bloqueo remoto o el restablecimiento de código de acceso mediante Microsoft Intune](https://technet.microsoft.com/library/jj676679.aspx)** para comprender qué datos se quitan y el efecto en los datos que permanece en el dispositivo después de un borrado selectivo por plataforma. Si cuenta con un entorno híbrido, consulte el artículo [Borrado remoto de dispositivos móviles mediante Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) para comprender cómo Configuration Manager puede usarse para llevar a cabo esta tarea.
 
 Para obtener más información sobre los requisitos y la funcionalidad de la solución de SaaS, asegúrese de revisar el tema de **[descripción del servicio de Microsoft Intune](https://technet.microsoft.com/library/dn600286.aspx)** para comprender las diferencias en la compatibilidad de SaaS en [MDM para Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) y en una infraestructura [híbrida](https://technet.microsoft.com/library/jj884158.aspx) de Intune y Configuration Manager.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

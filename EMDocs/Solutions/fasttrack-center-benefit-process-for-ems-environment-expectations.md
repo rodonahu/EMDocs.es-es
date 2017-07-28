@@ -13,16 +13,12 @@ ms.technology:
 ms.assetid: 9048f3e5-cc28-4744-bb5e-36f974abb261
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 6c871d792424f5066328d26892c27c3883605a06
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
-
 # <a name="source-environment-expectations"></a>Expectativas del entorno de origen
 Cuando se usa el [Programa FastTrack para Enterprise Mobility Suite](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) con el fin de preparar Microsoft Azure Active Directory Premium y Microsoft Intune para su uso, su entorno tendrá que cumplir los requisitos que se describen en las secciones siguientes.
 
@@ -41,4 +37,3 @@ En la tabla siguiente se muestran las expectativas del entorno de origen existen
 **¿Quiere obtener más información?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
