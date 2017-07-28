@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 418aa02b98040a8a74313513f05b231a20ea472a
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="use-mobile-app-management-policies-in-intune"></a>Usar directivas de administración de aplicaciones móviles en Intune
 Uno de los principales motivos de que muchas empresas usen Microsoft Intune es para implementar las aplicaciones que los usuarios necesitan para realizar su trabajo. Antes de implementar las aplicaciones, tendrá que [administrar los dispositivos](https://docs.microsoft.com/intune/deploy-use/enroll-devices-in-microsoft-intune).
 
@@ -117,4 +114,3 @@ Use los procedimientos siguientes para supervisar la implementación de la aplic
 ## <a name="where-to-go-from-here"></a>Próximos pasos
 
 Después de haber creado e implementado una aplicación asociada a una directiva MAM, puede obtener más información sobre la [experiencia del usuario final de MAM](end-user-experience-mam.md). Esto le ayudará a prepararse para los problemas que pudieran surgir.
-

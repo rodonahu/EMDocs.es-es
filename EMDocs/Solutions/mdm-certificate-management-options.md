@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 2f0d445b35c6a7aea29684a0488decd92784c2ab
-
-
+ms.openlocfilehash: c08087f411440fbc57b1220131dc1c6fc2cdd90c
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="certificate-management-options"></a>Opciones de administración de certificados
 
 >[!NOTE]
@@ -83,9 +82,3 @@ La lista siguiente le ayudará a comprender las ventajas y desventajas de la adm
  - El conector NDES para Intune, que se instala en el servidor que ejecuta NDES
 
 Para obtener más detalles sobre las opciones de administración de certificados de dispositivos móviles, consulte cómo [habilitar perfiles de certificado](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) en Intune y compare estos requisitos y procedimientos con la [habilitación de perfiles de certificado](https://technet.microsoft.com/library/dn261202.aspx) en System Center 2012 R2 Configuration Manager.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

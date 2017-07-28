@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: bbc9f6ea-fc92-468d-bb5b-60c67949ca28
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 001a2de2d35f218258180fff31b7923ee5c79acd
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="end-user-experience-of-mobile-app-management-policies"></a>Experiencia del usuario final de directivas de administración de aplicaciones móviles
 Las directivas MAM solo se aplican cuando se usan aplicaciones en el contexto de trabajo. Lea los siguientes escenarios de ejemplo para ayudar a educar a los usuarios de modo que entiendan cómo funcionan las aplicaciones administradas.
 
@@ -66,4 +63,3 @@ Para más información sobre otras experiencias específicas de usuarios finales
 
 ## <a name="where-to-go-from-here"></a>Próximos pasos
 Hay otras experiencias de usuario final sobre las que puede obtener más información, como [Uso de aplicaciones con compatibilidad con varias identidades](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support), [Administración de cuentas de usuario](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts) y [Ver archivos multimedia con la aplicación Rights Management sharing](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app).
-

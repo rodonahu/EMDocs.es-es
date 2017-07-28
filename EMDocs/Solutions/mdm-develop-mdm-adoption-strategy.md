@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
-
-
+ms.openlocfilehash: 9cd4d977bc09b710af636d791b60dae1a9e86a73
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="develop-your-mobile-device-management-adoption-strategy"></a>Desarrollo de la estrategia de adopción de administración de dispositivos móviles
 
 >[!NOTE]
@@ -168,9 +167,3 @@ Comprender el comportamiento del usuario e identificar su ubicación son factore
 
 >[!TIP]
 > El perímetro le permite supervisar una ubicación geográfica del dispositivo móvil y habilitar o deshabilitar recursos de red y del dispositivo según la ubicación. Por ejemplo, Windows 8.1 permite que una aplicación defina una región geográfica y que el sistema alerte a la aplicación cuando el dispositivo se ejecute en esa área o entre o salga de ella. Para obtener más información acerca de esta característica en Windows 8.1, consulte [Geovalla, de principio a fin (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx).
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

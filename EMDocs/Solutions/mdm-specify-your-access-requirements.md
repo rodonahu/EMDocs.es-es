@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 1cdc3cdf-cb71-46d5-99fd-05ec96771b81
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 482c5baa2fe33c02d4466f38ef05964f64eee2cd
-ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 0eaf680de8a6ad90cc20edd42e8662cde1f928df
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="specify-your-access-requirements"></a>Especificación de los requisitos de acceso
 
 >[!NOTE]
@@ -62,4 +59,3 @@ Cuando diseñe la solución MDM, tenga en cuenta lo siguiente:
     - En caso afirmativo, ¿la solución MDM permite administrar la atestación de dispositivo?
 
 Lea [Acceso seguro a los recursos de la empresa desde cualquier lugar y en cualquier dispositivo](https://technet.microsoft.com/library/dn550982) para comprender mejor cómo aprovechar las funcionalidades de Windows Server 2012 R2 integradas con Configuration Manager para proporcionar acceso a los recursos de la compañía.
-

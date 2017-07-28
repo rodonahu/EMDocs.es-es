@@ -12,15 +12,12 @@ ms.technology:
 ms.assetid: e9e695ec-5608-43bb-bbfb-808b869b1567
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b5be7105266a7f455e1482a814929f65a130db82
-ms.openlocfilehash: 6b220f4992651b5f3c107b5b958c47900515b77f
-ms.contentlocale: es-es
-ms.lasthandoff: 03/08/2017
-
-
+ms.openlocfilehash: 51e8edb18d68618c147ba5011dc1f047cdb43cac
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="manage-company-owned-devices-with-intune"></a>Administrar los dispositivos propiedad de la empresa con Intune
 
 Hay numerosas opciones disponibles para cumplir las expectativas de movilidad de los empleados en las empresas modernas, incluidos programas Bring Your Own Device (BYOD). Aun así, muchas organizaciones quieren tener un control todavía mayor para saber qué dispositivos se usan a la hora de tener acceso a los datos de la empresa. En estos casos, las empresas pueden implementar estrategias Choose Your Own Device (CYOD), según las cuales el departamento de TI proporciona dispositivos móviles administrados a los empleados.
@@ -162,4 +159,3 @@ Cuando se inicie, el dispositivo empezará de inmediato el proceso de borrado se
 [Introducción al uso de Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

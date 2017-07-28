@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: c3b2ab326254602425d5f8149e5d456e578b989c
 ms.openlocfilehash: 395ed9dafde409d2357bfe7f72283bb7eff24820
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="end-user-intune-enrollment-instructions-for-it-administrators"></a>Instrucciones de inscripción de Intune de usuario final para los administradores de TI
 
 Este documento contiene instrucciones de inscripción que puede personalizar y entregar a los usuarios para ayudarles a inscribir sus dispositivos iOS y Android en Microsoft Intune™ (en el caso de dispositivos Windows, consulte Usar un dispositivo Windows con Intune). Le recomendamos que copie las secciones de este documento que considere más apropiadas para los usuarios. Por ejemplo, puede que le interese crear un documento único para cada plataforma de dispositivo o agregar más capturas de pantalla.
@@ -172,4 +169,3 @@ Cuando termine la inscripción, verá una página de perfil de administración e
 
 ### <a name="want-to-learn-more"></a>¿Desea obtener más información?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-

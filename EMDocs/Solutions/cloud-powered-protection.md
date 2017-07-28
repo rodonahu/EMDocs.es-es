@@ -14,13 +14,12 @@ ms.assetid: 46654ab0-0d0a-47ad-8715-b149a1092a37
 ROBOTS: 
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: cd45c4acdcc477d235e21bd6af5d1c2e265a6435
-ms.openlocfilehash: bcdf21f80b921e2788168e7d53b5618619b79539
-
-
+ms.openlocfilehash: 0ed7704a832f3567f14c6eec5ae7da9ea5e9f22a
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="cloud-powered-protection"></a>Protección con tecnología de nube
 Microsoft se ha dedicado a la protección de identidades basadas en la nube durante más de una década y, con Azure Active Directory, pone estos sistemas de protección a disposición de los clientes empresariales, para asegurar la responsabilidad de los usuarios y de los administradores con una mejor seguridad y control.
 
@@ -107,9 +106,3 @@ Los vínculos siguientes proporcionan información para usar el acceso condicion
 - Obtenga información acerca de [cómo implementar el acceso condicional de Azure AD](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access/).
 - Obtenga más información sobre [MFA y directivas de ubicación](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-azuread-connected-apps/).
 - Obtenga más información sobre [directivas basadas en el dispositivo](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-policy-connected-applications/).
-
-
-
-<!--HONumber=Nov16_HO3-->
-
-

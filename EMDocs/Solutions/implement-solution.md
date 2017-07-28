@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 4a7537775ce2c6c19850720f789ea5882d062aec
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="implementing-your-solution-for-protecting-email-and-attachments"></a>Implementación de una solución para proteger los datos adjuntos y correos electrónicos
 Este artículo le ayuda a preparar el proceso y, después, implementar una solución para proteger los datos adjuntos y el contenido de correo electrónico de la empresa.
 
@@ -98,4 +95,3 @@ Para obtener instrucciones detalladas sobre cómo implementar una solución para
 
 - [Uso del acceso condicional con Microsoft Intune](conditional-access-intune.md)
 - [Uso del acceso condicional con Microsoft Intune y Configuration Manager](conditional-access-intune-configmgr.md)
-

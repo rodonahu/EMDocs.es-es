@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 6f9fd9b3-492b-48e1-871c-e5abefe1293a
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: a9bb76fdff02b8ded31fe3e1811678138ffd5504
-ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: ff338a02c6b78c42d215b7ec72768a5e8b4013cd
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="develop-your-incident-response-requirements"></a>Desarrollo de los requisitos de respuesta a incidentes
 
 >[!NOTE]
@@ -47,4 +44,3 @@ Cuando diseñe la solución MDM, asegúrese de que formula las preguntas siguien
 - Cuando un dispositivo móvil está en peligro y necesita impedir que ese dispositivo distribuya aplicaciones malintencionadas en la red corporativa, ¿la solución MDM le permite aplicar directivas que puedan contener rápidamente al dispositivo en peligro?
 - ¿La solución MDM le permite planificar ataques potenciales para emprender acciones proactivas para solucionar los problemas?
 - ¿La solución MDM le permite identificar cuándo un archivo está infectado con malware mediante una consola de administración?
-

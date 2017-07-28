@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 0c404c758f66fba9ded4672fad904ba3987958b5
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="onboarding-and-migration-phases"></a>Fases de migración e incorporación
 Cuando usa los [Planes y servicios aptos del beneficio del centro de FastTrack](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) para obtener Microsoft Azure Active Directory Premium y Microsoft Intune para su uso, existen varias fases implicadas en el proceso. En las secciones siguientes se describe cada fase del proceso de incorporación.
 
@@ -162,4 +159,3 @@ Microsoft también se pondrá en contacto con usted para ofrecerle instrucciones
 **¿Quiere obtener más información?**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
-ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 9eb47bcc9b64495759727b7211161b0945bda8b2
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="data-access-and-protection-considerations"></a>Consideraciones sobre la protección de datos y el acceso a estos
 
 La pérdida de datos confidenciales es un riesgo operativo para cualquier empresa, y con la llegada de BYOD, la información se almacena en más lugares que nunca. Esto se traduce en un panorama más amplio de amenazas y riesgos mayores que se deben mitigar correctamente. Dada la variedad de regulaciones legislativas, corporativas y sectoriales que rigen la protección de datos confidenciales, este proceso puede resultar complejo. Es importante tener en cuenta estos requisitos legales, las directivas corporativas internas y la normativa del sector.
@@ -250,4 +247,3 @@ La aplicación de la gobernanza de datos en todos los servidores de archivos par
 Con las capacidades del control de acceso dinámico, puede identificar datos mediante la clasificación automática y manual de los archivos de datos. Por ejemplo, puede etiquetar datos en servidores de archivos en toda la organización. También es posible controlar el acceso a archivos mediante la aplicación de directivas de red segura que usen directivas de acceso central. El control de acceso dinámico también usa la protección de Rights Management Services (RMS) mediante cifrado RMS automático para documentos confidenciales. Por ejemplo, puede configurar RMS para cifrar todos los documentos que contengan información sobre la Ley de transferencia y responsabilidad de seguros de salud (HIPAA). En lo relativo a la investigación forense y la auditoría, puede aprovechar las directivas de auditoría central para realizar informes sobre el cumplimiento de la normativa y para análisis forense. Puede identificar quién tuvo acceso a información muy confidencial.
 
 El control de acceso dinámico, una función del rol de servidor de archivos, confiere al departamento de TI las funcionalidades que se describen en la tabla anterior. Para obtener más información acerca del Control de acceso dinámico, consulte [Control de acceso dinámico: Información general sobre el escenario](https://technet.microsoft.com/library/hh831717.aspx).
-

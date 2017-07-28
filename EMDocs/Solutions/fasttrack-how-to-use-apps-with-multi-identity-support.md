@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 586ecd93-b097-42a0-9229-bcf3b781021c
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 6ab1230db73e7de791497a69b030e27e80dc8b9d
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="how-to-use-apps-with-multi-identity-support"></a>Cómo usar aplicaciones con compatibilidad con varias identidades
 
 En este caso, usamos Microsoft Word como ejemplo. Puede aplicar estos mismos pasos a otras aplicaciones incluidas en Office 365.
@@ -50,4 +47,3 @@ En este caso, usamos Microsoft Word como ejemplo. Puede aplicar estos mismos pas
 
 ### <a name="want-to-learn-more"></a>¿Desea obtener más información?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-

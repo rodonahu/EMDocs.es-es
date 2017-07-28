@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: bf0d4210-5edc-4ad7-bcb5-372099049630
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 9347d0ff642a3ea4a337962b5ec10a0c4c6cdc66
-ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 18540a0fa2fd1852e416adc9f0ced0f1c8d13893
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="management-requirements"></a>Requisitos de administración
 
 La administración de dispositivos es una de las bases de toda estrategia que se centre en las personas y se debe evaluar comparándola con los requisitos de la compañía. Según el nivel de madurez de la compañía, es posible que ya se esté aplicando un sistema de administración y que sea necesario ampliarlo para abarcar los escenarios de BYOD que va a adoptar la compañía. La figura siguiente muestra las interacciones de administración que se producen al administrar usuarios, dispositivos y datos. Se deben tener en cuenta determinados aspectos de cada componente del subdominio de administración.
@@ -99,4 +96,3 @@ Las preguntas sobre los requisitos de administración se clasifican en siete ár
 - ¿Es el departamento de TI quien registra los dispositivos personales con la compañía, o se registran personalmente?
 - ¿Se pondrá en práctica algún plan para permitir que los usuarios aprovisionen servicios con sus propios dispositivos?
     - Si es así, ¿el sistema de administración permite de forma nativa que los usuarios realicen esta operación desde sus dispositivos?
-

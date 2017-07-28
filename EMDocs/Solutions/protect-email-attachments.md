@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: a124d56eaa6cbca44551a7c3ea42166479523f9f
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-email-and-attachments-from-data-leakage"></a>Impedir el filtrado de datos de correo electrónico y datos adjuntos
 En [Protección de documentos y del correo electrónico corporativos](protect-corporate-email-documents.md), se describe cómo puede asegurarse de que solo los dispositivos admitidos puedan acceder al correo electrónico corporativo. Sin embargo, el contenido del correo electrónico y los datos adjuntos no está protegido al proteger el acceso. El contenido se puede copiar, mover, guardar en una ubicación diferente o compartir con otro usuario. EMS soluciona este problema mediante directivas de administración de aplicaciones móviles.
 
@@ -71,4 +68,3 @@ Los usuarios finales pueden instalar aplicaciones administradas y usarlas para h
 
 ## <a name="where-to-go-from-here"></a>Próximos pasos
 Ahora que sabe cómo [proteger documentos y correo electrónico corporativos](protect-corporate-email-documents.md), así como datos adjuntos de correo, puede conocer cómo [implementar una solución para proteger el correo electrónico empresarial](implement-solution.md).
-

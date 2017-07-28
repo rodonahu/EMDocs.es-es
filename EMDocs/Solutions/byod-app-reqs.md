@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 0c1313b9-361f-4732-a92c-23d0dac07733
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: d5297dbb3d22feda4189bc120b2bb4537fa5f590
-ms.contentlocale: es-es
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 64d000d8d4313f9b10d145564eef3d2d2cbff5ed
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="app-requirements"></a>Requisitos de las aplicaciones
 
 Cada organización utiliza diversas funcionalidades técnicas para permitir que sus recursos lleven a cabo sus tareas de forma optimizada. En la mayoría de los casos, la herramienta principal para lograrlo es una aplicación. Estas funcionalidades se pueden combinar en un enfoque multiplataforma en el que se usen diferentes tecnologías para alcanzar un determinado objetivo, o se puede crear una aplicación personalizada capaz de realizar una tarea o automatizar ciertos procesos. Es importante tener en cuenta las aplicaciones a la hora de diseñar la estrategia de BYOD. Los usuarios utilizarán diversos factores de forma para consumir las aplicaciones. Por eso, debe tener en cuenta la variedad de funcionalidades que deben admitir las aplicaciones. En la figura siguiente se muestra cómo los usuarios y los dispositivos usan aplicaciones para consumir datos, así como los aspectos que se deben tener en cuenta para cada componente del subdominio Aplicaciones.
@@ -119,4 +116,3 @@ Los requisitos de las aplicaciones se clasifican en seis áreas:
 - ¿Realizó algún análisis de privacidad de estas aplicaciones?
 - ¿Las aplicaciones usarán Live Tiles?
     - Si es así, ¿las Live Tiles podrían causar la divulgación de información no intencionada?
-

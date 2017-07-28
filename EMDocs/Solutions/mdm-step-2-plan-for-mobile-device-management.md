@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 3cdc1318-50a2-4280-b051-1e009620816e
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 13b9f2fac331d25d797ed9d21f27cc70c876eeda
-
-
+ms.openlocfilehash: 35dea3704aeb39f8dd7f2b360efbe4b3d5cda836
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="step-2---plan-for-mobile-device-management"></a>Paso 2: Plan de administración de dispositivos móviles
 
 >[!NOTE]
@@ -42,9 +41,3 @@ Esta sección de la guía contiene 11 pasos. El tiempo total para leer las secci
 - [Opciones de administración de correo electrónico](mdm-email-management-options.md)
 - [Opciones de administración de conectividad de red](mdm-network-connectivity-management-options.md)
 - [Opciones de administración de certificados](mdm-certificate-management-options.md)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

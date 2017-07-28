@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: ac136523-8089-409b-b74d-2d4c0ce399d4
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 2a03416cf8255a29c0394746b3d5285057163d15
-
-
+ms.openlocfilehash: b6020cf872fdd6f98fe24f10ecb028dd9bc0300f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="gather-monitoring-requirements"></a>Recopilación de requisitos de supervisión
 
 >[!NOTE]
@@ -57,9 +56,3 @@ Responda a las siguientes preguntas de planificación sobre la supervisión de d
 
 >[!TIP]
 >Asegúrese de que toma las notas de cada respuesta y de que comprende la lógica subyacente en la respuesta. Más adelante, las tareas tratarán las opciones disponibles, y las ventajas y desventajas de cada opción.  Responder a estas preguntas le ayudará a seleccionar la opción que mejor se adapte a sus necesidades empresariales.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

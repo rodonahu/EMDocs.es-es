@@ -12,15 +12,12 @@ ms.technology: techgroup-identity
 ms.assetid: a996fbf8-ece4-40bc-b866-d4606c230027
 ms.reviewer: v-craic
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 3d84bbe6d252976e1a3152f65003787e37d408c8
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="share-sensitive-data-internally-and-externally"></a>Uso compartido de datos confidenciales interna y externamente
 
 Aunque muchas de las infracciones de datos son debido a ciberataques, los expertos están de acuerdo en que muchos son el resultado del error humano, conocido también como momentos "¡vaya!" que se producen cuando los empleados pierden accidentalmente datos empresariales confidenciales. Con la información de seguridad adecuadas y los protocolos de prevención de pérdida de datos en su lugar, casi todos estos tipos de infracciones son evitables.
@@ -96,4 +93,3 @@ En esta ventana debe escribir el correo electrónico del usuario de destino y se
 
 > [!IMPORTANT]
 > Consulte la presentación [Colaboración de forma segura mediante Azure Information Protection](https://myignite.microsoft.com/videos/49947) desde Microsoft Ignite para obtener más información sobre este escenario.
-

@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 7083b6b8-27a3-427b-b505-25d007d63cdd
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 770a72932d98c4b9d4b5ce9607bad07c7b6798cb
-
-
+ms.openlocfilehash: 65ecf2d73107237bc586b6827dea5c1466eb3ac0
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="mobile-device-management-design-considerations-guide"></a>Guía de las consideraciones de diseño de administración de dispositivos móviles
 
 Con todos los diseños y las opciones de configuración que existen para las soluciones de administración de dispositivos móviles (MDM), a veces es difícil decidir qué solución va a satisfacer mejor las necesidades de una organización. Con esta guía sobre el diseño, podrá comprender mejor los distintos requisitos de diseño de MDM y dispondrá de una serie de pasos y tareas que puede seguir para diseñar la solución MDM más adecuada para las necesidades empresariales y tecnológicas de su organización.
@@ -67,9 +66,3 @@ Desarrollará el diseño de administración de dispositivos móviles que mejor s
 
 ## <a name="looking-for-a-downloadable-version"></a>¿Busca una versión descargable?
 Obtenga una copia descargable de toda esta guía en la [Galería de TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

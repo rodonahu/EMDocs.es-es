@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 1bf552e92104a7872099e555df12993dd4258293
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="how-to-manage-your-own-password"></a>Cómo administrar su propia contraseña
 
 Si es usted un usuario (no un administrador) de una organización que usa Office 365 o cuentas de Microsoft para acceder a recursos de trabajo, lea las secciones siguientes para aprender a corregir problemas comunes relacionados con su contraseña.
@@ -79,4 +76,3 @@ Si el administrador ha habilitado esta característica para usted, debe registra
 
 ### <a name="want-to-learn-more"></a>¿Desea obtener más información?
 Consulte [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-

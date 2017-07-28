@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 8cfe421b-52c9-4d44-8df1-15c82375c335
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: c4743cb8fba4db7072d6af13a2ac4943bd35a423
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="deploy-exchange-online-with-intune"></a>Implementación de Exchange Online con Intune
 
 Ahora que ha leído la [Guía de arquitectura para proteger los documentos y correos electrónicos de la empresa](architecture-guidance-for-protecting-company-email-and-documents.md), ya puede continuar con la implementación de una solución.
@@ -74,4 +71,3 @@ En el panel de Intune, haga clic en el icono **Dispositivos bloqueados de Exchan
 
 ## <a name="where-to-go-from-here"></a>Próximos pasos
 Cuando haya implementado una solución para proteger el correo electrónico corporativo y los datos de correo electrónico de los dispositivos móviles, puede obtener más información sobre la [experiencia de acceso condicional del usuario final](end-user-experience-conditional-access.md). Esto le ayudará a prepararse para problemas que podrían surgir al inscribir sus dispositivos específicos.
-

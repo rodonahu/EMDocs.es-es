@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 6c7088a9-ca88-4ff2-97a6-f842691fd3c7
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 88625a3bc5ac5f1a877650f73185721674e0f28d
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-company-data-on-mobile-devices-through-app-management-policies"></a>Proteger los datos de la empresa en dispositivos móviles mediante directivas de administración de aplicaciones
 Proteger los datos de su empresa es de vital importancia y supone un desafío que no deja de aumentar en complejidad, ya que cada vez más empleados usan sus dispositivos móviles para obtener acceso a recursos de la empresa como el correo electrónico y sus datos adjuntos. Como administrador de TI, debe asegurarse de que los datos de la empresa están protegidos incluso cuando los dispositivos móviles no están dentro de la ubicación física de la empresa.
 
@@ -74,4 +71,3 @@ Las aplicaciones administradas son aplicaciones que tienen directivas de MAM que
 
 ## <a name="where-to-go-from-here"></a>Próximos pasos
 Ahora que está familiarizado con el proceso general de MAM, está listo para [usar directivas de administración de aplicaciones móviles en Intune](mam-intune.md) o [usar directivas de administración de aplicaciones móviles en Configuration Manager](mam-configmgr.md). También puede leer sobre la [experiencia del usuario final de directivas MAM](end-user-experience-mam.md).
-

@@ -14,13 +14,12 @@ ms.assetid: 0292919a-af10-4a25-8916-c704aed643f6
 ROBOTS: 
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: fdb0852611551daaa2aad7d3839a3431abd8b445
 ms.openlocfilehash: fa2795fb578c0d278d55cbff9f44c19ca2e13309
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="manage-access-at-scale"></a>Administrar el acceso a escala
 Desde que existe, Microsoft ha ayudado a las organizaciones a trabajar con eficiencia. Microsoft proporciona no solo una identidad que puede llevarle a todas partes, sino también ofrece un conjunto de herramientas para automatizar, proteger y administrar TI dentro de la organización. Incluso tras la llegada de la informática en la nube, sigue habiendo demanda para administrar y controlar tareas de TI, como llamadas al departamento de soporte técnico para el restablecimiento de contraseñas de usuario, la administración de grupos de usuarios y las solicitudes de aplicaciones.
 
@@ -125,9 +124,3 @@ Los detalles de una alerta tienen más información sobre el problema que la ha 
 La supervisión de rendimiento de AD Connect Health permite comparar fácilmente el rendimiento de los controladores de dominio supervisados entre sí, así como diversas métricas de interés.
 
 ![Captura de pantalla en la que se muestra la supervisión de rendimiento de los controladores de dominio seleccionados.](./media/manage-access-at-scale/manage-access-at-scale-fig8.png)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
-
