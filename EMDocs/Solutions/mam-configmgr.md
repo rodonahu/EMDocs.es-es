@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 74288276-84d3-4d24-8307-7875491be9c9
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: d0bc5fb61b481256d816df7c898ade798379aa19
-ms.contentlocale: es-es
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="use-mobile-app-management-policies-in-configuration-manager"></a>Usar directivas de administración de aplicaciones móviles en Configuration Manager
 A partir de System Center 2012 Configuration Manager SP2, las directivas de administración de aplicaciones permiten modificar la funcionalidad de las aplicaciones que implementa para ayudar a armonizarlas con las directivas de cumplimiento y seguridad de la empresa. Por ejemplo, puede limitar las operaciones de cortar, copiar y pegar dentro de una aplicación restringida, o configurar una aplicación para abrir todos los vínculos web dentro de un explorador administrado. Las directivas de administración de aplicaciones son compatibles con:
 
@@ -39,7 +36,7 @@ A diferencia de los elementos de configuración y las líneas de base de Configu
 Para aplicar restricciones a una aplicación, esta debe incorporar el Kit de desarrollo de software (SDK) para aplicaciones de Microsoft Intune. Existen dos métodos de obtención de este tipo de aplicación:
 
 - **Usar una aplicación administrada por directivas** (Android e iOS): tiene integrado el SDK para aplicaciones. Para agregar este tipo de aplicación, especifique un vínculo a la aplicación desde una tienda de aplicaciones como, por ejemplo, iTunes Store o Google Play. No es necesario ningún procesamiento adicional para este tipo de aplicación. Para obtener una lista de aplicaciones administradas por directivas disponibles para dispositivos iOS y Android, consulte [Microsoft Intune mobile application gallery (Galería de aplicaciones móviles de Microsoft Intune)](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners).
-- **Usar una aplicación "ajustada"** (Android e iOS): aplicaciones que se vuelven a empaquetar para incluir el SDK para aplicaciones mediante la herramienta de ajuste de aplicaciones de Microsoft Intune. Esta herramienta se usa normalmente para procesar aplicaciones de empresa que se hayan creado internamente. No se puede usar para procesar aplicaciones que se hayan descargado desde la tienda de aplicaciones. Vea [Preparar aplicaciones iOS para la administración de aplicaciones móviles con la herramienta de ajuste de aplicaciones de Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) y [Preparar aplicaciones de Android para la administración de aplicaciones móviles con la herramienta de ajuste de aplicaciones de Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool).
+- **Usar una aplicación "ajustada" ** (Android e iOS): aplicaciones que se vuelven a empaquetar para incluir el SDK para aplicaciones mediante la herramienta de ajuste de aplicaciones de Microsoft Intune. Esta herramienta se usa normalmente para procesar aplicaciones de empresa que se hayan creado internamente. No se puede usar para procesar aplicaciones que se hayan descargado desde la tienda de aplicaciones. Vea [Preparar aplicaciones iOS para la administración de aplicaciones móviles con la herramienta de ajuste de aplicaciones de Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) y [Preparar aplicaciones de Android para la administración de aplicaciones móviles con la herramienta de ajuste de aplicaciones de Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool).
 
 ## <a name="create-and-deploy-an-app-in-configuration-manager-with-a-mobile-app-management-policy"></a>Crear e implementar una aplicación en Configuration Manager con una directiva de administración de aplicaciones móviles
 
@@ -83,4 +80,3 @@ Para obtener información general sobre la supervisión de aplicaciones, consult
 ## <a name="where-to-go-from-here"></a>Próximos pasos
 
 Después de haber creado e implementado una aplicación asociada a una directiva MAM, puede obtener más información sobre la [experiencia del usuario final de MAM](end-user-experience-mam.md). Esto le ayudará a prepararse para los problemas que pudieran surgir.
-
