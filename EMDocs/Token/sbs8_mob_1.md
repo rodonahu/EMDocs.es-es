@@ -1,5 +1,1 @@
-<Token xmlns:xlink="http://www.w3.org/1999/xlink">Copia de seguridad de Microsoft Azure</Token>
-
-<!--HONumber=Jul16_HO3-->
-
-
+<Token xmlns:xlink="http://www.w3.org/1999/xlink">Microsoft Azure Backup</Token>
