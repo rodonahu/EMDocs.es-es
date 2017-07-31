@@ -8,6 +8,7 @@
       "build_source_folder": "EMDocs",
       "build_output_subfolder": "EMDocs",
       "locale": "es-es",
+      "monikers": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content"
@@ -18,17 +19,35 @@
       "build_source_folder": "EMDocs/Solutions",
       "build_output_subfolder": "EMDocs/Solutions",
       "locale": "es-es",
+      "monikers": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content"
       }
+    },
+    {
+      "docset_name": "microsoft-365-enterprise",
+      "build_source_folder": "microsoft-365-enterprise",
+      "build_output_subfolder": "microsoft-365-enterprise",
+      "locale": "es-es",
+      "monikers": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [
     ""
   ],
   "branches_to_filter": [
-    "master-oldev","live-oldev", "live"
+    "master-oldev",
+    "live-oldev",
+    "live"
   ],
   "git_repository_url_open_to_public_contributors": "https://github.com/Microsoft/EMDocs.es-es",
   "git_repository_branch_open_to_public_contributors": "live",
@@ -42,8 +61,14 @@
       "branch_mapping": {}
     },
     {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
       "path_to_root": "_repo.en-us",
-      "url": "https://github.com/Microsoft/EMDocs-pr",
+      "url": "https://github.com/MicrosoftDocs/EMDocs-pr",
       "branch": "live",
       "branch_mapping": {
         "live": "live",
@@ -51,5 +76,10 @@
       }
     }
   ],
-  "need_generate_pdf_url_template": false
+  "need_generate_pdf_url_template": false,
+  "Targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  }
 }
