@@ -77,7 +77,7 @@ En esta sección del documento se le mostrará cómo configurar Azure Multi-Fact
 1. Seleccione Teléfono del trabajo en la lista desplegable.
 
   ![Captura de pantalla en la que se muestra que el usuario quiere ser contactado a través del teléfono del trabajo.](./media/ft-enrollMFA-6-officePhone.png)
-2.  Especifique el país en la lista desplegable y escriba el número del teléfono del trabajo.
+2.  Especifique el país o la región en la lista desplegable y escriba el número del teléfono del trabajo.
 3.  Haga clic en **Ponerse en contacto conmigo**. De este modo se establecerá una llamada a tu teléfono del trabajo. Asegúrese de que se encuentra cerca del teléfono.
 4.  Haga clic en **Siguiente**.
 5.  Llegado a este punto, ya ha configurado el método de contacto. Ahora es el momento de configurar las contraseñas de aplicación para aplicaciones sin explorador, como Outlook 2010 o versiones anteriores. Si no usa estas aplicaciones, haga clic en **Listo**. En caso contrario, **continúe** con el siguiente paso.
@@ -107,7 +107,7 @@ La aplicación Azure Authenticator está disponible para Windows Phone, Android 
   ![Captura de pantalla en la que se pide al usuario que compruebe el código enviado a su teléfono.](./media/ft-enrollMFA-10-verifyActivation.png)
 6.  Haga clic en **Cerrar**. En este punto, la comprobación se debe haber realizado correctamente.
 7.  Se recomienda que escriba ahora su número de teléfono móvil por si pierde el acceso a la aplicación móvil.
-8.  Especifique el país en la lista desplegable y escriba su número de teléfono móvil en el cuadro situado junto al país. Haga clic en **Siguiente**.
+8.  Especifique el país o la región en la lista desplegable y escriba su número de teléfono móvil en el cuadro situado junto al país. Haga clic en **Siguiente**.
 9.  Llegado a este punto, ya ha configurado el método de contacto. Ahora es el momento de configurar las contraseñas de aplicación para aplicaciones sin explorador, como Outlook 2010 o versiones anteriores. Si no usa estas aplicaciones, haga clic en **Listo**. En caso contrario, **continúe** con el siguiente paso.
 10. Si usa estas aplicaciones, copie la contraseña de aplicación proporcionada.
 11. Pega la contraseña que copiaste al portapapeles en tu aplicación sin explorador.
