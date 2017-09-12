@@ -14,10 +14,10 @@ ms.assetid: 7bfee675-ec69-479c-bda2-f807bbb55712
 ms.reviewer: 
 ms.suite: ems
 ms.openlocfilehash: 2b11d1d3118ce7a2414513b56cf6cfce1b2877ce
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.sourcegitcommit: a30ec511aede871310357f771498079e18286c8e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 09/12/2017
 ---
 # <a name="enterprise-mobility--security-support-faqs"></a>Preguntas más frecuentes de soporte técnico de Enterprise Mobility + Security
 Microsoft proporciona preventas globales, facturación, suscripción y soporte técnico para Enterprise Mobility + Security (EMS). Los administradores pueden solicitar soporte técnico mediante el [Portal de Office 365](https://portal.office.com/Default.aspx?SkipSspr=true) o poniéndose en contacto con el [Soporte de Office 365](https://support.office.com/article/Contact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=c1f4c670-18b3-41ec-81c9-e8d383caa6ad).
