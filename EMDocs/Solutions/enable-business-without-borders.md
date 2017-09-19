@@ -30,7 +30,7 @@ Enterprise Mobility + Security (EMS) es la única solución en la nube integral 
 
 ### <a name="access-to-single-sign-on-applications"></a>Acceso a las aplicaciones de inicio de sesión único
 Con la federación de identidades y el inicio de sesión único, los usuarios tienen un conjunto de credenciales de inicio de sesión y contraseñas, y el departamento de TI puede administrar más eficientemente la identidad del usuario.
-### <a name="multi-factor-authentication"></a>Multi-factor Authentication
+### <a name="multi-factor-authentication"></a>Autenticación multifactor
 Los usuarios también tienen la capacidad de llevar nuevos dispositivos a la empresa, pero el departamento de TI puede validar que los dispositivos que se conectan a la red son propiedad de las personas con las credenciales adecuadas y están controladas por ellas. Multi-factor authentication (MFA) ayuda a proporcionar una capa de protección.
 ### <a name="self-service-group-management"></a>Administración de grupos de autoservicio
 Cuando los usuarios olvidan las contraseñas, tienen la capacidad de restablecer sus propias contraseñas, reduciendo la carga de TI y haciendo que el usuario sea más eficiente al ser capaz de resolver el problema rápidamente.
