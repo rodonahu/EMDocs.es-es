@@ -11,11 +11,11 @@ ms.prod: microsoft-365-enterprise
 ms.date: 09/25/2017
 title: "Documentación y recursos de Microsoft 365 Enterprise"
 description: "Obtenga información sobre la documentación del producto y los recursos disponibles para los asociados, los trabajadores de la información y los administradores de TI de Microsoft 365 Enterprise."
-ms.openlocfilehash: 98ab81ac7fa259d46c59d9d82ca35b8c152bbb02
-ms.sourcegitcommit: 713199277733ef415791a3eb5262e4704ffb3311
+ms.openlocfilehash: a2bc1313441a4834b53861abc2e2d6c11d17f701
+ms.sourcegitcommit: 7cda3016f871aa370d1d786a2112c9256e2df209
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 09/29/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -688,7 +688,7 @@ ms.lasthandoff: 09/28/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-product-help-office-help-3.svg" alt="Office Help" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-office-help-3b.svg" alt="Office Help" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -1005,7 +1005,7 @@ ms.lasthandoff: 09/28/2017
                 <ul id="partner">
                     <li>
                         <a data-default="true" href="#partner">Introducción</a>
-                        <ul id="partner" class="cardsC">
+                        <ul id="partner" class="cardsW">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>¿Busca recursos disponibles para los asociados de Microsoft 365 Enterprise? Empiece aquí.</p>
@@ -1062,6 +1062,78 @@ ms.lasthandoff: 09/28/2017
                                                 <div class="cardText">
                                                     <h3>FastTrack y asociados</h3>
                                                     <p>Obtenga el conjunto completo de prácticas recomendadas, herramientas, asistencia remota y recursos para ayudarle tanto a usted como a los clientes a moverse a Microsoft 365.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#developer">Desarrolladores</a>
+                <ul id="developer">
+                    <li>
+                        <a data-default="true" href="#developer">Introducción</a>
+                        <ul id="developer" class="cardsW">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>¿Es desarrollador de aplicaciones y está buscando información sobre el desarrollo de aplicaciones empresariales? Empiece aquí.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://developer.microsoft.com/office" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-developer/developer-office-dev-center.svg" alt="Office Dev Center" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Centro de desarrollo de Office</h3>
+                                                    <p>Obtenga instrucciones para desarrollar soluciones en productos y servicios de Office.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://developer.microsoft.com/graph" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-developer/ms365enterprise-developer-graph.svg" alt="Microsoft Graph" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Graph</h3>
+                                                    <p>Obtenga más información sobre cómo crear aplicaciones de productividad más eficaces con Microsoft Graph. Encontrará ejemplos, documentación, temas de inicio rápido, muestras, SDK y mucho más.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/windows/uwp/enterprise/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="media/hub-developer/ms365enterprise-developer-uwp-apps.svg" alt="Develop enterprise UWP apps" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Desarrollo de aplicaciones empresariales para UWP</h3>
+                                                    <p>Obtenga información general sobre las características empresariales clave para las aplicaciones de la Plataforma universal de Windows (UWP) para Windows 10, incluida información relativa a la seguridad, el enlace de datos y empresas, las redes y la serialización de datos, y mucho más.</p>
                                                 </div>
                                             </div>
                                         </div>
