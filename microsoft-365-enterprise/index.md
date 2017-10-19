@@ -11,11 +11,11 @@ ms.prod: microsoft-365-enterprise
 ms.date: 09/25/2017
 title: "Documentación y recursos de Microsoft 365 Enterprise"
 description: "Obtenga información sobre la documentación del producto y los recursos disponibles para los asociados, los trabajadores de la información y los administradores de TI de Microsoft 365 Enterprise."
-ms.openlocfilehash: a2bc1313441a4834b53861abc2e2d6c11d17f701
-ms.sourcegitcommit: 7cda3016f871aa370d1d786a2112c9256e2df209
+ms.openlocfilehash: d8e1842574b3edf56249a4db0084ad90724320d5
+ms.sourcegitcommit: 586bfc33601ccc5f3c05ff5c4157eddb9eef4479
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/18/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -328,7 +328,7 @@ ms.lasthandoff: 09/29/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/hub-itadmin-security/admin-security-configurations-1.svg" alt="Identity and device access configurations" />
+                                                        <img src="media/hub-itadmin-security/admin-security-identity-access-configs-1.svg" alt="Identity and device access configurations" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -353,6 +353,25 @@ ms.lasthandoff: 09/29/2017
                                                 <div class="cardText">
                                                     <h3>Protección de archivos y sitios de SharePoint Online</h3>
                                                     <p>Obtenga recomendaciones para proteger los archivos y sitios del equipo de SharePoint Online y siga los pasos de su configuración, incluyendo un entorno de desarrollo y pruebas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/windows/threat-protection" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="media/hub-itadmin-security/admin-security-windows10-threats-5.svg" alt="Security guidance for political campaigns, nonprofits, and other agile organizations" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Protección contra amenazas y seguridad para empresas</h3>
+                                                    <p>Obtenga información acerca de cómo puede ayudar a proteger su organización frente a amenazas en Windows 10.</p>
                                                 </div>
                                             </div>
                                         </div>
