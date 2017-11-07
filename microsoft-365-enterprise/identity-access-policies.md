@@ -5,15 +5,15 @@ author: barlanmsft
 manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/30/2017
+ms.date: 10/27/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: db8a35ca3c36c43ed47ca04a8dfe336cfe154618
-ms.sourcegitcommit: d8588b191a4f9daea73698426dd632e7997140dc
+ms.openlocfilehash: 46a63151471a10b578ffaf3bddb27ddfcd5500a5
+ms.sourcegitcommit: feb1e385af0bc2a2eba56e5c2d1e8b4ba8866126
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2017
+ms.lasthandoff: 10/27/2017
 ---
 # <a name="general-identity-and-device-access-policy-recommendations"></a>Recomendaciones generales de directivas de identidad y acceso a dispositivos
 En este artículo se explican las directivas comunes recomendadas para ayudar a proteger Microsoft 365 Enterprise. También se tratan las configuraciones de plataforma cliente predeterminadas que se recomiendan para proporcionar la mejor experiencia de sistema operativo a los usuarios, además de los requisitos técnicos previos del acceso condicional.
@@ -180,7 +180,7 @@ Para el nivel extremadamente regulado, se recomienda exigir que las aplicaciones
 ### <a name="user-impact"></a>Impacto en el usuario
 Para la mayoría de las organizaciones es importante poder establecer las expectativas de los usuarios con respecto a cuándo y en qué circunstancias se espera que inicien sesión en archivos de Office 365.
 
-* La duración máxima de una sesión de inicio de sesión única es de 1 día. Los usuarios deben volver a autenticarse con MFA cuando las sesiones expiran.
+* Los usuarios con configuraciones extremadamente reguladas deben volver a autenticarse con MFA cuando su sesión expira.
 * A los usuarios con inicio de sesión de riesgo se les pide que cambien la contraseña después de autenticarse mediante MFA.
 * Cuando solicitan tokens de autenticación para Exchange Online:
   * A los usuarios se les pide autenticarse mediante MFA cada vez que inician una sesión nueva.  
