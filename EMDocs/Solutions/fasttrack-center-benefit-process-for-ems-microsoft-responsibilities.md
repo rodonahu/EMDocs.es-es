@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 02/01/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 77e668d5f638ee2e4b9a9e81a1f9181252fde8b9
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: a68182e4175ca3fe69377319d34f899f3abb7d25
+ms.sourcegitcommit: 6296730f948ec5205fe81adb3585026d169e51f9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 10/24/2017
 ---
 # <a name="microsoft-responsibilities"></a>Responsabilidades de Microsoft
 
@@ -109,7 +109,16 @@ Proporcionar instrucciones sobre las acciones siguientes:
 -   Para entornos de varios bosques:
 
     -   Instalación de la sincronización de Azure AD Connect y configuración de escenarios con varios bosques.
+-   Para entornos de varios bosques y de un solo bosque:
+    -   Configuración de la autenticación de paso a través de Azure Active Directory, si es necesario.
+    -   Configuración del inicio de sesión único de conexión directa de Azure Active Directory (SSO), si es necesario. 
+        > [!NOTE]
+        > La autenticación de paso a través de Azure Active Directory para entornos de varios bosques se admite si hay confianzas de bosque entre sus bosques de Active Directory y si el enrutamiento de sufijo de nombre se ha configurado correctamente. Se pueden instalar agentes adicionales en varios servidores locales para proporcionar una alta disponibilidad para las solicitudes de inicio de sesión. 
 
+    - Para obtener más información, consulte los artículos “Autenticación de paso a través de Azure Active Directory: inicio rápido” (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start#step-1-check-prerequisites) e “Inicio de sesión único de conexión directa de Azure Active Directory: Guía de inicio rápido” (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start#step-1-check-prerequisites).
+    - Para obtener más información sobre los límites de la autenticación de paso a través, vea el artículo “Autenticación de paso a través de Azure Active Directory: limitaciones actuales” (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-current-limitations).
+    - Para obtener más información sobre los problemas con el inicio de sesión único de conexión directa, vea el artículo “Solución de problemas de inicio de sesión único de conexión directa de Azure Active Directory” (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sso).
+  
         > [!NOTE]
         > La sincronización de hash de contraseña y la escritura diferida de contraseñas admiten varios bosques, pero no se admiten otros escenarios de escritura diferida.
 
@@ -152,6 +161,8 @@ Proporcionar instrucciones sobre la configuración:
   - Identity Protection.
 
   - Privileged Identity Management.
+  
+  - Acceso condicional de Azure Active Directory. 
 
   - Informes de uso y seguridad para administradores.
 
