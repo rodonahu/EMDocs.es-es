@@ -12,11 +12,11 @@ ms.technology: techgroup-identity
 ms.assetid: 2f906e2e-3d99-40e6-b5cc-8d903fcda444
 ms.reviewer: v-craic
 ms.suite: ems
-ms.openlocfilehash: 267a69648014d53307d255533f64ee579f4141fa
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 03b6cbb8ab575b5cae99403f68579108ab2239a8
+ms.sourcegitcommit: 9e30dab85116767c71b911827d839a433418b9b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 11/09/2017
 ---
 # <a name="the-role-of-azure-information-protection-in-securing-data"></a>Rol de Azure Information Protection en la protección de datos
 
@@ -113,11 +113,3 @@ La seguridad total va más allá de una tecnología. A través de diversos medio
 - **Windows AppLocker**: permite un entorno administrado y controlado sin aplicaciones malintencionadas.
 - **Azure AD Identity Protection**: mejora la confianza en la identidad del usuario.
 - **Acceso condicional de EMS**: mejora la confianza en el dispositivo y la identidad.
-
-## <a name="additional-resources"></a>Recursos adicionales
-
-Los escenarios siguientes contienen más detalles sobre la manera en que Azure Information Protection puede ayudar a proteger los datos:
-
-- [Proteger los datos mediante la clasificación, el etiquetado y la protección](infoprotect-secure-classify-scenario.md)
-- [Uso compartido de datos confidenciales interna y externamente](share-sensitive-data.md)
-- [Realizar un seguimiento del uso de datos compartidos y responder ante un abuso de datos](infoprotect-track-usage-scenario.md)
