@@ -1,6 +1,6 @@
 ---
 title: "Implementar sitios con tres niveles de protección | Microsoft Docs"
-description: "Cree y configure sitios de grupo de SharePoint Online con distintos niveles de protección de la información."
+description: "Cree y configure sitios de grupo de SharePoint Online en Office 365 con distintos niveles de protección de la información."
 services: active-directory
 keywords: Office 365, Windows 10, Enterprise Mobility + Security, Microsoft 365 Enterprise
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 09/11/2017
 ms.author: josephd
-ms.openlocfilehash: 6d19a8b2fa39806e2a03ca8e3eb9ffae15605cc4
-ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
+ms.openlocfilehash: 0c4e7eaf6449b551a0a6222d475b2c42f49550f9
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="deploy-sites-for-three-tiers-of-protection"></a>Implementar sitios con tres niveles de protección
 
@@ -49,7 +49,7 @@ A continuación se muestra la configuración resultante.
 ### <a name="private"></a>Private
 Para crear un sitio de grupo de SharePoint Online de base de referencia con acceso y permisos privados, haga lo siguiente:
 
-1. Inicie sesión en el **portal de Office 365** con una cuenta que también se vaya a usar para administrar el sitio de grupo de SharePoint Online (un administrador de SharePoint Online). Para obtener ayuda, vea [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4) (Dónde iniciar sesión en Office 365).
+1. Si lo necesita, inicie sesión en el **portal de Office 365** con una cuenta que también se vaya a usar para administrar el sitio de grupo de SharePoint Online (un administrador de SharePoint Online). Para obtener ayuda, vea [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4) (Dónde iniciar sesión en Office 365).
 2. En la lista de iconos, haga clic en **SharePoint**.
 3. En la nueva pestaña **SharePoint** del explorador, haga clic en + **Crear sitio**.
 4. En la página **Crear un sitio**, haga clic en **Sitio de grupo**.
@@ -76,7 +76,7 @@ Para diseñar el sitio de grupo aislado, debe determinar:
  El conjunto recomendado de grupos de acceso es uno para miembros del sitio, otro para lectores del sitio y el último para administradores del sitio.
 * Si va a usar grupos anidados dentro de los grupos de acceso.
 
-Por ejemplo, la estructura del grupo y los niveles de permisos recomendados tienen este aspecto:
+Por ejemplo, la estructura del grupo y los niveles de permisos recomendados de SharePoint son similares a los siguientes:
 
 |**Grupo de SharePoint**|**Nivel de permisos**|**Grupo de acceso (ejemplos)**|
 |:-----|:-----|:-----|
@@ -98,7 +98,7 @@ Para obtener los pasos detallados, vea la **fase 1** de [Implementar un sitio de
 
 Luego cree el sitio de grupo de SharePoint Online con estos pasos.
 
-1. Inicie sesión en el **portal de Office 365** con una cuenta que también se vaya a usar para administrar el sitio de grupo de SharePoint Online (un administrador de SharePoint Online). Para obtener ayuda, vea [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4) (Dónde iniciar sesión en Office 365).
+1. Si lo necesita, inicie sesión en el **portal de Office 365** con una cuenta que también se vaya a usar para administrar el sitio de grupo de SharePoint Online (un administrador de SharePoint Online). Para obtener ayuda, vea [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4) (Dónde iniciar sesión en Office 365).
 2. En la lista de iconos, haga clic en **SharePoint**.
 3. En la nueva pestaña **SharePoint** del explorador, haga clic en + **Crear sitio**.
 4. En la página **Crear un sitio**, haga clic en **Sitio de grupo**.
@@ -109,7 +109,7 @@ Luego cree el sitio de grupo de SharePoint Online con estos pasos.
 
 Luego, desde el nuevo sitio de grupo de SharePoint Online, configure los permisos con estos pasos.
 
-1. Determinar el nombre principal de usuario (UPN) del administrador de TI o de otra persona que vaya a ser responsable de responder a las solicitudes de acceso al sitio y de dirigirlas (_belindan@contoso.com_ es un ejemplo de UPN). Anote ese UPN.
+1. Determine el nombre principal de usuario (UPN) del administrador de TI o de otra persona que vaya a ser responsable de responder a las solicitudes de acceso al sitio y de dirigirlas (belindan@contoso.com es un ejemplo de UPN). Anote ese UPN.
 2. En la barra de herramientas, haga clic en el icono de configuración y luego en **Permisos del sitio**.
 3. En el panel **Permisos del sitio**, haga clic en **Advanced permissions settings** (Configuración de permisos avanzada).
 4. En la nueva pestaña **Permisos** del explorador, haga clic en **Configuración de solicitud de acceso**.
@@ -187,16 +187,9 @@ Esta es la configuración resultante.
 
 Los miembros del sitio, a través de la pertenencia a grupos en uno de los grupos de acceso, ahora pueden colaborar de forma segura en los recursos del sitio. 
 
-Para más información, vea [Protect files with Office 365 labels and DLP (Protección de archivos con etiquetas de Office 365 y DLP)](protect-files-with-o365-labels-dlp.md).
-
 ## <a name="next-steps"></a>Pasos siguientes
-[Instrucciones de seguridad de Microsoft para campañas políticas, organizaciones sin ánimo de lucro y otras organizaciones ágiles](https://technet.microsoft.com/library/mt493213.aspx)
 
-[Proteger sitios y archivos de SharePoint Online](secure-sharepoint-online-sites-and-files.md)
-
-[Protección de sitios de SharePoint Online en un entorno de prueba y desarrollo](secure-sharepoint-online-sites-dev-test.md)
-
-[Adopción de la nube y soluciones híbridas](https://technet.microsoft.com/library/dn262744.aspx)
+[Protección de archivos con etiquetas de Office 365 y DLP](protect-files-with-o365-labels-dlp.md)
 
 
 

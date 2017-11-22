@@ -9,11 +9,11 @@ ms.date: 08/30/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 6c8ad1b7a297c28e52cfc5412fe40d3001d2efa3
-ms.sourcegitcommit: d8588b191a4f9daea73698426dd632e7997140dc
+ms.openlocfilehash: b2650e0c792c32cb4bc43556be9efc30ed9609e3
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Recomendaciones de directivas para proteger el correo electrónico
 
@@ -27,7 +27,7 @@ Las siguientes recomendaciones se basan en tres niveles diferentes de seguridad 
 >![Características de Office habilitadas para grupos de seguridad](./media/security-group.png)
 >
 
-## <a name="baseline"></a>Línea base
+## <a name="baseline"></a>Línea de base
 Para crear una nueva directiva de acceso condicional, inicie sesión en Microsoft Azure Portal con las credenciales de administrador. Luego vaya a **Azure Active Directory > Seguridad > Acceso condicional**.
 
 Puede agregar una nueva directiva (+Agregar) como se muestra en la siguiente captura de pantalla:
@@ -40,19 +40,19 @@ En las tablas siguientes se describe la configuración correcta necesaria para e
 
 En la tabla siguiente se describe la configuración de directiva de acceso condicional que se debe implementar para esta directiva.
 
-|Categorías|Tipo|Propiedades|Valores|Notas|
+|Categories|Tipo|Propiedades|Valores|Notas|
 |:---------|:---|:---------|:-----|:----|
-|**Asignaciones**|Usuarios y grupos|Include|Seleccionar usuarios y grupos: selecciona un grupo de seguridad específico que contiene usuarios de destino|Comience con el grupo de seguridad que incluye usuarios de prueba.|
+|**Asignaciones**|Usuarios y grupos|Incluir|Seleccionar usuarios y grupos: selecciona un grupo de seguridad específico que contiene usuarios de destino|Comience con el grupo de seguridad que incluye usuarios de prueba.|
 |||Excluir|Grupo de seguridad de excepción; cuentas de servicio (identidades de aplicación)|Pertenencia modificada de forma temporal según necesidad|
-||Aplicaciones en la nube|Include|Seleccionar aplicaciones: selecciona Office 365 Exchange Online||
-||Conditions|Configured|Sí|Configuración específica del entorno y las necesidades|
+||Aplicaciones en la nube|Incluir|Seleccionar aplicaciones: selecciona Office 365 Exchange Online||
+||Condiciones|Configurado|Sí|Configuración específica del entorno y las necesidades|
 ||Riesgo de inicio de sesión|Nivel de riesgo|Alto, medio|Comprobar ambos|
 |**Controles de acceso**|Conceder|Conceder acceso|True|Seleccionado|
 |||Exigir MFA|True|Check|
 |||Exigir dispositivos compatibles|False||
 |||Exigir dispositivos unidos a dominio|False||
 |||Exigir todos los controles seleccionados|True|Seleccionado|
-|**Habilitar directiva**|||Encendido|Implementa una directiva de acceso condicional|
+|**Habilitar directiva**|||Activado|Implementa una directiva de acceso condicional|
 
 ### <a name="require-a-compliant-or-domain-joined-device"></a>Exigir un dispositivo compatible o unido a dominio
 
@@ -62,7 +62,7 @@ Para crear una nueva directiva de acceso condicional de Intune para Exchange Onl
 
 Debe establecer una directiva de acceso condicional específicamente para Exchange Online en el portal de administración de Intune para exigir un dispositivo compatible o unido a dominio.
 
-|Categorías|Tipo|Propiedades|Valores|Notas|
+|Categories|Tipo|Propiedades|Valores|Notas|
 |:---------|:---|:---------|:-----|:----|
 |**Acceso a la aplicación**|Outlook y otras aplicaciones que usan autenticación moderna|Todas las plataformas|True|Seleccionado|
 |||Windows debe cumplir el siguiente requisito|El dispositivo debe estar unido a dominio o ser compatible|Seleccionado (lista)|
@@ -84,7 +84,7 @@ Debe establecer una directiva de acceso condicional específicamente para Exchan
 
 Para administrar aplicaciones móviles, inicie sesión en Microsoft Azure Portal con las credenciales de administrador y luego vaya a **Intune App Protection > Configuración > Acceso condicional > Exchange Online**.
 
-|Categorías|Tipo|Propiedades|Valores|Notas|
+|Categories|Tipo|Propiedades|Valores|Notas|
 |:---------|:---|:---------|:-----|:----|
 |**Acceso de la aplicación**|Aplicaciones permitidas|Permitir el acceso de las aplicaciones|Permitir aplicaciones que admiten las directivas de aplicación de Intune|Seleccionado (lista): da como resultado una lista de combinaciones de aplicaciones o plataformas compatibles con las directivas de aplicación de Intune|
 |**Acceso de usuario**|Aplicaciones permitidas|Grupos de usuarios restringidos|Agregar usuarios o grupos: selección de un grupo de seguridad específico que contiene usuarios de destino|Comenzar con el grupo de seguridad que incluye usuarios de prueba|
@@ -99,20 +99,20 @@ Una vez que se ha completado el proyecto de prueba, se deben aplicar estas direc
 ### <a name="low-and-above-risk-requires-mfa"></a>El riesgo bajo y superior exige MFA
 En la tabla siguiente se describe la configuración de directiva de acceso condicional que se debe implementar para las directivas de riesgo bajo y superior.
 
-|Categorías|Tipo|Propiedades|Valores|Notas|
+|Categories|Tipo|Propiedades|Valores|Notas|
 |:---------|:---|:---------|:-----|:----|
-|**Asignaciones**|Usuarios y grupos|Include|Seleccionar usuarios y grupos: selecciona un grupo de seguridad específico que contiene usuarios de destino|Comenzar con el grupo de seguridad que incluye usuarios de prueba|
+|**Asignaciones**|Usuarios y grupos|Incluir|Seleccionar usuarios y grupos: selecciona un grupo de seguridad específico que contiene usuarios de destino|Comenzar con el grupo de seguridad que incluye usuarios de prueba|
 |||Excluir|Grupo de seguridad de excepción; cuentas de servicio (identidades de aplicación)|Pertenencia modificada de forma temporal según necesidad|
-||Aplicaciones en la nube|Include|Seleccionar aplicaciones: selecciona Office 365 Exchange Online||
-||Conditions|Configured|Sí|Configuración específica del entorno y las necesidades|
-||Riesgo de inicio de sesión|Configured|Sí|Configuración específica del entorno y las necesidades|
+||Aplicaciones en la nube|Incluir|Seleccionar aplicaciones: selecciona Office 365 Exchange Online||
+||Condiciones|Configurado|Sí|Configuración específica del entorno y las necesidades|
+||Riesgo de inicio de sesión|Configurado|Sí|Configuración específica del entorno y las necesidades|
 |||Nivel de riesgo|Bajo, medio, alto|Marcar los tres|
 |**Controles de acceso**|Conceder|Conceder acceso|True|Seleccionado|
 |||Exigir MFA|True|Check|
 |||Exigir dispositivos compatibles|False||
 |||Exigir dispositivo unido a dominio|False||
 |||Exigir todos los controles seleccionados|True|Seleccionado|
-|**Habilitar directiva**|||Encendido|Implementa una directiva de acceso condicional|
+|**Habilitar directiva**|||Activado|Implementa una directiva de acceso condicional|
 
 ### <a name="require-a-compliant-or-domain-joined-device"></a>Exigir un dispositivo compatible o unido a dominio
 (Vea las instrucciones de base de referencia)
@@ -130,17 +130,17 @@ Una vez que se ha completado el proyecto de prueba, se deben aplicar estas direc
 
 En la tabla siguiente se describe la configuración de directiva de acceso condicional que se debe implementar para la directiva extremadamente regulada.
 
-|Categorías|Tipo|Propiedades|Valores|Notas|
+|Categories|Tipo|Propiedades|Valores|Notas|
 |:---------|:---|:---------|:-----|:----|
-|**Asignaciones**|Usuarios y grupos|Include|Seleccionar usuarios y grupos: selecciona un grupo de seguridad específico que contiene usuarios de destino|Comenzar con el grupo de seguridad que incluye usuarios de prueba|
+|**Asignaciones**|Usuarios y grupos|Incluir|Seleccionar usuarios y grupos: selecciona un grupo de seguridad específico que contiene usuarios de destino|Comenzar con el grupo de seguridad que incluye usuarios de prueba|
 |||Excluir|Grupo de seguridad de excepción; cuentas de servicio (identidades de aplicación)|Pertenencia modificada de forma temporal según necesidad|
-||Aplicaciones en la nube|Include|Seleccionar aplicaciones: selecciona Office 365 Exchange Online||
+||Aplicaciones en la nube|Incluir|Seleccionar aplicaciones: selecciona Office 365 Exchange Online||
 |**Controles de acceso**|Conceder|Conceder acceso|True|Seleccionado|
 |||Exigir MFA|True|Check|
 |||Exigir dispositivos compatibles|False|Check|
 |||Exigir dispositivo unido a dominio|False||
 |||Exigir todos los controles seleccionados|True|Seleccionado|
-|**Habilitar directiva**|||Encendido|Implementa una directiva de acceso condicional|
+|**Habilitar directiva**|||Activado|Implementa una directiva de acceso condicional|
 
 ### <a name="require-a-compliant-or-domain-joined-device"></a>Exigir un dispositivo compatible o unido a dominio
 (Vea las instrucciones de base de referencia)
@@ -154,15 +154,15 @@ Para asegurarse de que se obligue a todas las cuentas comprometidas de usuarios 
 
 Inicie sesión en [Microsoft Azure Portal (http://portal.azure.com)](http://portal.azure.com/) con las credenciales de administrador y luego vaya a **Azure AD Identity Protection > Directiva de riesgo de usuario**.
 
-|Categorías|Tipo|Propiedades|Valores|Notas|
+|Categories|Tipo|Propiedades|Valores|Notas|
 |:---------|:---|:---------|:-----|:----|
-|**Asignaciones**|Users|Include|Todos los usuarios|Seleccionado|
-|||Excluir|ninguna.||
-||Conditions|Riesgo de usuario|Alto|Seleccionado|
+|**Asignaciones**|Usuarios|Incluir|Todos los usuarios|Seleccionado|
+|||Excluir|Ninguno||
+||Condiciones|Riesgo de usuario|Alto|Seleccionado|
 |**Controles**|Acceso|Permitir acceso|True|Seleccionado|
 ||Acceso|Exigir cambio de contraseña|True|Check|
-|**Revisar**|N/D|No aplicable|No aplicable|N/D|
-|**Aplicar directiva**|||Encendido|Comienza a aplicar la directiva|
+|**Revisar**|No aplicable|No aplicable|No aplicable|No aplicable|
+|**Aplicar directiva**|||Activado|Comienza a aplicar la directiva|
 
 
 ## <a name="additional-configurations"></a>Configuraciones adicionales
@@ -172,7 +172,7 @@ Además de las directivas anteriores, debe configurar las siguientes opciones de
 
 Para asegurarse de que el correo electrónico se protege mediante las recomendaciones de directivas indicadas anteriormente para cada nivel de seguridad y protección de datos, debe crear directivas de protección de aplicaciones de Intune desde Azure Portal.
 
-Para crear una nueva directiva de protección de aplicaciones, inicie sesión en Microsoft Azure Portal con las credenciales de administrador y luego vaya a **Intune App Protection > Configuración > Directiva de aplicaciones**.
+Para crear una nueva directiva de protección de aplicaciones, inicie sesión en el portal de Microsoft Azure con las credenciales de administrador y, luego, vaya a **Intune App Protection > Directiva de aplicaciones**.
 
 Agregue una nueva directiva (+Agregar) como se muestra en la siguiente captura de pantalla:
 
@@ -184,7 +184,7 @@ Agregue una nueva directiva (+Agregar) como se muestra en la siguiente captura d
 
 En las tablas siguientes se describe la configuración de la directiva de protección de aplicaciones de Intune recomendada:
 
-|Categorías|Tipo|Propiedades|Valores|Notas|
+|Categories|Tipo|Propiedades|Valores|Notas|
 |:---------|:---|:---------|:-----|:----|
 |**General**|Correo electrónico|Nombre|Directiva de correo electrónico segura para Android|Escribir un nombre de directiva|
 |||Descripción||Escriba texto que describa la directiva|
@@ -216,14 +216,14 @@ Cuando haya finalizado, recuerde hacer clic en "Crear". Repita los pasos anterio
 Cree las siguientes directivas de cumplimiento y configuración al iniciar sesión en el [portal de administración de Microsoft (http://manage.microsoft.com)](https://manage.microsoft.com/) con las credenciales de administrador.
 
 #### <a name="ios-email-profile"></a>Perfil de correo electrónico iOS
-En el [portal de administración de Intune (https://manage.microsoft.com)](https://manage.microsoft.com/), cree las siguientes directivas de configuración en **Directiva > Directivas de configuración > Agregar > iOS > Perfil de correo electrónico (iOS 8 y posterior)**.
+En el [portal de administración de Intune (https://manage.microsoft.com)](https://manage.microsoft.com/), cree las siguientes directivas de configuración en **Directiva > Directivas de configuración > Agregar > Directiva de correo electrónico de iOS**.
 
-|Categorías|Tipo|Propiedades|Valores|Notas|
+|Categories|Tipo|Propiedades|Valores|Notas|
 |:---------|:---|:---------|:-----|:----|
 |**Perfil de correo electrónico**|Exchange Active Sync|Host (#)|Outlook.office365.com||
 |||Nombre de cuenta (#)|SecureEmailAccount|Elección de administrador|
-|||Username|Nombre principal de usuario|Seleccionado: desplegable|
-|||dirección de correo electrónico|Dirección SMTP principal|Seleccionado: desplegable|
+|||Nombre de usuario|Nombre principal de usuario|Seleccionado: desplegable|
+|||Dirección de correo electrónico|Dirección SMTP principal|Seleccionado: desplegable|
 |||Método de autenticación|Nombre de usuario y contraseña|Seleccionado: desplegable|
 |||Utilizar S/MIME|False||
 ||Configuración de sincronización|Número de días de correo electrónico para sincronizar|Dos semanas|Seleccionado: desplegable|
@@ -233,9 +233,9 @@ En el [portal de administración de Intune (https://manage.microsoft.com)](https
 |||Sincronizar las direcciones de correo electrónico usadas recientemente|True|Check|
 
 #### <a name="ios-app-sharing-profile"></a>Perfil de uso compartido de aplicaciones iOS
-En el [portal de administración de Intune (https://manage.microsoft.com)](https://manage.microsoft.com/), cree las siguientes directivas de configuración en **Directiva > Directivas de configuración > Agregar > iOS > Configuración general (iOS 8.0 y posterior)**.
+En el [portal de administración de Intune (https://manage.microsoft.com)](https://manage.microsoft.com/), cree las siguientes directivas de configuración en **Directiva > Directivas de configuración > Agregar > Directiva de uso compartido de aplicaciones de iOS**.
 
-|Categorías|Tipo|Propiedades|Valores|Notas|
+|Categories|Tipo|Propiedades|Valores|Notas|
 |:---------|:---|:---------|:-----|:----|
 |**Seguridad**|Todos|Todos|No configurado||
 |**Nube**|Todos|Todos|No configurado||
@@ -251,14 +251,14 @@ En el [portal de administración de Intune (https://manage.microsoft.com)](https
 ||Contenido multimedia|Todos|No configurado|||
 
 #### <a name="android-email-profile"></a>Perfil de correo electrónico de Android
-En el [portal de administración de Intune (https://manage.microsoft.com)](https://manage.microsoft.com/), cree las siguientes directivas de configuración en **Directiva > Directivas de configuración > Agregar > iOS > Perfil de correo electrónico (Samsung KNOX Standard 4.0 y posterior)**.
+En el [portal de administración de Intune (https://manage.microsoft.com)](https://manage.microsoft.com/), cree las siguientes directivas de configuración en **Directiva > Directivas de configuración > Agregar > Directiva de correo electrónico de Android**.
 
-|Categorías|Tipo|Propiedades|Valores|Notas|
+|Categories|Tipo|Propiedades|Valores|Notas|
 |:---------|:---|:---------|:-----|:----|
 |**Perfil de correo electrónico**|Exchange Active Sync|Host (#)| Outlook.office365.com|
 |||Nombre de cuenta (#)|SecureEmailAccount|Elección de administrador|
-|||Username|Nombre principal de usuario|Seleccionado: desplegable|
-|||dirección de correo electrónico|Dirección SMTP principal|Seleccionado: desplegable|
+|||Nombre de usuario|Nombre principal de usuario|Seleccionado: desplegable|
+|||Dirección de correo electrónico|Dirección SMTP principal|Seleccionado: desplegable|
 |||Método de autenticación|Nombre de usuario y contraseña|Seleccionado: desplegable|
 |||Utilizar S/MIME|False||
 ||Configuración de sincronización|Número de días de correo electrónico para sincronizar|Dos semanas|Seleccionado: desplegable|
@@ -266,33 +266,33 @@ En el [portal de administración de Intune (https://manage.microsoft.com)](https
 |||Usar SSL|True|Check|
 |||Tipo de contenido para sincronizar|||
 |||Correo electrónico|True|Check (bloqueado)|
-|||Contacts|True|Check|
+|||Contactos|True|Check|
 |||Calendario|True|Check|
 |||Tareas|True|Check|
 |||Notas|True|Check|
 
 #### <a name="android-for-work-email-profile"></a>Perfil de correo electrónico de Android for Work
-En el [portal de administración de Intune (https://manage.microsoft.com)](https://manage.microsoft.com/), cree las siguientes directivas de configuración en **Directiva > Directivas de configuración > Agregar > iOS > Perfil de correo electrónico (Android for Work - Gmail)**.
+En el [portal de administración de Intune (https://manage.microsoft.com)](https://manage.microsoft.com/), cree las siguientes directivas de configuración en **Directiva > Directivas de configuración > Agregar > Android > Perfil de correo electrónico (Android for Work - Gmail)**.
 
-|Categorías|Tipo|Propiedades|Valores|Notas|
+|Categories|Tipo|Propiedades|Valores|Notas|
 |:---------|:---|:---------|:-----|:----|
 |**Perfil de correo electrónico**|Exchange Active Sync|Host(#)| Outlook.office365.com|
 |||Nombre de cuenta(#)|SecureEmailAccount|Elección de administrador|
-|||Username|Nombre principal de usuario|Seleccionado: desplegable|
-|||dirección de correo electrónico|Dirección SMTP principal|Seleccionado: desplegable|
+|||Nombre de usuario|Nombre principal de usuario|Seleccionado: desplegable|
+|||Dirección de correo electrónico|Dirección SMTP principal|Seleccionado: desplegable|
 |||Método de autenticación|Nombre de usuario y contraseña|Seleccionado: desplegable|
 ||Configuración de sincronización|Número de días de correo electrónico para sincronizar|Dos semanas|Seleccionado: desplegable|
 |||Usar SSL|True|Check|
 
 #### <a name="android-for-work-app-sharing-profile"></a>Perfil de uso compartido de aplicaciones de Android for Work
-En el [portal de administración de Intune (https://manage.microsoft.com)](https://manage.microsoft.com/), cree las siguientes directivas de configuración en **Directiva > Directivas de configuración > Agregar > iOS > Configuración general (Android for Work)**.
+En el [portal de administración de Intune (https://manage.microsoft.com)](https://manage.microsoft.com/), cree las siguientes directivas de configuración en **Directiva > Directivas de configuración > Agregar > Directiva de uso compartido de aplicaciones de Android for Work**.
 
-|Categorías|Tipo|Propiedades|Valores|Notas|
+|Categories|Tipo|Propiedades|Valores|Notas|
 |:---------|:---|:---------|:-----|:----|
-|**Seguridad**|Contraseña|Longitud mínima de contraseña|No configurado||
+|**Seguridad**|Contraseña|Longitud mínima de la contraseña|No configurado||
 |||Número de errores de inicio de sesión repetidos antes de que se quite el perfil de trabajo|No configurado||
 |||Minutos de inactividad antes de que se bloquee el dispositivo|No configurado||
-|||Expiración de contraseña (días)|No configurado||
+|||Caducidad de contraseña (días)|No configurado||
 |||Recordar el historial de contraseñas|No configurado||
 |||Exigir una contraseña para desbloquear el dispositivo móvil|No configurado||
 |||Permitir desbloqueo mediante huellas digitales (Android 6.0+)|No configurado||
@@ -302,9 +302,9 @@ En el [portal de administración de Intune (https://manage.microsoft.com)](https
 |||Establecer directiva de permisos de aplicación predeterminada (Android 6.0+)|No configurado|||
 
 #### <a name="device-compliance-policy"></a>Directiva de cumplimiento de dispositivos
-En el [portal de administración de Intune (https://manage.microsoft.com)](https://manage.microsoft.com/), cree las siguientes directivas de configuración en **Directiva > Directiva de cumplimiento > Agregar**.
+En el [portal de administración de Intune (https://manage.microsoft.com)](https://manage.microsoft.com/), cree las siguientes directivas de configuración en **Directiva > Directivas de cumplimiento > Agregar**.
 
-|Categorías|Tipo|Propiedades|Valores|Notas|
+|Categories|Tipo|Propiedades|Valores|Notas|
 |:---------|:---|:---------|:-----|:----|
 |**Seguridad del sistema**|Contraseña|Requerir una contraseña para desbloquear dispositivos móviles (...)|Sí|Seleccionado: desplegable|
 |||Permitir contraseñas sencillas (...)|No|Seleccionado: desplegable|
