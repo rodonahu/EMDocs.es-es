@@ -9,11 +9,11 @@ ms.date: 08/30/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: d08bc136e3842e8384e5c562df1a2fb543786ced
-ms.sourcegitcommit: feb1e385af0bc2a2eba56e5c2d1e8b4ba8866126
+ms.openlocfilehash: 70eb0ba8a887a703ee8c723a3a4584f3bedc1e7f
+ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 12/11/2017
 ---
 # <a name="recommended-security-policies-and-configurations"></a>Directivas y configuraciones de seguridad recomendadas
 
@@ -91,7 +91,7 @@ En esta sección se tratan las configuraciones de cliente de plataforma predeter
 ### <a name="windows-devices"></a>Dispositivos Windows
 Se recomienda Windows 10 (versión 1703 o posterior), ya que Azure se ha diseñado para proporcionar la experiencia de SSO más uniforme para local y Azure AD. Los dispositivos emitidos por una empresa o centro educativo deben configurarse para unirse a Azure AD directamente o, si la organización usa la unión a un dominio de AD local, para [registrarse de forma automática y silenciosa con Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup).
 
-En el caso de los dispositivos Windows BYOD, los usuarios pueden usar "Agregar cuenta profesional o educativa". En el caso de los dispositivos Windows BYOD, los usuarios pueden usar "Agregar cuenta profesional o educativa". Tenga en cuenta que los usuarios del explorador Chrome en Windows 10 tienen que [instalar una extensión](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog) para poder obtener la misma experiencia de inicio de sesión uniforme que los de Edge o IE. Además, si la organización tiene dispositivos Windows 7 unidos a dominio, puede instalar Microsoft Workplace Join para que los equipos que no sean Windows 10 [empaqueten para registrar](https://www.microsoft.com/download/details.aspx?id=53554) los dispositivos con Azure AD.
+En el caso de los dispositivos Windows BYOD, los usuarios pueden usar "Agregar cuenta profesional o educativa". Tenga en cuenta que los usuarios del explorador Chrome en Windows 10 tienen que [instalar una extensión](https://chrome.google.com/webstore/detail/windows-10-accounts/ppnbnpeolgkicgegkbkbjmhlideopiji?utm_source=chrome-app-launcher-info-dialog) para poder obtener la misma experiencia de inicio de sesión uniforme que los de Edge o IE. Además, si la organización tiene dispositivos Windows 7 unidos a dominio, puede instalar Microsoft Workplace Join para que los equipos que no sean Windows 10 [empaqueten para registrar](https://www.microsoft.com/download/details.aspx?id=53554) los dispositivos con Azure AD.
 
 ### <a name="ios-devices"></a>Dispositivos iOS
 Se recomienda instalar la [aplicación Microsoft Authenticator](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/microsoft-authenticator-app-how-to) en los dispositivos de usuario antes de implementar directivas MFA o de acceso condicional. Como mínimo, la aplicación debe estar instalada cuando [se pide a los usuarios que registren el dispositivo](https://docs.microsoft.com/azure/multi-factor-authentication/end-user/multi-factor-authentication-end-user-first-time) con Azure AD al agregar una cuenta profesional o educativa, o cuando instalan la aplicación Portal de empresa de Intune para inscribir sus dispositivos en la administración. Esto depende de la directiva de acceso condicional configurada.
