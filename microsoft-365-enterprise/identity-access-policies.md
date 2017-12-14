@@ -5,15 +5,15 @@ author: barlanmsft
 manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 10/27/2017
+ms.date: 12/10/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 46a63151471a10b578ffaf3bddb27ddfcd5500a5
-ms.sourcegitcommit: feb1e385af0bc2a2eba56e5c2d1e8b4ba8866126
+ms.openlocfilehash: a25903de35ad349a09056ab24da5e00cd1a07695
+ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 12/11/2017
 ---
 # <a name="general-identity-and-device-access-policy-recommendations"></a>Recomendaciones generales de directivas de identidad y acceso a dispositivos
 En este artículo se explican las directivas comunes recomendadas para ayudar a proteger Microsoft 365 Enterprise. También se tratan las configuraciones de plataforma cliente predeterminadas que se recomiendan para proporcionar la mejor experiencia de sistema operativo a los usuarios, además de los requisitos técnicos previos del acceso condicional.
@@ -23,7 +23,7 @@ En estas instrucciones se explica cómo implementar las directivas recomendadas 
 Para implementar correctamente las directivas recomendadas, debe tomar medidas en Azure Portal para cumplir los requisitos previos indicados anteriormente. En concreto, tiene que:
 * Configurar redes con nombre a fin de garantizar que Azure Identity Protection pueda generar correctamente una puntuación del riesgo
 * Exigir a todos los usuarios que se registren para Multi-Factor Authentication (MFA)
-* Configurar la sincronización de contraseña y el restablecimiento de contraseña autoservicio para permitir que los usuarios puedan restablecer las contraseñas por sí mismos
+* Configurar la sincronización de hash de contraseña y el restablecimiento de contraseña autoservicio para permitir que los usuarios puedan restablecer las contraseñas por sí mismos
 
 Puede destinar directivas de Azure AD e Intune a grupos de usuarios específicos. Se sugiere implementar las directivas definidas anteriormente por fases. De este modo puede validar el rendimiento de las directivas y los equipos de soporte técnico con respecto a la directiva de forma incremental.
 
@@ -31,9 +31,10 @@ Puede destinar directivas de Azure AD e Intune a grupos de usuarios específicos
 ## <a name="prerequisites"></a>Requisitos previos
 
 Antes de implementar las directivas que se describen en el resto de este documento, hay varios requisitos previos que debe cumplir la organización:
+* [Configurar la sincronización de hash de contraseña](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-synchronization). Debe estar habilitada para detectar la divulgación de credenciales y actuar en consecuencia debido al acceso condicional basado en el riesgo. **Nota:** Esto es obligatorio, independientemente de si la organización usa la autenticación administrada, como la administración de paso a través (PTA), o la autenticación federada.
 * [Configurar redes con nombre](https://docs.microsoft.com/azure/active-directory/active-directory-known-networks-azure-portal). Azure AD Identity Protection recopila y analiza todos los datos de sesión disponibles para generar una puntuación de riesgo. Se recomienda especificar los intervalos de IP públicos de la organización para la red en la configuración de redes con nombre de Azure AD. Al tráfico procedente de estos intervalos se le asigna una puntuación de riesgo reducida, así que el tráfico de fuera del entorno corporativo se trata como puntuación de riesgo mayor.
 * [Registrar a todos los usuarios con Multi-Factor Authentication (MFA)](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-manage-users-and-devices). Azure AD Identity Protection usa Azure MFA para realizar una comprobación de seguridad adicional. Se recomienda exigir a todos los usuarios que se registren en Azure MFA con antelación.
-* [Habilitar el registro automático de dispositivos de equipos Windows unidos a dominio](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup). El acceso condicional puede garantizar que el dispositivo que se conecta al servicio sea un dispositivo unido a dominio o compatible. Para permitir esto en equipos Windows, el dispositivo debe estar registrado con Azure AD.  En este artículo se explica cómo configurar el registro automático de dispositivos.  Tenga en cuenta que AD FS es un requisito.
+* [Habilitar el registro automático de dispositivos de equipos Windows unidos a dominio](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup). El acceso condicional puede garantizar que el dispositivo que se conecta al servicio sea un dispositivo unido a dominio o compatible. Para permitir esto en equipos Windows, el dispositivo debe estar registrado con Azure AD.  En este artículo se explica cómo configurar el registro automático de dispositivos.
 * **Preparar el equipo de soporte técnico**. Tenga preparado un plan para los usuarios que no puedan completar MFA. Puede consistir en agregarlos a un grupo de exclusión de directivas o registrar nueva información MFA para ellos. Antes de llevar a cabo cualquiera de estos importantes cambios de seguridad, debe asegurarse de que sea el usuario real el que realice la solicitud. Un paso eficaz es exigir a los administradores de los usuarios que ayuden con la aprobación.
 * [Configurar la escritura diferida de contraseñas en AD local](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started). La escritura diferida de contraseñas permite a Azure AD exigir que los usuarios cambien sus contraseñas locales cuando se ha detectado un alto riesgo de cuenta comprometida. Puede habilitar esta característica mediante Azure AD Connect de dos maneras distintas. Puede habilitar la escritura diferida de contraseñas en la pantalla de características opcionales del asistente para la configuración de Azure AD Connect, o bien puede habilitarla a través de Windows PowerShell.  
 * [Habilitar la autenticación moderna](https://support.office.com/article/Enable-or-disable-modern-authentication-in-Exchange-Online-58018196-f918-49cd-8238-56f57f38d662) y [proteger los puntos de conexión heredados](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-supported-apps).  El acceso condicional funciona tanto con aplicaciones de escritorio como móviles que usan autenticación moderna. Si la aplicación usa protocolos de autenticación heredados, puede obtener acceso a pesar de las condiciones que se apliquen. Es importante saber qué aplicaciones pueden usar reglas de acceso condicional y los pasos que debe seguir para proteger otros puntos de entrada a la aplicación.
