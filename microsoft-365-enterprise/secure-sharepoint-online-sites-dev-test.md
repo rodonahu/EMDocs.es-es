@@ -255,8 +255,8 @@ Para crear un sitio de grupo aislado de SharePoint Online que tenga el nivel con
 
 Estos son los resultados de la configuración de los permisos:
 
-* El grupo de SharePoint **Campañas de marketing-Miembros** solamente contiene el grupo **Campañas de marketing** (que contiene la cuenta de usuario de administrador global), el grupo **Marketing staff** [Personal de marketing] (que contiene las cuentas de usuario Marketing1 y Marketing2) y la cuenta de usuario **Researcher1**.
-* El grupo de SharePoint **Campañas de marketing-Propietarios** solo contiene el grupo **IT staff** [Personal de TI] (que contiene únicamente las cuentas de usuario ITAdmin1 e ITAdmin2).
+* El grupo de SharePoint **Campañas de marketing-Miembros** solamente contiene el grupo **Campañas de marketing** (que contiene la cuenta de usuario de administrador global), el grupo **Marketing staff** [Personal de marketing]\ (que contiene las cuentas de usuario Marketing1 y Marketing2) y la cuenta de usuario **Researcher1**.
+* El grupo de SharePoint **Campañas de marketing-Propietarios** solo contiene el grupo **IT staff** [Personal de TI]\ (que contiene únicamente las cuentas de usuario ITAdmin1 e ITAdmin2).
 * El grupo de SharePoint **Campañas de marketing-Visitantes** no contiene grupos ni cuentas de usuario.
 * Los miembros no pueden modificar los permisos de nivel de sitio (esto solo pueden hacerlo los miembros del grupo **Campañas de marketing-Propietarios**).
 * Otras cuentas de usuario no pueden acceder al sitio ni a sus recursos, pero pueden pedir acceso al sitio, que envía un correo electrónico al buzón de la cuenta de usuario _ITAdmin1_.
@@ -319,8 +319,8 @@ Para crear un sitio de grupo aislado de SharePoint Online que tenga el nivel ext
 
 Estos son los resultados de la configuración de los permisos:
 
-* El grupo de SharePoint **Estrategia de empresa-Miembros** solo contiene el grupo **C-Suite** [Directivos] (que contiene únicamente las cuentas de usuario CEO, CFO y CIO) y el grupo **Estrategia de empresa** (que contiene únicamente la cuenta de usuario de administrador global).
-* El grupo de SharePoint **Estrategia de empresa-Propietarios** solo contiene el grupo **IT staff** [Personal de TI] (que contiene únicamente las cuentas de usuario _ITAdmin1_ e _ITAdmin2_).
+* El grupo de SharePoint **Estrategia de empresa-Miembros** solo contiene el grupo **C-Suite** [Directivos]\ (que contiene únicamente las cuentas de usuario CEO, CFO y CIO) y el grupo **Estrategia de empresa** (que contiene únicamente la cuenta de usuario de administrador global).
+* El grupo de SharePoint **Estrategia de empresa-Propietarios** solo contiene el grupo **IT staff** [Personal de TI]\ (que contiene únicamente las cuentas de usuario _ITAdmin1_ e _ITAdmin2_).
 * El grupo de SharePoint **Estrategia de empresa-Visitantes** no contiene grupos ni cuentas de usuario.
 * Los miembros no pueden modificar los permisos de nivel de sitio (esto solo pueden hacerlo los miembros del grupo **Estrategia de empresa-Propietarios**).
 * Otras cuentas de usuario no pueden acceder al sitio o a sus recursos ni pedir acceso al sitio. Los permisos adicionales para el sitio deben ser asignados por el administrador global o por un miembro del grupo **Estrategia de empresa-Propietarios**.
