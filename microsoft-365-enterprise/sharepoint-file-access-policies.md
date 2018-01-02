@@ -36,7 +36,7 @@ Realice los cambios siguientes en la directiva de control de acceso existente cr
 |Assignments|Aplicaciones en la nube|Incluir|Seleccionar aplicaciones:<br></br>  Office 365 Exchange Online<br></br>  Office 365 SharePoint Online|Seleccionar ambos|
 
 ### <a name="require-a-compliant-or-domain-joined-device"></a>Exigir un dispositivo compatible o unido a dominio
-Para crear una nueva directiva de acceso condicional de Intune para SharePoint Online, inicie sesión en el [portal de administración de Microsoft](http://manage.microsoft.com) con las credenciales de administrador y luego vaya a **Directiva** > **Acceso condicional ** > **Directiva de SharePoint Online**.
+Para crear una nueva directiva de acceso condicional de Intune para SharePoint Online, inicie sesión en el [portal de administración de Microsoft](http://manage.microsoft.com) con las credenciales de administrador y luego vaya a **Directiva** > **Acceso condicional** > **Directiva de SharePoint Online**.
 
 ![Directiva de SharePoint Online](./media/secure-docs/sharepoint-online-policy.png)
 
