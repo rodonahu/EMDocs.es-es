@@ -7,13 +7,13 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 12/10/2017
 ms.author: barlan
-ms.reviewer: jsnow
+ms.reviewer: martincoetzer
 ms.custom: it-pro
-ms.openlocfilehash: a25903de35ad349a09056ab24da5e00cd1a07695
-ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
+ms.openlocfilehash: 54b3308b334f60e47e78bdf4bc194495fe348814
+ms.sourcegitcommit: 8d42bd1ec3d7bf5f873a7b681b0fea73a748b413
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="general-identity-and-device-access-policy-recommendations"></a>Recomendaciones generales de directivas de identidad y acceso a dispositivos
 En este artículo se explican las directivas comunes recomendadas para ayudar a proteger Microsoft 365 Enterprise. También se tratan las configuraciones de plataforma cliente predeterminadas que se recomiendan para proporcionar la mejor experiencia de sistema operativo a los usuarios, además de los requisitos técnicos previos del acceso condicional.
@@ -45,10 +45,10 @@ Los siguientes clientes de correo electrónico admiten la autenticación moderna
 
 |Plataforma|Cliente|Versión/Notas|Azure Information Protection|
 |:-------|:-----|:------------|:--------------------|
-|**Windows**|Outlook|2016, 2013 [Habilitar autenticación moderna](https://support.office.com/article/Enable-Modern-Authentication-for-Office-2013-on-Windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910)|Sí|
+|**Windows**|Outlook|2016, 2013 [Habilitar autenticación moderna](https://support.office.com/article/Enable-Modern-Authentication-for-Office-2013-on-Windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910), [Actualizaciones necesarias](https://support.office.com/en-us/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|Sí|
 |**iOS**|Outlook|[Más reciente](https://itunes.apple.com/us/app/microsoft-outlook-email-and-calendar/id951937596?mt=8)|No|
 |**Android**|Outlook|[Más reciente](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en)|No|
-|**macOS**|Versión preliminar pública||No|
+|**macOS**|Outlook|2016|No|
 |**Linux**|No compatible||No|
 
 Para acceder a documentos protegidos con Azure Information Protection es posible que se necesite software adicional. Asegúrese de usar [software y formatos de documentos compatibles](https://docs.microsoft.com/information-protection/get-started/requirements-applications) para crear y ver documentos protegidos con Azure Information Protection.
@@ -66,7 +66,7 @@ Si se ha aplicado una directiva de documentos seguros, se recomiendan los siguie
 |Android|Compatible.|Compatible.|Compatible.|Compatible.|No aplicable|
 |iOS|Compatible.|Compatible.|Compatible.|Compatible.|No aplicable|
 |macOS|Versión preliminar pública|Versión preliminar pública|No aplicable|No aplicable|No compatible|
-|Linux|No compatible|No compatible|No compatible|No compatible|No compatible|
+|Linux|No compatible|Incompatible|Incompatible|Incompatible|No compatible|
 
 <sup>*</sup> Más información sobre la [versión preliminar del Cliente de sincronización de OneDrive](https://support.office.com/article/Azure-Active-Directory-conditional-access-with-the-OneDrive-sync-client-on-Windows-028d73d7-4b86-4ee0-8fb7-9a209434b04e).
 
@@ -100,7 +100,7 @@ El objetivo de las directivas de administración de dispositivos y aplicaciones 
 |:--------------------|:----------|
 |**Exigir la administración de equipos de usuario**|Exija a los usuarios que unan los equipos Windows a un dominio de Active Directory o que los inscriban en la administración con Microsoft Intune o System Center Configuration Manager.|
 |**Aplicar la configuración de seguridad a través de objetos de directiva de grupo (GPO) o directivas de Configuration Manager para equipos unidos a dominio**|Implemente directivas que configuren los equipos administrados para habilitar BitLocker, habilite un antivirus y habilite el firewall.|
-|**Exigir la administración de dispositivos móviles de usuario**|Exija que los dispositivos de usuario usados para acceder al correo electrónico se administren mediante Intune **o** que se acceda al correo electrónico de empresa únicamente a través de aplicaciones de correo electrónico móviles protegidas mediante directivas de Intune App Protection como Outlook Mobile.|
+|**Exigir la administración de dispositivos móviles de usuario**|Exija que los dispositivos de usuario usados para acceder al correo electrónico se administren mediante Intune **o** que se acceda al correo electrónico de empresa únicamente a través de aplicaciones de correo electrónico móviles protegidas mediante directivas de Intune App Protection como Outlook para iOS o Android.|
 |**Aplicar una directiva de cumplimiento de dispositivo de Intune en dispositivos administrados**|Aplique una directiva de cumplimiento de dispositivo de Intune para dispositivos móviles corporativos administrados y equipos administrados por Intune que exija: un PIN con una longitud mínima de 6, el cifrado del dispositivo, un dispositivo en buen estado (que no esté descodificado, descifrado y que pase la atestación de estado) y, si está disponible, que exija que los dispositivos sean de riesgo **bajo** según lo determinado por un MTP ajeno como Lookout o SkyCure.|
 |**Aplicar una directiva de Intune App Protection para aplicaciones administradas que se ejecutan en dispositivos no administrados**|Aplique una directiva de Intune App Protection para aplicaciones administradas que se ejecutan en dispositivos móviles no administrados personales que exija: un PIN con una longitud mínima de 6, el cifrado del dispositivo y que el dispositivo esté en buen estado (que no esté descodificado, descifrado y que pase la atestación de estado).|
 
@@ -139,7 +139,7 @@ El objetivo de estas directivas de administración de dispositivos y aplicacione
 |:--------------------|:----------|
 |**Exigir la administración de equipos de usuario**|Exija a los usuarios que unan los equipos a un dominio de Active Directory o inscriban los equipos en la administración con Intune o Configuration Manager y asegúrese de que esos dispositivos son compatibles con las directivas antes de permitir el acceso al correo electrónico.|
 |**Aplicar la configuración de seguridad a través de objetos de directiva de grupo (GPO) o directivas de Configuration Manager para equipos unidos a dominio**|Implemente directivas que configuren los equipos administrados para habilitar BitLocker, habilite un antivirus y habilite el firewall.|
-|**Exigir la administración de dispositivos móviles de usuario**|Exija que los dispositivos de usuario usados para acceder al correo electrónico se administren mediante Intune **o** que se acceda al correo electrónico de empresa únicamente a través de aplicaciones de correo electrónico móviles protegidas mediante directivas de Intune App Protection como Outlook Mobile.|
+|**Exigir la administración de dispositivos móviles de usuario**|Exija que los dispositivos de usuario usados para acceder al correo electrónico se administren mediante Intune **o** que se acceda al correo electrónico de empresa únicamente a través de aplicaciones de correo electrónico móviles protegidas mediante directivas de Intune App Protection como Outlook para iOS o Android.|
 |**Aplicar una directiva de cumplimiento de dispositivo de Intune en dispositivos administrados**|Aplique una directiva de cumplimiento de dispositivo de Intune para dispositivos móviles corporativos administrados y equipos administrados por Intune que exija: un PIN con una longitud mínima de 6, el cifrado del dispositivo, un dispositivo en buen estado (que no esté descodificado, descifrado y que pase la atestación de estado) y, si está disponible, que exija que los dispositivos sean de riesgo **bajo** según lo determinado por un MTP ajeno como Lookout o SkyCure.|
 |**Aplicar una directiva de Intune App Protection para aplicaciones administradas que se ejecutan en dispositivos no administrados**|Aplique una directiva de Intune App Protection para aplicaciones administradas que se ejecutan en dispositivos móviles no administrados personales que exija: un PIN con una longitud mínima de 6, el cifrado del dispositivo y que el dispositivo esté en buen estado (que no esté descodificado, descifrado y que pase la atestación de estado).|
 
@@ -175,7 +175,7 @@ Para el nivel extremadamente regulado, se recomienda exigir que las aplicaciones
 |:--------------------|:----------|
 |**Exigir la administración de equipos de usuario**|Exija a los usuarios que unan los equipos Windows a un dominio de Active Directory **o** que inscriban los equipos en la administración con Intune o Configuration Manager y asegúrese de que esos dispositivos son compatibles con las directivas antes de permitir el acceso al correo electrónico.|
 |**Aplicar la configuración de seguridad a través de objetos de directiva de grupo (GPO) o directivas de Configuration Manager para equipos unidos a dominio**|Implemente directivas que configuren los equipos administrados para habilitar BitLocker, habilite un antivirus y habilite el firewall.|
-|**Exigir la administración de dispositivos móviles de usuario**|Exija que los dispositivos usados para acceder al correo electrónico y los archivos de Office 365 se administren mediante Intune o que se acceda al correo electrónico de empresa únicamente a través de aplicaciones de correo electrónico móviles protegidas mediante directivas de Intune App Protection como Outlook Mobile.|
+|**Exigir la administración de dispositivos móviles de usuario**|Exija que los dispositivos usados para acceder al correo electrónico y los archivos de Office 365 se administren mediante Intune o que se acceda al correo electrónico de empresa únicamente a través de aplicaciones de correo electrónico móviles protegidas mediante directivas de Intune App Protection como Outlook para iOS o Android.|
 |**Aplicar una directiva de cumplimiento de dispositivo de Intune en dispositivos administrados**|Aplique una directiva de cumplimiento de dispositivo de Intune para dispositivos móviles corporativos administrados y equipos administrados por Intune que exija: un PIN con una longitud mínima de 6, el cifrado del dispositivo, un dispositivo en buen estado (que no esté descodificado, descifrado y que pase la atestación de estado) y, si está disponible, que exija que los dispositivos sean de riesgo Bajo según lo determinado por un MTP ajeno como Lookout o SkyCure.|
 
 ### <a name="user-impact"></a>Impacto en el usuario

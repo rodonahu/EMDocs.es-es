@@ -1,19 +1,19 @@
 ---
 title: Directivas y configuraciones de seguridad recomendadas - Microsoft 365 Enterprise | Microsoft Docs
 description: "Explica recomendaciones y conceptos básicos de Microsoft para implementar directivas y configuraciones seguras de correo electrónico, documentos y aplicaciones."
-author: barlanmsft
-manager: angrobe
+author: dougeby
+manager: dougeby
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 70eb0ba8a887a703ee8c723a3a4584f3bedc1e7f
-ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
+ms.openlocfilehash: a7f6ab6765be5462c652feb006839f0839b1136e
+ms.sourcegitcommit: 8d42bd1ec3d7bf5f873a7b681b0fea73a748b413
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="recommended-security-policies-and-configurations"></a>Directivas y configuraciones de seguridad recomendadas
 
